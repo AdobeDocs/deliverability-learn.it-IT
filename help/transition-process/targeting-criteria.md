@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '208'
+ht-degree: 8%
 
 ---
 
@@ -33,9 +33,5 @@ In genere, un tasso di coinvolgimento si basa su un periodo di tempo specifico. 
 
 **Campaign Standard**
 
-* [E-mail basate sull’intelligenza artificiale: Punteggio predittivo del coinvolgimento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=en#predictive-scoring)
-
-**Campaign Classic**
-
-* [Crescita reputazione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/improve-reputation.html)
+* [E-mail basate sull’intelligenza artificiale: Punteggio predittivo del coinvolgimento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
 
