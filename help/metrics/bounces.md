@@ -1,6 +1,6 @@
 ---
 title: Rimbalzi
-description: Scopri i diversi tipi di messaggi non recapitati
+description: Scopri i diversi tipi di rimbalzi.
 feature: Metriche
 topics: Deliverability
 kt: 7047
@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,14 @@ I messaggi non recapitati morbidi sono errori temporanei generati dagli ISP in c
 
 ## Risorse specifiche per i prodotti
 
-**Adobe Campaign Standard**
-
-* [Elenco dei report - Riepilogo messaggi non recapitati (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
-* [Informazioni sugli errori di consegna (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#about-delivery-failures)
-
 **Adobe Campaign Classic**
 
-* [Informazioni sugli errori di consegna (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=en#sending-messages)
+* [Tipi e motivi di errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Gestione della posta non recapitata](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-management)
+* [Rapporto Non recapitati e non recapitati](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html#non-deliverables-and-bounces)
+
+**Adobe Campaign Standard**
+
+* [Tipi e motivi di errori di consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+* [Qualificazione di mail non recapitate](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
+* [Rapporto di riepilogo non recapitati](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
