@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ Bulking è la consegna di posta nella cartella spam o spazzatura di un ISP. È i
 
 Un blocco si verifica quando gli indicatori di spam raggiungono le soglie dell&#39;ISP proprietario e l&#39;ISP inizia a bloccare la posta elettronica (percepibile tramite tentativi di posta non recapitata) da un mittente. Ci sono vari tipi di blocchi. In genere, i blocchi si verificano in modo specifico per un indirizzo IP, ma possono anche verificarsi a livello di dominio o entità di invio. La risoluzione di un blocco richiede competenze specifiche, quindi contatta il tuo consulente di recapito messaggi Adobe per assistenza.
 
-## Blocco
+## Inserire nell&#39;elenco Bloccati
 
-Un blocklist si verifica quando un gestore di blocklist di terze parti registra un comportamento simile a spammer associato a un mittente. La causa di una blocklist è a volte pubblicata dal partito di blocklist. Un elenco si basa generalmente sull’indirizzo IP, ma nei casi più gravi può essere in base all’intervallo IP o persino a un dominio di invio. La risoluzione di un blocklist deve coinvolgere il supporto del consulente di recapito dei messaggi di Adobe al fine di risolvere completamente e prevenire ulteriori elenchi. Alcuni elenchi sono estremamente gravi e possono causare problemi di reputazione di lunga durata difficili da risolvere. Il risultato di un blocklist varia a seconda della blocklist ma ha il potenziale per influenzare la consegna di tutte le e-mail.
+Un&#39;inserire nell&#39;elenco Bloccati si verifica quando un gestore di inserire nell&#39;elenco Bloccati terze parti registra un comportamento simile a uno spammer associato a un mittente. La causa di un inserii nell&#39;elenco Bloccati viene a volte pubblicata dal partito di inserire nell&#39;elenco Bloccati. Un elenco si basa generalmente sull’indirizzo IP, ma nei casi più gravi può essere in base all’intervallo IP o persino a un dominio di invio. La risoluzione di un&#39;inserire nell&#39;elenco Bloccati deve coinvolgere il supporto del tuo consulente di recapito messaggi Adobe al fine di risolvere completamente e prevenire ulteriori elenchi. Alcuni elenchi sono estremamente gravi e possono causare problemi di reputazione di lunga durata difficili da risolvere. Il risultato di un’inserire nell&#39;elenco Bloccati varia in base all’inserire nell&#39;elenco Bloccati, ma ha il potenziale per influenzare la consegna di tutte le e-mail.
 
 ## Risorse aggiuntive
 
-* [Database Denylist](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/block-list-databases.html?lang=en#sending-messages)
+* Ulteriori informazioni su [Elenchi buchi in tempo reale](/help/additional-resources/blocklist-databases.md) che gestiscono database di indirizzi IP e domini che probabilmente saranno utilizzati dagli spammer.
