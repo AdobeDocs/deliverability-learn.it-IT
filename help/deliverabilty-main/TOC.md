@@ -3,10 +3,10 @@ user-guide-title: Guida alle best practice per la distribuzione
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Scopri termini, concetti e approcci chiave per il recapito messaggi, al fine di garantire il successo del programma di marketing.
 translation-type: tm+mt
-source-git-commit: 5019165cd38a3b7cd26e4971e11f155278c3d3da
+source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 20%
+source-wordcount: '163'
+ht-degree: 22%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 20%
    + [Spam trap](/help/metrics/spam-traps.md)
    + [Bulk e blocco](/help/metrics/bulking-and-blocking.md)
 + [Coinvolgimento](/help/engagement.md)
-+ Processo di transizione - Passaggio a piattaforme di posta elettronica{#transition-process}
++ Processo di transizione - Passaggio a piattaforme di posta elettronica {#transition-process}
    + [Come effettuare una transizione senza problemi quando si passano da una piattaforma e-mail all’altra](/help/transition-process/switching-email-platforms.md)
    + [Infrastruttura](/help/transition-process/infrastructure.md)
    + [Criteri di targeting](/help/transition-process/targeting-criteria.md)
@@ -40,4 +40,19 @@ ht-degree: 20%
    + [Microsoft (Hotmail, Outlook, Windows Live, ecc.)](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group (Yahoo, AOL, Verizon, ecc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Monitoraggio continuo](/help/ongoing-monitoring.md)
-+ [Attuazione](/help/putting-it-in-practice.md)
++ Mettetela in pratica {#putting-it-in-practice}
+   + [Come raggiungere il successo](/help/putting-it-in-practice/how-to-reach-success.md)
+   + Campaign {#campaign}
+      + [Impostazione del nome di dominio](/help/putting-it-in-practice/ac-domain-name-setup.md)
+      + [Processo di richiesta del certificato SSL](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+      + [Avvio di una nuova piattaforma](/help/putting-it-in-practice/ac-starting-new-platform.md)
+      + [Campaign Classic - Raccomandazioni tecniche](/help/putting-it-in-practice/acc-technical-recommendations.md)
++ Risorse aggiuntive {#additional-resources}
+   + [Panoramica](/help/additional-resources/general-resources.md)
+   + [Tutto su spam trappole](/help/additional-resources/all-about-spam-traps.md)
+   + [Aumenta la reputazione dell&#39;e-mail con il riscaldamento dell&#39;IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
+   + [Autenticazione](/help/additional-resources/authentication.md)
+   + [Duplicati](/help/additional-resources/duplicates.md)
+   + [Best practice per ripetere il coinvolgimento](/help/additional-resources/re-engagement.md)
+   + [Elenchi buchi neri in tempo reale](/help/additional-resources/blocklist-databases.md)
+   + [Risoluzione dei problemi](/help/additional-resources/troubleshooting.md)
