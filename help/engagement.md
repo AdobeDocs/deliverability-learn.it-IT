@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ Gli interessi degli abbonati si evolvono costantemente e gli esperti di marketin
 
 Una **strategia di ripristino (**) è quando un incentivo speciale viene regolarmente inviato a una parte specifica di un database di marketing nel tentativo di riattivare un elenco con attività di apertura e clic ridotte. Vengono mantenute le risposte positive e la parte dell’elenco che non risponde viene spostata in uno stato inattivo e non viene più inviata per posta.
 
-Una **campagna di riattivazione** è simile ma viene utilizzata per riconfermare una volta una lista, utile quando si tratta di vecchi elenchi non aggiornati, quelli che non sono stati inviati per più di 12 mesi o addirittura anni. Questo tipo di campagna viene generalmente applicato anche dalle blocklist per risolvere un blocco. Gli abbonati che non vengono ricoinvolti con successo tramite questo processo devono essere esclusi dalle future promozioni e-mail.
+Una **campagna di riattivazione** è simile ma viene utilizzata per riconfermare una volta una lista, utile quando si tratta di vecchi elenchi non aggiornati, quelli che non sono stati inviati per più di 12 mesi o addirittura anni. Questo tipo di campagna viene generalmente applicato anche dagli inserire nell&#39;elenco Bloccati per risolvere un blocco. Gli abbonati che non vengono ricoinvolti con successo tramite questo processo devono essere esclusi dalle future promozioni e-mail.
 
 Il modo migliore per implementare una campagna di riconversione o riattivazione sarà unico nel tuo programma e-mail e dovrebbe essere completamente personalizzato per le tue esigenze e situazioni aziendali.
 
@@ -57,7 +57,16 @@ Un&#39;ultima parte chiave della strategia di risposta è che se disponi di un i
 
 ## Risorse specifiche per i prodotti
 
+**Adobe Campaign Classic**
+
+* [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Regole di pressione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard**
 
 * [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Regole di affaticamento (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Regole di affaticamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Risorse aggiuntive
+
+* Ulteriori informazioni sulle strategie di riimpegno (o di riacquisto) in [questa sezione](/help/additional-resources/re-engagement.md).
