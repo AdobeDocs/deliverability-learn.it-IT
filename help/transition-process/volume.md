@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,17 @@ In molte circostanze, la posta transazionale non segue il tradizionale approccio
 2. Abbandono del carrello - coinvolgimento medio-alto in generale
 3. E-mail di benvenuto: elevato coinvolgimento ma può contenere indirizzi non validi a seconda dei metodi di raccolta degli elenchi
 4. E-mail di Winback — generalmente un minore coinvolgimento
+
+## Risorse specifiche per i prodotti
+
+**Campaign**
+
+* Ulteriori informazioni sulla gestione del recapito messaggi all&#39;avvio di una nuova piattaforma con Adobe Campaign in [questa sezione](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Scopri come inviare utilizzando più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+
+## Risorse aggiuntive
+
+* Ulteriori informazioni sull&#39;aumento della reputazione delle e-mail con il riscaldamento dell&#39;IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).
