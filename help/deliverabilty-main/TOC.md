@@ -3,10 +3,10 @@ user-guide-title: Guida alle best practice per la distribuzione
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Scopri termini, concetti e approcci chiave per il recapito messaggi, al fine di garantire il successo del programma di marketing.
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 22%
+source-wordcount: '160'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
    + [Verizon Media Group (Yahoo, AOL, Verizon, ecc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Monitoraggio continuo](/help/ongoing-monitoring.md)
 + Mettetela in pratica {#putting-it-in-practice}
-   + [Come raggiungere il successo](/help/putting-it-in-practice/how-to-reach-success.md)
+   + [Panoramica](/help/putting-it-in-practice/putting-it-in-practice.md)
    + Campaign {#campaign}
       + [Impostazione del nome di dominio](/help/putting-it-in-practice/ac-domain-name-setup.md)
       + [Processo di richiesta del certificato SSL](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
