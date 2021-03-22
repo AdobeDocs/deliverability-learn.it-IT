@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ La forma più comune di **iscrizione al sito web** è &quot;single opt-in&quot;.
 
 * Gli indirizzi e-mail non confermati possono presentare errori di battitura o essere utilizzati in modo errato o dannoso. Gli errori di battitura e gli indirizzi malformati causano elevate percentuali di rimbalzo, che possono e provocano blocchi emessi da ISP o perdita di reputazione IP.
 
-* La presentazione dannosa di trappole antispam conosciute (a volte chiamata &quot;avvelenamento da elenco&quot;) può causare enormi problemi con la consegna e la reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a una lista di marketing senza una conferma. Questo rende ugualmente impossibile stabilire le aspettative del destinatario e può portare ad un aumento delle lamentele di spam—e a volte blacklist se l&#39;e-mail raccolta si rivela essere una trappola per spam.
+* La presentazione dannosa di trappole antispam conosciute (a volte chiamata &quot;avvelenamento da elenco&quot;) può causare enormi problemi con la consegna e la reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a una lista di marketing senza una conferma. Questo rende ugualmente impossibile stabilire le aspettative del destinatario e può portare ad un aumento delle lamentele di spam — e a volte inserire nell&#39;elenco Bloccati se l&#39;email raccolta si rivela essere una trappola di spam.
 
 Per informazioni su come minimizzare i problemi presentati sia nell&#39;archivio fisico che nel singolo opt-in, vai alla sezione [Qualità dei dati e igiene](#data-quality-and-hygiene) di questa guida per i dettagli e i vantaggi del doppio opt-in.
 
@@ -88,5 +88,17 @@ appendSi tratta di clienti che hanno scelto di interagire con il tuo marchio, il
 **Salone o altra**
 collezione di eventiRaccogliere gli indirizzi in una cabina o attraverso un altro ufficiale, metodo chiaramente marcato può essere utile. Il rischio è che molti eventi come questo raccolgano tutti gli indirizzi e li distribuiscano attraverso il promotore o l&#39;host dell&#39;evento. Ciò significa che i proprietari di questi indirizzi e-mail non hanno mai richiesto di ricevere e-mail dal tuo marchio. Questi abbonati probabilmente si lamentano e contrassegnano la tua posta come spam, e potrebbero non aver fornito informazioni di contatto accurate.
 
-****
-SweepstakesSweepstakes forniscono rapidamente un gran numero di indirizzi e-mail. Ma questi abbonati vogliono il premio, non le tue e-mail. Forse non hanno nemmeno prestato attenzione al nome di chi avrebbe contattato loro. Probabilmente si lamentano e contrassegnano la tua posta come spam, e potrebbe essere improbabile che intraprendano o facciano un acquisto.
+**Laghi**
+
+Gli sweep forniscono rapidamente un gran numero di indirizzi e-mail. Ma questi abbonati vogliono il premio, non le tue e-mail. Forse non hanno nemmeno prestato attenzione al nome di chi avrebbe contattato loro. Probabilmente si lamentano e contrassegnano la tua posta come spam, e potrebbe essere improbabile che intraprendano o facciano un acquisto.
+
+## Risorse specifiche per i prodotti
+
+**Adobe Campaign Classic**
+
+* [Creare un modulo di abbonamento con doppio consenso](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [Doppio processo di consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
