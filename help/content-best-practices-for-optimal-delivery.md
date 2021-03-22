@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 2%
+source-wordcount: '196'
+ht-degree: 4%
 
 ---
 
@@ -27,10 +27,10 @@ Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rile
 
 ## Risorse specifiche per i prodotti
 
-**Campaign Standard**
-
-* [Controllo del contenuto delle e-mail (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
-
 **Campaign Classic**
 
-* [Controllo del contenuto del messaggio (documentazione del prodotto)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Controllo del contenuto del messaggio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+
+**Campaign Standard**
+
+* [Controllo di contenuti e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
