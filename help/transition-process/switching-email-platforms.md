@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# Come effettuare una transizione senza problemi quando si passa da una piattaforma e-mail all’altra.
+# Come effettuare una transizione senza problemi quando si passano da una piattaforma e-mail all’altra
 
 Quando si spostano i provider di servizi e-mail (ESP), non è possibile anche effettuare la transizione degli indirizzi IP esistenti e stabiliti. È importante seguire le best practice per sviluppare una reputazione positiva all&#39;avvio successivo. Poiché i nuovi indirizzi IP che utilizzerai non hanno ancora una reputazione, gli ISP non sono in grado di fidarsi completamente della posta proveniente da loro e devono essere cauti in ciò che consentono di essere consegnati ai loro clienti.
 
