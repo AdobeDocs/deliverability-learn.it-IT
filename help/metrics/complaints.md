@@ -1,6 +1,6 @@
 ---
 title: Reclami
-description: 'Scopri i reclami registrati quando un utente indica che un’e-mail è indesiderata o inaspettata. '
+description: 'Scopri di più sui reclami registrati quando un utente indica che un’e-mail è indesiderata o inaspettata. '
 feature: Metriche
 topics: Deliverability
 kt: 7048
@@ -12,26 +12,26 @@ translation-type: tm+mt
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 3%
+ht-degree: 96%
 
 ---
 
 
 # Reclami
 
-I reclami vengono registrati quando un utente indica che un’e-mail è indesiderata o inaspettata. Questa azione dell’utente iscritto viene generalmente registrata tramite il client e-mail dell’utente che si abbona quando preme il pulsante spam o tramite un sistema di segnalazione di spam di terze parti.
+I reclami vengono registrati quando un utente indica che un’e-mail è indesiderata o inaspettata. Questa azione da parte degli abbonati viene generalmente registrata tramite il client e-mail dell’utente quando questo preme il pulsante di posta indesiderata o tramite un sistema di segnalazione di posta indesiderata di terze parti.
 
-## reclamo dell&#39;ISP
+## Reclami di ISP (fornitori di servizi Internet)
 
-La maggior parte degli ISP di livello 1 e alcuni di livello 2 forniscono un metodo di segnalazione di spam ai loro utenti in quanto i processi di rinuncia e annullamento dell’abbonamento sono stati utilizzati in modo dannoso in passato per convalidare un indirizzo e-mail. Adobe Campaign riceve questi reclami tramite ISP FBL. Questo viene stabilito durante il processo di configurazione per tutti gli ISP che forniscono FBL e consentono ad Adobe Campaign di aggiungere automaticamente gli indirizzi e-mail che si sono lamentati alla tabella di quarantena per la soppressione. I picchi nei reclami dell&#39;ISP possono essere un indicatore di scarsa qualità dell&#39;elenco, metodi di raccolta di elenchi meno che ottimali, o criteri di coinvolgimento deboli. Vengono anche spesso annotati quando il contenuto non è rilevante.
+La maggior parte degli ISP di livello 1 e alcuni di livello 2 forniscono un metodo di segnalazione di posta indesiderata ai loro utenti poiché, in passato, i processi di rinuncia e annullamento dell’abbonamento sono stati utilizzati in modo dannoso per convalidare un indirizzo e-mail. Adobe Campaign riceve questi reclami tramite i FBL (cicli di feedback) dell’ISP. Questo viene stabilito durante il processo di configurazione di tutti gli ISP che forniscono FBL e consentono ad Adobe Campaign di aggiungere automaticamente gli indirizzi e-mail che hanno sporto un reclamo e hanno richiesto l’eliminazione dalla tabella di quarantena. I picchi nei reclami degli ISP possono indicare scarsa una qualità dell’elenco, metodi di raccolta di elenchi non ottimali o criteri di coinvolgimento inefficaci. Si verificano spesso anche quando il contenuto non è rilevante.
 
-## Denunce di terzi
+## Reclami di terze parti
 
-Ci sono diversi gruppi anti-spam che consentono la segnalazione di spam a un livello più ampio. Le metriche dei reclami utilizzate da queste terze parti vengono utilizzate per assegnare tag al contenuto delle e-mail per identificare le e-mail di spam. Questo processo è noto anche come impronte digitali. Gli utenti di questi metodi di reclamo di terze parti sono generalmente più astuti riguardo l&#39;e-mail, quindi possono avere un impatto maggiore di altri reclami può avere se lasciato senza risposta.
+Ci sono diversi gruppi anti-spam che consentono la segnalazione di posta indesiderata a un livello più ampio. Le metriche dei reclami utilizzate da queste terze parti vengono utilizzate per assegnare tag al contenuto delle e-mail e identificare la posta indesiderata. Questo processo è noto anche come fingerprinting. Gli utenti di questi metodi di reclamo di terze parti sono generalmente più esperti riguardo le e-mail e, di conseguenza, se i loro reclami vengono lasciati senza risposa, possono avere un impatto maggiore rispetto ad altri reclami.
 
 >[!NOTE]
 >
->Gli ISP raccolgono reclami e li utilizzano per determinare la reputazione complessiva di un mittente. Tutte le denunce dovrebbero essere soppresse e non più contattate il più rapidamente possibile e in conformità delle leggi e dei regolamenti locali.
+>Gli ISP raccolgono reclami e li utilizzano per determinare la reputazione complessiva di un mittente. Tutti i reclami dovrebbero essere eliminati e non più contattati il più rapidamente possibile e in conformità alle leggi e ai regolamenti locali.
 
 ## Risorse specifiche per i prodotti
 
@@ -41,4 +41,4 @@ Ci sono diversi gruppi anti-spam che consentono la segnalazione di spam a un liv
 
 **Adobe Campaign Standard**
 
-* [Rapporto reclami](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
+* [Rapporto reclami](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html?lang=it#reporting)
