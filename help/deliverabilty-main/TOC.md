@@ -3,7 +3,7 @@ user-guide-title: Guida alle procedure consigliate per la consegna
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Scopri termini, concetti e approcci chiave per la consegna dei messaggi, al fine di garantire il successo del programma di marketing.
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 80%
