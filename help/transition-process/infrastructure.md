@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -65,10 +65,10 @@ L&#39;autenticazione è il processo utilizzato dagli ISP per convalidare l&#39;i
 
 **Campaign**
 
-* Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
 * [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
 * [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
-* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza di Campaign Classic in [questa sezione](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
+* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza di Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Risorse aggiuntive
 
