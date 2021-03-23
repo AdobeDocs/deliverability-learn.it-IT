@@ -1,6 +1,6 @@
 ---
-title: Rimbalzi
-description: Scopri i diversi tipi di rimbalzi.
+title: E-mail non consegnate
+description: Scopri i diversi tipi di e-mail non consegnate.
 feature: Metriche
 topics: Deliverability
 kt: 7047
@@ -12,42 +12,42 @@ translation-type: tm+mt
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 4%
+ht-degree: 88%
 
 ---
 
 
-# Rimbalzi
+# E-mail non consegnate
 
-I rimbalzi sono il risultato di un tentativo di consegna e di un errore in cui l&#39;ISP fornisce avvisi di errore di back. La lavorazione dei rifiuti è una parte fondamentale dell&#39;igiene degli elenchi. Dopo che una data e-mail è stata rimbalzata diverse volte di fila, questo processo la contrassegna per la soppressione. Il numero e il tipo di messaggi non recapitati necessari per attivare la soppressione variano da sistema a sistema. Questo processo impedisce ai sistemi di continuare a inviare indirizzi e-mail non validi. I rimbalzi sono uno dei dati chiave utilizzati dagli ISP per determinare la reputazione IP. È molto importante tenere d&#39;occhio questa metrica. &quot;Consegnato&quot; rispetto a &quot;rimbalzato&quot; è probabilmente il modo più comune per misurare la consegna dei messaggi di marketing: più alta è la percentuale consegnata, meglio è.
+Le e-mail non consegnate sono il risultato di un tentativo e di un errore di consegna in cui l’ISP (fornitore di servizi Internet) genera messaggi di errore. La gestione delle e-mail non consegnate è una parte fondamentale dell’igiene degli elenchi. Quando una data e-mail non viene consegnate diverse volte di fila, questo processo la contrassegna per l’eliminazione. Il numero e il tipo di e-mail non consegnate necessari per attivare l’eliminazione variano da sistema a sistema. Questo processo impedisce ai sistemi di continuare a inviare messaggi a indirizzi e-mail non validi. Le e-mail non consegnate sono uno dei dati chiave utilizzati dagli ISP per determinare la reputazione dell’IP. È molto importante tenere d’occhio questa metrica. Le classificazioni “Consegnato” e “Non consegnato” sono probabilmente il modo più comune per misurare la consegna dei messaggi di marketing: più alta è la percentuale di messaggi consegnati, meglio è.
 
-Ci immergeremo in due diversi tipi di rimbalzi.
+Scopri di seguito due diversi tipi di e-mail non consegnate.
 
-## Rimbalzi netti
+## Mancati recapiti permanenti
 
-I mancati recapiti rigidi sono errori permanenti generati dopo che un ISP determina un tentativo di invio di posta a un indirizzo utente iscritto come non recapitato. In Adobe Campaign, i messaggi non recapitati rigidi classificati come non recapitati vengono aggiunti alla quarantena, il che significa che non verranno tentati nuovamente. Ci sono alcuni casi in cui un rimbalzo duro verrebbe ignorato se la causa del fallimento è sconosciuta.
-Di seguito sono riportati alcuni esempi comuni di rimbalzi duri:
+I mancati recapiti permanenti sono errori permanenti generati dopo che un ISP determina che un tentativo di invio di e-mail all’indirizzo di un abbonato è impossibile da consegnare. In Adobe Campaign, i mancati recapiti permanenti classificati come impossibili da recapitare vengono aggiunti alla quarantena, il che significa che la consegna non sarà ritentata. Ci sono alcuni casi in cui un mancato recapito permanente verrebbe ignorato se la causa dell’errore fosse sconosciuta.
+Di seguito sono riportati alcuni esempi comuni di mancati recapiti permanenti:
 
-* L&#39;indirizzo non esiste
-* Account disabilitato
+* Indirizzo inesistente
+* Account disattivato
 * Sintassi errata
-* Dominio non valido
+* Dominio errato
 
-## Rimbalzi morbidi
+## Mancato recapito non permanente
 
-I messaggi non recapitati morbidi sono errori temporanei generati dagli ISP in caso di difficoltà nella consegna della posta. Gli errori software ripeteranno più volte (con varianza a seconda dell’utilizzo delle impostazioni di consegna personalizzate o predefinite) per tentare di eseguire una consegna corretta. Gli indirizzi che rimbalzano continuamente morbido non verranno aggiunti alla quarantena fino a quando non viene tentato il numero massimo di tentativi (che variano di nuovo a seconda delle impostazioni). Alcune cause comuni di non recapiti morbidi includono:
+I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in caso di problemi nella consegna di un’e-mail. I tentativi di consegna in caso di errori per mancati recapiti non permanenti saranno ripetuti più volte (con varianza in base all’utilizzo di impostazioni di consegna personalizzate o predefinite) per cercare di effettuare una consegna corretta. Gli indirizzi che generano mancanti recapiti non permanenti in modo continuo non saranno aggiunti alla quarantena fino a quando non sarà raggiunto il numero massimo di tentativi (che, anche in questo caso, varia in base alle impostazioni). Di seguito alcune cause comuni di mancati recapiti non permanenti:
 
-* Cassetta postale piena
-* Ricezione del server e-mail in corso
+* Casella in entrata piena
+* Server di posta elettronica di destinazione non accessibile
 * Problemi di reputazione del mittente
 
-![tipi di rimbalzo](../assets/bounce-types.png)
+![tipi di mancato recapito](../assets/bounce-types.png)
 
 >[!NOTE]
 >
->I rimbalzi sono un indicatore chiave di un problema di reputazione perché possono evidenziare una sorgente dati errata (rimbalzo difficile) o un problema di reputazione con un ISP (rimbalzo morbido).
+>I mancati recapiti sono indicatori chiave di un problema di reputazione, in quanto possono evidenziare un’origine dati errata (mancati recapiti permanenti) o un problema di reputazione con un ISP (mancati recapiti non permanenti).
 >
->I mancati recapiti morbidi si verificano spesso come parte dell’e-mail di invio e dovrebbero essere autorizzati a risolvere durante l’elaborazione dei nuovi tentativi prima di caratterizzarsi come un problema di consegna effettiva. Se il tasso di mancato recapito è superiore al 30% per un singolo ISP e non si risolve entro 24 ore, è consigliabile sollevare un problema con il tuo consulente di recapito messaggi Adobe Campaign.
+>I mancati recapiti non permanenti si verificano spesso durante l’invio di e-mail e dovrebbero poter essere risolti durante l’elaborazione dei nuovi tentativi prima di essere definiti veri e propri problemi di consegna. Se il tasso di mancati recapiti non permanenti è superiore al 30% per un singolo ISP e non si risolve entro 24 ore, è consigliabile segnalare il problema al consulente del team Deliverability di Adobe Campaign.
 
 ## Risorse specifiche per i prodotti
 
@@ -61,4 +61,4 @@ I messaggi non recapitati morbidi sono errori temporanei generati dagli ISP in c
 
 * [Tipi e motivi di errori di consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
 * [Qualificazione di mail non recapitate](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#bounce-mail-qualification)
-* [Rapporto di riepilogo non recapitati](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
+* [Rapporto di riepilogo non recapitati](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=it#reporting)
