@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 15%
 
 ---
@@ -39,8 +39,11 @@ La presente Guida alle best practice per il recapito messaggi tratta i seguenti 
 7. [Permanenza del mittente](/help/sender-permanence.md)
 8. [Specifiche del provider di servizi Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoraggio continuo](/help/ongoing-monitoring.md)
-10. [Attuazione](/help/putting-it-in-practice/putting-it-in-practice.md)
-11. [Risorse aggiuntive](/help/additional-resources/general-resources.md)
+10. [Attuazione](/help/putting-it-in-practice.md)
+
+>[!NOTE]
+>
+>Scarica [adobe-deliverability-best practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
 
 ## Origini
 
@@ -50,4 +53,4 @@ La presente Guida alle best practice per il recapito messaggi tratta i seguenti 
 
 ## Risorse aggiuntive
 
-Scarica [adobe-deliverability-best practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+[Appendice: Risorse aggiuntive](/help/additional-resources/general-resources.md)
