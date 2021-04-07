@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ Si viene inseriti in un elenco Bloccati quando un gestore di elenchi Bloccati di
 
 ## Risorse aggiuntive
 
-* Ulteriori informazioni su [Elenchi buchi in tempo reale](/help/additional-resources/blocklist-databases.md) che gestiscono database di indirizzi IP e domini che probabilmente saranno utilizzati dagli spammer.
+* Scopri cosa sono gli [Elenchi Blackhole in tempo reale](/help/additional-resources/blocklist-databases.md) che consentono di gestire i database di indirizzi IP e domini che potrebbero essere utilizzati da spammer.
