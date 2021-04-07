@@ -7,11 +7,11 @@ thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 
 ## Risorse aggiuntive
 
-[Appendice: Risorse aggiuntive](/help/additional-resources/general-resources.md)
+[Appendice: risorse aggiuntive](/help/additional-resources/general-resources.md)
