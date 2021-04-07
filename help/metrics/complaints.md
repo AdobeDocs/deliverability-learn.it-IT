@@ -8,11 +8,11 @@ thumbnail: kt7048.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Ci sono diversi gruppi anti-spam che consentono la segnalazione di posta indesid
 
 **Adobe Campaign Classic**
 
-* [Indicatori di tracciamento](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#tracking-indicators)
+* [Indicatori di tracciamento](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=it#tracking-indicators)
 
 **Adobe Campaign Standard**
 
