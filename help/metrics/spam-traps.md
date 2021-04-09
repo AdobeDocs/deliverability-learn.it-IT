@@ -8,14 +8,14 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 translation-type: ht
-source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
+source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
 workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
-
 
 # Trappole spam
 
@@ -51,4 +51,3 @@ Si tratta di un indirizzo che non ha e non ha mai avuto un utente finale. È un 
 
 * [Anteprima e-mail e analisi anti-spam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=it#designing-content)
 * [Processo per doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)
-
