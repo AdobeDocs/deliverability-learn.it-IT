@@ -1,7 +1,7 @@
 ---
 title: Processo di richiesta del certificato SSL
 description: Scopri come installare i certificati SSL nei sottodomini delegati ad Adobe.
-feature: Attuazione
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

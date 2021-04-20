@@ -1,7 +1,7 @@
 ---
 title: Tutto su spam trappole
 description: Scopri come comprendere, identificare ed evitare le trappole con spam durante la gestione del recapito messaggi.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

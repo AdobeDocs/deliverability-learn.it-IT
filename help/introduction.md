@@ -1,7 +1,7 @@
 ---
 title: Introduzione alle procedure consigliate per la consegna dei messaggi
 description: Scopri termini, concetti e approcci chiave per la consegna dei messaggi, al fine di garantire il successo del programma di marketing.
-feature: Consegna
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

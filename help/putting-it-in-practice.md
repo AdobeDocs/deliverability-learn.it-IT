@@ -1,7 +1,7 @@
 ---
 title: Attuazione
 description: L'invio della permanenza è il processo di stabilire un volume e una strategia di invio coerenti al fine di mantenere la reputazione dell'ISP.
-feature: Consegna
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

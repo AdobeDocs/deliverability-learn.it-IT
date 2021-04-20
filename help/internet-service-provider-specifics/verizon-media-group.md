@@ -1,7 +1,7 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, ecc.)
 description: '[!DNL Verizon Media Group] è generalmente uno dei tre domini principali per la maggior parte degli elenchi B2C. Si comportano in modo univoco, in quanto generalmente limitano o spediscono alla posta in blocco in caso di problemi di reputazione.'
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: 5320
 doc-type: article

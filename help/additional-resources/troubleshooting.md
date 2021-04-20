@@ -1,7 +1,7 @@
 ---
 title: Risoluzione dei problemi di recapito messaggi
 description: Scopri come identificare e risolvere i problemi di recapito messaggi.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

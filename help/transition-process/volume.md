@@ -1,7 +1,7 @@
 ---
 title: Volume - Suggerimenti per una transizione senza problemi
 description: Il volume di posta che invii è fondamentale per stabilire una reputazione positiva. Scopri cosa puoi fare per effettuare una transizione senza problemi.
-feature: Processo di transizione
+feature: Transition Process
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg

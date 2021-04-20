@@ -1,7 +1,7 @@
 ---
 title: Monitoraggio continuo
 description: Quali sono i problemi da considerare.
-feature: Monitoraggio
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

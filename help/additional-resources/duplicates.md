@@ -1,7 +1,7 @@
 ---
 title: Duplicati
 description: Scopri come identificare e limitare i duplicati per migliorare il recapito messaggi.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

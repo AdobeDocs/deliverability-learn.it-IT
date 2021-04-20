@@ -1,7 +1,7 @@
 ---
 title: Avvio di una nuova piattaforma
 description: Ulteriori informazioni sulla gestione del recapito messaggi all’avvio di una nuova piattaforma con Adobe Campaign.
-feature: Attuazione
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

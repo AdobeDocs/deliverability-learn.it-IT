@@ -1,7 +1,7 @@
 ---
 title: Trappole spam
 description: Scopri i diversi tipi di trappole spam.
-feature: Metriche
+feature: Metrics
 topics: Deliverability
 kt: 7050
 thumbnail: kt7050.jpg

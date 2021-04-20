@@ -1,7 +1,7 @@
 ---
 title: Microsoft (Hotmail, Outlook, Windows Live, ecc.)
 description: Microsoft è generalmente il secondo o terzo provider più grande a seconda della composizione dell'elenco e gestisce il traffico leggermente diverso dagli altri ISP.
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: 5319
 doc-type: article

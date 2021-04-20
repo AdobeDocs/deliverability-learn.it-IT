@@ -1,7 +1,7 @@
 ---
 title: E-mail non consegnate
 description: Scopri i diversi tipi di e-mail non consegnate.
-feature: Metriche
+feature: Metrics
 topics: Deliverability
 kt: 7047
 thumbnail: kt7047.jpg

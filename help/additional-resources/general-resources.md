@@ -1,7 +1,7 @@
 ---
 title: Risorse aggiuntive
 description: In questa sezione sono elencate una serie di risorse aggiuntive sul recapito messaggi.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

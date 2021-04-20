@@ -1,7 +1,7 @@
 ---
 title: Coinvolgimento
 description: Il coinvolgimento è diventato il singolo fattore più importante che influisce sulle decisioni di posizionamento della casella in entrata.
-feature: Coinvolgimento
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

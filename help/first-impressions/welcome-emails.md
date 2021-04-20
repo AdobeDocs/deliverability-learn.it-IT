@@ -1,7 +1,7 @@
 ---
 title: E-mail di benvenuto
 description: Scopri quali elementi chiave prendere in considerazione durante la creazione delle e-mail di benvenuto.
-feature: E-mail
+feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg

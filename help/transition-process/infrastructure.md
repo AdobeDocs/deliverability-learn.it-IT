@@ -1,7 +1,7 @@
 ---
 title: Infrastruttura
 description: 'Scopri cosa è necessario per creare correttamente un’infrastruttura e-mail. '
-feature: Processo di transizione
+feature: Transition Process
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg

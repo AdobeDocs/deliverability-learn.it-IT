@@ -1,7 +1,7 @@
 ---
 title: Come effettuare una transizione senza problemi quando si passa da una piattaforma e-mail all’altra.
 description: 'Quando si spostano i provider di servizi e-mail (ESP), non è possibile anche effettuare la transizione degli indirizzi IP esistenti e stabiliti. È importante seguire le best practice per sviluppare una reputazione positiva all''avvio successivo. '
-feature: Consegna
+feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

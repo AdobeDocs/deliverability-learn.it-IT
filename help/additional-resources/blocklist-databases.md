@@ -1,7 +1,7 @@
 ---
 title: Elenchi buchi neri in tempo reale
 description: Scopri le organizzazioni che gestiscono elenchi di indirizzi IP e domini che probabilmente verranno utilizzati dagli spammer.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

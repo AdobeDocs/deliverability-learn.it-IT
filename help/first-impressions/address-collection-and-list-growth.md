@@ -1,7 +1,7 @@
 ---
 title: Raccolta di indirizzi e crescita degli elenchi
 description: 'Scopri le migliori fonti per i nuovi indirizzi e-mail, come garantire un’elevata qualità dei dati e l’allineamento con le linee guida legali. '
-feature: Tipi di pubblico
+feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg

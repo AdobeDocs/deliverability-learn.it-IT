@@ -1,7 +1,7 @@
 ---
 title: Best practice sui contenuti per un recapito messaggi ottimale
 description: Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti.
-feature: Contenuto
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg

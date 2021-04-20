@@ -1,7 +1,7 @@
 ---
 title: Best practice per ripetere il coinvolgimento
 description: Scopri come migliorare il recapito messaggi tramite strategie di riimpegno.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

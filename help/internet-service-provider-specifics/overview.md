@@ -1,7 +1,7 @@
 ---
 title: Specifiche del provider di servizi Internet
 description: Gli ISP non sono tutti uguali. Si concentrano su cose diverse quando si determinano quali e-mail consentire attraverso la casella in entrata dei loro utenti e quali e-mail vengono filtrate nella cartella spam o non lasciate passare affatto. Faremo un breve giro delle importanti differenze tra una manciata di ISP. Non deve essere un elenco completo di tutti gli ISP o coprire tutte le possibili differenze.
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: null
 doc-type: article

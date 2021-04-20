@@ -1,7 +1,7 @@
 ---
 title: 'Prime impression: raccolta elenchi ed e-mail di benvenuto'
 description: 'Scopri come configurarti per l’esecuzione di un programma e-mail di successo facendo una buona prima impressione. '
-feature: Tipi di pubblico, E-mail
+feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

@@ -1,7 +1,7 @@
 ---
 title: Aumenta la reputazione dell'e-mail con il riscaldamento dell'IP
 description: Scopri perché è importante migliorare la reputazione delle e-mail con il riscaldamento dell’IP e come procedere per un recapito messaggi ottimale.
-feature: Risorse aggiuntive
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

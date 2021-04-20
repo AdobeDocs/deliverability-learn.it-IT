@@ -1,7 +1,7 @@
 ---
 title: Campaign Classic - Raccomandazioni tecniche
 description: Scopri tecniche, configurazioni e strumenti che puoi utilizzare per migliorare il tasso di recapito messaggi con Adobe Campaign Classic.
-feature: Attuazione
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

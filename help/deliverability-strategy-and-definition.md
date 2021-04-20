@@ -1,7 +1,7 @@
 ---
 title: Strategia e definizione di consegna dei messaggi
 description: Scopri come viene definita la consegna dei messaggi, perché è importante e le relative metriche chiave.
-feature: Consegna
+feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg

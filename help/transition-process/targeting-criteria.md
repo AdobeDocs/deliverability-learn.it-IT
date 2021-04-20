@@ -1,7 +1,7 @@
 ---
 title: Criteri di targeting
 description: Scopri come stabilire una reputazione positiva dal get-go per creare in modo efficace la fiducia prima di coinvolgere i tuoi tipi di pubblico meno coinvolti.
-feature: Processo di transizione
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

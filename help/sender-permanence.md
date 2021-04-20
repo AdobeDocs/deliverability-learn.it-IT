@@ -1,7 +1,7 @@
 ---
 title: Permanenza del mittente
 description: L'invio della permanenza è il processo di stabilire un volume e una strategia di invio coerenti al fine di mantenere la reputazione dell'ISP.
-feature: Permanenza mittente
+feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg

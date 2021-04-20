@@ -1,7 +1,7 @@
 ---
 title: Invio di e-mail in massa e blocco
 description: Scopri perché gli ISP inseriscono e-mail in cartelle di massa o le bloccano.
-feature: Metriche
+feature: Metrics
 topics: Deliverability
 kt: 7051
 thumbnail: kt7051.jpg
