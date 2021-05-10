@@ -1,21 +1,21 @@
 ---
 title: Volume - Suggerimenti per una transizione senza problemi
 description: Il volume di posta che invii è fondamentale per stabilire una reputazione positiva. Scopri cosa puoi fare per effettuare una transizione senza problemi.
-feature: Transition Process
+feature: Processo di transizione
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # Volume
 
@@ -50,8 +50,8 @@ In molte circostanze, la posta transazionale non segue il tradizionale approccio
 * Ulteriori informazioni sulla gestione del recapito messaggi all&#39;avvio di una nuova piattaforma con Adobe Campaign in [questa sezione](/help/additional-resources/ac-starting-new-platform.md).
 * Scopri come inviare utilizzando più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
-* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
-* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
 
 ## Risorse aggiuntive
 
