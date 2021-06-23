@@ -5,7 +5,7 @@ feature: Consegna
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Il tracciamento dei pixel in Apple Mail verrà disattivato, il che significa che
 
 ## Ci sono altri impatti?
 
-Per impostazione predefinita, Apple nasconderà le informazioni sull’indirizzo IP nella propria app nativa Mail, nel browser Safari e nei servizi iCloud. La misurazione dei tassi aperti non è l’unico aspetto del marketing e-mail interessato dalla protezione della privacy e-mail di Apple. L’e-mail apre le strategie di ottimizzazione del tempo di invio dell’unità, la personalizzazione in tempo reale, le campagne di re-coinvolgimento e le campagne automatizzate a più ondate. Questi cambiamenti indicano che gli addetti al marketing
-devono iniziare a pianificare l&#39;aspetto di queste strategie per gli utenti Apple una volta rilasciato iOS 15 e le funzionalità di protezione della privacy avranno luogo questo autunno. Un Adobe aiuterà i nostri clienti a gestire questi cambiamenti con aggiornamenti, guida e leadership del pensiero.
+Per impostazione predefinita, Apple nasconderà le informazioni sull’indirizzo IP nella propria app nativa Mail, nel browser Safari e nei servizi iCloud. La misurazione dei tassi aperti non è l’unico aspetto del marketing e-mail interessato dalla protezione della privacy e-mail di Apple. L’e-mail apre le strategie di ottimizzazione del tempo di invio dell’unità, la personalizzazione in tempo reale, le campagne di re-coinvolgimento e le campagne automatizzate a più ondate. Queste modifiche indicano che gli esperti di marketing devono iniziare a pianificare l’aspetto di queste strategie per gli utenti Apple una volta rilasciato iOS 15 e che le funzionalità di protezione della privacy avranno inizio questo autunno. Un Adobe aiuterà i nostri clienti a gestire questi cambiamenti con aggiornamenti, guida e leadership del pensiero.
 
 ## Questo annuncio riguarda tutte le e-mail aperte su un dispositivo Apple?
 
