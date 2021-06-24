@@ -1,21 +1,20 @@
 ---
 title: Processo di richiesta del certificato SSL
 description: Scopri come installare i certificati SSL nei sottodomini delegati ad Adobe.
-feature: Putting it in practice
+feature: Attuazione
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
+source-git-commit: e3caa0e9fae0df983c05c7027406f9874174a8ba
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: '2270'
+ht-degree: 2%
 
 ---
-
 
 # Processo di richiesta del certificato SSL
 
@@ -69,7 +68,7 @@ Per installare i certificati SSL in questi sottodomini, il processo comporta la 
 
 ## Procedura dettagliata
 
-### Prerequisiti
+### Prerequisiti 
 
 Devi identificare i nomi di dominio e le funzioni (tracciamento, pagine mirror, applicazioni web, ecc.) per proteggere.
 >[!NOTE]
@@ -80,14 +79,14 @@ Devi identificare i nomi di dominio e le funzioni (tracciamento, pagine mirror, 
 
 Per ottenere un file CSR (Certificate Signing Request), segui i passaggi riportati di seguito.
 
-* Se hai accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html), segui le istruzioni su [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) per generare e scaricare un file CSR dal Pannello di controllo Campaign.
+* Se hai accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it), segui le istruzioni su [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) per generare e scaricare un file CSR dal Pannello di controllo Campaign.
 
 * In caso contrario, crea un ticket di supporto tramite https://adminconsole.adobe.com/ per ottenere un file CSR dall’Assistenza clienti di Adobe per i sottodomini richiesti.
 
 Seguono alcune best practice:
 
 * Solleva una richiesta per sottodominio delegato.
-* È possibile combinare più sottodomini in un’unica richiesta CSR, ma solo all’interno dello stesso ambiente. Ad esempio, in Campaign Classic, il server di marketing, il [server di mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) e l’ [istanza di esecuzione](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) sono tre ambienti separati.
+* È possibile combinare più sottodomini in un’unica richiesta CSR, ma solo all’interno dello stesso ambiente. Ad esempio, in Campaign Classic, il server di marketing, il [server di mid-sourcing](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html) e l’ [istanza di esecuzione](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance) sono tre ambienti separati.
 * È necessario ottenere una nuova CSR prima di qualsiasi rinnovo del certificato SSL. Non utilizzare un vecchio file CSR di un anno fa o più.
 
 Dovrai fornire le seguenti informazioni.
@@ -203,9 +202,9 @@ Puoi controllare il periodo di validità del certificato nel browser. Ad esempio
 
 * Crea un ticket di supporto per richiedere un certificato aggiornato almeno due settimane prima della data di scadenza del certificato. Non è necessario richiedere un’ulteriore CSR, a meno che i dettagli della CSR non siano cambiati.
 
-* Se disponi dell&#39;accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) e se l&#39;ambiente è ospitato da Adobe in un ambiente AWS, puoi utilizzare il Pannello di controllo Campaign per rinnovare il certificato prima della scadenza. Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Se disponi dell&#39;accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) e se l&#39;ambiente è ospitato da Adobe in un ambiente AWS, puoi utilizzare il Pannello di controllo Campaign per rinnovare il certificato prima della scadenza. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
-### Passaggio 8: aggiorna qualsiasi configurazione specifica {#update-configuration}
+### Passaggio 8: aggiornare qualsiasi configurazione specifica {#update-configuration}
 
 Una volta certi che i certificati SSL richiesti sono installati correttamente, è possibile aggiornare tutti i riferimenti in Adobe Campaign da HTTP a HTTPS.
 
