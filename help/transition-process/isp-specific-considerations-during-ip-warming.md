@@ -1,22 +1,21 @@
 ---
-title: Considerazioni specifiche dell'ISP durante il riscaldamento dell'IP
-description: null
+title: Considerazioni specifiche dell’ISP durante il riscaldamento dell’IP
+description: Gli ISP hanno regole diverse e modi diversi di guardare il loro traffico. Questo richiede un piano personalizzato che esegua il targeting solo degli utenti più attivi all’inizio.
 topics: Deliverability
 kt: 7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
+source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '159'
+ht-degree: 16%
 
 ---
 
-
-# Considerazioni specifiche dell&#39;ISP durante il riscaldamento dell&#39;IP
+# Considerazioni specifiche dell’ISP durante il riscaldamento dell’IP
 
 Gli ISP hanno regole diverse e modi diversi di guardare il loro traffico. Per esempio, Gmail è uno degli ISP più sofisticati perché guardano il coinvolgimento molto strettamente (aperture e clic) oltre a tutte le altre misure di reputazione. Questo richiede un piano personalizzato che esegua solo il targeting degli utenti più attivi all’inizio. Anche altri ISP possono richiedere lo stesso. Collabora con il tuo consulente di recapito messaggi di Adobe per un piano specifico.
 
