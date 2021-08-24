@@ -1,23 +1,21 @@
 ---
-title: Best practice sui contenuti per un recapito messaggi ottimale
+title: Procedure consigliate sui contenuti per una consegna dei messaggi ottimale
 description: Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti.
-feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 4%
+source-wordcount: '195'
+ht-degree: 11%
 
 ---
 
-
-# Best practice sui contenuti per un recapito messaggi ottimale
+# Procedure consigliate sui contenuti per una consegna dei messaggi ottimale
 
 Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti:
 
