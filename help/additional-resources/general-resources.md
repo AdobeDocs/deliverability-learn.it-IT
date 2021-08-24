@@ -1,21 +1,19 @@
 ---
 title: Risorse aggiuntive
 description: In questa sezione sono elencate una serie di risorse aggiuntive sul recapito messaggi.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '99'
+ht-degree: 39%
 
 ---
-
 
 # Risorse aggiuntive - Panoramica
 
@@ -23,12 +21,12 @@ ht-degree: 12%
 
 In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi, ad esempio raccomandazioni e best practice specifiche, altri strumenti o procedure di risoluzione dei problemi.
 
-* [Tutto su spam trappole](../../help/additional-resources/all-about-spam-traps.md)
-* [Aumenta la reputazione dell&#39;e-mail con il riscaldamento dell&#39;IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
+* [Tutto sulle trappole anti-spam](../../help/additional-resources/all-about-spam-traps.md)
+* [Aumentare la reputazione e-mail con la preparazione degli indirizzi IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
 * [Autenticazione](../../help/additional-resources/authentication.md)
 * [Duplicati](../../help/additional-resources/duplicates.md)
-* [Best practice per ripetere il coinvolgimento](../../help/additional-resources/re-engagement.md)
-* [Elenchi buchi neri in tempo reale](../../help/additional-resources/blocklist-databases.md)
+* [Best practice per coinvolgere di nuovo](../../help/additional-resources/re-engagement.md)
+* [Elenchi Blackhole in tempo reale](../../help/additional-resources/blocklist-databases.md)
 * [Risoluzione dei problemi](../../help/additional-resources/troubleshooting.md)
 
    <!--
@@ -44,4 +42,4 @@ Inoltre, questa sezione elenca una serie di risorse specifiche per prodotto che 
 * [Impostazione del nome di dominio](../../help/additional-resources/ac-domain-name-setup.md)
 * [Processo di richiesta del certificato CSR e SSL](../../help/additional-resources/ac-ssl-certificate-request.md)
 * [Avvio di una nuova piattaforma](../../help/additional-resources/ac-starting-new-platform.md)
-* [Campaign Classic - Raccomandazioni tecniche](../../help/additional-resources/acc-technical-recommendations.md)
+* [Campaign Classic: consigli tecnici](../../help/additional-resources/acc-technical-recommendations.md)
