@@ -1,17 +1,15 @@
 ---
 title: Introduzione alle procedure consigliate per la consegna dei messaggi
 description: Scopri termini, concetti e approcci chiave per la consegna dei messaggi, al fine di garantire il successo del programma di marketing.
-feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '431'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -33,7 +31,7 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 1. [Strategia e definizione di consegna](/help/deliverability-strategy-and-definition.md)
 2. [Metriche per la consegna dei messaggi](/help/metrics/metrics-overview.md)
 3. [Coinvolgimento](/help/engagement.md)
-4. [Processo di transizione: passare da una piattaforma e-mail a un’altra](/help/transition-process/switching-email-platforms.md)
+4. [Processo di transizione: passaggio da una piattaforma e-mail a un’altra](/help/transition-process/switching-email-platforms.md)
 5. [Prime impressioni: raccolta di elenchi e e-mail di benvenuto](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Procedure consigliate sui contenuti per una consegna dei messaggi ottimale](/help/content-best-practices-for-optimal-delivery.md)
 7. [Permanenza del mittente](/help/sender-permanence.md)
