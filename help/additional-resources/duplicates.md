@@ -1,21 +1,19 @@
 ---
 title: Duplicati
 description: Scopri come identificare e limitare i duplicati per migliorare il recapito messaggi.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 3%
+source-wordcount: '386'
+ht-degree: 6%
 
 ---
-
 
 # Duplicati {#duplicates}
 
@@ -42,7 +40,7 @@ La deduplicazione degli indirizzi protegge la reputazione dell’invio e garanti
 **Adobe Campaign Classic**
 
 * [Attività di deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
-* [Utilizzo della funzionalità di unione dell’attività Deduplication](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+* [Utilizzo della funzionalità di unione dell’attività Deduplication](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it)
 
 **Adobe Campaign Standard**
 
