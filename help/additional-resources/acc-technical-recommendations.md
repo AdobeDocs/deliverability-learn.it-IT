@@ -1,23 +1,21 @@
 ---
-title: Campaign Classic - Raccomandazioni tecniche
+title: 'Campaign Classic: consigli tecnici'
 description: Scopri tecniche, configurazioni e strumenti che puoi utilizzare per migliorare il tasso di recapito messaggi con Adobe Campaign Classic.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
 
-
-# Campaign Classic - Raccomandazioni tecniche {#technical-recommendations}
+# Campaign Classic: consigli tecnici {#technical-recommendations}
 
 Di seguito sono elencate diverse tecniche, configurazioni e strumenti che è possibile utilizzare per migliorare il tasso di consegna quando si utilizza Adobe Campaign Classic.
 
@@ -139,9 +137,9 @@ Se sei costretto a utilizzare un unico indirizzo del ciclo di feedback per più 
 
 Il servizio Adobe Campaign Deliverability gestisce l’abbonamento a servizi di loop di feedback per i seguenti ISP: AOL, BlueTie, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 
-## Cancella sottoscrizione elenco {#list-unsubscribe}
+## Annulla sottoscrizione elenco {#list-unsubscribe}
 
-### Informazioni su Annulla sottoscrizione a elenco {#about-list-unsubscribe}
+### Informazioni sull’annullamento della sottoscrizione a un elenco {#about-list-unsubscribe}
 
 L’aggiunta di un’intestazione SMTP denominata **List-Unsubscription** è obbligatoria per garantire una gestione ottimale del recapito messaggi.
 
