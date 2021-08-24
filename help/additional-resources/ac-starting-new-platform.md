@@ -1,21 +1,19 @@
 ---
 title: Avvio di una nuova piattaforma
 description: Ulteriori informazioni sulla gestione del recapito messaggi all’avvio di una nuova piattaforma con Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 6c9ade01-3052-4311-af80-888294820024
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 3%
+source-wordcount: '603'
+ht-degree: 8%
 
 ---
-
 
 # Avvio di una nuova piattaforma {#starting-new-platform}
 
@@ -53,8 +51,8 @@ L’avvio di una piattaforma spesso avviene quando si utilizza per la prima volt
 
 Per ulteriori informazioni sui principi elencati sopra e sulla loro implementazione con Adobe Campaign, consulta le sezioni seguenti:
 
-* [Aumenta la reputazione dell&#39;e-mail con il riscaldamento dell&#39;IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
-* [Tutto su spam trappole](../../help/additional-resources/all-about-spam-traps.md)
+* [Aumentare la reputazione e-mail con la preparazione degli indirizzi IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
+* [Tutto sulle trappole anti-spam](../../help/additional-resources/all-about-spam-traps.md)
 
 **Adobe Campaign Classic**
 
