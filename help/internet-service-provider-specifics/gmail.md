@@ -1,20 +1,18 @@
 ---
 title: Gmail
 description: Gmail costituisce la parte più grande delle liste e-mail della maggior parte dei mittenti. Inoltre, tendono a trattare le e-mail in modo leggermente diverso rispetto agli altri.
-feature: ISPs
 topics: Deliverability
 kt: 5262
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 992bfc9d0aff9daf29fa6878ead19372b065b436
+exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
-
 
 # [!DNL Gmail]
 
