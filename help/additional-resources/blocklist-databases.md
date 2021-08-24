@@ -1,23 +1,21 @@
 ---
-title: Elenchi buchi neri in tempo reale
+title: Elenchi Blackhole in tempo reale
 description: Scopri le organizzazioni che gestiscono elenchi di indirizzi IP e domini che probabilmente verranno utilizzati dagli spammer.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 6%
 
 ---
 
-
-# Elenchi buchi neri in tempo reale
+# Elenchi Blackhole in tempo reale
 
 Diverse organizzazioni mantengono database di indirizzi IP e domini ritenuti utilizzati dagli spammer. Consultare questi siti può essere utile per capire perché alcuni messaggi sono stati rifiutati come spam. È generalmente possibile richiedere la rimozione di un indirizzo erroneamente aggiunto a questi elenchi.
 
@@ -33,7 +31,7 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
    Fare riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   Il database è più importante. Essere classificato in questo elenco è generalmente una situazione grave. In questo caso, devi agire immediatamente e avvisare i servizi commerciali, il recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   Il database è più importante. Essere classificato in questo elenco è generalmente una situazione grave. In questo caso, devi agire immediatamente e avvisare i servizi commerciali, il recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
