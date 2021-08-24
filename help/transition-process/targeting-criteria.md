@@ -1,21 +1,19 @@
 ---
 title: Criteri di targeting
-description: Scopri come stabilire una reputazione positiva dal get-go per creare in modo efficace la fiducia prima di coinvolgere i tuoi tipi di pubblico meno coinvolti.
-feature: Transition Process
+description: Scopri come stabilire una reputazione positiva fin dall’inizio, per creare in modo efficace la fiducia prima di rivolgerti ai tuoi tipi di pubblico meno coinvolti.
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: e6a855ba-a929-477f-a339-6861a755a529
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 8%
+source-wordcount: '206'
+ht-degree: 22%
 
 ---
-
 
 # Criteri di targeting
 
@@ -34,4 +32,3 @@ In genere, un tasso di coinvolgimento si basa su un periodo di tempo specifico. 
 **Campaign Standard**
 
 * [E-mail basate sull’intelligenza artificiale: Punteggio predittivo del coinvolgimento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
-
