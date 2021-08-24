@@ -1,21 +1,19 @@
 ---
 title: Impostazione del nome di dominio
 description: Scopri come delegare un sottodominio ad Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2028'
 ht-degree: 2%
 
 ---
-
 
 # Impostazione del nome di dominio
 
@@ -23,7 +21,7 @@ Questo documento descrive i requisiti aziendali e tecnici per la configurazione 
 
 >[!NOTE]
 >
->Puoi anche impostare nuovi sottodomini utilizzando il Pannello di controllo Campaign (disponibile come versione beta). Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+>Puoi anche impostare nuovi sottodomini utilizzando il Pannello di controllo Campaign (disponibile come versione beta). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
 
 ## Sottodomini
 
@@ -125,7 +123,7 @@ Una volta che il sottodominio o i sottodomini di invio dell’e-mail vengono del
 | Tipo | Domain |
 |--- |--- |
 | Pagine specchiate | m.`<subdomain>` |
-| Tracking | t.`<subdomain>` |
+| Tracciamento | t.`<subdomain>` |
 | Risorse | res`<subdomain>` |
 
 ## Distribuzione cloud (opzionale)
@@ -198,4 +196,4 @@ Per ulteriori informazioni, consulta la [documentazione dedicata](https://experi
 
 >[!NOTE]
 >
->[I ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) pannelli di controllo sono disponibili solo per i clienti che utilizzano Adobe Managed Services.
+>[I ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) pannelli di controllo sono disponibili solo per i clienti che utilizzano Adobe Managed Services.
