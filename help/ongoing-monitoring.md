@@ -1,21 +1,19 @@
 ---
 title: Monitoraggio continuo
 description: Quali sono i problemi da considerare.
-feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 9%
+source-wordcount: '202'
+ht-degree: 35%
 
 ---
-
 
 # Monitoraggio continuo
 
@@ -30,15 +28,15 @@ Di seguito sono riportati alcuni modi per identificare un possibile problema in 
 
 **Adobe Campaign Classic**
 
-* [Monitoraggio della consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [Report di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)
-* [Monitoraggio della consegna messaggi](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
+* [Monitoraggio della consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=it)
+* [Rapporti di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html?lang=it#reporting)
+* [Monitoraggio della consegna dei messaggi](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=it)
 
 **Adobe Campaign Standard**
 
-* [Monitoraggio di una consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
+* [Monitoraggio di una consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=it)
 * [Riepilogo consegne](https://docs-author-stg.corp.adobe.com/content/help/en/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
-* [Monitoraggio della consegna messaggi](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
+* [Monitoraggio della consegna dei messaggi](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=it#testing-and-sending)
 
 ## Risorse aggiuntive
 
