@@ -1,23 +1,21 @@
 ---
 title: Risoluzione dei problemi di recapito messaggi
 description: Scopri come identificare e risolvere i problemi di recapito messaggi.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 1%
+source-wordcount: '670'
+ht-degree: 0%
 
 ---
 
-
-# Risoluzione dei problemi di recapito {#troubleshooting}
+# Risoluzione dei problemi di recapito messaggi {#troubleshooting}
 
 Di seguito sono riportate alcune best practice che possono aiutare a identificare e risolvere i problemi di recapito messaggi.
 
@@ -31,7 +29,7 @@ Subscriber activity: opens, clicks and/or transactions are lower than usual.
 Seed accounts show filtered or non-delivered mailings.
 -->
 
-## Le possibili cause dell&#39;ipotetdimensioni {#potential-causes}
+## Le cause del potenziale di ipotesia {#potential-causes}
 
 Fai le seguenti domande per identificare le possibili cause del problema di recapito messaggi:
 
