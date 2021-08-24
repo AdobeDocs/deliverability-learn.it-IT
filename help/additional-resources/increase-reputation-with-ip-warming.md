@@ -1,23 +1,21 @@
 ---
-title: Aumenta la reputazione dell'e-mail con il riscaldamento dell'IP
+title: Aumentare la reputazione e-mail con la preparazione degli indirizzi IP
 description: Scopri perché è importante migliorare la reputazione delle e-mail con il riscaldamento dell’IP e come procedere per un recapito messaggi ottimale.
-feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+exl-id: b553a13e-2055-4abc-b784-fd52792380d0
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 0%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
-
-# Aumenta la reputazione dell&#39;e-mail con il riscaldamento dell&#39;IP
+# Aumentare la reputazione e-mail con la preparazione degli indirizzi IP
 
 <!--Increase your email reputation with IP warming
 
@@ -32,9 +30,9 @@ Ad Adobe, i clienti devono condividere la propria configurazione per aiutare il 
 All’inizio, ti verranno assegnati i tuoi indirizzi IP (Internet Protocol) dedicati. Nel contesto dell’invio dell’e-mail, un indirizzo IP è il percorso utilizzato per inviare i messaggi e-mail ai clienti. Gli indirizzi IP e i domini vengono utilizzati per identificare i mittenti su una rete agli ISP riceventi. L’Adobe assegna il numero appropriato di indirizzi IP dedicati per l’invio di e-mail in base al volume di invio, ai programmi e-mail, alle pratiche di segmentazione dei dati e al contratto.
 
 **Argomenti correlati:**
-* [Come effettuare una transizione senza problemi quando si passano da una piattaforma e-mail all’altra](../../help/transition-process/switching-email-platforms.md)
+* [Effettuare una transizione fluida quando si passa da una piattaforma e-mail a un’altra](../../help/transition-process/switching-email-platforms.md)
 * [Strategia IP](../../help/transition-process/infrastructure.md#ip-strategy)
-* [Considerazioni specifiche dell&#39;ISP durante il riscaldamento dell&#39;IP](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
+* [Considerazioni specifiche dell’ISP durante il riscaldamento dell’IP](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 
 ## Riscaldamento IP: Perché è fatto? {#why-ip-warming}
 
