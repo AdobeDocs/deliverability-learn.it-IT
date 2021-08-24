@@ -1,23 +1,21 @@
 ---
-title: Raccolta di indirizzi e crescita degli elenchi
-description: 'Scopri le migliori fonti per i nuovi indirizzi e-mail, come garantire un’elevata qualità dei dati e l’allineamento con le linee guida legali. '
-feature: Audiences
+title: Raccolta di indirizzi e sviluppo degli elenchi
+description: 'Scopri le migliori fonti per nuovi indirizzi e-mail, e come garantire un’elevata qualità dei dati e il rispetto di linee guida legali. '
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
-translation-type: tm+mt
-source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
+exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 4%
 
 ---
 
-
-# Raccolta di indirizzi e crescita degli elenchi
+# Raccolta di indirizzi e sviluppo degli elenchi
 
 Le migliori fonti di nuovi indirizzi e-mail sono sorgenti dirette come iscrizioni sul tuo sito web o in negozi fisici. In queste situazioni, puoi controllare l’esperienza per assicurarti che sia positiva e che l’utente iscritto sia interessato a ricevere e-mail dal tuo marchio.
 
@@ -96,9 +94,8 @@ Gli sweep forniscono rapidamente un gran numero di indirizzi e-mail. Ma questi a
 
 **Adobe Campaign Classic**
 
-* [Creare un modulo di abbonamento con doppio consenso](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [Creare un modulo di abbonamento con doppio consenso](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases—web-forms.html?lang=it#create-a-subscription—form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
-* [Doppio processo di consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-
+* [Processo per doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)
