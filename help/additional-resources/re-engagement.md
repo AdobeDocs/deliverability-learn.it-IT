@@ -2,15 +2,13 @@
 title: Best practice per coinvolgere di nuovo
 description: Scopri come migliorare il recapito messaggi tramite strategie di riimpegno.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -30,7 +28,7 @@ Durante l’implementazione del recapito messaggi, alcune delle best practice co
 
 Per anni, gli ISP hanno utilizzato le metriche di feedback sul coinvolgimento dei loro utenti per decidere dove collocare i messaggi, o se devono comunque consegnarli. L&#39;utente [engagement](/help/engagement.md) è costituito da feedback sia positivi che negativi e gli ISP monitorano sia su base costante. Non avere impegno è forse uno dei principali fattori che contribuiscono all&#39;impegno negativo. Dal punto di vista del recapito messaggi, l’invio coerente di campagne agli utenti che non mostrano alcun coinvolgimento può anche ridurre la reputazione complessiva del tuo indirizzo IP e dei tuoi domini.
 
-Gli ISP come Gmail, Microsoft e OATH visualizzano il non coinvolgimento come e-mail indesiderata e iniziano a reindirizzare i messaggi alla cartella spam. Inoltre, questi abbonati non possono più possedere l&#39;account e-mail, e questo può essere utilizzato come una trappola di spam &quot;riciclata&quot;. Questo significa che l&#39;indirizzo non è valido da qualche tempo e che tutti i messaggi vengono rifiutati. Se il sistema di gestione degli abbonati non rimuove gli indirizzi &quot;rimbalzati rigidi&quot;, è molto probabile che spedire a spam trappole che possono portare a significativi problemi di consegna.
+Gli ISP come Gmail, Microsoft® e OATH visualizzano il non coinvolgimento come e-mail indesiderata e iniziano a reindirizzare i messaggi alla cartella spam. Inoltre, questi abbonati non possono più possedere l&#39;account e-mail, e questo può essere utilizzato come una trappola di spam &quot;riciclata&quot;. Questo significa che l&#39;indirizzo non è valido da qualche tempo e che tutti i messaggi vengono rifiutati. Se il tuo sistema di gestione degli abbonati non rimuove gli indirizzi &quot;rimbalzati rigidi&quot;, è probabile che spedire a spam trappole che possono portare a significativi problemi di consegna.
 
 ## Come si dovrebbe affrontare l&#39;inattività? {#how-should-you-approach-inactivity-}
 
@@ -46,7 +44,7 @@ Secondo uno studio Return Path, le campagne di riimpegno sono state lanciate con
 
 ### Fase 1 {#phase-1}
 
-* Il primo passo è quello di identificare gli abbonati che hanno un’attività di apertura o clic molto limitata, e quindi segmentare questo gruppo in base a un intervallo di tempo impostato. La regola generale consiste nel rivedere gli abbonati che non hanno aperto o fatto clic su un’e-mail negli ultimi 90 giorni. Tuttavia, questo varia a seconda della natura dell&#39;attività (ad esempio, l&#39;invio stagionale).
+* Il primo passo è quello di identificare gli abbonati che hanno poco o niente attività di apertura o clic e, di conseguenza, segmentare questo gruppo in base a un intervallo di tempo impostato. La regola generale consiste nel rivedere gli abbonati che non hanno aperto o fatto clic su un’e-mail negli ultimi 90 giorni. Tuttavia, questo varia a seconda della natura dell&#39;attività (ad esempio, l&#39;invio stagionale).
 * Un altro punto da tenere a mente durante la definizione dei tempi è che gli ISP e le aziende elenchi Bloccati considerano l&#39;impegno un posto da 1,5 a 1,8 anni. Inoltre, attività comportamentali come acquisti e attività sul sito web o altri punti di contatto, come le preferenze durante la fase di registrazione o il primo punto di contatto.
 
 ### Fase 2 {#phase-2}
@@ -64,16 +62,16 @@ Gli abbonati che partecipano alla campagna seguendo l’attività di apertura o 
 
 ### Fase 4 {#phase-4}
 
-* La fase successiva consiste nell’identificare gli abbonati che non mostrano mai più alcuna attività e ridurre gradualmente l’invio di e-mail a essi in un periodo di tempo. Se non c&#39;è attività nell&#39;ultimo anno, è bene mettere in pausa l&#39;abbonamento e-mail degli abbonati. Anche se non hanno mostrato alcun interesse per il contenuto dell’e-mail, esiste sempre un’ultima possibilità per riattivare l’abbonamento inviando una campagna di riconferma una tantum.
+* La fase successiva consiste nell’identificare gli abbonati che non mostrano mai più alcuna attività e ridurre gradualmente l’invio di e-mail a essi in un periodo di tempo. Se non c&#39;è attività nell&#39;ultimo anno, è bene mettere in pausa l&#39;abbonamento e-mail degli abbonati. Anche se non hanno mostrato alcun interesse per il contenuto dell’e-mail, esiste sempre un’ultima possibilità per loro di riattivare l’abbonamento inviando una campagna di riconferma una tantum.
 * Le campagne di riconferma sono un buon modo per chiedere agli abbonati che sono inattivi per un lungo periodo di tempo se desiderano rimanere nell’elenco di abbonamenti. Durante la creazione della campagna, è preferibile aggiungere un collegamento &quot;fai clic qui&quot; in modo che possano confermare l’azione e verificare il loro indirizzo. In questo modo, l&#39;azione può essere registrata nel database. Di seguito è riportato un esempio di e-mail di riconferma:
 
    ![](../../help/assets/deliverability_implementation_3.png)
 
-   Una volta che l’utente iscritto ha agito, può essere offerta una pagina di destinazione con la conferma del suo nuovo abbonamento. Di seguito è riportato un esempio della pagina di destinazione:
+   Una volta che l’abbonato ha agito, può essere offerta una pagina di destinazione con la conferma del suo nuovo abbonamento. Di seguito è riportato un esempio della pagina di destinazione:
 
    ![](../../help/assets/deliverability_implementation_4.png)
 
-## Risorse specifiche per i prodotti
+## Risorse specifiche per prodotto
 
 **Adobe Campaign**
 
@@ -82,4 +80,4 @@ Gli abbonati che partecipano alla campagna seguendo l’attività di apertura o 
 
 **Gestione dei Percorsi cliente Adobe**
 
-* [Tracciamento dei messaggi](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [Tracciamento dei messaggi](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=it)
