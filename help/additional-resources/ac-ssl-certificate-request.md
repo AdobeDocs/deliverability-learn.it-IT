@@ -2,15 +2,13 @@
 title: Processo di richiesta del certificato SSL
 description: Scopri come installare i certificati SSL nei sottodomini delegati ad Adobe.
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2265'
 ht-degree: 2%
 
 ---
@@ -209,7 +207,7 @@ Una volta certi che i certificati SSL richiesti sono installati correttamente, √
 
 >[!NOTE]
 >
->Per Campaign Classic, gli URL da aggiornare si trovano principalmente nella [procedura guidata di distribuzione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) e negli [account esterni](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (monitoraggio, pagina speculare e domini di risorse pubbliche). Per Campaign Standard, consulta [Configurazione del branding](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>Per Campaign Classic, gli URL da aggiornare si trovano principalmente nella [procedura guidata di distribuzione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) e negli [account esterni](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (monitoraggio, pagina speculare e domini di risorse pubbliche). Per Campaign Standard, consulta [Configurazione del branding](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Una volta aggiornate le configurazioni, le nuove e-mail verranno inviate con URL HTTPS anzich√© HTTP. Per verificare che gli URL siano ora protetti, puoi eseguire rapidamente i seguenti test:
 
