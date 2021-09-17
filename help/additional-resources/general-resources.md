@@ -6,14 +6,21 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 39%
+source-wordcount: '126'
+ht-degree: 31%
 
 ---
 
 # Risorse aggiuntive - Panoramica
+
+## Novità
+
+Per ulteriori informazioni sugli ultimi aggiornamenti sul recapito messaggi, consulta le seguenti note tecniche .
+
+* [Implementare gli indicatori di marchio Gmail per l’identificazione dei messaggi (BIMI)](../technotes/implement-bimi.md)
+* [Domande frequenti sulla protezione della privacy di Apple Mail](../technotes/apple-mail-privacy-faq.md)
 
 ## Risorse generiche
 
@@ -35,7 +42,7 @@ In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi,
 
 Inoltre, questa sezione elenca una serie di risorse specifiche per prodotto che consentono di implementare il recapito messaggi e raggiungere il successo con le soluzioni di Adobe.
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [Impostazione del nome di dominio](../../help/additional-resources/ac-domain-name-setup.md)
 * [Processo di richiesta del certificato CSR e SSL](../../help/additional-resources/ac-ssl-certificate-request.md)
