@@ -2,9 +2,8 @@
 title: Domande frequenti sulla protezione della privacy di Apple Mail
 description: Domande frequenti sulla protezione della privacy di Apple Mail
 topics: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
+source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
