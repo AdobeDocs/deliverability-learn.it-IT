@@ -2,10 +2,10 @@
 user-guide-title: Guida alle procedure consigliate per la consegna
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Scopri termini, concetti e approcci chiave per la consegna dei messaggi, al fine di garantire il successo del programma di marketing.
-source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
+source-git-commit: 3e933104107cd4f62eab99c66957ccd9acb51409
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 97%
+source-wordcount: '169'
+ht-degree: 95%
 
 ---
 
@@ -55,6 +55,6 @@ ht-degree: 97%
       + [Processo di richiesta del certificato SSL](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Avvio di una nuova piattaforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: consigli tecnici](/help/additional-resources/acc-technical-recommendations.md)
-   + Note tecniche (hidden){#technotes}
-      + [Privacy di Apple Domande frequenti](/help/technotes/apple-mail-privacy-faq.md)
+   + Note tecniche{#technotes}
+      + [Domande frequenti sulla privacy Apple](/help/technotes/apple-mail-privacy-faq.md)
       + [Implementare BIMI](/help/technotes/implement-bimi.md)
