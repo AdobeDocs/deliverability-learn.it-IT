@@ -70,7 +70,7 @@ I reclami provengono anche dagli abbonati che semplicemente non desiderano più 
 
 Oltre ai reclami e alla validità dei dati, gli ISP si stanno concentrando più che mai sul **coinvolgimento positivo** per prendere decisioni sulla consegna. Stanno cercando di vedere se i tuoi abbonati stanno aprendo le tue e-mail, o cancellarle senza leggerle. Poiché non condividono questi dati con i mittenti, dobbiamo utilizzare le informazioni disponibili e tradurre aperture/clic/transazioni come coinvolgimento.
 
-Come parte della manutenzione continua della reputazione, è importante comprendere in che modo gli abbonati sono inseriti nel tuo elenco e sviluppare una **gerarchia dei rischi di recency** per gli abbonati su ciascun file. La recency è definita come data dell’ultima apertura/clic/transazione o registrazione. Questo intervallo temporale può differire in verticale. Per eseguire questa operazione:
+Come parte della manutenzione continua della reputazione, è importante comprendere in che modo gli abbonati sono inseriti nel tuo elenco e sviluppare una **gerarchia dei rischi di recency** per gli abbonati su ciascun file. La recency è definita come data dell’ultima apertura/clic/transazione o registrazione. Questo intervallo temporale può differire in verticale. Per effettuare questo collegamento:
 
 1. Determinare i segmenti attivi (&quot;sicuri&quot;) per ogni verticale. Si tratta in genere di abbonati che sono stati attivi negli ultimi 3-6 mesi.
 1. Riduci la frequenza agli inattivi.

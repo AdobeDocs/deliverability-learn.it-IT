@@ -41,7 +41,7 @@ Se il logo che si desidera visualizzare non è registrato o non è registrato in
 
 Questo sarebbe anche un buon momento per assicurarsi che il vostro logo sarà conforme ai requisiti del logo BIMI per il formato.
 
-Deve essere in formato SVG e aderire al profilo SVG Portable/Secure (SVG-P/S). Le indicazioni su come farlo sono disponibili presso il [Gruppo di lavoro BIMI](https://bimigroup.org/svg-conversion-tools-released).
+Deve essere in formato SVG e rispettare il profilo SVG Portable/Secure (SVG-P/S). Le indicazioni su come farlo sono disponibili presso il [Gruppo di lavoro BIMI](https://bimigroup.org/svg-conversion-tools-released).
 
 ## DMARC
 

@@ -183,7 +183,7 @@ Passa ai seguenti URL nel browser (sostituisci &quot;subdomain.customer.com&quot
 * https://m.subdomain.customer.com/r/test
 * https://res.subdomain.customer.com/r/test
 
-Un risultato positivo fornisce informazioni sull’ambiente e la barra degli indirizzi nell’URL indica che la connessione è protetta. Ad esempio, puoi visualizzare il seguente messaggio in Google Chrome:
+Un risultato positivo fornisce informazioni sull’ambiente e la barra degli indirizzi nell’URL indica che la connessione è protetta. Ad esempio, in Google Chrome puoi visualizzare il seguente messaggio:
 
 ![](../../help/assets/ssl-google-successful-result.png)
 

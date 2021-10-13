@@ -56,5 +56,5 @@ ht-degree: 95%
       + [Avvio di una nuova piattaforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: consigli tecnici](/help/additional-resources/acc-technical-recommendations.md)
    + Note tecniche{#technotes}
-      + [Domande frequenti sulla privacy Apple](/help/technotes/apple-mail-privacy-faq.md)
+      + [Domande frequenti sulla privacy di Apple](/help/technotes/apple-mail-privacy-faq.md)
       + [Implementare BIMI](/help/technotes/implement-bimi.md)
