@@ -8,7 +8,7 @@ activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 2. [Metriche per la consegna dei messaggi](/help/metrics/metrics-overview.md)
 3. [Coinvolgimento](/help/engagement.md)
 4. [Processo di transizione: passaggio da una piattaforma e-mail a un’altra](/help/transition-process/switching-email-platforms.md)
-5. [Prime impressioni: raccolta di elenchi e e-mail di benvenuto](/help/first-impressions/address-collection-and-list-growth.md)
+5. [Prime impressioni: raccolta di elenchi ed e-mail di benvenuto](/help/first-impressions/address-collection-and-list-growth.md)
 6. [Procedure consigliate sui contenuti per una consegna dei messaggi ottimale](/help/content-best-practices-for-optimal-delivery.md)
 7. [Permanenza del mittente](/help/sender-permanence.md)
 8. [Specifiche del fornitore di servizi Internet](/help/internet-service-provider-specifics/overview.md)
