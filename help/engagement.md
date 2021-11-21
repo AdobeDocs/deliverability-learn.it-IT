@@ -27,27 +27,27 @@ Anche se in qualità di mittente non puoi tenere traccia di tutte le stesse metr
 
 ## Qualità su quantità
 
-**Elenco organico** crescere questo il fondamento di una lista sana. Molti addetti al marketing si concentrano sulla crescita degli elenchi, ma dal punto di vista del recapito messaggi è importante creare un elenco di qualità degli abbonati altamente coinvolti. L’invio continuo di e-mail a un pubblico in gran parte non impegnato può diminuire la reputazione dell’invio e aumentare notevolmente la probabilità che l’e-mail arrivi nella cartella spam o junk.
+**Crescita della lista organica** è la pietra angolare di una lista sana. Molti addetti al marketing si concentrano sulla crescita degli elenchi, ma dal punto di vista del recapito messaggi è importante creare un elenco di qualità degli abbonati altamente coinvolti. L’invio continuo di e-mail a un pubblico in gran parte non impegnato può diminuire la reputazione dell’invio e aumentare notevolmente la probabilità che l’e-mail arrivi nella cartella spam o junk.
 
-**La** frequenza di invio è importante da considerare quando si crea e si mantiene un programma di marketing e-mail. Impostare le aspettative dei destinatari durante il messaggio di benvenuto è una strategia molto utile che le persone amano sapere cosa aspettarsi. Tuttavia, queste aspettative devono essere soddisfatte: l’invio troppo spesso di e-mail può causare l’affaticamento dei clienti e in alcuni casi può causare un aumento dei reclami e l’annullamento dell’abbonamento.
+**Frequenza di spedizione** è importante considerare quando si crea e si mantiene un programma di marketing e-mail. Impostare le aspettative dei destinatari durante il messaggio di benvenuto è una strategia molto utile che le persone amano sapere cosa aspettarsi. Tuttavia, queste aspettative devono essere soddisfatte: l’invio troppo spesso di e-mail può causare l’affaticamento dei clienti e in alcuni casi può causare un aumento dei reclami e l’annullamento dell’abbonamento.
 
 La frequenza corretta è qualcosa che ogni addetto al marketing deve trovare per il proprio programma di marketing specifico. Suggeriamo di testare frequenze diverse per trovare il giusto equilibrio per qualsiasi programma di marketing specifico. Mantenere i destinatari coinvolti e attivi è una delle cose più importanti che un addetto al marketing può fare per garantire il successo di un programma di marketing e-mail.
 
 ## Cambiare gli interessi
 
-Gli interessi degli abbonati si evolvono costantemente e gli esperti di marketing devono comprendere che l’impegno nei confronti di un marchio può essere temporaneo. Alcuni abbonati rinunciano, ma molti semplicemente eliminano o ignorano le e-mail indesiderate. Dal punto di vista del consumatore, qualsiasi messaggio non sollecitato o indesiderato viene percepito come spam. Pertanto, gli esperti di marketing devono affidarsi a **marketing basato su autorizzazioni** e **monitoraggio dell&#39;engagement** per la perdita di interessi. Per ottenere un posizionamento ottimale nella casella in entrata, consigliamo agli esperti di marketing di coinvolgere nuovamente gli abbonati in modo strategico utilizzando campagne di riattivazione e una strategia di ritorno, che possono essere strumenti molto utili per un addetto al marketing e-mail.
+Gli interessi degli abbonati si evolvono costantemente e gli esperti di marketing devono comprendere che l’impegno nei confronti di un marchio può essere temporaneo. Alcuni abbonati rinunciano, ma molti semplicemente eliminano o ignorano le e-mail indesiderate. Dal punto di vista del consumatore, qualsiasi messaggio non sollecitato o indesiderato viene percepito come spam. Pertanto, gli esperti di marketing devono fare affidamento su **marketing basato su autorizzazioni** e **monitoraggio del coinvolgimento** per la perdita di interessi. Per ottenere un posizionamento ottimale nella casella in entrata, consigliamo agli esperti di marketing di coinvolgere nuovamente gli abbonati in modo strategico utilizzando campagne di riattivazione e una strategia di ritorno, che possono essere strumenti molto utili per un addetto al marketing e-mail.
 
-Una **strategia di ripristino (**) è quando un incentivo speciale viene regolarmente inviato a una parte specifica di un database di marketing nel tentativo di riattivare un elenco con attività di apertura e clic ridotte. Vengono mantenute le risposte positive e la parte dell’elenco che non risponde viene spostata in uno stato inattivo e non viene più inviata per posta.
+A **strategia di ritorno** si verifica quando un incentivo speciale viene regolarmente inviato a una parte specifica di un database di marketing nel tentativo di riattivare un elenco con attività di apertura e clic ridotte. Vengono mantenute le risposte positive e la parte dell’elenco che non risponde viene spostata in uno stato inattivo e non viene più inviata per posta.
 
-Una **campagna di riattivazione** è simile ma viene utilizzata per riconfermare una volta una lista, utile quando si tratta di vecchi elenchi non aggiornati, quelli che non sono stati inviati per più di 12 mesi o addirittura anni. Questo tipo di campagna viene generalmente applicato anche dagli inserire nell&#39;elenco Bloccati per risolvere un blocco. Gli abbonati che non vengono ricoinvolti con successo tramite questo processo devono essere esclusi dalle future promozioni e-mail.
+A **campagna di riattivazione** è simile ma viene utilizzato per confermare una lista una volta, il che è utile quando si tratta di vecchie liste non aggiornate — quelle che non sono state spedite da più di 12 mesi o persino anni. Questo tipo di campagna viene generalmente applicato anche dagli inserire nell&#39;elenco Bloccati per risolvere un blocco. Gli abbonati che non vengono ricoinvolti con successo tramite questo processo devono essere esclusi dalle future promozioni e-mail.
 
 Il modo migliore per implementare una campagna di riconversione o riattivazione sarà unico nel tuo programma e-mail e dovrebbe essere completamente personalizzato per le tue esigenze e situazioni aziendali.
 
 ## Anche la risposta è l&#39;impegno
 
-È facile impostare semplicemente la tua risposta-a-email per essere un indirizzo &quot;no-response&quot;, ma questo sarebbe un errore che trascura il quadro generale.
+È facile impostare semplicemente la tua risposta-a-email per essere un indirizzo &quot;no-response&quot;, ma questo sarebbe un errore che ignora il quadro generale.
 
-Quando i destinatari rispondono alle e-mail di marketing, è prevista una risposta. Attivando un **sistema di risposta e risposta**, potrai migliorare la reputazione del mittente. Ciò aumenterà la probabilità di risultati positivi in termini di consegna e di tassi di posizionamento nella casella in entrata.
+Quando i destinatari rispondono alle e-mail di marketing, è prevista una risposta. Attivando una **sistema di risposta e risposta**, potrai migliorare la reputazione del mittente. Ciò aumenterà la probabilità di risultati positivi in termini di consegna e di tassi di posizionamento nella casella in entrata.
 
 È anche una customer experience molto migliore e contribuirà ad aumentare la percezione positiva del tuo marchio da parte del consumatore. Dopo tutto, nulla dice &quot;per favore fai affari con noi&quot; come &quot;vogliamo sentire da te&quot;.
 
@@ -67,4 +67,4 @@ Un&#39;ultima parte chiave della strategia di risposta è che se disponi di un i
 
 ## Risorse aggiuntive
 
-* Ulteriori informazioni sulle strategie di riimpegno (o di riacquisto) in [questa sezione](/help/additional-resources/re-engagement.md).
+* Per saperne di più sulle strategie di riimpegno (o di ritorno) in [questa sezione](/help/additional-resources/re-engagement.md).

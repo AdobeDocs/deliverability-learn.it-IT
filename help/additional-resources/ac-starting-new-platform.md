@@ -31,19 +31,19 @@ Di seguito sono elencati i principi principali da seguire all’avvio di una nuo
 
 * Configura un sottodominio dedicato specifico per le campagne e-mail inviate da Adobe.
 
-* Se disponi di queste informazioni, **importa indirizzi non validi nella tabella di quarantena**.
+* Se si dispone di queste informazioni, **importare indirizzi non validi nella tabella di quarantena**.
 L’avvio di una piattaforma spesso avviene quando si utilizza per la prima volta un elenco di indirizzi che potrebbero non essere completamente qualificati. Se invii indirizzi non validi o a indirizzi non validi, ciò contribuirà a ridurre la reputazione della piattaforma.
 
-   * Se disponi di un elenco di indirizzi non validi, è nell’interesse dell’utente importarlo nella tabella di quarantena prima di inviarlo per la prima volta. La tabella di quarantena è disponibile tramite i menu **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) e **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard).
+   * Se disponi di un elenco di indirizzi non validi, è nell’interesse dell’utente importarlo nella tabella di quarantena prima di inviarlo per la prima volta. La tabella di quarantena è disponibile tramite **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic) e **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard) menu.
 
    * Se, comunque, si desidera riqualificare gli indirizzi non validi, è di gran lunga preferibile farlo una volta che la reputazione della piattaforma è stabilita e bit per pezzo al fine di &quot;diluire&quot; l&#39;uso di indirizzi non validi nel tempo.
 
-* **Limita il** tasso di throughput limitando il numero di cache. Per ulteriori informazioni sulla regolazione di tale impostazione tecnica, contatta il tuo amministratore Adobe Campaign.
+* **Limitare la velocità effettiva** limitando il numero di campioni. Per ulteriori informazioni sulla regolazione di tale impostazione tecnica, contatta il tuo amministratore Adobe Campaign.
 
-* **Aumentare progressivamente i volumi** inviati per evitare di essere contrassegnati come spam. Non eseguire il targeting dell&#39;intero database fin dall&#39;inizio, ma aggiungere una frazione extra dell&#39;elenco ogni volta che si invia. Questo dovrebbe consentire di aumentare il volume a ogni passaggio riducendo al contempo il tasso complessivo di indirizzi non validi. Per garantire uno sviluppo uniforme della fase di avvio, è possibile utilizzare le onde.
+* **Incremento progressivo dei volumi inviati** per evitare di essere contrassegnati come spam. Non eseguire il targeting dell&#39;intero database fin dall&#39;inizio, ma aggiungere una frazione extra dell&#39;elenco ogni volta che si invia. Questo dovrebbe consentire di aumentare il volume a ogni passaggio riducendo al contempo il tasso complessivo di indirizzi non validi. Per garantire uno sviluppo uniforme della fase di avvio, è possibile utilizzare le onde.
 
 * **Invia regolarmente**. In un certo senso, è meglio inviare regolarmente piccole riprese piuttosto che sporadicamente campagne di grandi dimensioni.
-* **Presta particolare attenzione ai rapporti** di consegna. Indicatori di errore elevati possono indicare che un&#39;impostazione tecnica non è configurata correttamente.
+* **Presta particolare attenzione ai rapporti di consegna**. Indicatori di errore elevati possono indicare che un&#39;impostazione tecnica non è configurata correttamente.
 
 ## Risorse aggiuntive
 

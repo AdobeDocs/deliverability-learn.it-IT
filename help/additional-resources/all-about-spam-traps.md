@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Tutto sulle trappole anti-spam
 
-Un [trap spam](/help/metrics/spam-traps.md) è un indirizzo valido, senza messaggio di errore quando le e-mail vengono inviate a . Una trappola per spam ha una missione principale: identificare spammer o mittenti senza processo di igiene dei dati.
+A [trappola per spam](/help/metrics/spam-traps.md) è un indirizzo valido, senza messaggio di errore quando le e-mail vengono inviate a . Una trappola per spam ha una missione principale: identificare spammer o mittenti senza processo di igiene dei dati.
 
 ## Chi gestisce questi indirizzi della trappola dello spam?
 
@@ -25,9 +25,9 @@ Il secondo tipo di trappola per spam è basato su vecchi indirizzi ISP attivi. Q
 
 ## Come funziona?
 
-**Indirizzo e-mail senza utente** finale: Questi indirizzi non hanno e non avranno mai un utente finale che potrebbe registrarsi alle newsletter o a qualsiasi altro tipo di comunicazione.
+**Un indirizzo e-mail senza utente finale**: Questi indirizzi non hanno e non avranno mai un utente finale che potrebbe registrarsi alle newsletter o a qualsiasi altro tipo di comunicazione.
 
-**Indirizzo e-mail abbandonato da un utente**: Dopo un periodo di inattività, gli indirizzi vengono disattivati dagli ISP. I messaggi di rimbalzo vengono inviati ai mittenti per informarli di questo nuovo stato. I mittenti devono mettere in quarantena questi indirizzi o rimuoverli dalle comunicazioni future. Gli ISP utilizzano questi indirizzi trasformati in &quot;trappola dello spam&quot; per monitorare i mittenti con le cattive pratiche.
+**Un indirizzo e-mail abbandonato da un utente**: Dopo un periodo di inattività, gli indirizzi vengono disattivati dagli ISP. I messaggi di rimbalzo vengono inviati ai mittenti per informarli di questo nuovo stato. I mittenti devono mettere in quarantena questi indirizzi o rimuoverli dalle comunicazioni future. Gli ISP utilizzano questi indirizzi trasformati in &quot;trappola dello spam&quot; per monitorare i mittenti con le cattive pratiche.
 
 ## Come riconoscere o identificare una trappola di spam?
 

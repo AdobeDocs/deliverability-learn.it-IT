@@ -27,7 +27,7 @@ In genere, un tasso di coinvolgimento si basa su un periodo di tempo specifico. 
 
 **Analytics**
 
-* [Come aumentare i tassi di coinvolgimento e fidelizzazione (esercitazione)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics):  *Identifica i tipi di pubblico coinvolti attraverso il loro comportamento utilizzando le coorti e conosci le cause alla base della persistenza nelle tue app mobili. Utilizza gli algoritmi della scienza dei dati in Segment IQ per conoscere le differenze e le analogie tra segmenti diversi.*
+* [Come aumentare i tassi di coinvolgimento e di fidelizzazione (esercitazione)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifica i tipi di pubblico coinvolti attraverso il loro comportamento utilizzando le coorti e conosci le cause alla base della persistenza nelle tue app mobili. Utilizza gli algoritmi della scienza dei dati in Segment IQ per conoscere le differenze e le analogie tra segmenti diversi.*
 
 **Campaign Standard**
 

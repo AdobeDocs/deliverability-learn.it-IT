@@ -50,7 +50,7 @@ L’invio di grandi quantità di e-mail da un nuovo IP o IP all’esterno del ga
 
 Questo è il componente più importante per la gestione e la crescita di un elenco di e-mail per gli utenti abbonati. Man mano che le leggi anti-spam crescono e diventano più complete a livello internazionale, dovrebbe essere un obiettivo primario per gli addetti al marketing garantire che abbiano ricevuto il consenso esplicito (o esplicito) da ogni abbonato al loro elenco. In altre parole, ogni utente iscritto ha accettato attivamente di ricevere e-mail dal tuo marchio. Ciò si differenzia dal consenso implicito in cui una persona viene aggiunta a un elenco di e-mail dopo aver eseguito un’azione che non era esplicitamente registrata per un programma e-mail.
 
-Ulteriori informazioni su [Criteri di utilizzo accettabili per Adobe](https://www.adobe.com/legal/terms/aup.html).
+Ulteriori informazioni su [Criterio di utilizzo accettabile di Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Metriche di reputazione: Cosa stanno cercando gli ISP?
 
@@ -63,7 +63,7 @@ Alcuni dei dati esaminati sono:
 * Rimbalzi e-mail
 * Abbonamento
 
-Gli ISP richiedono configurazioni tecniche specifiche in linea con i relativi criteri e best practice. Adobe configura gli IP e i sottodomini delegati per identificarti come mittente responsabile e affidabile. Questa funzione è denominata [autenticazione e-mail](/help/transition-process/infrastructure.md#authentication). L’autenticazione consente ai destinatari di verificare se un mittente dispone dei diritti da inviare da quell’IP o da quel dominio.
+Gli ISP richiedono configurazioni tecniche specifiche in linea con i relativi criteri e best practice. Adobe configura gli IP e i sottodomini delegati per identificarti come mittente responsabile e affidabile. Si chiama [autenticazione e-mail](/help/transition-process/infrastructure.md#authentication). L’autenticazione consente ai destinatari di verificare se un mittente dispone dei diritti da inviare da quell’IP o da quel dominio.
 
 L’autenticazione consente agli ISP di verificare che l’azienda che invia da un dominio o da un IP abbia il diritto di farlo. È essenzialmente fatto per dimostrare la tua identità e per assicurarti di non fingere di essere qualcun altro e che qualcun altro non finge di essere te.
 
@@ -71,7 +71,7 @@ Ad Adobe, configureremo SPF e DKIM per impostazione predefinita e configureremo 
 
 ## Riscaldamento IP: Cosa aspettarsi
 
-### Posta limitata o bloccata
+### Posta troncata o bloccata
 
 Gli spammer inviano sempre da nuovi IP - masterizzeranno attraverso un pool di IP fino a quando non vengono chiusi e ripetono il processo su un altro pool di IP. Di conseguenza, gli ISP gestiscono con attenzione il traffico inviato da nuovi IP. Impediscono agli IP di inviare una grande quantità di e-mail perché sospettano che si tratti di un’attività dannosa eseguita dagli spammer.
 
@@ -85,7 +85,7 @@ Ricordate che la coerenza è fondamentale qui. I pattern di invio irregolari del
 
 ### Reclami
 
-[](/help/metrics/complaints.md) Completa quando un utente iscritto etichetta un’e-mail come spam attraverso il proprio programma e-mail. Questo invia un avviso all&#39;ISP sull&#39;attività di reclamo. Se ci sono abbastanza di queste lamentele che entrano nell&#39;ISP, che l&#39;ISP agirà per proteggere i suoi clienti - possibilmente bloccare molte e-mail dall&#39;arrivare agli abbonati o dirigere una parte di e-mail alla cartella di massa rispetto alle caselle in entrata degli abbonati. Se il problema di consegna è causato da reclami, è importante determinare il motivo per cui i destinatari si lamentano.
+[Reclami](/help/metrics/complaints.md) si verifica quando un utente iscritto etichetta un’e-mail come spam attraverso il proprio programma e-mail. Questo invia un avviso all&#39;ISP sull&#39;attività di reclamo. Se ci sono abbastanza di queste lamentele che entrano nell&#39;ISP, che l&#39;ISP agirà per proteggere i suoi clienti - possibilmente bloccare molte e-mail dall&#39;arrivare agli abbonati o dirigere una parte di e-mail alla cartella di massa rispetto alle caselle in entrata degli abbonati. Se il problema di consegna è causato da reclami, è importante determinare il motivo per cui i destinatari si lamentano.
 
 Gli abbonati si lamentano per vari motivi. A volte un utente iscritto non desidera ricevere altre e-mail da te, forse perché ritiene di ricevere troppi messaggi sullo stesso argomento, non si aspettava il messaggio o non si ricorda di registrarsi per ricevere le tue e-mail.
 
@@ -111,7 +111,7 @@ Potresti essere tentato di accelerare il processo di riscaldamento dell&#39;IP i
 
 ## Conclusione
 
-Ricorda: IP Warm è una maratona - non uno sprint!  Anche se il processo può sembrare oneroso e dispendioso in termini di tempo, sarebbe più lavoro cercare di riparare una reputazione danneggiata dal non seguire le best practice e-mail provate e vere.
+Ricorda: IP Warm è una maratona - non uno sprint!  Anche se il processo può sembrare oneroso e dispendioso in termini di tempo, sarebbe più lavoro cercare di riparare una reputazione danneggiata dal non seguire le best practice di e-mail provate e vere.
 
 Migliori sono le tue pratiche di invio e più alti sono i punteggi di reputazione con gli ISP, maggiore è la probabilità che le tue e-mail saranno consegnate. Il riscaldamento e l’aumento dell’IP, insieme alle best practice per la progettazione delle tue e-mail, aiuteranno a ottimizzare la consegna della posta in arrivo.
 

@@ -34,8 +34,8 @@ Parte del processo di onboarding per i nuovi mittenti sulle piattaforme Adobe in
 
 È importante creare una strategia IP ben strutturata per contribuire a creare una reputazione positiva. Il numero di IP e la configurazione varia a seconda del modello aziendale e degli obiettivi di marketing. Collabora con un esperto per sviluppare una strategia chiara per iniziare bene. Considera questi aspetti importanti da notare:
 
-* **Troppe** IPscan innescano problemi di reputazione in quanto è una tattica comune di spammers a  **scarpa di neve**, che è una tattica utilizzata dagli spammer in cui il traffico è diffuso su molti IP per massimizzare la consegna di posta indesiderata. Anche se non sei uno spammer, potresti assomigliare a uno se utilizzi troppi IP, specialmente se questi IP non hanno avuto traffico precedente.
-* **Un numero insufficiente di** IPscan causa problemi di throughput e potenzialmente attiva problemi di reputazione. Il throughput varia a seconda dell&#39;ISP. Quanto e quanto rapidamente un ISP è disposto ad accettare si basa tipicamente sulla sua infrastruttura e l&#39;invio di soglie di reputazione.
+* **Troppi IP** può innescare problemi di reputazione in quanto è una tattica comune di spammer a **scarpa da neve**, che è una tattica utilizzata dagli spammer in cui il traffico viene distribuito su molti IP per massimizzare la consegna della posta indesiderata. Anche se non sei uno spammer, potresti assomigliare a uno se utilizzi troppi IP, specialmente se questi IP non hanno avuto traffico precedente.
+* **IP insufficienti** può causare problemi di throughput e potenzialmente causare problemi di reputazione. Il throughput varia a seconda dell&#39;ISP. Quanto e quanto rapidamente un ISP è disposto ad accettare si basa tipicamente sulla sua infrastruttura e l&#39;invio di soglie di reputazione.
 * La chiave è la separazione del traffico per i tipi di messaggi. È importante, come minimo, separare le attività di marketing e la posta transazionale su pool IP separati.
 * A seconda della strategia della posta, può essere anche consigliabile separare diversi prodotti o flussi di marketing su diversi pool IP se la reputazione è drasticamente diversa. Anche alcuni addetti al marketing si segmentano per regione. Separare l&#39;IP per il traffico con una reputazione inferiore non risolverà il problema della reputazione, ma impedirà problemi con le consegne e-mail di &quot;buona&quot; reputazione. Dopo tutto, non vuoi sacrificare il tuo buon pubblico per uno più rischioso.
 
@@ -64,9 +64,9 @@ L&#39;autenticazione è il processo utilizzato dagli ISP per convalidare l&#39;i
 **Campaign**
 
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
-* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
-* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)  -  *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
-* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza di Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: Delega completa dei sottodomini (esercitazione)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+* Ulteriori informazioni sull’implementazione di un ciclo di feedback per un’istanza di Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Risorse aggiuntive
 

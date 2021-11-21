@@ -14,7 +14,7 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Microsoft] ([!DNL Hotmail],  [!DNL Outlook],  [!DNL Windows Live], ecc.)
+# [!DNL Microsoft] ([!DNL Hotmail], [!DNL Outlook], [!DNL Windows Live], ecc.)
 
 [!DNL Microsoft] è generalmente il secondo o terzo provider più grande a seconda della composizione della tua lista, e gestisce il traffico leggermente diverso dagli altri ISP.
 
@@ -26,7 +26,7 @@ Ecco alcuni punti salienti:
 
 ## Quali dati rendono disponibili?
 
-[!DNL Microsoft]Lo strumento di reporting proprietario del mittente,  [!DNL Smart Network Data Services] (SNDS), ti consente di vedere le metriche relative a quanta posta stai inviando e a quanto posta viene accettata, così come reclami e trappole spam. Tieni presente che i dati condivisi sono un esempio e non riflettono numeri esatti, ma rappresentano al meglio il modo in cui [!DNL Microsoft] ti visualizza come mittente. [!DNL Microsoft] non fornisce informazioni sul gruppo di utenti fidati pubblicamente, ma tali dati sono disponibili tramite il  [!DNL Return Path Certification] programma per un costo aggiuntivo.
+[!DNL Microsoft]strumento di segnalazione del mittente proprietario, [!DNL Smart Network Data Services] (SNDS), ti consente di visualizzare le metriche relative alla quantità di posta inviata e alla quantità di posta accettata, nonché le segnalazioni e le trappole per spam. Tieni presente che i dati condivisi sono un esempio e non riflettono numeri esatti, ma rappresentano al meglio il modo in cui [!DNL Microsoft] ti visualizza come mittente. [!DNL Microsoft] non fornisce informazioni sul gruppo di utenti fidati pubblicamente, ma tali dati sono disponibili tramite il [!DNL Return Path Certification] programma per un supplemento.
 
 ## reputazione del mittente
 
@@ -34,6 +34,6 @@ Ecco alcuni punti salienti:
 
 ## Informazioni approfondite
 
-[!DNL Microsoft] combina tutti i domini di ricezione per stabilire e monitorare la reputazione dell’invio. Ciò include [!DNL Hotmail], [!DNL Outlook], MSN, [!DNL Windows Live] e così via, nonché tutte le e-mail in hosting su Office 365 aziendali. [!DNL Microsoft] può essere particolarmente sensibile alle fluttuazioni del volume, quindi prendere in considerazione l&#39;applicazione di strategie specifiche per aumentare e diminuire da grandi invii invece di permettere cambiamenti improvvisi basati sul volume.
+[!DNL Microsoft] combina tutti i domini di ricezione per stabilire e monitorare la reputazione dell’invio. Ciò include [!DNL Hotmail], [!DNL Outlook]MSN, [!DNL Windows Live], e così via, così come tutte le e-mail in hosting su Office 365. [!DNL Microsoft] può essere particolarmente sensibile alle fluttuazioni del volume, quindi prendere in considerazione l&#39;applicazione di strategie specifiche per aumentare e diminuire da grandi invii invece di permettere cambiamenti improvvisi basati sul volume.
 
 [!DNL Microsoft] è particolarmente severo anche durante i primi giorni di riscaldamento dell&#39;IP, che generalmente significa che la maggior parte della posta viene filtrata inizialmente. La maggior parte degli ISP considerano i mittenti innocenti fino a quando non dimostrato colpevole. [!DNL Microsoft] è l&#39;opposto e ti considera colpevole finché non ti dimostri innocente.

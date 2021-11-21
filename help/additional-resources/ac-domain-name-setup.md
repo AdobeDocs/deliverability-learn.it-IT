@@ -25,7 +25,7 @@ Questo documento descrive i requisiti aziendali e tecnici per la configurazione 
 
 Ad Adobe, il marketing digitale può diventare il motore contestuale che alimenta il programma di marketing di coinvolgimento dei clienti del tuo marchio.  L’e-mail rimane la base dei programmi di marketing digitale. Tuttavia, raggiungere la casella in entrata è diventato più difficile che mai.
 
-La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (marketing e aziende, ad esempio) in pool IP specifici e con domini specifici, velocizzando il [processo di riscaldamento degli IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e migliorando il recapito messaggi in generale. Se condividi un dominio e questo viene bloccato o aggiunto all&#39;elenco Bloccati, potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le tue comunicazioni di marketing e-mail avranno un impatto solo su quel flusso di e-mail.  L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe anche interrompere l’autenticazione delle e-mail, bloccando o inserendo i messaggi nella cartella spam.
+La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio, di marketing rispetto a quelli aziendali) in pool IP specifici e con domini specifici, velocizzando la [Processo di riscaldamento dell&#39;IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e migliorare il recapito messaggi in generale. Se condividi un dominio e questo viene bloccato o aggiunto all&#39;elenco Bloccati, potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le tue comunicazioni di marketing e-mail avranno un impatto solo su quel flusso di e-mail.  L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe anche interrompere l’autenticazione delle e-mail, bloccando o inserendo i messaggi nella cartella spam.
 
 ### Delega
 
@@ -35,8 +35,7 @@ Ciò significa che i server DNS di Adobe Campaign avranno piena autorità solo s
 
 Delegando un sottodominio da utilizzare con Adobe Campaign, i client possono fare affidamento su un Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard del settore per i domini di invio di e-mail marketing, mantenendo e controllando il DNS per i propri domini e-mail interni.  La delega dei sottodomini consente:
 
-I client mantengono l’immagine del proprio marchio utilizzando un alias DNS con i relativi nomi di dominio
-Adobe di implementare autonomamente tutte le best practice tecniche per ottimizzare completamente il recapito messaggi durante l’invio di e-mail
+I clienti mantengono l’immagine del proprio marchio utilizzando un alias DNS con i relativi nomi di dominio Adobe per implementare autonomamente tutte le best practice tecniche al fine di ottimizzare completamente il recapito messaggi durante l’invio di e-mail
 
 ## Opzioni di configurazione DNS
 
@@ -124,7 +123,7 @@ I sottodomini scelti per la piattaforma Adobe Campaign devono essere delegati cr
 
 | Sottodominio delegato | Istruzioni DNS |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.cacampaign.adobe.com.  </br> `<subdomain>` NS b.ns.cacampaign.adobe.com.  </br> `<subdomain>` NS c.ns.cacampaign.adobe.com.  </br> `<subdomain>` NS d.ns.cacampaign.adobe.com. |
+| `<subdomain>` | `<subdomain>` NS a.ns.cacampaign.adobe.com. </br> `<subdomain>` NS b.ns.cacampaign.adobe.com. </br> `<subdomain>` NS c.ns.cacampaign.adobe.com. </br> `<subdomain>` NS d.ns.cacampaign.adobe.com. |
 
 ## Tracciamento, pagine mirror, risorse
 
@@ -134,7 +133,7 @@ Una volta che il sottodominio o i sottodomini di invio dell’e-mail vengono del
 |--- |--- |
 | Pagine specchiate | m.`<subdomain>` |
 | Tracciamento | t.`<subdomain>` |
-| Risorse | res`<subdomain>` |
+| Risorse | res.`<subdomain>` |
 
 ## Distribuzione cloud (opzionale)
 
@@ -167,7 +166,7 @@ Se è necessario ospitare moduli su pagine protette (HTTPS), sarà necessaria un
 
 | Sottodominio delegato | Istruzioni DNS |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` CNAME  `<internal customer server>` |
+| `<subdomain>` | `<subdomain>` CNAME `<internal customer server>` |
 
 ## Servizi resi
 
@@ -206,4 +205,4 @@ Per ulteriori informazioni, consulta la [documentazione dedicata](https://experi
 
 >[!NOTE]
 >
->[I ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) pannelli di controllo sono disponibili solo per i clienti che utilizzano Adobe Managed Services.
+>[Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it) è disponibile solo per i clienti che utilizzano Adobe Managed Services.

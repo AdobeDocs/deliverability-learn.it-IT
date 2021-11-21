@@ -19,7 +19,7 @@ ht-degree: 11%
 
 Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti:
 
-* **Evitare di avere un file** HTML troppo grande. Rimani sotto i 100 KB, ma cerca di rimanere tra i 60 e gli 80 KB per evitare una consegna lenta.
+* **Evitare di avere dimensioni eccessive in un file HTML**. Rimani sotto i 100 KB, ma cerca di rimanere tra i 60 e gli 80 KB per evitare una consegna lenta.
 * **Utilizza i tag alt a tuo vantaggio**. I tag Alt si trovano all’interno del codice immagine di HTML e mostrano il testo se l’immagine non è visibile o si carica. Invece di avere una semplice descrizione come &quot;product shot&quot;, potreste voler dire qualcosa di più convincente come &quot;Acquista ora e ottieni uno sconto del 30%&quot;.
 * **Evita troppe immagini.** La maggior parte degli ISP ora blocca le immagini per impostazione predefinita. Vuoi avere un modo per catturare il pubblico senza che le immagini siano abilitate, in modo che le attivino.
 

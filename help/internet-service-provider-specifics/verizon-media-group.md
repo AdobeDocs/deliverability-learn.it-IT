@@ -30,7 +30,7 @@ VMG dispone di un FBL utilizzato per trasmettere informazioni sui reclami ai mit
 
 ## reputazione del mittente
 
-La reputazione del mittente è composta da una combinazione di indirizzo IP, dominio e indirizzo. La reputazione è calcolata utilizzando i componenti tradizionali, compresi reclami, trappole per spam, indirizzi inattivi o malformati e coinvolgimento. VMG utilizza la limitazione della velocità (nota anche come limitazione) insieme alla piegatura di massa per difendere contro lo spam. Questi integrano i loro sistemi di filtraggio interni con alcune [!DNL Spamhaus] liste nere, tra cui PBL, SBL e XBL per proteggere i loro utenti.
+La reputazione del mittente è composta da una combinazione di indirizzo IP, dominio e indirizzo. La reputazione è calcolata utilizzando i componenti tradizionali, compresi reclami, trappole per spam, indirizzi inattivi o malformati e coinvolgimento. VMG utilizza la limitazione della velocità (nota anche come limitazione) insieme alla piegatura di massa per difendere contro lo spam. Essi completano i loro sistemi di filtraggio interni con alcuni [!DNL Spamhaus] liste nere, tra cui PBL, SBL e XBL per proteggere i propri utenti.
 
 ## Informazioni approfondite
 

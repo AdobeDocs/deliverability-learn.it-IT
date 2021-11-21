@@ -26,7 +26,7 @@ Ecco alcuni punti salienti:
 
 ## Quali dati sono disponibili
 
-[!DNL Gmail] fornisce informazioni limitate sulle modalità di visualizzazione delle pratiche di invio tramite i relativi  [!DNL Gmail Postmaster] strumenti. Questo strumento ti consente di visualizzare ad alto livello la reputazione dell’IP e del dominio di invio, i risultati dell’autenticazione e i problemi relativi ai reclami.
+[!DNL Gmail] fornisce informazioni limitate sul modo in cui visualizzano le pratiche di invio tramite le [!DNL Gmail Postmaster] Strumenti. Questo strumento ti consente di visualizzare ad alto livello la reputazione dell’IP e del dominio di invio, i risultati dell’autenticazione e i problemi relativi ai reclami.
 
 >[!NOTE]
 >
@@ -40,6 +40,6 @@ Ecco alcuni punti salienti:
 
 [!DNL Gmail] visualizza gli abbonati coinvolti in modo diverso rispetto alla maggior parte dei mittenti tradizionalmente. Un mittente può definire un elenco attivo o attivo come un utente che ha aperto un’e-mail entro 30, 90 o 180 giorni (a seconda del modello di business). [!DNL Gmail], d’altra parte, sta cercando di vedere quanto spesso i loro utenti interagiscono con i tuoi messaggi.
 
-Ad esempio, se invii 3 e-mail alla settimana per più di 90 giorni, sarebbero circa 39. Utilizzando il metodo tradizionale, se l’utente con sottoscrizione ha aperto una di queste 39 e-mail, è interessato. A [!DNL Gmail], ciò significa che ignorano 38 e-mail e non sono impegnati. Puoi ottenere una sensazione approssimativa per i livelli di coinvolgimento dei tuoi utenti a [!DNL Gmail] classificandoli sul conteggio aperto rispetto alle ultime 10 e-mail. Quindi un utente iscritto associato a 7 aperture delle ultime 10 e-mail è più impegnato di qualcuno che ha aperto 2 delle 10. L’invio di e-mail con minor frequenza agli utenti meno coinvolti ti aiuterà a migliorare la tua reputazione di invio a [!DNL Gmail].
+Ad esempio, se invii 3 e-mail alla settimana per più di 90 giorni, sarebbero circa 39. Utilizzando il metodo tradizionale, se l’utente con sottoscrizione ha aperto una di queste 39 e-mail, è interessato. A [!DNL Gmail], significa che ignorano 38 e-mail e non sono coinvolti. Puoi ottenere una sensazione approssimativa per i livelli di coinvolgimento dei tuoi utenti a [!DNL Gmail] valutandoli in base al conteggio aperto sugli ultimi 10 e-mail. Quindi un utente iscritto associato a 7 aperture delle ultime 10 e-mail è più impegnato di qualcuno che ha aperto 2 delle 10. L’invio di e-mail con minor frequenza agli utenti meno coinvolti ti aiuterà a migliorare la tua reputazione di invio a [!DNL Gmail].
 
-[!DNL Gmail] utilizza schede diverse per gli utenti per distinguere diversi tipi di posta. Si tratta di *Inbox*, *Social* e *Promozionale*. Anche se la posta viene consegnata nella scheda Promozionale, viene comunque considerata consegna in entrata. Gli utenti hanno il controllo di modificare la visualizzazione e le schede.
+[!DNL Gmail] utilizza schede diverse per gli utenti per distinguere diversi tipi di posta. Questi sono *Inbox*, *Social* e *Promozionale*. Anche se la posta viene consegnata nella scheda Promozionale, viene comunque considerata consegna in entrata. Gli utenti hanno il controllo di modificare la visualizzazione e le schede.

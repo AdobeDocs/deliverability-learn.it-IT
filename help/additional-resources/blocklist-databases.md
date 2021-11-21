@@ -27,31 +27,31 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
 * **Spamhaus**
 
-   Fare riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
+   Fai riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   Il database è più importante. Essere classificato in questo elenco è generalmente una situazione grave. In questo caso, devi agire immediatamente e avvisare i servizi commerciali, il recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   Il database è più importante. Essere classificato in questo elenco è generalmente una situazione grave. In tal caso, devi agire immediatamente e avvertire i servizi commerciali, la consegna e [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
-   Fare riferimento a [https://www.spamcop.net/](https://www.spamcop.net/)
+   Fai riferimento a [https://www.spamcop.net/](https://www.spamcop.net/)
 
    È uno dei database più rinomati. Se uno dei tuoi indirizzi IP è inserito in questo elenco, ciò significa in genere che gli utenti di SpamCop hanno dichiarato i tuoi messaggi come Spam o che hai inviato messaggi a un nido d’ape SpamCop.
 
 * **URIBL**
 
-   Fare riferimento a [https://www.uribl.com/](https://www.uribl.com/)
+   Fai riferimento a [https://www.uribl.com/](https://www.uribl.com/)
 
-   Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. Devi informare immediatamente i servizi di recapito messaggi e l’ [Assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) .
+   Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. È necessario informare i servizi di recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
 
 * **SURBO**
 
-   Fare riferimento a [http://www.surbl.org/](http://www.surbl.org/)
+   Fai riferimento a [http://www.surbl.org/](http://www.surbl.org/)
 
-   SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. Devi informare immediatamente i servizi di recapito messaggi e l’ [Assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) .
+   SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. È necessario informare i servizi di recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
 
 * **Manitu iX**
 
-   Questo è un elenco di IP ed è ampiamente utilizzato in Germania. Fare riferimento a [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+   Questo è un elenco di IP ed è ampiamente utilizzato in Germania. Fai riferimento a [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 
