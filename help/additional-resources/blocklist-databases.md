@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 6%
@@ -45,7 +45,7 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
 * **SURBO**
 
-   Fai riferimento a [http://www.surbl.org/](http://www.surbl.org/)
+   Fai riferimento a [https://surbl.org/](https://surbl.org/)
 
    SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. È necessario informare i servizi di recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
 
