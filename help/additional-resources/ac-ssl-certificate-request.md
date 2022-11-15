@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 2%
+source-wordcount: '2253'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Per installare i certificati SSL in questi sottodomini, il processo comporta la 
 
 >[!CAUTION]
 >
->Prima di installare un certificato SSL, accertati di conoscere i prerequisiti elencati in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>Prima di installare un certificato SSL, accertati di conoscere i prerequisiti elencati in [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=it#installing-ssl-certificate).
 >
 >Adobe supporta solo fino a 2048 certificati a 8 bit. I certificati a 4096 bit non sono ancora supportati.
 
@@ -126,7 +126,7 @@ Il testo nel file CSR risultante deve iniziare con **&quot;—INIZIA RICHIESTA C
 Una volta ricevuto il file CSR dall&#39;Adobe, segui i passaggi seguenti:
 
 1. Copia e incolla il testo del file CSR in un decodificatore online come https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> o https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-In alternativa, puoi utilizzare la *OpenSSL* comando locale su un computer Linux. Per ulteriori informazioni, consulta [questa pagina esterna](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+In alternativa, puoi utilizzare la *OpenSSL* comando locale su un computer Linux.
 1. Verifica che tutti i controlli abbiano esito positivo.
 1. Verifica che siano inclusi i parametri e i nomi di dominio corretti.
 1. Verifica che tutti gli altri dati corrispondano ai dettagli forniti al momento dell’invio della richiesta.
@@ -199,7 +199,7 @@ Puoi controllare il periodo di validità del certificato nel browser. Ad esempio
 
 * Crea un ticket di supporto per richiedere un certificato aggiornato almeno due settimane prima della data di scadenza del certificato. Non è necessario richiedere un’ulteriore CSR, a meno che i dettagli della CSR non siano cambiati.
 
-* Se hai accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)e se l’ambiente è ospitato da Adobe in un ambiente AWS, puoi utilizzare il Pannello di controllo Campaign per rinnovare il certificato prima della scadenza. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* Se hai accesso al [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)e se l’ambiente è ospitato da Adobe in un ambiente AWS, puoi utilizzare il Pannello di controllo Campaign per rinnovare il certificato prima della scadenza. Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
 
 ### Passaggio 8: aggiornare qualsiasi configurazione specifica {#update-configuration}
 
@@ -222,4 +222,4 @@ Una volta aggiornate le configurazioni, le nuove e-mail verranno inviate con URL
 
 **Campaign Standard**
 
-* [Pannello di controllo Campaign: Aggiunta di certificati SSL (esercitazione)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Scopri come aggiungere certificati SSL per proteggere i sottodomini.
+* [Pannello di controllo Campaign: Aggiunta di certificati SSL (esercitazione)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=it) - Scopri come aggiungere certificati SSL per proteggere i sottodomini.
