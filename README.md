@@ -1,8 +1,7 @@
 ---
-source-git-commit: 321dc7eb5ec9e3d82d7d133689104282b553efd1
+source-git-commit: 8ccd915f558f3b06e9ac4b97dc45aefd6b27a4f1
 workflow-type: ht
-translation-type: ht
-source-wordcount: '430'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -16,13 +15,13 @@ Questo progetto ha adottato il [Codice di condotta open source di Adobe](code-of
 
 ## Informazioni sui contributi ai contenuti Adobe
 
-Consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.com/content/help/it-IT/contributor/contributor-guide/introduction.html).
+Consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le quali desideri contribuire:
 
 ### Modifiche minori
 
-Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.com/content/help/it-IT/contributor/contributor-guide/introduction.html) generale.
+Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it) generale.
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
@@ -36,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifiche principali da dipendenti Adobe
 
-Se sei un autore, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe Experience Cloud e il tuo lavoro consiste nel contribuire a o creare articoli tecnici, devi utilizzare l’archivio privato all’indirizzo `https://git.corp.adobe.com/AdobeDocs`.
+Se sei un autore, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe Experience Cloud e il tuo lavoro consiste nel creare o contribuire ad articoli tecnici, devi utilizzare l’archivio privato all’indirizzo `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -44,7 +43,7 @@ Se sei un autore, un responsabile di programma o uno sviluppatore del team di pr
 
 I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per le modifiche di base o effettuare il forking dell’archivio per apportare contributi principali.
 
-Per informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://docs.adobe.com/content/help/it-IT/contributor/contributor-guide/introduction.html).
+Per informazioni, consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 ## Come utilizzare Markdown per formattare l’argomento
 
@@ -58,4 +57,4 @@ Tutti gli articoli in questo archivio utilizzano GitHub Flavored Markdown. Se no
 Nell’archivio pubblico, le etichette automatizzate vengono assegnate alle richieste di pull per consentire di gestire il flusso di lavoro di richieste di pull e conoscere lo stato della richiesta di pull:
 
 * **Change sent to author**: l’autore ha ricevuto una notifica della richiesta di pull in sospeso.
-* **Ready-to-merge**: pronta per la revisione da parte del team di revisione delle richieste di pull.
+* **ready-to-merge**: pronta per la revisione da parte del team di revisione delle richieste di pull.
