@@ -2,7 +2,7 @@
 title: Aggiornamento qualificazione rimbalzo dopo l'interruzione online di Italia
 description: Scopri come aggiornare la qualifica di rimbalzo dopo Italia Online outage
 feature: Deliverability
-source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
+source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Per logica standard di gestione dei messaggi non recapitati, Adobe Campaign ha a
 Per trovare i destinatari interessati da questo problema, o nel caso in cui si verifichi di nuovo con un altro ISP, consulta le istruzioni riportate di seguito:
 
 * Per Campaign Classic v7 e Campaign v8, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* Per Campaign Standard, consulta [questa pagina](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Per Campaign Standard, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 
 
