@@ -2,10 +2,11 @@
 title: Aggiornamento qualificazione rimbalzo dopo l'interruzione online di Italia
 description: Scopri come aggiornare la qualifica di rimbalzo dopo Italia Online outage
 feature: Deliverability
-source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
+source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '415'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +35,8 @@ I sintomi erano:
 
 ## Processo di aggiornamento{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 Per logica standard di gestione dei messaggi non recapitati, Adobe Campaign ha aggiunto automaticamente questi destinatari all’elenco di quarantena con un **[!UICONTROL Status]** definizione **[!UICONTROL Quarantine]**. Per correggere questo problema, devi aggiornare la tabella di quarantena in Campaign trovando e rimuovendo questi destinatari o modificando i relativi **[!UICONTROL Status]** a **[!UICONTROL Valid]** in modo che il flusso di lavoro di pulizia notturna li rimuova.
 
 Per trovare i destinatari interessati da questo problema, o nel caso in cui si verifichi di nuovo con un altro ISP, consulta le istruzioni riportate di seguito:
@@ -41,5 +44,11 @@ Per trovare i destinatari interessati da questo problema, o nel caso in cui si v
 * Per Campaign Classic v7 e Campaign v8, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * Per Campaign Standard, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
+### Adobe Journey Optimizer{#ajo-update}
 
+In base alla logica standard di gestione dei messaggi non recapitati, Adobe Journey Optimizer ha aggiunto automaticamente questi indirizzi e-mail all’elenco di eliminazione con un **[!UICONTROL Reason]** definizione **[!UICONTROL Invalid Recipient]**. Per correggere questo problema, è necessario aggiornare l’elenco di soppressione individuando e rimuovendo questi indirizzi e-mail.
+
+Una volta identificati, questi indirizzi possono essere rimossi manualmente dall’elenco di soppressione utilizzando **[!UICONTROL Delete]** pulsante . Questi indirizzi possono quindi essere inclusi nelle campagne e-mail future.
+
+Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
