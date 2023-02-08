@@ -3,7 +3,9 @@ title: Aggiornamento qualificazione rimbalzo dopo l'interruzione online di Itali
 description: Scopri come aggiornare la qualifica di rimbalzo dopo Italia Online outage
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
-source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
+hide: true
+hidefromtoc: true
+source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 1%
