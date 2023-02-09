@@ -5,9 +5,9 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
+source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ Ulteriori informazioni nella comunicazione ufficiale [qui](https://tecnologia.li
 
 ## Impatto{#outage-impact}
 
-Come nella maggior parte dei casi in cui si verifica un’interruzione di un ISP, alcune e-mail inviate tramite Campaign sono state erroneamente contrassegnate come mancate consegne. Questo non ha avuto solo un impatto sull&#39;Adobe, ma tutti quelli che cercano di ottenere e-mail consegnata a Italia Online durante la durata dell&#39;interruzione.
+Come nella maggior parte dei casi in cui si verifica un’interruzione di un provider di servizi Internet (ISP), alcune e-mail inviate tramite Campaign o Journey Optimizer sono state erroneamente contrassegnate come messaggi non recapitati. Questo non ha avuto solo un impatto sull&#39;Adobe, ma tutti quelli che cercano di ottenere e-mail consegnata a Italia Online durante la durata dell&#39;interruzione.
 
 I sintomi erano:
 
-* **Rimbalzi differiti** con il messaggio `452 requested action aborted: try again later` - sono stati automaticamente riprovati e non sono necessarie azioni.
+* **Rimbalzi morbidi** con il messaggio `452 requested action aborted: try again later` - sono stati automaticamente riprovati e non sono necessarie azioni.
 
 * **Rimbalzi netti** con il messaggio `550 <email address> recipient rejected` sono stati restituiti dal provider di servizi Internet il 26 gennaio, tra le 8.00 e le 2.00 ora locale, per impedire ai mittenti di continuare a sovraccaricare i propri server. Come confermato dal postmaster online Italia, questi non sono veri e propri rimbalzi duri, quindi si consiglia di non mettere in quarantena tutti gli indirizzi e-mail che sono stati esclusi il 26 gennaio 2023 a causa di quel messaggio.
 
