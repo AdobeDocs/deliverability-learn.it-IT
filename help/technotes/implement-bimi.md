@@ -3,7 +3,7 @@ title: Implementare gli indicatori di marchio Gmail per l’identificazione dei 
 description: Scopri come implementare BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 05f6cd331f4e610e2442d43405333823644d349e
+source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -22,7 +22,7 @@ BIMI non migliora direttamente la consegna o la tua reputazione. Può essere uti
 
 ## Com&#39;è?
 
-Puoi trovare alcuni esempi di implementazioni da diversi provider e ulteriori dettagli sui quali i provider visualizzano il logo su [Pagina del gruppo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
+Puoi trovare alcuni esempi di implementazioni da diversi provider e ulteriori dettagli sui quali i provider visualizzano il logo su [Pagina del gruppo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## Chi è il gruppo BIMI?
 
@@ -32,7 +32,7 @@ Il gruppo BIMI è composto da diversi soggetti interessati provenienti da divers
 
 ## Chi sostiene BIMI?
 
-L&#39;elenco dei fornitori di cassette postali che supportano BIMI sta crescendo costantemente. È possibile trovare un elenco aggiornato [qui](https://bimigroup.org/bimi-infographic/) sia per i fornitori di supporto che per i fornitori che considerano BIMI.
+L&#39;elenco dei fornitori di cassette postali che supportano BIMI sta crescendo costantemente. È possibile trovare un elenco aggiornato [qui](https://bimigroup.org/bimi-infographic/){target="_blank"} sia per i fornitori di supporto che per i fornitori che considerano BIMI.
 
 A partire da aprile 2023, la lista include Gmail, Yahoo, La Poste, Fastmail, Onet.pl e Zone, Proofpoint come accessorio anti-spam e Apple Mail (da iOS 16 in poi).
 
@@ -65,7 +65,7 @@ Oltre al DMARC sul dominio di invio, il DMARC deve essere utilizzato anche a liv
 
 ### Creazione del logo del marchio {#create-brand-logo}
 
-La creazione del logo deve rispettare i requisiti del 100%. Fai sempre riferimento al [Linee guida del gruppo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/).
+La creazione del logo deve rispettare i requisiti del 100%. Fai sempre riferimento al [Linee guida del gruppo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 Oltre ai requisiti tecnici, vi sono alcune raccomandazioni pratiche come avere un logo quadrato, avere un colore solido come sfondo e altri. Queste raccomandazioni sono per la visualizzazione ottimale.
 Nota che la non conformità può comportare la mancata visualizzazione del logo.
@@ -102,10 +102,10 @@ Perfino superare gli sforzi e le spese per un VMC non toglie questa parte. Se il
 
 ## Suggerimenti
 
-* Il gruppo BIMI offre un utile strumento di convalida per BIMI. Per verificare se tutto è pronto o se il logo è conforme, vai a [questo link](https://bimigroup.org/bimi-generator/). Per quest&#39;ultimo clicca **[!UICONTROL Generate BIMI]** e immetti un dominio segnaposto ma l’URL corretto del logo. L&#39;ispettore le dirà se il logo è conforme.
+* Il gruppo BIMI offre un utile strumento di convalida per BIMI. Per verificare se tutto è pronto o se il logo è conforme, vai a [questo link](https://bimigroup.org/bimi-generator/){target="_blank"}. Per quest&#39;ultimo clicca **[!UICONTROL Generate BIMI]** e immetti un dominio segnaposto ma l’URL corretto del logo. L&#39;ispettore le dirà se il logo è conforme.
 
 * È possibile iniziare senza un VMC in tutta sicurezza, non c&#39;è alcun danno sulla tua reputazione se il tuo record BIMI non include un URL VMC, ma il logo può già essere mostrato in Yahoo.
 
 * L’attuazione del DMARC a livello organizzativo è un’impresa di grandi dimensioni. Alcune aziende sono specializzate per aiutare i marchi a raggiungere un&#39;adozione completa DMARC.
 
-* Viene pubblicato un elenco completo delle domande frequenti [qui](https://bimigroup.org/faqs-for-senders-esps/).
+* Viene pubblicato un elenco completo delle domande frequenti [qui](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
