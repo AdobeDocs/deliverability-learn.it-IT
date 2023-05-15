@@ -3,9 +3,9 @@ title: Implementare gli indicatori di marchio Gmail per l’identificazione dei 
 description: Scopri come implementare BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
+source-git-commit: aca2bfff9f0315b735cf0a97f2177083c58e0875
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Un certificato con contrassegno verificato (VMC) è necessario solo per alcuni p
 
 Un certificato a marchio verificato è una convalida legale che il marchio può utilizzare. Un&#39;autorità di certificazione verificherà questo problema attraverso l&#39;ufficio dei marchi in cui è registrato il logo del marchio. Questo processo comporta diverse convalide e verifiche legali e può richiedere del tempo. Attualmente due CA (autorità di certificazione) rilasciano VMC: Digicert e Entrust. I primi uffici di marchi sono Stati Uniti, Canada, UE, Regno Unito, Germania, Giappone, Australia e Spagna.
 
-Come regola del pollice, avrete bisogno di un VMC per logo. Disporre di un VMC per il dominio organizzativo copre i sottodomini e con una funzione aggiunta anche domini diversi. Se hai diversi loghi, sono necessari più di un VMC. L&#39;Autorità di certificazione o il partner con cui scegli di lavorare ti aiuterà a configurarlo.
+Come regola generale, avrete bisogno di un VMC per logo. Disporre di un VMC per il dominio organizzativo copre i sottodomini e con una funzione aggiunta anche domini diversi. Se hai diversi loghi, sono necessari più di un VMC. L&#39;Autorità di certificazione o il partner con cui scegli di lavorare ti aiuterà a configurarlo.
 
 >[!NOTE]
 >
