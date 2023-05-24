@@ -1,6 +1,6 @@
 ---
 title: Procedure consigliate sui contenuti per una consegna dei messaggi ottimale
-description: Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti.
+description: Il contenuto è fondamentale. Hai già letto la nostra prospettiva sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti.
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg
@@ -17,11 +17,11 @@ ht-degree: 11%
 
 # Procedure consigliate sui contenuti per una consegna dei messaggi ottimale
 
-Il contenuto è fondamentale. Hai già letto il nostro punto di vista sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti:
+Il contenuto è fondamentale. Hai già letto la nostra prospettiva sulla rilevanza, ma ecco alcuni suggerimenti aggiuntivi per ottimizzare il recapito messaggi quando si tratta di contenuti:
 
-* **Evitare di avere dimensioni eccessive in un file HTML**. Rimani sotto i 100 KB, ma cerca di rimanere tra i 60 e gli 80 KB per evitare una consegna lenta.
-* **Utilizza i tag alt a tuo vantaggio**. I tag Alt si trovano all’interno del codice immagine di HTML e mostrano il testo se l’immagine non è visibile o si carica. Invece di avere una semplice descrizione come &quot;product shot&quot;, potreste voler dire qualcosa di più convincente come &quot;Acquista ora e ottieni uno sconto del 30%&quot;.
-* **Evita troppe immagini.** La maggior parte degli ISP ora blocca le immagini per impostazione predefinita. Vuoi avere un modo per catturare il pubblico senza che le immagini siano abilitate, in modo che le attivino.
+* **Evita un file HTML troppo grande**. Resta inferiore a 100 KB, ma prova a rimanere tra 60 e 80 KB per evitare una consegna lenta.
+* **Utilizza i tag alt a tuo vantaggio**. I tag Alt risiedono all’interno del codice immagine del HTML e visualizzano il testo se l’immagine non è visibile o in fase di caricamento. Invece di una semplice descrizione come &quot;product shot&quot;, potresti voler dire qualcosa di più convincente come &quot;Buy now and get 30% off&quot;.
+* **Evita troppe immagini.** La maggior parte degli ISP ora blocca le immagini per impostazione predefinita. Desideri disporre di un modo per catturare il pubblico senza che le immagini siano abilitate, in modo che possano poi abilitarle.
 
 ## Risorse specifiche per i prodotti
 

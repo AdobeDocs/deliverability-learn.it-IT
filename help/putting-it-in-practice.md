@@ -1,6 +1,6 @@
 ---
 title: Attuazione
-description: L'invio della permanenza è il processo di stabilire un volume e una strategia di invio coerenti al fine di mantenere la reputazione dell'ISP.
+description: La permanenza dell’invio è il processo di definizione di un volume e di una strategia di invio coerenti al fine di mantenere la reputazione dell’ISP.
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 # Attuazione
 
-Come indicato in questa guida, sono disponibili numerose sfumature di recapito messaggi e best practice.
+Come descritto in questa guida, la consegna dei messaggi presenta diverse sfaccettature e segue le best practice.
 
-Ci sono quattro pilastri fondamentali per il successo:
+Il successo si basa su quattro pilastri fondamentali:
 
-1. Imposta le aspettative corrette durante l&#39;iscrizione e assicurati di avere un buon processo di registrazione che impedisca gli indirizzi errati.
+1. Imposta le aspettative corrette durante l’iscrizione e adotta un buon processo di iscrizione che eviti indirizzi non corretti.
 2. Fornire contenuti pertinenti e tempestivi.
-3. Mantenere gli elenchi rimuovendo gli indirizzi che diventano negativi.
-4. Monitorare, testare e regolare durante l&#39;esecuzione.
+3. Mantenere gli elenchi rimuovendo gli indirizzi che non funzionano più.
+4. Monitora, verifica e regola man mano che procedi.
 
-Se non sei chiaro o hai bisogno di assistenza per un problema, contatta il tuo consulente di recapito dei messaggi di Adobe o un esperto di recapito dei messaggi per ricevere assistenza.
+In caso di dubbi o se hai bisogno di assistenza su un problema, contatta il tuo consulente o esperto di recapito messaggi Adobe per ricevere assistenza.

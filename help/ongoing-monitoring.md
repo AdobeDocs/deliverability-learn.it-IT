@@ -1,6 +1,6 @@
 ---
 title: Monitoraggio continuo
-description: Quali sono i problemi da considerare.
+description: Quali problemi è necessario considerare.
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg
@@ -17,12 +17,12 @@ ht-degree: 35%
 
 # Monitoraggio continuo
 
-Di seguito sono riportati alcuni modi per identificare un possibile problema in cui potrebbe essere necessario il supporto di esperti:
+Di seguito sono riportati alcuni modi per identificare un possibile problema per il quale potrebbe essere necessario il supporto di esperti:
 
-* C&#39;è un picco osservato nei rimbalzi duri o morbidi. Può essere indicativo di un blocco o di un altro problema di recapito messaggi.
-* C&#39;è una notevole diminuzione nelle metriche di apertura e clic, mentre le percentuali di consegna rimangono elevate. Questo è indicativo del potenziale posizionamento di cartelle in blocco.
-* C&#39;è un aumento significativo dei reclami. Questo può essere causato da una fonte di elenco di scarsa qualità.
-* Hai iniziative strategiche che potrebbero influire sul recapito di messaggi. Questi includono, tra l’altro, l’acquisizione da parte degli abbonati, le strategie di coinvolgimento, le strategie stagionali o modifiche significative della frequenza e il tipo di campagna.
+* È stato osservato un picco di mancati recapiti duri o morbidi. Potrebbe essere indicativo di un inserimento in un elenco Bloccati o di altri problemi di recapito messaggi.
+* Si osserva una notevole diminuzione delle metriche di apertura e clic mentre i tassi consegnati rimangono elevati. Ciò è indicativo di un potenziale posizionamento di una cartella in blocco.
+* C&#39;è stato un aumento significativo delle denunce. La causa può essere un’origine elenco di qualità scadente.
+* Hai iniziative strategiche che potrebbero influire sul recapito messaggi. Questi includono, ma non sono limitati a, acquisizione degli abbonati, strategie di coinvolgimento, strategie stagionali o cambiamenti significativi nella frequenza e nel tipo di campagna.
 
 ## Risorse specifiche per i prodotti
 
@@ -40,4 +40,4 @@ Di seguito sono riportati alcuni modi per identificare un possibile problema in 
 
 ## Risorse aggiuntive
 
-* Scopri come risolvere i problemi di recapito messaggi in [questa sezione](/help/additional-resources/troubleshooting.md).
+* Scopri come risolvere i problemi di consegna dei messaggi in [questa sezione](/help/additional-resources/troubleshooting.md).

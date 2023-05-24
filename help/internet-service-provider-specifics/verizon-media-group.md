@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, ecc.)
-description: '"[!DNL Verizon Media Group] è generalmente uno dei tre domini principali per la maggior parte degli elenchi B2C. Si comportano in modo univoco, in quanto generalmente tassano o spediscono alla posta in blocco se sorgono problemi di reputazione."'
+description: "[!DNL Verizon Media Group] è generalmente uno dei primi tre domini per la maggior parte degli elenchi B2C. Si comportano in modo univoco, in quanto generalmente si limitano a limitare o inviano in massa i messaggi se sorgono problemi di reputazione."
 topics: Deliverability
 kt: 5320
 doc-type: article
@@ -16,22 +16,22 @@ ht-degree: 2%
 
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon, ecc.)
 
-[!DNL Verizon Media Group] è generalmente uno dei tre domini principali per la maggior parte degli elenchi B2C. Si comportano in modo univoco, in quanto generalmente limitano o spediscono alla posta in blocco in caso di problemi di reputazione.
+[!DNL Verizon Media Group] è generalmente uno dei primi tre domini per la maggior parte degli elenchi B2C. Si comportano in modo univoco, in quanto in genere si limitano a limitare o inviano in massa i messaggi se sorgono problemi di reputazione.
 
 Ecco alcuni punti salienti:
 
 ## Quali dati sono importanti
 
-[!DNL Verizon Media Group] (VMG) ha creato e mantiene i propri filtri per spam proprietari, utilizzando una combinazione di contenuti e filtri URL e reclami di spam. Insieme a Gmail, sono uno dei primi ISP che filtrano le e-mail per dominio e per indirizzo IP.
+[!DNL Verizon Media Group] (VMG) ha creato e mantiene i propri filtri spam proprietari, utilizzando una combinazione di contenuti e filtri URL e reclami spam. Insieme a Gmail, sono uno dei primi ISP ad adottare che filtrano le e-mail per dominio e per indirizzo IP.
 
-## Quali dati rendono disponibili?
+## Quali dati rendono disponibili
 
-VMG dispone di un FBL utilizzato per trasmettere informazioni sui reclami ai mittenti. Stanno anche esplorando l&#39;aggiunta di più dati in futuro.
+VMG ha un FBL utilizzato per trasmettere le informazioni sui reclami ai mittenti. Inoltre, stanno analizzando la possibilità di aggiungere ulteriori dati in futuro.
 
-## reputazione del mittente
+## Reputazione mittente
 
-La reputazione del mittente è composta da una combinazione di indirizzo IP, dominio e indirizzo. La reputazione è calcolata utilizzando i componenti tradizionali, compresi reclami, trappole per spam, indirizzi inattivi o malformati e coinvolgimento. VMG utilizza la limitazione della velocità (nota anche come limitazione) insieme alla piegatura di massa per difendere contro lo spam. Essi completano i loro sistemi di filtraggio interni con alcuni [!DNL Spamhaus] liste nere, tra cui PBL, SBL e XBL per proteggere i propri utenti.
+La reputazione di un mittente è costituita da una combinazione di indirizzo IP, dominio e indirizzo mittente. La reputazione viene calcolata utilizzando i componenti tradizionali, tra cui reclami, trappole spam, indirizzi inattivi o non corretti e coinvolgimento. VMG utilizza la limitazione della velocità (nota anche come limitazione) insieme alla cartella in massa per difendersi dallo spam. Essi integrano i loro sistemi di filtraggio interni con alcuni [!DNL Spamhaus] liste nere, tra cui PBL, SBL e XBL per proteggere i loro utenti.
 
-## Informazioni approfondite
+## Insights
 
-VMG dispone di periodi di manutenzione regolari per gli indirizzi e-mail vecchi e inattivi di recente. Ciò significa che è comune osservare un aumento significativo dei rimbalzi degli indirizzi non validi, che può influire sul tasso consegnato per un breve periodo di tempo. Sono anche sensibili ai tassi elevati di rimbalzi degli indirizzi non validi da parte di un mittente, il che è indicativo della necessità di inasprire le politiche di acquisizione o di coinvolgimento. I mittenti possono spesso subire un impatto negativo a circa l’1% di indirizzi non validi.
+VMG dispone di periodi di manutenzione regolari per gli indirizzi e-mail vecchi, inattivi di recente. Ciò significa che è comune osservare un aumento significativo di mancati recapiti non validi, che può influire sulla frequenza di consegna per un breve periodo di tempo. Sono inoltre sensibili a tassi elevati di mancati recapiti di indirizzi non validi da parte di un mittente, il che indica la necessità di restringere i criteri di acquisizione o coinvolgimento. I mittenti possono spesso riscontrare un impatto negativo a circa l’1% degli indirizzi non validi.

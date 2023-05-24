@@ -1,6 +1,6 @@
 ---
 title: Reclami
-description: 'Scopri di più sui reclami registrati quando un utente indica che un’e-mail è indesiderata o inaspettata. '
+description: Scopri di più sui reclami registrati quando un utente indica che un’e-mail è indesiderata o inaspettata.
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg

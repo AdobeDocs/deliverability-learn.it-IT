@@ -1,6 +1,6 @@
 ---
 title: Elenchi Blackhole in tempo reale
-description: Scopri le organizzazioni che gestiscono elenchi di indirizzi IP e domini che probabilmente verranno utilizzati dagli spammer.
+description: Scopri le organizzazioni che gestiscono elenchi di indirizzi IP e domini che potrebbero essere utilizzati da spammer.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -15,41 +15,41 @@ ht-degree: 6%
 
 # Elenchi Blackhole in tempo reale
 
-Diverse organizzazioni mantengono database di indirizzi IP e domini ritenuti utilizzati dagli spammer. Consultare questi siti può essere utile per capire perché alcuni messaggi sono stati rifiutati come spam. È generalmente possibile richiedere la rimozione di un indirizzo erroneamente aggiunto a questi elenchi.
+Diverse organizzazioni gestiscono database di indirizzi IP e domini che si ritiene siano utilizzati da spammer. Consultare questi siti può essere utile per capire perché alcuni messaggi sono stati rifiutati come spam. È generalmente possibile chiedere la rimozione di un indirizzo erroneamente aggiunto a tali elenchi.
 
-Questi database sono chiamati RBL (Real-time Blackhole List) e sono consultati tramite un meccanismo DNS. Esistono tre tipi di RBL:
+Questi database sono chiamati RBL (Real-time Blackhole Lists) e vengono consultati tramite un meccanismo DNS. Esistono tre tipi di RBL:
 
-* Per indirizzo IP: elenca gli indirizzi IP che inviano spam o che potrebbero inviare spam.
-* Per dominio del mittente: elenca i domini del mittente (dominio completo dell’indirizzo e-mail non recapitato) che inviano spam o configurati in modo errato.
-* Per dominio Web: elenca i domini (domini di alto livello registrati con i registrar) che si trovano negli URL dei collegamenti e delle immagini contenuti nel contenuto spam. Nelle soluzioni di Adobe, il dominio da considerare è in genere l’indirizzo utilizzato per il tracciamento.
+* Per indirizzo IP: elenca gli indirizzi IP che inviano spam o che probabilmente inoltrano spam.
+* Per dominio mittente: elenca i domini del mittente (dominio completo dell’indirizzo e-mail non recapitate) che inviano spam o che sono configurati in modo errato.
+* Per dominio web: elenca i domini (domini di alto livello registrati con i registrar) presenti negli URL dei collegamenti e delle immagini contenuti nel contenuto spam. In alcune soluzioni di Adobe, il dominio da considerare è generalmente l’indirizzo utilizzato per il tracciamento.
 
-Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più completo, puoi fare riferimento a [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
+Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più completo, consulta [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **Spamhaus**
 
    Fai riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   Il database è più importante. Essere classificato in questo elenco è generalmente una situazione grave. In tal caso, devi agire immediatamente e avvertire i servizi commerciali, la consegna e [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+   Il database è più importante. Essere classificati in questo elenco è generalmente una situazione grave. In questo caso, devi agire IMMEDIATAMENTE e avvisare i servizi commerciali, la consegna e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
    Fai riferimento a [https://www.spamcop.net/](https://www.spamcop.net/)
 
-   È uno dei database più rinomati. Se uno dei tuoi indirizzi IP è inserito in questo elenco, ciò significa in genere che gli utenti di SpamCop hanno dichiarato i tuoi messaggi come Spam o che hai inviato messaggi a un nido d’ape SpamCop.
+   Si tratta di uno dei database più rinomati. Se uno dei tuoi indirizzi IP viene inserito in questo elenco, ciò significa in genere che gli utenti SpamCop hanno dichiarato che i tuoi messaggi sono spam o che hai inviato messaggi a un honeypot SpamCop.
 
 * **URIBL**
 
    Fai riferimento a [https://www.uribl.com/](https://www.uribl.com/)
 
-   Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. È necessario informare i servizi di recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
+   Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. È necessario informare i servizi di recapito messaggi e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
 
-* **SURBO**
+* **SURBL**
 
    Fai riferimento a [https://surbl.org/](https://surbl.org/)
 
-   SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influenzare in modo significativo il recapito messaggi. È necessario informare i servizi di recapito messaggi e [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
+   SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. È necessario informare i servizi di recapito messaggi e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
 
-* **Manitu iX**
+* **iX Manitu**
 
    Questo è un elenco di IP ed è ampiamente utilizzato in Germania. Fai riferimento a [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 

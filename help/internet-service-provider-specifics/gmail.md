@@ -1,6 +1,6 @@
 ---
 title: Gmail
-description: Gmail costituisce la parte più grande delle liste e-mail della maggior parte dei mittenti. Inoltre, tendono a trattare le e-mail in modo leggermente diverso rispetto agli altri.
+description: Gmail costituisce la maggior parte degli elenchi e-mail della maggior parte dei mittenti. Inoltre, tendono a trattare le e-mail in modo leggermente diverso rispetto agli altri.
 topics: Deliverability
 kt: 5262
 doc-type: article
@@ -16,30 +16,30 @@ ht-degree: 0%
 
 # [!DNL Gmail]
 
-[!DNL Gmail] costituisce la parte più grande delle liste e-mail della maggior parte dei mittenti. Inoltre, tendono a trattare le e-mail in modo leggermente diverso rispetto agli altri.
+[!DNL Gmail] costituisce la maggior parte degli elenchi e-mail della maggior parte dei mittenti. Inoltre, tendono a trattare le e-mail in modo leggermente diverso rispetto agli altri.
 
 Ecco alcuni punti salienti:
 
 ## Quali dati sono importanti
 
-[!DNL Gmail] è incentrato sul feedback degli utenti per molte delle loro decisioni relative ai filtri. Anche se non possiamo conoscere la salsa segreta coinvolta in queste decisioni, ci sono standard comuni che la maggior parte degli esperti di marketing possono monitorare. Le percentuali di apertura e clic forniscono informazioni sul coinvolgimento del pubblico di destinazione e possono essere utilizzate per promuovere una reputazione positiva e un posizionamento elevato della casella in entrata.
+[!DNL Gmail] si concentra sul feedback degli utenti per gran parte delle loro decisioni di filtraggio. Anche se non possiamo conoscere la salsa segreta coinvolta in queste decisioni, ci sono standard comuni che la maggior parte degli esperti di marketing può monitorare. Le percentuali di apertura e clic forniscono informazioni sul coinvolgimento del pubblico di destinazione e possono essere utilizzate per promuovere una reputazione positiva e un posizionamento elevato nella casella in entrata.
 
-## Quali dati sono disponibili
+## Dati disponibili
 
-[!DNL Gmail] fornisce informazioni limitate sul modo in cui visualizzano le pratiche di invio tramite le [!DNL Gmail Postmaster] Strumenti. Questo strumento ti consente di visualizzare ad alto livello la reputazione dell’IP e del dominio di invio, i risultati dell’autenticazione e i problemi relativi ai reclami.
+[!DNL Gmail] fornisce informazioni limitate su come visualizzano le tue pratiche di invio tramite [!DNL Gmail Postmaster] Strumenti. Questo strumento ti consente di avere una visione di alto livello dell’IP di invio e della reputazione del dominio, dei risultati dell’autenticazione e dei problemi relativi ai reclami.
 
 >[!NOTE]
 >
->[!DNL Gmail] non visualizza i dati su tutti i reclami, né facilita un FBL tradizionale. Essi forniscono invece solo dati in determinate circostanze, che in genere comportano volumi elevati e tassi di denuncia molto elevati. Anche se mantenere i reclami al minimo è fondamentale per una buona consegna, è naturale che alcuni reclami vengano filtrati. Se i reclami si bloccano regolarmente a zero, potrebbe indicare un problema che richiede ulteriori indagini.
+>[!DNL Gmail] non visualizza i dati su tutti i reclami, né facilita un FBL tradizionale. Al contrario, forniscono dati solo in determinate circostanze, di solito coinvolgendo sia volumi elevati che tassi di reclami molto elevati. Anche se mantenere i reclami al minimo è fondamentale per una buona consegna, è naturale per alcuni reclami filtrare. Se i reclami sono regolarmente azzerati, potrebbe indicare un problema che richiede ulteriori indagini.
 
-## reputazione del mittente
+## Reputazione mittente
 
-[!DNL Gmail] tiene traccia di IP, dominio e persino reputazione del marchio. La modifica dell’IP o del dominio (o di entrambi) non ti consente di scuotere facilmente una cattiva reputazione. Una correzione rapida o creativa può essere allettante, ma è molto più efficace allocare tempo e sforzi per risolvere la radice di un problema di reputazione per i guadagni di posizionamento della casella in entrata.
+[!DNL Gmail] tiene traccia di IP, dominio e persino reputazione del brand. La modifica dell’IP o del dominio (o di entrambi) non ti consentirà di scuotere facilmente una cattiva reputazione. Una correzione rapida o creativa può essere allettante, ma è molto più efficace allocare tempo e fatica per risolvere la radice di un problema di reputazione per i guadagni di posizionamento nella casella in entrata.
 
-## Informazioni approfondite
+## Insights
 
-[!DNL Gmail] visualizza gli abbonati coinvolti in modo diverso rispetto alla maggior parte dei mittenti tradizionalmente. Un mittente può definire un elenco attivo o attivo come un utente che ha aperto un’e-mail entro 30, 90 o 180 giorni (a seconda del modello di business). [!DNL Gmail], d’altra parte, sta cercando di vedere quanto spesso i loro utenti interagiscono con i tuoi messaggi.
+[!DNL Gmail] visualizza gli abbonati coinvolti in modo diverso rispetto alla maggior parte dei mittenti tradizionalmente. Un mittente può definire un elenco attivo o attivo come qualcuno che ha aperto un’e-mail entro 30, 90 o 180 giorni (a seconda del modello di business). [!DNL Gmail], d’altra parte, sta osservando la frequenza con cui i loro utenti interagiscono con i messaggi.
 
-Ad esempio, se invii 3 e-mail alla settimana per più di 90 giorni, sarebbero circa 39. Utilizzando il metodo tradizionale, se l’utente con sottoscrizione ha aperto una di queste 39 e-mail, è interessato. A [!DNL Gmail], significa che ignorano 38 e-mail e non sono coinvolti. Puoi ottenere una sensazione approssimativa per i livelli di coinvolgimento dei tuoi utenti a [!DNL Gmail] valutandoli in base al conteggio aperto sugli ultimi 10 e-mail. Quindi un utente iscritto associato a 7 aperture delle ultime 10 e-mail è più impegnato di qualcuno che ha aperto 2 delle 10. L’invio di e-mail con minor frequenza agli utenti meno coinvolti ti aiuterà a migliorare la tua reputazione di invio a [!DNL Gmail].
+Ad esempio, se invii 3 e-mail a settimana per 90 giorni, si tratta all’incirca di 39 e-mail. Utilizzando il metodo tradizionale, se l’abbonato ha aperto una di queste 39 e-mail, è coinvolto. A [!DNL Gmail], ciò significa che hanno ignorato 38 e-mail e non sono coinvolti. Puoi ottenere un risultato approssimativo per i livelli di coinvolgimento dei tuoi utenti su [!DNL Gmail] valutandoli in base al numero di messaggi aperti negli ultimi 10 messaggi e-mail. Quindi un abbonato associato a 7 aperture delle ultime 10 e-mail è più coinvolto di qualcuno che ha aperto 2 delle 10. L’invio meno frequente di e-mail a utenti meno coinvolti ti aiuterà a migliorare la tua reputazione di invio all’indirizzo [!DNL Gmail].
 
-[!DNL Gmail] utilizza schede diverse per gli utenti per distinguere diversi tipi di posta. Questi sono *Inbox*, *Social* e *Promozionale*. Anche se la posta viene consegnata nella scheda Promozionale, viene comunque considerata consegna in entrata. Gli utenti hanno il controllo di modificare la visualizzazione e le schede.
+[!DNL Gmail] utilizza schede diverse per consentire agli utenti di distinguere i diversi tipi di posta. Questi sono *Casella in entrata*, *Social*, e *Promozionale*. Anche se la posta viene consegnata nella scheda Promozionale, viene comunque considerata consegna casella in entrata. Gli utenti possono modificare la vista e le schede.

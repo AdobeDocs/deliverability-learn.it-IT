@@ -8,8 +8,8 @@ team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
 source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 33%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ## Novità
 
-Per ulteriori informazioni sugli ultimi aggiornamenti sul recapito messaggi, consulta le seguenti note tecniche .
+Per ulteriori informazioni sugli aggiornamenti recenti sul recapito messaggi, consulta le seguenti note tecniche.
 
-* [Implementare gli indicatori di marchio Gmail per l’identificazione dei messaggi (BIMI)](../technotes/implement-bimi.md)
+* [Implementare gli indicatori del marchio Gmail per l’identificazione dei messaggi (BIMI)](../technotes/implement-bimi.md)
 
 ## Risorse generiche
 
-In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi, ad esempio raccomandazioni e best practice specifiche, altri strumenti o procedure di risoluzione dei problemi.
+In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi, ad esempio consigli specifici e best practice, altri strumenti o procedure per la risoluzione dei problemi.
 
 * [Tutto sulle trappole anti-spam](../../help/additional-resources/all-about-spam-traps.md)
 * [Aumentare la reputazione e-mail con la preparazione degli indirizzi IP](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -39,7 +39,7 @@ In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi,
 
 ## Risorse specifiche per i prodotti
 
-Inoltre, questa sezione elenca una serie di risorse specifiche per prodotto che consentono di implementare il recapito messaggi e raggiungere il successo con le soluzioni di Adobe.
+Inoltre, questa sezione elenca una serie di risorse specifiche per il prodotto utili per implementare il recapito messaggi e raggiungere il successo con le soluzioni di Adobe.
 
 **[!DNL Adobe Campaign]**
 

@@ -1,6 +1,6 @@
 ---
 title: 'Campaign Classic: consigli tecnici'
-description: Scopri tecniche, configurazioni e strumenti che puoi utilizzare per migliorare il tasso di recapito messaggi con Adobe Campaign Classic.
+description: Scopri le tecniche, le configurazioni e gli strumenti che puoi utilizzare per migliorare il tasso di consegna con Adobe Campaign Classic.
 topics: Deliverability
 doc-type: article
 activity: understand
@@ -15,17 +15,17 @@ ht-degree: 1%
 
 # Campaign Classic: consigli tecnici {#technical-recommendations}
 
-Di seguito sono elencate diverse tecniche, configurazioni e strumenti che è possibile utilizzare per migliorare il tasso di consegna quando si utilizza Adobe Campaign Classic.
+Di seguito sono elencate diverse tecniche, configurazioni e strumenti che puoi utilizzare per migliorare il tasso di consegna dei messaggi quando utilizzi Adobe Campaign Classic.
 
 ## Configurazione {#configuration}
 
-### DNS inversi {#reverse-dns}
+### DNS inverso {#reverse-dns}
 
 Adobe Campaign controlla se viene fornito un DNS inverso per un indirizzo IP e che questo punti correttamente all’IP.
 
-Un punto importante nella configurazione della rete è quello di assicurarsi che sia definito un DNS inverso corretto per ciascuno degli indirizzi IP per i messaggi in uscita. Ciò significa che per un dato indirizzo IP, esiste un record DNS inverso (record PTR) con un record DNS corrispondente (record A) che torna all’indirizzo IP iniziale.
+Un punto importante nella configurazione della rete è assicurarsi che per ogni indirizzo IP dei messaggi in uscita sia definito un DNS inverso corretto. Ciò significa che per un determinato indirizzo IP esiste un record DNS inverso (record PTR) con un DNS (record A) corrispondente che esegue il ciclo all’indirizzo IP iniziale.
 
-La scelta del dominio per un DNS inverso ha un impatto quando si tratta di alcuni ISP. AOL, in particolare, accetta solo cicli di feedback con un indirizzo nello stesso dominio del DNS inverso (vedi [Ciclo di feedback](#feedback-loop)).
+La scelta del dominio per un DNS inverso ha un impatto sulla gestione di determinati ISP. AOL, in particolare, accetta solo cicli di feedback con un indirizzo nello stesso dominio del DNS inverso (vedi [Ciclo di feedback](#feedback-loop)).
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ La scelta del dominio per un DNS inverso ha un impatto quando si tratta di alcun
 
 ### Regole MX {#mx-rules}
 
-Le regole MX (Mail eXchanger) sono regole che gestiscono la comunicazione tra un server di invio e un server di ricezione.
+Le regole MX (Mail eXchanger) sono le regole che gestiscono la comunicazione tra un server di invio e un server ricevente.
 
-Più precisamente, vengono utilizzati per controllare la velocità alla quale l’MTA di Adobe Campaign (Message Transfer Agent) invia e-mail a ogni singolo dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Queste regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
+Più precisamente, vengono utilizzati per controllare la velocità con cui l’MTA di Adobe Campaign (Message Transfer Agent) invia e-mail a ogni singolo dominio e-mail o ISP (ad esempio, hotmail.com, comcast.net). Queste regole si basano in genere sui limiti pubblicati dagli ISP (ad esempio, non includono più di 20 messaggi per ogni connessione SMTP).
 
 >[!NOTE]
 >
@@ -43,11 +43,11 @@ Più precisamente, vengono utilizzati per controllare la velocità alla quale l�
 
 ### TLS {#tls}
 
-TLS (Transport Layer Security) è un protocollo di cifratura che può essere utilizzato per proteggere la connessione tra due server e-mail e proteggere il contenuto di un’e-mail da essere letto da qualsiasi utente diverso dai destinatari desiderati.
+TLS (Transport Layer Security) è un protocollo di crittografia che può essere utilizzato per proteggere la connessione tra due server e-mail e proteggere il contenuto di un’e-mail dall’essere letto da chiunque non sia il destinatario desiderato.
 
 ### Dominio del mittente {#sender-domain}
 
-Per definire il dominio utilizzato per il comando HELO, modifica il file di configurazione dell’istanza (conf/config-instance.xml) e definisci un attributo &quot;localDomain&quot; come segue:
+Per definire il dominio utilizzato per il comando HELO, modificare il file di configurazione dell&#39;istanza (conf/config-instance.xml) e definire un attributo &quot;localDomain&quot; come segue:
 
 ```
 <serverConf>
@@ -57,22 +57,22 @@ Per definire il dominio utilizzato per il comando HELO, modifica il file di conf
 </serverConf>
 ```
 
-Il dominio MAIL FROM è il dominio utilizzato nei messaggi non recapitati tecnici. Questo indirizzo viene definito nella procedura guidata di distribuzione o tramite l’opzione NmsEmail_DefaultErrorAddr.
+Il dominio MAIL FROM è il dominio utilizzato nei messaggi tecnici di mancato recapito. Questo indirizzo è definito nella procedura guidata di distribuzione o tramite l&#39;opzione NmsEmail_DefaultErrorAddr.
 
 ### Record SPF {#dns-configuration}
 
-Un record SPF può attualmente essere definito su un server DNS come record di tipo TXT (codice 16) o come record di tipo SPF (codice 99). Un record SPF assume la forma di una stringa di caratteri. Esempio:
+Attualmente un record SPF può essere definito su un server DNS come record di tipo TXT (codice 16) o record di tipo SPF (codice 99). Un record SPF assume la forma di una stringa di caratteri. Ad esempio:
 
 ```
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-definisce i due indirizzi IP 12.34.56.78 e 12.34.56.79 come autorizzati a inviare e-mail per il dominio. **~all** significa che qualsiasi altro indirizzo deve essere interpretato come SoftFail.
+definisce i due indirizzi IP, 12.34.56.78 e 12.34.56.79, come autorizzati a inviare e-mail per il dominio. **~tutti** significa che qualsiasi altro indirizzo deve essere interpretato come SoftFail.
 
-Recommendations per la definizione di un record SPF:
+Recommendations per definire un record SPF:
 
-* Aggiungi **~all** (SoftFail) o **-all** (Non riuscito) alla fine di rifiutare tutti i server diversi da quelli definiti. In caso contrario, i server saranno in grado di creare questo dominio (con una valutazione neutra).
-* Non aggiungere **ptr** (openspf.org consiglia contro questo come costoso e inaffidabile).
+* Aggiungi **~tutti** (SoftFail) o **-all** (Non riuscito) alla fine per rifiutare tutti i server diversi da quelli definiti. In caso contrario, i server saranno in grado di forgiare questo dominio (con una valutazione neutra).
+* Non aggiungere **ptr** (openspf.org consiglia di non farlo come costoso e inaffidabile).
 
 >[!NOTE]
 >
@@ -82,50 +82,50 @@ Recommendations per la definizione di un record SPF:
 
 >[!NOTE]
 >
->Ulteriori informazioni sulle diverse forme di autenticazione delle e-mail in [questa sezione](/help/additional-resources/authentication.md).
+>Ulteriori informazioni sui diversi tipi di autenticazione delle e-mail disponibili in [questa sezione](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
 >[!NOTE]
 >
->Per le installazioni in hosting o ibride, se hai effettuato l’aggiornamento al [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), la firma di autenticazione dell’e-mail DKIM viene eseguita dall’MTA avanzato per tutti i messaggi con tutti i domini.
+>Per le installazioni in hosting o ibride, se hai effettuato l’aggiornamento al [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), la firma di autenticazione dell’e-mail DKIM viene eseguita dall’MTA avanzato per tutti i messaggi di tutti i domini.
 
-Utilizzo [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic richiede il seguente prerequisito:
+Utilizzo di [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic richiede i seguenti prerequisiti:
 
-**Dichiarazione di opzione Adobe Campaign**: in Adobe Campaign, la chiave privata DKIM è basata su un selettore DKIM e su un dominio. Al momento non è possibile creare più chiavi private per lo stesso dominio/sottodominio con diversi selettori. Non è possibile definire quale dominio/sottodominio del selettore deve essere utilizzato per l’autenticazione né nella piattaforma né nell’e-mail. In alternativa, la piattaforma selezionerà una delle chiavi private, il che significa che l’autenticazione ha un’alta probabilità di errore.
+**Dichiarazione di opzione Adobe Campaign**: in Adobe Campaign, la chiave privata DKIM si basa su un selettore DKIM e un dominio. Attualmente non è possibile creare più chiavi private per lo stesso dominio/sottodominio con selettori diversi. Non è possibile definire quale dominio/sottodominio selettore deve essere utilizzato per l’autenticazione né nella piattaforma né nell’e-mail. In alternativa, la piattaforma selezionerà una delle chiavi private, il che significa che l’autenticazione ha un’alta probabilità di non riuscire.
 
-* Se hai configurato DomainKeys per la tua istanza Adobe Campaign, devi solo selezionare **oscurare** in [Regole di gestione del dominio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
-* Non è necessario abilitare sia DomainKeys che DKIM per lo stesso dominio di DKIM è una versione migliorata di DomainKeys.
+* Se hai configurato DomainKeys per la tua istanza di Adobe Campaign, devi solo selezionare **dkim** nel [Regole di gestione dei domini](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
+* Non è necessario abilitare sia DomainKeys che DKIM per lo stesso dominio in quanto DKIM è una versione migliorata di DomainKeys.
 * I seguenti domini attualmente convalidano DKIM: AOL, Gmail.
 
 ## Ciclo di feedback {#feedback-loop-acc}
 
-Un ciclo di feedback funziona dichiarando a livello di ISP un determinato indirizzo e-mail per una serie di indirizzi IP utilizzati per l’invio di messaggi. L&#39;ISP invierà a questa cassetta postale, in modo simile a quello che viene fatto per i messaggi non recapitati, quei messaggi che i destinatari segnalano come spam. La piattaforma deve essere configurata per bloccare le consegne future agli utenti che hanno presentato reclamo. È importante non contattarli più anche se non hanno utilizzato il collegamento di rinuncia appropriato. Si basa su queste lamentele che un ISP aggiungerà un indirizzo IP al suo elenco Bloccati. A seconda dell&#39;ISP, un tasso di reclamo di circa l&#39;1% comporterà il blocco di un indirizzo IP.
+Un ciclo di feedback funziona dichiarando a livello di ISP un determinato indirizzo e-mail per un intervallo di indirizzi IP utilizzati per l’invio dei messaggi. L’ISP invierà a questa casella di posta, in modo simile a quanto avviene per i messaggi non recapitati, i messaggi segnalati dai destinatari come spam. La piattaforma deve essere configurata per bloccare le consegne future agli utenti che hanno sporto reclamo. È importante non contattarli più anche se non hanno utilizzato il collegamento di rinuncia appropriato. È sulla base di questi reclami che un ISP aggiungerà un indirizzo IP al suo inserisco nell&#39;elenco Bloccati di. A seconda dell’ISP, un tasso di reclami dell’1% circa determinerà il blocco di un indirizzo IP.
 
-È attualmente in fase di elaborazione uno standard per definire il formato dei messaggi del ciclo di feedback: la [Formato ARF (Abuse Feedback Reporting Format)](https://tools.ietf.org/html/rfc6650).
+Attualmente è in fase di elaborazione uno standard per definire il formato dei messaggi del ciclo di feedback: [Formato di segnalazione dei feedback sugli abusi (ARF)](https://tools.ietf.org/html/rfc6650).
 
-L&#39;implementazione di un ciclo di feedback per un&#39;istanza richiede:
+L’implementazione di un ciclo di feedback per un’istanza richiede:
 
-* Una cassetta postale dedicata all&#39;istanza, che può essere la cassetta postale di rimbalzo
-* Indirizzi IP di invio dedicati all’istanza
+* Una cassetta postale dedicata all’istanza, che può essere la cassetta postale di mancato recapito
+* Indirizzi di invio IP dedicati all’istanza
 
-L’implementazione di un semplice ciclo di feedback in Adobe Campaign utilizza la funzionalità messaggio non recapitato. La cassetta postale del ciclo di feedback viene utilizzata come cassetta postale non recapitata e viene definita una regola per rilevare questi messaggi. Gli indirizzi e-mail dei destinatari che hanno segnalato il messaggio come spam verranno aggiunti all’elenco di quarantena.
+L’implementazione di un semplice ciclo di feedback in Adobe Campaign utilizza la funzionalità per messaggi non recapitati. La cassetta postale del ciclo di feedback viene utilizzata come cassetta postale di mancato recapito e viene definita una regola per rilevare questi messaggi. Gli indirizzi e-mail dei destinatari che hanno segnalato il messaggio come spam verranno aggiunti all’elenco di quarantena.
 
-* Creare o modificare una regola di posta non recapitata, **Feedback_loop**, in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** con il motivo **Rifiutato** e il tipo **Duro**.
-* Se una casella di posta è stata definita appositamente per il ciclo di feedback, definisci i parametri per accedervi creando un nuovo account Bounce Mails esterno in **[!UICONTROL Administration > Platform > External accounts]**.
+* Creare o modificare una regola di mail non recapitate, **Feedback_loop**, in **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Mail rule sets]** con il motivo **Rifiutato** e il tipo **Rigido**.
+* Se una cassetta postale è stata definita appositamente per il ciclo di feedback, definisci i parametri per accedervi creando un nuovo account e-mail non recapitate esterno in **[!UICONTROL Administration > Platform > External accounts]**.
 
-Il meccanismo è immediatamente operativo per il trattamento delle notifiche di reclamo. Per assicurarsi che questa regola funzioni correttamente, è possibile disattivare temporaneamente gli account in modo che non raccolgano questi messaggi, quindi controllare manualmente il contenuto della cassetta postale del ciclo di feedback. Sul server, esegui i seguenti comandi:
+Il meccanismo è immediatamente operativo per elaborare le notifiche di reclamo. Per assicurarti che questa regola funzioni correttamente, puoi disattivare temporaneamente gli account in modo che non raccolgano questi messaggi, quindi controllare manualmente il contenuto della cassetta postale del ciclo di feedback. Sul server, eseguire i seguenti comandi:
 
 ```
 nlserver stop inMail@instance,
 nlserver inMail -instance:instance -verbose.
 ```
 
-Se sei costretto a utilizzare un unico indirizzo del ciclo di feedback per più istanze, devi:
+Se si è costretti a utilizzare un unico indirizzo di feedback per più istanze, è necessario:
 
-* Replicare i messaggi ricevuti su un numero di cassette postali pari a quello delle istanze,
-* far sì che ogni cassetta postale venga prelevata da un&#39;unica istanza,
-* Configura le istanze in modo che elaborino solo i messaggi che le riguardano: le informazioni sull’istanza sono incluse nell’intestazione Message-ID dei messaggi inviati da Adobe Campaign e si trovano quindi anche nei messaggi del ciclo di feedback. È sufficiente specificare il **checkInstanceName** nel file di configurazione dell&#39;istanza (per impostazione predefinita, l&#39;istanza non viene verificata e questo potrebbe causare una quarantena errata di alcuni indirizzi):
+* Replica i messaggi ricevuti su tutte le cassette postali esistenti.
+* Ciascuna cassetta postale deve essere selezionata da una singola istanza,
+* Configura le istanze in modo che elaborino solo i messaggi che le riguardano: le informazioni sull’istanza sono incluse nell’intestazione Message-ID dei messaggi inviati da Adobe Campaign e si trovano quindi anche nei messaggi del ciclo di feedback. È sufficiente specificare **checkInstanceName** parametro nel file di configurazione dell’istanza (per impostazione predefinita, l’istanza non viene verificata e questo potrebbe causare una quarantena errata per alcuni indirizzi):
 
    ```
    <serverConf>
@@ -133,19 +133,19 @@ Se sei costretto a utilizzare un unico indirizzo del ciclo di feedback per più 
    </serverConf>
    ```
 
-Il servizio Adobe Campaign Deliverability gestisce l’abbonamento a servizi di loop di feedback per i seguenti ISP: AOL, BlueTie, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
+Il servizio di recapito messaggi di Adobe Campaign gestisce l’abbonamento ai servizi del ciclo di feedback per i seguenti ISP: AOL, BlueTime, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 
-## Annulla sottoscrizione elenco {#list-unsubscribe}
+## Annullamento iscrizione mailing list {#list-unsubscribe}
 
-### Informazioni sull’annullamento della sottoscrizione a un elenco {#about-list-unsubscribe}
+### Informazioni sull’annullamento dell’iscrizione a un elenco {#about-list-unsubscribe}
 
-Aggiunta di un&#39;intestazione SMTP denominata **Annulla sottoscrizione elenco** è obbligatorio per garantire una gestione ottimale del recapito messaggi.
+Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale della consegna dei messaggi.
 
-Questa intestazione può essere utilizzata come alternativa all’icona &quot;Report as SPAM&quot;. Verrà visualizzato come collegamento di annullamento all’abbonamento nell’interfaccia e-mail.
+Questa intestazione può essere utilizzata in alternativa all’icona &quot;Segnala come SPAM&quot;. Viene visualizzato come collegamento di annullamento dell’abbonamento nell’interfaccia e-mail.
 
-L’utilizzo di questa funzionalità consente di proteggere la reputazione e il feedback verrà eseguito come annullamento dell’abbonamento.
+L’utilizzo di questa funzionalità consente di proteggere la reputazione dell’utente e il feedback verrà eseguito come annullamento dell’abbonamento.
 
-Per utilizzare Annulla sottoscrizione a elenco, è necessario immettere una riga di comando simile alla seguente:
+Per utilizzare Annulla sottoscrizione elenco, è necessario immettere una riga di comando simile alla seguente:
 
 ```
 List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
@@ -153,17 +153,17 @@ List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body
 
 >[!CAUTION]
 >
->L’esempio precedente è basato sulla tabella dei destinatari. Se l’implementazione del database viene eseguita da un’altra tabella, assicurati di ripetere la riga di comando con le informazioni corrette.
+>L’esempio precedente si basa sulla tabella dei destinatari. Se l&#39;implementazione del database viene eseguita da un&#39;altra tabella, assicurarsi di ridigitare le informazioni corrette nella riga di comando.
 
-È possibile utilizzare la seguente riga di comando per creare un **Annulla sottoscrizione elenco**:
+Per creare una dinamica è possibile utilizzare la riga di comando seguente **Annullamento iscrizione mailing list**:
 
 ```
 List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
 ```
 
-Gmail, Outlook.com e Microsoft Outlook supportano questo metodo e un pulsante di annullamento della sottoscrizione è disponibile direttamente nella loro interfaccia. Questa tecnica riduce i tassi di reclamo.
+Gmail, Outlook.com e Microsoft Outlook supportano questo metodo e un pulsante per annullare l’abbonamento è disponibile direttamente nell’interfaccia. Questa tecnica riduce la percentuale di reclami.
 
-Puoi implementare la **Annulla sottoscrizione elenco** mediante:
+Puoi implementare **Annullamento iscrizione mailing list** mediante:
 
 * Direttamente [aggiunta della riga di comando nel modello di consegna](#adding-a-command-line-in-a-delivery-template)
 * [Creazione di una regola di tipologia](#creating-a-typology-rule)
@@ -172,23 +172,23 @@ Puoi implementare la **Annulla sottoscrizione elenco** mediante:
 
 La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestazione SMTP dell’e-mail.
 
-Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che includa questa funzionalità.
+Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
 
-La regola deve contenere lo script che genera la riga di comando e deve essere inclusa nell’intestazione dell’e-mail.
+La regola deve contenere lo script che genera la riga di comando e deve essere inclusa nell’intestazione e-mail.
 
 >[!NOTE]
 >
->È consigliabile creare una regola di tipologia: la funzionalità Annulla iscrizione verrà aggiunta automaticamente in ogni e-mail.
+>È consigliabile creare una regola di tipologia: la funzionalità Annulla iscrizione a mailing list verrà aggiunta automaticamente in ogni e-mail.
 
-1. Annulla sottoscrizione elenco: &lt;mailto:unsubscribe domain.com=&quot;&quot;>
+1. Annullamento iscrizione a mailing list: &lt;mailto:unsubscribe domain.com=&quot;&quot;>
 
-   Fai clic su **annullare** apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per creare le e-mail.
+   Facendo clic su **annulla iscrizione** link apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
 
-1. Annulla sottoscrizione elenco: `<https://domain.com/unsubscribe.jsp>`
+1. Annullamento iscrizione a mailing list: `<https://domain.com/unsubscribe.jsp>`
 
-   Fai clic su **annullare** il collegamento reindirizza l’utente al modulo di annullamento dell’abbonamento.
+   Facendo clic su **annulla iscrizione** link reindirizza l&#39;utente al modulo di annullamento dell&#39;abbonamento.
 
    Esempio:
 
@@ -198,16 +198,16 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 >
 >Scopri come creare regole di tipologia in Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-## Ottimizzazione e-mail {#email-optimization}
+## Ottimizzazione delle e-mail {#email-optimization}
 
 ### SMTP {#smtp}
 
-SMTP (protocollo di trasferimento semplice della posta) è uno standard Internet per la trasmissione delle e-mail.
+SMTP (Simple Mail Transfer Protocol) è uno standard Internet per la trasmissione di e-mail.
 
-Gli errori SMTP non controllati da una regola sono elencati nella **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** cartella. Questi messaggi di errore vengono interpretati per impostazione predefinita come errori soft irraggiungibili.
+Gli errori SMTP che non sono controllati da una regola sono elencati nella **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** cartella. Per impostazione predefinita, questi messaggi di errore vengono interpretati come errori soft non raggiungibili.
 
-Gli errori più comuni devono essere identificati e deve essere aggiunta una regola corrispondente in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** se si desidera qualificare correttamente il feedback dai server SMTP. In caso contrario, la piattaforma eseguirà tentativi non necessari (in caso di utenti sconosciuti) o metterà erroneamente in quarantena alcuni destinatari dopo un determinato numero di test.
+È necessario identificare gli errori più comuni e aggiungere una regola corrispondente in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** se desideri qualificare correttamente il feedback dai server SMTP. In caso contrario, la piattaforma eseguirà nuovi tentativi non necessari (nel caso di utenti sconosciuti) o metterà erroneamente in quarantena alcuni destinatari dopo un determinato numero di test.
 
 ### IP dedicati {#dedicated-ips}
 
-Adobe fornisce una strategia IP dedicata per ogni cliente con un IP di espansione per costruire una reputazione e ottimizzare le prestazioni di consegna.
+Adobe fornisce una strategia IP dedicata per ogni cliente con un IP incrementale al fine di creare una reputazione e ottimizzare le prestazioni di consegna.

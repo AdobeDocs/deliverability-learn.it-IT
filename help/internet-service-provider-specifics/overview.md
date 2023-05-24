@@ -1,6 +1,6 @@
 ---
 title: Specifiche del fornitore di servizi Internet
-description: Gli ISP non sono tutti uguali. Si concentrano su cose diverse quando si determinano quali e-mail consentire attraverso la casella in entrata dei loro utenti e quali e-mail vengono filtrate nella cartella spam o non lasciate passare affatto. Faremo un breve giro delle importanti differenze tra una manciata di ISP. Non deve essere un elenco completo di tutti gli ISP o coprire tutte le possibili differenze.
+description: Gli ISP non sono tutti uguali. Si concentrano su elementi diversi quando determinano quale e-mail consentire all’utente di passare nella sua casella in entrata e quale e-mail viene filtrata nella cartella di posta indesiderata o non viene lasciata passare. Presenteremo brevemente le differenze più importanti tra pochi ISP. Non deve essere un elenco completo di tutti gli ISP o coprire tutte le possibili differenze.
 topics: Deliverability
 kt: null
 doc-type: article
@@ -16,9 +16,9 @@ ht-degree: 14%
 
 # Specifiche del fornitore di servizi Internet
 
-Gli ISP non sono tutti uguali. Si concentrano su cose diverse quando si determinano quali e-mail consentire attraverso la casella in entrata dei loro utenti e quali e-mail vengono filtrate nella cartella spam o non lasciate passare affatto.
+Gli ISP non sono tutti uguali. Si concentrano su elementi diversi quando determinano quale e-mail consentire all’utente di passare nella sua casella in entrata e quale e-mail viene filtrata nella cartella di posta indesiderata o non viene lasciata passare.
 
-Faremo un breve giro delle importanti differenze tra una manciata di ISP. Non deve essere un elenco completo di tutti gli ISP o coprire tutte le possibili differenze.
+Presenteremo brevemente le differenze più importanti tra pochi ISP. Non deve essere un elenco completo di tutti gli ISP o coprire tutte le possibili differenze.
 
 * [Gmail](./gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, ecc.)](./microsoft.md)
