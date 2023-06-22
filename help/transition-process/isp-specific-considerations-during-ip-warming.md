@@ -2,13 +2,13 @@
 title: Considerazioni specifiche dell’ISP durante il riscaldamento dell’IP
 description: Gli ISP hanno regole diverse e modi diversi di esaminare il loro traffico. Questo richiede un piano personalizzato che esegua il targeting solo degli utenti con il coinvolgimento più elevato all’inizio.
 topics: Deliverability
-kt: 7054
+jira: KT-7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
-source-git-commit: 4d82aa498ce155919dde24aa695a8848351763a6
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 16%
