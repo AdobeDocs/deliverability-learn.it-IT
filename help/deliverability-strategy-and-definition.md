@@ -2,15 +2,15 @@
 title: Strategia e definizione di consegna dei messaggi
 description: Scopri come viene definita la consegna dei messaggi, perché è importante e le relative metriche chiave.
 topics: Deliverability
-kt: 5255
+jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
-source-wordcount: '843'
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,7 @@ La conversione è fondamentale, ma qual è l’alternativa? La tua strategia di 
 
 | Inviate | Percentuale | Consegnate | Percentuale | Casella in entrata | Numero non nella casella in entrata | Tasso di conversione | Numero di perse | Medio | Perse |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
-|  | consegnate |  | casella in entrata |  |  |  | Conversioni | acquisto | ricavi |
+|      | consegnate |           | casella in entrata |       |                     |                 | Conversioni | acquisto | ricavi |
 | 100.000 | 99% | 99.000 | 100% | 99.000 | - | 2% | 0 | $ 100 | $ - |
 | 100.000 | 99% | 99.000 | 90% | 89.100 | 9.900 | 2% | 198 | $ 100 | $ 19.800 |
 | 100.000 | 99% | 99.000 | 80% | 79.200 | 19.800 | 2% | 396 | $ 100 | $ 39.600 |
