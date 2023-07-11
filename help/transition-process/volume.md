@@ -6,9 +6,11 @@ jira: KT-7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
+role: Admin,User
+level: Beginner
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 1%
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 # Volume
 
-Il volume di posta che stai inviando è fondamentale per stabilire una reputazione positiva. Mettiti nei panni di un ISP — se cominci a vedere un sacco di traffico proveniente da qualcuno che non conosci, sarebbe allarmante. L’invio immediato di grandi volumi di posta è rischioso ed è sicuro di causare problemi di reputazione che sono spesso difficili da risolvere. Può essere frustrante, dispendioso in termini di tempo e costi tirarsi fuori da una cattiva reputazione e risolvere i problemi di massa e blocco derivanti dall’invio troppo presto.
+Il volume di posta che stai inviando è fondamentale per stabilire una reputazione positiva. Mettetevi nei panni di un ISP — se cominciate a vedere una tonnellata di traffico proveniente da qualcuno che non conoscete, sarebbe allarmante. L’invio immediato di grandi volumi di posta è rischioso ed è sicuro di causare problemi di reputazione che sono spesso difficili da risolvere. Può essere frustrante, dispendioso in termini di tempo e costi tirarsi fuori da una cattiva reputazione e risolvere i problemi di massa e blocco derivanti dall’invio troppo presto.
 
 Le soglie del volume variano a seconda dell’ISP e possono anche variare a seconda delle metriche medie di coinvolgimento. Alcuni mittenti richiedono una rampa di volume molto bassa e lenta, mentre altri possono consentire una rampa di volume più ripida. È consigliabile collaborare con un esperto, come un Adobe di consulente per il recapito di messaggi, per sviluppare un piano personalizzato per i volumi.
 
@@ -28,13 +30,13 @@ Di seguito è riportato un elenco di suggerimenti per una transizione fluida:
 * A **strategia di mailing in tandem** consente di incrementare il volume su Campaign e allo stesso tempo di terminare con l’ESP corrente, senza interrompere il calendario delle e-mail.
 * **Questioni relative al coinvolgimento** — inizia con gli abbonati che aprono e cliccano regolarmente le e-mail.
 * **Segui il piano** : i nostri consigli hanno aiutato centinaia di clienti di Campaign a incrementare con successo i propri programmi e-mail.
-* **Monitora l’account e-mail di risposta**. È una brutta esperienza per il cliente usare noreply@xyz.com o non rispondere.
+* **Monitora l’account e-mail di risposta**. Utilizzare noreply@xyz.com o non rispondere è una cattiva esperienza per il cliente.
 * Gli indirizzi inattivi possono avere un impatto negativo sul recapito messaggi. **Riattiva e riautorizza sulla piattaforma corrente**, non i nuovi IP.
-* **Domini** : utilizza un dominio di invio che è un sottodominio del dominio effettivo della tua azienda
+* **Domini** — utilizza un dominio di invio che è un sottodominio del dominio effettivo della tua azienda
    * Ad esempio, se il dominio dell&#39;azienda è xyz.com, email.xyz.com fornisce maggiore credibilità agli ISP rispetto a xyzemail.com
-* **Trasparenza** — i dettagli di registrazione per il dominio e-mail devono essere disponibili pubblicamente e non devono essere privati.
+* **Trasparenza** — i dettagli di registrazione per il dominio e-mail devono essere pubblici e non privati.
 
-In molte circostanze, la posta transazionale non segue il tradizionale approccio di riscaldamento promozionale. È ovviamente difficile controllare il volume nella posta transazionale a causa della sua natura, in quanto in genere richiede un’interazione dell’utente per attivare il contatto e-mail. In alcuni casi, la posta transazionale può essere semplicemente trasferita senza un piano formale. In altri casi, potrebbe essere meglio effettuare la transizione di ciascun tipo di messaggio nel tempo per aumentare lentamente il volume. Ad esempio, potrebbe essere utile effettuare la transizione nel modo seguente:
+In molte circostanze, la posta transazionale non segue il tradizionale approccio di riscaldamento promozionale. È ovviamente difficile controllare il volume nella posta transazionale a causa della sua natura, in quanto in genere richiede un’interazione dell’utente per attivare il contatto con l’e-mail. In alcuni casi, la posta transazionale può essere semplicemente trasferita senza un piano formale. In altri casi, potrebbe essere meglio effettuare la transizione di ciascun tipo di messaggio nel tempo per aumentare lentamente il volume. Ad esempio, potrebbe essere utile effettuare la transizione nel modo seguente:
 
 1. Conferme di acquisto — Coinvolgimento elevato in generale
 2. Abbandono del carrello: coinvolgimento medio-alto in genere

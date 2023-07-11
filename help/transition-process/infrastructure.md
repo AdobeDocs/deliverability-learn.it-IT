@@ -6,9 +6,11 @@ jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader
+level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 2%
@@ -37,7 +39,7 @@ Parte del processo di onboarding per i nuovi mittenti sulle piattaforme Adobe in
 * **Troppi IP** può causare problemi di reputazione in quanto è una tattica comune di spammer per **snowshoe**, una tattica utilizzata dagli spammer in cui il traffico viene distribuito su molti IP per massimizzare la consegna di posta indesiderata. Anche se non sei uno spammer, potresti sembrarne uno se utilizzi troppi IP, soprattutto se quegli IP non hanno avuto traffico in precedenza.
 * **Numero insufficiente di IP** può causare problemi di velocità effettiva e potenzialmente innescare problemi di reputazione. Il throughput varia a seconda dell&#39;ISP. La quantità e la rapidità con cui un ISP è disposto ad accettare dipendono in genere dall’infrastruttura e dalle soglie di reputazione di invio.
 * La separazione del traffico per i tipi di messaggistica è fondamentale. È importante, come minimo, separare la posta di marketing e quella transazionale su pool IP separati.
-* A seconda della strategia di posta, se la tua reputazione è drasticamente diversa, potrebbe essere consigliabile separare prodotti o flussi di marketing diversi su pool IP diversi. Alcuni esperti di marketing segmentano anche per area geografica. Separare l’IP per il traffico con una reputazione inferiore non corregge il problema di reputazione, ma evita i problemi con le consegne e-mail di reputazione &quot;buona&quot;. Dopotutto, non si vuole sacrificare il proprio buon pubblico per uno più rischioso.
+* A seconda della strategia di posta, se la tua reputazione è drasticamente diversa, potrebbe essere consigliabile separare prodotti o flussi di marketing diversi su pool IP diversi. Alcuni esperti di marketing segmentano anche per area geografica. Separare l’IP per il traffico con una reputazione inferiore non corregge il problema di reputazione, ma evita i problemi con le consegne e-mail di reputazione &quot;buona&quot;. Dopo tutto, non si vuole sacrificare il proprio buon pubblico per uno più rischioso.
 
 ## Cicli di feedback {#feedback-loops}
 
@@ -45,7 +47,7 @@ Dietro le quinte, le piattaforme di Adobe elaborano i dati relativi a mancati re
 
 ## Autenticazione {#authentication}
 
-L’autenticazione è il processo utilizzato dagli ISP per convalidare l’identità di un mittente. I due protocolli di autenticazione più comuni sono [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM) Questi messaggi non sono visibili all’utente finale, ma aiutano gli ISP a filtrare i messaggi e-mail dai mittenti verificati. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) sta guadagnando popolarità, anche se i suoi criteri non sono ancora incorporati da tutti gli ISP nei loro sistemi di reputazione.
+L’autenticazione è il processo utilizzato dagli ISP per convalidare l’identità di un mittente. I due protocolli di autenticazione più comuni sono [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM) Questi messaggi non sono visibili all’utente finale, ma aiutano gli ISP a filtrare i messaggi e-mail dai mittenti verificati. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) sta guadagnando popolarità, anche se le sue politiche non sono ancora incorporate da tutti gli ISP nei loro sistemi di reputazione.
 
 ### SPF
 

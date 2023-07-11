@@ -5,9 +5,11 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 2%
@@ -26,11 +28,11 @@ Ecco alcuni punti salienti:
 
 ## Quali dati rendono disponibili
 
-[!DNL Microsoft]strumento proprietario di comunicazione al mittente, [!DNL Smart Network Data Services] (SNDS), consente di visualizzare le metriche relative alla quantità di posta che si sta inviando e alla quantità di posta accettata, nonché ai reclami e alle trappole spam. Tieni presente che i dati condivisi sono di esempio e non riflettono numeri esatti, ma è meglio rappresentare come [!DNL Microsoft] ti vede come mittente. [!DNL Microsoft] non fornisce pubblicamente informazioni sul gruppo di utenti trusted, ma tali dati sono disponibili tramite [!DNL Return Path Certification] per un costo aggiuntivo.
+[!DNL Microsoft]strumento proprietario di segnalazione del mittente, [!DNL Smart Network Data Services] (SNDS), consente di visualizzare le metriche relative alla quantità di posta che si sta inviando e alla quantità di posta accettata, nonché ai reclami e alle trappole spam. Tieni presente che i dati condivisi sono di esempio e non riflettono numeri esatti, ma è meglio rappresentare come [!DNL Microsoft] ti vede come mittente. [!DNL Microsoft] non fornisce pubblicamente informazioni sul gruppo di utenti trusted, ma tali dati sono disponibili tramite [!DNL Return Path Certification] per un costo aggiuntivo.
 
 ## Reputazione mittente
 
-[!DNL Microsoft] tradizionalmente si è concentrato sull’invio di IP nelle valutazioni della reputazione e nelle decisioni di filtro. Inoltre, stanno lavorando attivamente per espandere le funzionalità del dominio di invio. Entrambi sono in gran parte guidati dai tradizionali influencer della reputazione, come reclami e trappole spam. Il recapito messaggi può anche essere fortemente influenzato dal programma di certificazione del percorso di ritorno, che ha specifici requisiti di programma quantitativi e qualitativi.
+[!DNL Microsoft] tradizionalmente si è concentrato sull’invio di IP nelle valutazioni della reputazione e nelle decisioni di filtro. Inoltre, stanno lavorando attivamente all’espansione delle funzionalità del dominio di invio. Entrambi sono in gran parte guidati dai tradizionali influencer della reputazione, come reclami e trappole spam. Il recapito messaggi può anche essere fortemente influenzato dal programma di certificazione del percorso di ritorno, che ha specifici requisiti di programma quantitativi e qualitativi.
 
 ## Insights
 

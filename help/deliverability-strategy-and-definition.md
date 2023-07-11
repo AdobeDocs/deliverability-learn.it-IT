@@ -6,18 +6,20 @@ jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: ht
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
-# Strategia e definizione di consegna
+# Consegna strategia e definizione
 
-La progettazione di campagne di e-mail marketing di successo si basa su una chiara comprensione degli obiettivi di marketing, che si tratti di iniziative di ricerca di potenziali clienti o di gestione delle relazioni con i clienti (Customer Relationship Management, CRM). Questo aiuta a determinare il target, cosa promuovere e quando l’estensione è ideale.
+La progettazione di campagne di e-mail marketing di successo dipende dalla chiara comprensione degli obiettivi di marketing, che si tratti di iniziative di ricerca di potenziali clienti o di gestione delle relazioni con i clienti (Customer Relationship Management, CRM). Questo aiuta a determinare il target, cosa promuovere e quando l’estensione è ideale.
 
 Di seguito sono riportati alcuni esempi di obiettivi di strategie di e-mail marketing:
 
@@ -30,17 +32,17 @@ Di seguito sono riportati alcuni esempi di obiettivi di strategie di e-mail mark
 
 ## Definizione di consegna dei messaggi
 
-Esistono due metriche chiave per la definizione di consegna dei messaggi. Il *tasso di consegna*, ovvero la percentuale di e-mail che viene consegnata e accettata dall’ISP. Il *posizionamento nella casella in entrata*, che viene applicato ai messaggi accettati dall’ISP e determina se l’e-mail viene consegnata nella casella in entrata o nella cartella di posta indesiderata.
+Esistono due metriche chiave per la definizione di consegna dei messaggi. Il *tasso di consegna* è la percentuale di e-mail che non vengono inviate e che sono accettate dall’ISP. Il *posizionamento nella casella in entrata*, che viene applicato ai messaggi accettati dall’ISP e determina se l’e-mail viene consegnata nella casella in entrata o nella cartella di posta indesiderata.
 
 È importante considerare il tasso di consegna in relazione al posizionamento nella casella in entrata durante la misurazione delle prestazioni delle e-mail. Un tasso di consegna elevato non è l’unico aspetto della consegna dei messaggi. Solo perché un messaggio viene ricevuto tramite un punto di controllo iniziale di un ISP non significa necessariamente che l’abbonato abbia visto la comunicazione e interagito con essa.
 
 ## Perché la consegna dei messaggi è importante
 
-Dovresti sapere se le tue e-mail vengono consegnate o se vengono recapitate nella casella in entrata piuttosto che nella cartella di posta indesiderata. Ecco il motivo.
+Se non sai se le tue e-mail vengono consegnate o se vengono recapitate nella casella in entrata rispetto alla cartella di posta indesiderata, dovresti sapere. Ecco il perché.
 
-Vengono dedicate numerose ore di lavoro alla pianificazione e alla produzione delle campagne e-mail. Se le e-mail non vengono consegnate o vengono consegnate nella cartella di posta indesiderata degli abbonati, i clienti probabilmente non le leggeranno, il CTA (invito all’azione) non sarà riconosciuto e non raggiungerai gli obiettivi di profitto a causa della perdita di conversioni. In parole povere, non puoi permetterti di ignorare la consegna dei messaggi. È fondamentale per il successo delle attività di e-mail marketing e degli obiettivi.
+Vengono dedicate numerose ore di lavoro alla pianificazione e alla produzione delle campagne e-mail. Se le e-mail non vengono consegnate o vengono consegnate nella cartella di posta indesiderata degli abbonati, i clienti probabilmente non le leggeranno, il CTA (invito all’azione) non verrà riconosciuto e non raggiungerai gli obiettivi di profitto a causa della perdita di conversioni. In parole povere, non puoi permetterti di ignorare il recapito messaggi. È fondamentale per il successo delle attività di e-mail marketing e degli obiettivi.
 
-Le procedure consigliate per la consegna dei messaggi consentono di garantire al meglio le possibilità di apertura, clic e l’obiettivo finale, ovvero la conversione. Potresti scrivere un oggetto geniale e proporre immagini bellissime e contenuti coinvolgenti. Ma se l’e-mail non viene consegnata, non c’è alcuna opportunità di conversione del cliente. Nel complesso, nella consegna dei messaggi, ogni passaggio nel processo di accettazione delle e-mail dipende dal precedente per il successo del programma.
+Le procedure consigliate per la consegna dei messaggi consentono di garantire al meglio le possibilità di apertura, clic e l’obiettivo finale, ovvero la conversione. Potresti scrivere un oggetto geniale e proporre immagini bellissime e contenuti coinvolgenti. Ma se l&#39;e-mail non viene consegnata, il cliente non ha alcuna opportunità di conversione. Nel complesso, nella consegna dei messaggi, ogni passaggio nel processo di accettazione delle e-mail dipende dal precedente per il successo del programma.
 
 ### Passaggio 1: consegna dell’e-mail
 
@@ -83,7 +85,7 @@ Ecco alcuni fattori importanti relativi al click rate:
 
 * Consegna e recapito dell’e-mail nella casella in entrata e apertura della stessa
 * CTA persuasivo
-   * Questa è l’azione primaria che deve essere ottenuta dal pubblico. Normalmente, si tratta di fare clic su un URL. Assicurati che sia facile e chiaro da trovare per l’utente.
+   * Questa è l’azione primaria che deve essere ottenuta dal pubblico. Normalmente si tratta di fare clic su un URL. Assicurati che sia facile e chiaro da trovare per l’utente.
 * Rilevanza o valore del contenuto
 
 ### Passaggio 5: conversione
@@ -97,7 +99,7 @@ Ecco alcuni fattori importanti relativi alla conversione:
 
 ### Potenziale impatto sul fatturato
 
-La conversione è fondamentale, ma qual è l’alternativa? La tua strategia di consegna dei messaggi può rafforzare o indebolire il programma di e-mail marketing. Il seguente grafico illustra la potenziale perdita di fatturato che un criterio di consegna dei messaggi inefficace può avere sul programma di marketing. Come dimostrato, per un’azienda con un tasso di conversione del 2% e un prezzo medio di acquisto di $ 100, una riduzione del 10% del posizionamento della casella in entrata equivale a una perdita di fatturato di quasi $ 20.000. Ricorda che questi numeri sono specifici per ogni mittente.
+La conversione è fondamentale, ma qual è l&#39;alternativa? La tua strategia di consegna dei messaggi può rafforzare o indebolire il programma di e-mail marketing. Il seguente grafico illustra la potenziale perdita di fatturato che un criterio di consegna dei messaggi inefficace può avere sul programma di marketing. Come dimostrato, per un’azienda con un tasso di conversione del 2% e un prezzo medio di acquisto di $ 100, una riduzione del 10% del posizionamento della casella in entrata equivale a una perdita di fatturato di quasi $ 20.000. Ricorda che questi numeri sono specifici per ogni mittente.
 
 | Inviate | Percentuale | Consegnate | Percentuale | Casella in entrata | Numero non nella casella in entrata | Tasso di conversione | Numero di perse | Medio | Perse |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|

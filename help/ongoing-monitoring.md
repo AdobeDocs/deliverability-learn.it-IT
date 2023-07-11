@@ -6,9 +6,11 @@ jira: KT-5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 35%
@@ -19,9 +21,9 @@ ht-degree: 35%
 
 Di seguito sono riportati alcuni modi per identificare un possibile problema per il quale potrebbe essere necessario il supporto di esperti:
 
-* È stato osservato un picco di mancati recapiti duri o morbidi. Potrebbe essere indicativo di un inserimento in un elenco Bloccati o di altri problemi di recapito messaggi.
+* C&#39;è un picco osservato in mancati recapiti duri o morbidi. Potrebbe essere indicativo di un inserimento in un elenco Bloccati o di altri problemi di recapito messaggi.
 * Si osserva una notevole diminuzione delle metriche di apertura e clic mentre i tassi consegnati rimangono elevati. Ciò è indicativo di un potenziale posizionamento di una cartella in blocco.
-* C&#39;è stato un aumento significativo delle denunce. La causa può essere un’origine elenco di qualità scadente.
+* C&#39;è un aumento significativo di reclami. La causa può essere un’origine elenco di qualità scadente.
 * Hai iniziative strategiche che potrebbero influire sul recapito messaggi. Questi includono, ma non sono limitati a, acquisizione degli abbonati, strategie di coinvolgimento, strategie stagionali o cambiamenti significativi nella frequenza e nel tipo di campagna.
 
 ## Risorse specifiche per i prodotti
