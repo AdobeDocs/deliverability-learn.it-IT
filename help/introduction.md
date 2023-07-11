@@ -10,21 +10,21 @@ level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
-# Introduzione alle procedure consigliate per la consegna dei messaggi
+# Introduzione alle procedure consigliate per la recapitabilità
 
-La capacità di recapito dei messaggi e-mail, un aspetto critico per il successo del programma di marketing di ogni mittente, è caratterizzata da criteri e regole in continua evoluzione. Gli ISP hanno la continua necessità di prevenire gli spammer, quindi sono obbligati a sviluppare sofisticate tecniche di filtraggio per proteggere i loro clienti. I mittenti delle e-mail possono rimanere involontariamente coinvolti da tali sforzi. Per raggiungere al meglio il pubblico in questo mondo digitale, è necessario ottimizzare regolarmente la strategia e-mail, tenendo in considerazione le tendenze chiave di consegna dei messaggi.
+La recapitabilità dei messaggi e-mail, un aspetto critico per il successo del programma di marketing di ogni mittente, è caratterizzata da criteri e regole in continua evoluzione. Gli ISP hanno la continua necessità di evitare gli spammer e sono quindi obbligati a sviluppare sofisticate tecniche di filtraggio per proteggere la clientela. I mittenti delle e-mail possono rimanere involontariamente coinvolti da tali sforzi. Per raggiungere al meglio il pubblico in questo mondo digitale, è necessario ottimizzare regolarmente la strategia e-mail, tenendo in considerazione le tendenze chiave di consegna dei messaggi.
 
-Secondo [!DNL Lifewire], oggi esistono più di 3,8 miliardi di indirizzi e-mail. Inoltre, consulenti social media [!DNL Lori Lewis] e [!DNL Chad Callahan] rapporto che vengono inviate 188 milioni di e-mail al minuto, che comprendono più della metà della popolazione mondiale. Ma sono finiti i giorni in cui si inviavano grandi quantità di e-mail per una conversione minima. La realtà è che la sola valutazione del volume mette i clienti altamente coinvolti a rischio di non ricevere le e-mail. Questo può avere importanti effetti sul fatturato per te come mittente. Considerare le e-mail come un canale a basso costo e con un potenziale illimitato è un punto di vista difficile e vulnerabile.
+Secondo [!DNL Lifewire], oggi esistono più di 3,8 miliardi di indirizzi e-mail. Inoltre, i consulenti di social media [!DNL Lori Lewis] e [!DNL Chad Callahan] segnalano che ogni minuto vengono inviate 188 milioni di e-mail, che comprendono più della metà della popolazione mondiale. Ma sono finiti i giorni in cui si inviavano grandi quantità di e-mail per una conversione minima. La realtà è che la sola valutazione del volume mette i clienti altamente coinvolti a rischio di non ricevere le e-mail. Questo può avere importanti effetti sul fatturato per te come mittente. Considerare le e-mail come un canale a basso costo e con un potenziale illimitato è un punto di vista difficile e vulnerabile.
 
-In quest’era digitale, le persone desiderano farsi meravigliare, rapidamente. Vogliono provare quel momento di &quot;meraviglia&quot; con tutti coloro con cui scelgono di interagire, e la concorrenza è intensa. Tra dispositivi come computer, telefoni cellulari e attrezzature di domotica e i contenuti supportati, come messaggistica istantanea, e-mail, applicazioni web, push e social media, i consumatori sono costantemente bombardati di contenuti. Se un messaggio non è convincente, tendono a eliminarlo o a disinteressarsene completamente.
+In quest’era digitale, le persone desiderano farsi meravigliare, rapidamente. Vogliono provare quel momento di “meraviglia” con tutti coloro con cui scelgono di interagire e la concorrenza è intensa. Tra dispositivi come computer, telefoni cellulari e attrezzature di domotica e i contenuti supportati, come messaggistica istantanea, e-mail, applicazioni web, push e social media, i consumatori sono costantemente bombardati di contenuti. Se un messaggio non è convincente, tendono a eliminarlo o a disinteressarsene completamente.
 
-Ammettiamolo. Oggi, più che mai, bisogna distinguersi. Ciò significa offrire ai clienti esperienze uniche, personalizzate ed estremamente rilevanti. In caso contrario, il rischio è quello di perdere un cliente per sempre. È fondamentale disporre di una strategia integrata, dinamica e multicanale che induca il pubblico a rimanere coinvolto.
+Ammettiamolo. Oggi, più che mai, bisogna distinguersi. Ciò significa offrire ai clienti esperienze uniche, personalizzate ed estremamente rilevanti. In caso contrario, il rischio è quello di perdere un cliente per sempre. È imperativo disporre di una strategia integrata, dinamica e multicanale che induca il pubblico a rimanere coinvolto.
 
 In questa guida puoi scoprire i termini, i concetti e gli approcci chiave riguardanti il recapito dei contenuti, per rimanere sempre un passo avanti. Puoi utilizzare la guida per mantenere il canale e-mail all’avanguardia nel marketing mix, dando maggiore priorità a distribuzione, inserimento nelle caselle in entrata e fatturato.
 
@@ -47,9 +47,9 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 
 ## Origini
 
-[!DNL Heinz Tschabitscher], [&quot;Quante Persone Utilizzano Le E-Mail In Tutto Il Mondo?&quot;](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 giugno 2019.
+[!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?” (“Quante persone utilizzano le e-mail in tutto il mondo?”)](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 giugno 2019.
 
-[!DNL Lori Lewis], [&quot;2019: ecco cosa accade in un minuto su Internet&quot;](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, 5 marzo 2019.
+[!DNL Lori Lewis], [&quot;2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute) (“2019: ecco cosa accade in un minuto su Internet”), Merge, 5 marzo 2019.
 
 ## Risorse aggiuntive
 
