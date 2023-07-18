@@ -76,7 +76,7 @@ Devi identificare i nomi di dominio e le funzioni (tracciamento, pagine mirror, 
 
 Per ottenere un file CSR (Certificate Signing Request), segui i passaggi indicati di seguito.
 
-* Se hai accesso a [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it), seguire le istruzioni su [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) per generare e scaricare un file CSR dal Pannello di controllo Campaign.
+* Se hai accesso a [Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=it), seguire le istruzioni su [questa pagina](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=it#subdomains-and-certificates) per generare e scaricare un file CSR dal Pannello di controllo Campaign.
 
 * In caso contrario, crea un ticket di supporto tramite https://adminconsole.adobe.com/ per ottenere un file CSR da Adobe Customer Care per i sottodomini richiesti.
 

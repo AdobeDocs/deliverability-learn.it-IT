@@ -65,11 +65,11 @@ Gli abbonati che si impegnano con la campagna seguendo l’attività di apertura
 * La fase successiva consiste nell’identificare gli abbonati che non mostrano continuamente alcuna attività e ridurre gradualmente l’invio di e-mail a loro in un determinato periodo di tempo. Se non è presente alcuna attività nell’ultimo anno, è consigliabile sospendere l’abbonamento e-mail degli abbonati. Anche se non hanno mostrato alcun interesse per il contenuto dell’e-mail, esiste sempre l’ultima possibilità di farli riattivare l’abbonamento inviando una campagna di riconferma una tantum.
 * Le campagne di riconferma sono un buon modo per chiedere agli abbonati che sono inattivi da molto tempo se desiderano rimanere nell’elenco degli abbonamenti. Durante la creazione della campagna, è preferibile aggiungere un collegamento &quot;fai clic qui&quot; in modo che possano confermare l’azione e verificare il proprio indirizzo. In questo modo, l’azione può essere registrata nel database. Di seguito è riportato un esempio di e-mail di riconferma:
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   Una volta che l’abbonato ha intrapreso un’azione, è possibile offrire una pagina di destinazione con la conferma del suo riabbonamento. Di seguito è riportato un esempio della pagina di destinazione:
+  Una volta che l’abbonato ha intrapreso un’azione, è possibile offrire una pagina di destinazione con la conferma del suo riabbonamento. Di seguito è riportato un esempio della pagina di destinazione:
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## Risorse specifiche per il prodotto
 

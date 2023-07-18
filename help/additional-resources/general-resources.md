@@ -33,7 +33,7 @@ In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi,
 * [Elenchi Blackhole in tempo reale](../../help/additional-resources/blocklist-databases.md)
 * [Risoluzione dei problemi](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 

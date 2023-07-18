@@ -127,11 +127,11 @@ Se si è costretti a utilizzare un unico indirizzo di feedback per più istanze,
 * Ciascuna cassetta postale deve essere selezionata da una singola istanza,
 * Configura le istanze in modo che elaborino solo i messaggi che le riguardano: le informazioni sull’istanza sono incluse nell’intestazione Message-ID dei messaggi inviati da Adobe Campaign e si trovano quindi anche nei messaggi del ciclo di feedback. È sufficiente specificare **checkInstanceName** parametro nel file di configurazione dell’istanza (per impostazione predefinita, l’istanza non viene verificata e questo potrebbe causare una quarantena errata per alcuni indirizzi):
 
-   ```
-   <serverConf>
-     <inMail checkInstanceName="true"/>
-   </serverConf>
-   ```
+  ```
+  <serverConf>
+    <inMail checkInstanceName="true"/>
+  </serverConf>
+  ```
 
 Il servizio di recapito messaggi di Adobe Campaign gestisce l’abbonamento ai servizi del ciclo di feedback per i seguenti ISP: AOL, BlueTime, Comcast, Cox, EarthLink, FastMail, Gmail, Hotmail, HostedEmail, Libero, Mail.ru, MailTrust, OpenSRS, QQ, RoadRunner, Synacor, Telenor, Terra, UnitedOnline, USA, XS4ALL, Yahoo, Yandex, Zoho.
 
