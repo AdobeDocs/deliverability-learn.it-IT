@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## E-mail in massa
 
-E-mail in massa significa consegnare le e-mail nella cartella di posta indesiderata di un ISP (fornitore di servizi Internet). È identificabile quando un tasso di apertura (e, a volte, il click rate) inferiore al normale è abbinato a un tasso di consegna elevato. I motivi per cui le e-mail sono inviate in massa variano a seconda dell’ISP. In generale, tuttavia, se i messaggi vengono inseriti nella cartella di massa, un flag che influenza la reputazione del mittente (ad esempio, l’igiene degli elenchi) deve essere rivalutato. È un segnale della diminuzione della reputazione, un problema che deve essere corretto immediatamente prima che influisca su ulteriori campagne. Collabora con il tuo consulente del team Deliverability di Adobe per risolvere eventuali problemi di e-mail di massa a seconda della tua situazione.
+E-mail in massa significa consegnare le e-mail nella cartella di posta indesiderata di un ISP (fornitore di servizi Internet). È identificabile quando il tasso di apertura (e, a volte, il tasso di clic) inferiore al normale è abbinato a un tasso di consegna elevato. I motivi per cui le e-mail sono inviate in massa variano a seconda dell’ISP. In generale, tuttavia, se i messaggi vengono inseriti nella cartella di massa, un flag che influenza la reputazione del mittente (ad esempio, l’igiene degli elenchi) deve essere rivalutato. È un segnale della diminuzione della reputazione, un problema che deve essere corretto immediatamente prima che influisca su ulteriori campagne. Collabora con il tuo consulente del team Deliverability di Adobe per risolvere eventuali problemi di e-mail di massa a seconda della tua situazione.
 
 ## Blocco
 

@@ -70,7 +70,7 @@ Ecco alcuni fattori importanti per il posizionamento della casella in entrata:
 
 ### Passaggio 3: coinvolgimento alle e-mail, frequenza di apertura
 
-Ecco alcuni fattori importanti relativi alla frequenza di apertura:
+Ecco alcuni fattori importanti relativi al tasso di apertura:
 
 * Consegna e recapito dell’e-mail nella casella in entrata
 * Riconoscimento del brand

@@ -65,7 +65,7 @@ Alcuni dei dati esaminati sono:
 
 Gli ISP richiedono configurazioni tecniche specifiche in linea con le loro politiche e best practice. Adobe configura gli IP e i sottodomini delegati per identificarti come mittente responsabile e affidabile. Questo è chiamato [autenticazione e-mail](/help/transition-process/infrastructure.md#authentication). L’autenticazione consente ai destinatari di verificare se un mittente dispone dei diritti di invio da tale IP o dominio.
 
-L’autenticazione consente agli ISP di verificare che l’azienda che invia da un dominio o da un IP abbia il diritto di farlo. È fatto essenzialmente per dimostrare la tua identità e per assicurarti di non fingere di essere qualcun altro e che qualcun altro non finge di essere te.
+L’autenticazione consente agli ISP di verificare che l’azienda che invia da un dominio o da un IP abbia il diritto di farlo. Viene fatto essenzialmente per dimostrare la tua identità e per assicurarti di non fingere di essere qualcun altro e che qualcun altro non finge di essere te.
 
 Ad Adobe, per impostazione predefinita verranno configurati SPF e DKIM e, su richiesta, DMARC. Gli ISP fanno riferimento a SPF e DKIM come forme primarie di autenticazione. Molti ISP stanno anche incorporando il DMARC (Domain-based Message Authentication, Reporting &amp; Conformance) nelle loro decisioni di filtraggio. Le e-mail non autenticate non sono necessariamente bloccate, ma vengono sottoposte a un filtro aggiuntivo.
 
@@ -87,7 +87,7 @@ Ricorda che la coerenza qui è fondamentale. Modelli di volume di invio irregola
 
 [Reclami](/help/metrics/complaints.md) si verifica quando un abbonato etichetta un’e-mail come spam tramite il suo programma e-mail. In questo modo viene inviato all&#39;ISP un avviso relativo all&#39;attività di reclamo. Se ci sono abbastanza di questi reclami che entrano nell&#39;ISP, quell&#39;ISP agirà per proteggere i suoi clienti - possibilmente bloccare molte e-mail dal raggiungere gli abbonati o indirizzare una parte delle e-mail alla cartella di massa al contrario delle caselle in entrata degli abbonati. Se il problema di consegna è causato da reclami, è importante determinare perché i destinatari si lamentano.
 
-Gli abbonati si lamentano per vari motivi. A volte un abbonato non desidera ricevere altre e-mail dall’utente, probabilmente perché ritiene di ricevere troppi messaggi sullo stesso argomento, non si aspettava il messaggio o non ricorda di registrarsi per ricevere le e-mail.
+Gli abbonati si lamentano per vari motivi. A volte un abbonato non desidera ricevere altre e-mail dall’utente, probabilmente perché ritiene di ricevere troppi messaggi sullo stesso argomento, se non si aspetta il messaggio o se non ricorda di essersi iscritto per ricevere le e-mail.
 
 ### Validità dei dati
 
