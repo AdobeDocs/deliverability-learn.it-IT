@@ -4,10 +4,11 @@ description: Scopri come implementare BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 1%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ Il DMARC è facoltativo e, sebbene non sia obbligatorio, è gratuito e consente 
 
 ## Best practice per l’implementazione di DMARC {#best-practice}
 
-Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, si consiglia di implementare lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena, fino a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
+Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, si consiglia di distribuire lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da c=nessuno a c=quarantena, fino a c=rifiuta man mano che acquisisci una comprensione di DMARC e del suo potenziale impatto.
 
-1. Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l&#39;autenticazione dei messaggi legittimi non riesce, esaminare e risolvere i problemi relativi a SPF/DKIM.
+1. Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l’autenticazione dei messaggi legittimi non riesce, esamina e risolvi i problemi relativi a SPF/DKIM.
 1. Determina se SPF e DKIM sono allineati e trasmettono l’autenticazione per tutte le e-mail legittime, quindi sposta il criterio in (p=quarantena), che indica al server e-mail ricevente di mettere in quarantena le e-mail che non riescono a eseguire l’autenticazione (in genere significa inserire tali messaggi nella cartella di posta indesiderata).
-1. Imposta criterio su (p=rifiuta). Il criterio p= rifiuta indica al destinatario di rifiutare completamente (non recapitare) qualsiasi e-mail per il dominio che non supera l’autenticazione. Con questo criterio abilitato, solo i messaggi e-mail verificati come autenticati al 100% dal dominio avranno anche la possibilità di inserire la casella in entrata.
+1. Imposta criterio su (p=rifiuta). Il criterio c= rifiuta indica al destinatario di rifiutare completamente (non recapitare) qualsiasi e-mail per il dominio che non supera l’autenticazione. Con questo criterio abilitato, solo i messaggi e-mail verificati come autenticati al 100% dal dominio avranno anche la possibilità di inserire la casella in entrata.
 
    >[!NOTE]
    >
@@ -90,6 +91,10 @@ I record DMARC hanno più componenti denominati tag DMARC. Ogni tag ha un valore
 | aspf | Facoltativo | Può essere Strict (s) o Relaxed (r). L&#39;allineamento semplificato indica che il dominio ReturnPath può essere un sottodominio dell&#39;indirizzo From. L&#39;allineamento rigido indica che il dominio del percorso di ritorno deve corrispondere esattamente all&#39;indirizzo Da. | aspf=r | r |
 
 ## DMARC e ADOBE CAMPAIGN {#campaign}
+
+>[!NOTE]
+>
+>Se l’istanza Campaign è ospitata su AWS, puoi implementare DMARC per i sottodomini con il Pannello di controllo Campaign. [Scopri come implementare i record DMARC utilizzando Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 Un motivo comune per gli errori DMARC è il disallineamento tra l&#39;indirizzo &quot;Da&quot; e &quot;Errori-A&quot; o &quot;Percorso di ritorno&quot;. Per evitare questo problema, durante la configurazione di DMARC, si consiglia di controllare due volte le impostazioni dell’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; nei modelli di consegna.
 
