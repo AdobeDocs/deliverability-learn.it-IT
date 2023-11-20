@@ -6,7 +6,7 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 7d8c1229b421471f7908c1e13bb80af5b14e42ff
+source-git-commit: acf2686d59bc27063a255a02de52cbaa3734d5ed
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 96%
@@ -46,7 +46,7 @@ ht-degree: 96%
 + [Attuazione](/help/putting-it-in-practice.md)
 + Appendice: risorse aggiuntive {#additional-resources}
    + [Panoramica](/help/additional-resources/general-resources.md)
-   + [Aggiornamenti di Yahoo e Gmail](/help/guidence-around-changes-to-google-and-yahoo.md)
+   + [Aggiornamenti di Yahoo e Gmail](/help/guidance-around-changes-to-google-and-yahoo.md)
    + Risorse generiche {#generic-resources}
       + [Tutto sulle trappole anti-spam](/help/additional-resources/all-about-spam-traps.md)
       + [Aumentare la reputazione e-mail con la preparazione degli indirizzi IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
