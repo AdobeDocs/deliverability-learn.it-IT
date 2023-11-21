@@ -7,9 +7,9 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
+source-git-commit: ce0ecaa7f62e8ba0bbf44dc180908b81475a225e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -21,17 +21,17 @@ Il 3 ottobre entrambi [!DNL Google] e [!DNL Yahoo] hanno annunciato congiuntamen
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
-![[!DNL Google] Annuncio](/help/assets/Gmail.png)
+![[!DNL Google] Notifica_](/help/assets/Gmail.png)
 
 [https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
 ![[!DNL Yahoo] Annuncio](/help/assets/Yahoo.png)
 
-Gli esperti di recapito messaggi e-mail all’Adobe hanno letto tutti i post di blog e tutta la documentazione collegata in modo da non doverlo fare. Ecco le principali soluzioni da adottare.
+Gli esperti di recapito messaggi e-mail all’Adobe hanno letto tutti questi post di blog e tutta la documentazione collegata in modo da non doverlo fare. Ecco le principali soluzioni da adottare.
 
 ## Quindi, cosa sono esattamente [!DNL Google] e [!DNL Yahoo] cosa sta facendo?
 
-Nel mondo dell’e-mail esistono requisiti legali, requisiti pratici e best practice generali. I requisiti legali variano notevolmente da luogo a luogo e non fanno parte di questo argomento. Invece, [!DNL Google] e [!DNL Yahoo] stanno adottando le best practice e le stanno trasformando in requisiti pratici. Nessuno degli elementi [!DNL Google] e [!DNL Yahoo] cominceranno a richiedere in febbraio, sono nuove e spesso sono state le best practice raccomandazioni per anni, ma l&#39;adozione è stata lenta e irregolare nel settore. Questo è [!DNL Google] e [!DNL Yahoo]è il modo in cui aiuta a far progredire il processo di adozione dicendo &quot;Se desideri distribuire la posta elettronica ai nostri utenti (questa può rappresentare una parte significativa del tuo elenco e-mail, in alcuni casi fino al 70%, a seconda dell’area geografica e del settore), devi fare queste cose.&quot;
+Nel mondo dell’e-mail esistono requisiti legali, requisiti pratici e best practice generali. I requisiti legali variano notevolmente da luogo a luogo e non fanno parte di questo argomento. Invece, [!DNL Google] e [!DNL Yahoo] stanno adottando le best practice e le stanno trasformando in requisiti pratici. Nessuno degli elementi [!DNL Google] e [!DNL Yahoo] cominceranno a richiedere in febbraio, sono nuove e spesso sono state le best practice raccomandazioni per anni, ma l&#39;adozione è stata lenta e irregolare nel settore. Questo è [!DNL Google] e [!DNL Yahoo]come contribuire al progresso del processo di adozione dicendo &quot;Se desideri distribuire le e-mail ai nostri utenti (ciò può rappresentare una parte significativa del tuo elenco e-mail, in alcuni casi fino al 70%, a seconda dell’area geografica e del settore) devi fare queste cose.&quot;
 
 ## Quali sono i dettagli?
 
@@ -40,7 +40,9 @@ Se sei un cliente Adobe, la maggior parte di ciò che richiede fa già parte del
 ## DMARC:
 
 [!DNL Google] e [!DNL Yahoo] richiederanno entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail. Attualmente NON richiedono un’impostazione di p=rifiuto o p=quarantena, quindi un’impostazione di p=nessuno, comunemente denominata impostazione di &quot;monitoraggio&quot;, è perfettamente accettabile. Questo non cambierà la modalità di elaborazione delle e-mail, ma farà ciò che farebbe normalmente senza DMARC. Questa configurazione è il primo passo per proteggersi con DMARC e, oltre al nuovo vantaggio di aiutarvi a inviare e-mail a [!DNL Google] e [!DNL Yahoo] può anche aiutarti a verificare se ci sono problemi di autenticazione in qualsiasi punto del tuo ecosistema e-mail.
-DMARC è completamente supportato in Adobe, ma non è richiesto. Utilizza qualsiasi controllo DMARC gratuito per verificare se hai configurato il DMARC per i tuoi sottodomini; in caso contrario, rivolgiti al team di supporto per gli Adobi per capire come procedere al meglio per ottenere tale configurazione. Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"} for Adobe Campaign and Adobe Journey Optimizer Adobe or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} per Marketo Engage.
+DMARC è completamente supportato in Adobe, ma non è richiesto. Utilizza qualsiasi controllo DMARC gratuito per verificare se hai configurato il DMARC per i tuoi sottodomini; in caso contrario, rivolgiti al team di supporto per gli Adobi per capire come procedere al meglio per ottenere tale configurazione.
+
+Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"} for Adobe Campaign and Adobe Journey Optimizer Adobe or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} per Marketo Engage.
 
 ## 1-clic (elenco) per annullare l’iscrizione:
 
@@ -49,17 +51,9 @@ Non farti prendere dal panico. [!DNL Google] e [!DNL Yahoo] non sta parlando dei
 Ad Marketo Engage, Adobe ha già abilitato l’opzione &quot;mailto&quot; e al momento non supporta l’opzione &quot;http/URL&quot;. Ulteriori aggiornamenti su questo argomento in arrivo.
 Per Adobe Campaign e Adobe Journey Optimizer, l’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;1 clic&quot;.
 
-Per ulteriori informazioni su come implementare l’annullamento dell’iscrizione all’elenco, controlla [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
-
-per Adobe Campaign Classic, [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=it){target="_blank"}
-
-per Adobe Campaign Standard, e [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
-
-per Adobe Journey Optimizer, oppure rivolgiti al team dell’Assistenza clienti di Adobe in qualsiasi momento.
+Per ulteriori informazioni su come implementare l’annullamento dell’iscrizione all’elenco, controlla [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=it){target="_blank"}, or **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} per **[!DNL Adobe Journey Optimizer]**, o contatta il team di Assistenza clienti Adobe in qualsiasi momento.
 
 La necessità di intestazioni per l’annullamento dell’iscrizione a mailing list non si applica alle e-mail transazionali. Tieni presente che i messaggi attivati, come il carrello abbandonato e comunicazioni simili non generate dall’abbonato, vengono considerati marketing da parte dei provider di caselle postali come [!DNL Google] e [!DNL Yahoo] e per quelli potrebbe essere necessario annullare l’iscrizione alla lista.
-
-![immagine](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## Elabora annullamenti iscrizione entro 2 giorni:
 
@@ -69,11 +63,13 @@ Questo requisito di 2 giorni è applicabile a qualsiasi annullamento dell’iscr
 ## Percentuali reclami:
 
 Mantenere bassi i tassi di reclamo al di sotto dello 0,2% è da tempo una buona pratica. [!DNL Google] L’Austria ha fissato un valore più alto allo 0,3% per un periodo di tempo prolungato, ma ha chiaramente affermato che mantenere la percentuale al di sotto dello 0,1% comporta dei vantaggi. Ecco i dettagli condivisi:
+
 * Mantieni la tua percentuale di posta indesiderata al di sotto dello 0,10%.
 * Evita una percentuale di spam dello 0,30% o superiore, soprattutto per un periodo di tempo prolungato.
 * Mantenere un basso tasso di posta indesiderata rende i mittenti più resilienti ai picchi occasionali di feedback degli utenti.
 * Allo stesso modo, il mantenimento di un elevato tasso di spam porterà a una classificazione più elevata dello spam. Può essere necessario del tempo affinché i miglioramenti della frequenza di posta indesiderata si riflettano positivamente sulla classificazione della posta indesiderata.
   [!DNL Yahoo] ha dichiarato che anche la soglia di reclamo rientrerà nell&#39;intervallo dello 0,30%.
+
 Se hai bisogno di assistenza per monitorare le percentuali dei reclami, o desideri ricevere assistenza per elaborare strategie per ridurre i reclami, contatta il tuo Adobe di Consulente per il recapito dei messaggi, o parla con il team del tuo account dell’aggiunta di un Consulente per il recapito dei messaggi, se non ne hai già uno.
 
 ## Che impatto ha su di me, in qualità di esperto di marketing?
