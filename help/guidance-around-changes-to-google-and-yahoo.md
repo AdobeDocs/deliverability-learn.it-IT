@@ -7,10 +7,10 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 0aeff034f6ca2a3dce065240384d1b0e7922fa31
+source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 0%
+source-wordcount: '1341'
+ht-degree: 1%
 
 ---
 
@@ -48,8 +48,17 @@ Non farti prendere dal panico. [!DNL Google] e [!DNL Yahoo] non sta parlando dei
 È importante notare che [!DNL Google] e [!DNL Yahoo] fanno entrambi riferimento all’opzione &quot;http/URL&quot; con il nome &quot;1-clic&quot;, il che è intenzionale. Tecnicamente, l’opzione &quot;http/URL&quot; originale consentiva di reindirizzare i destinatari a un sito web. Questo non è il punto centrale di [!DNL Yahoo] e [!DNL Google], che fanno entrambi riferimento alla versione aggiornata di RFC8058 incentrata sull’elaborazione dell’annullamento dell’abbonamento tramite una richiesta HTTPS POST invece che tramite un sito web, rendendolo &quot;1-Click&quot;.
 Ad Marketo Engage, Adobe ha già abilitato l’opzione &quot;mailto&quot; e al momento non supporta l’opzione &quot;http/URL&quot;. Ulteriori aggiornamenti su questo argomento in arrivo.
 Per Adobe Campaign e Adobe Journey Optimizer, l’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;1 clic&quot;.
-Per ulteriori informazioni su come implementare l’annullamento dell’iscrizione all’elenco, controlla [qui] (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for Adobe Campaign Classic, [here] (https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} for Adobe Campaign Standard, and [here] (https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} per Adobe Journey Optimizer, oppure rivolgiti al team dell’Assistenza clienti di Adobe in qualsiasi momento.
+
+Per ulteriori informazioni su come implementare l’annullamento dell’iscrizione all’elenco, controlla [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
+
+per Adobe Campaign Classic, [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=it){target="_blank"}
+
+per Adobe Campaign Standard, e [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+
+per Adobe Journey Optimizer, oppure rivolgiti al team dell’Assistenza clienti di Adobe in qualsiasi momento.
+
 La necessità di intestazioni per l’annullamento dell’iscrizione a mailing list non si applica alle e-mail transazionali. Tieni presente che i messaggi attivati, come il carrello abbandonato e comunicazioni simili non generate dall’abbonato, vengono considerati marketing da parte dei provider di caselle postali come [!DNL Google] e [!DNL Yahoo] e per quelli potrebbe essere necessario annullare l’iscrizione alla lista.
+
 ![immagine](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## Elabora annullamenti iscrizione entro 2 giorni:
