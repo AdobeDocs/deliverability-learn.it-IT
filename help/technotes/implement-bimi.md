@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: d23a0477b908427c4e9d889d5d9ed896a6ac8322
+source-git-commit: ad0646da88f2b1474e74b6c741d0dd5701e88978
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ La creazione del logo deve rispettare i requisiti al 100%. Fai sempre riferiment
 
 Il logo deve essere archiviato in un percorso sicuro (HTTPS), nel caso in cui venga utilizzata una rete CDN (Content Delivery Network), è necessario disabilitare qualsiasi protezione che impedisca ai provider di cassette postali di ottenere il logo (ad esempio, Protezione bot).
 
-Oltre ai requisiti tecnici, ci sono alcune raccomandazioni pratiche come avere un logo quadrato, avere un colore a tinta unita come sfondo e altri. Questi consigli sono utili per ottenere una visualizzazione ottimale.
+Oltre ai requisiti tecnici, ci sono alcune raccomandazioni pratiche come avere un logo quadrato, avere un colore a tinta unita come sfondo e altri. Questi consigli sono utili per ottenere una visualizzazione ottimale. Alcuni fornitori hanno requisiti propri che si aggiungono a quelli del gruppo di lavoro BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. ad esempio, richiede che il logo sia di almeno 96 x 96 pixel.
 La mancata conformità può comportare la mancata visualizzazione del logo.
 
 ### Certificato contrassegno verificato (VMC) {#vmc}
