@@ -1,24 +1,24 @@
 ---
-user-guide-title: Guida alle procedure consigliate per la consegna
+user-guide-title: Guida alle procedure consigliate per la recapitabilità
 user-guide-breadcrumb: Deliverability Best Practice Guide
-user-guide-description: Scopri termini, concetti e approcci chiave per la consegna dei messaggi, al fine di garantire il successo del programma di marketing.
+user-guide-description: Scopri termini, concetti e approcci chiave per la recapitabilità, al fine di garantire il successo del programma di marketing.
 feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: acf2686d59bc27063a255a02de52cbaa3734d5ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Guida alle procedure consigliate per la consegna dei messaggi di Adobe Campaign {#deliverability-best-practice-guide}
+# Guida alle procedure consigliate per la recapitabilità in Adobe Campaign {#deliverability-best-practice-guide}
 
 + [Introduzione](/help/introduction.md)
-+ [Strategia e definizione di consegna](/help/deliverability-strategy-and-definition.md)
-+ Metriche per la consegna dei messaggi {#metrics-for-deliverability}
++ [Strategia e definizione di recapitabilità](/help/deliverability-strategy-and-definition.md)
++ Metriche per la recapitabilità {#metrics-for-deliverability}
    + [Panoramica delle metriche](/help/metrics/metrics-overview.md)
    + [E-mail non consegnate](/help/metrics/bounces.md)
    + [Reclami](/help/metrics/complaints.md)
@@ -35,7 +35,7 @@ ht-degree: 96%
    + [Prime impressioni: raccolta di elenchi e e-mail di benvenuto](/help/first-impressions/introduction.md)
    + [Raccolta di indirizzi e sviluppo degli elenchi](/help/first-impressions/address-collection-and-list-growth.md)
    + [E-mail di benvenuto](/help/first-impressions/welcome-emails.md)
-+ [Procedure consigliate sui contenuti per una consegna dei messaggi ottimale](/help/content-best-practices-for-optimal-delivery.md)
++ [Procedure consigliate sui contenuti per una recapitabilità ottimale](/help/content-best-practices-for-optimal-delivery.md)
 + [Permanenza del mittente](/help/sender-permanence.md)
 + Specifiche del fornitore di servizi Internet {#internet-service-provider-specifics}
    + [Panoramica](/help/internet-service-provider-specifics/overview.md)
@@ -61,7 +61,7 @@ ht-degree: 96%
       + [Avvio di una nuova piattaforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: consigli tecnici](/help/additional-resources/acc-technical-recommendations.md)
    + Note tecniche {#technotes}
-      + [Implementare DMARC](/help/technotes/implement-dmarc.md)
+      + [Implementazione DMARC](/help/technotes/implement-dmarc.md)
       + [Implementazione BIMI](/help/technotes/implement-bimi.md)
       + [Aggiorna i mancati recapiti errati dopo la sospensione di Italiaonline](/help/technotes/update-bounces-after-it-outage.md)
 
