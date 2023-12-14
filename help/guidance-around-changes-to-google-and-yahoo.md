@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
+source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,6 @@ Oggi, Gmail accetta l’opzione &quot;mailto&quot; per annullare l’iscrizione 
 
 L’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;post/1-Click&quot; per annullare l’iscrizione tramite elenco. Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti, con ulteriori aggiornamenti a breve.
 
-Ad Marketo Engage, Adobe ha già abilitato l’opzione &quot;mailto&quot; e al momento non supporta l’opzione &quot;http/URL&quot;. Ulteriori aggiornamenti su questo argomento in arrivo.
-Per Adobe Campaign e Adobe Journey Optimizer, l’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;1 clic&quot;.
-
 La necessità di intestazioni per l’annullamento dell’iscrizione a mailing list non si applica alle e-mail transazionali. Tieni presente che i messaggi attivati, come il carrello abbandonato e comunicazioni simili non generate dall’abbonato, vengono considerati marketing da parte dei provider di caselle postali come [!DNL Google] e [!DNL Yahoo] e per quelli potrebbe essere necessario annullare l’iscrizione alla lista.
 
 [!DNL Google] e [!DNL Yahoo] sono entrambi consapevoli del fatto che in alcuni casi un destinatario annullerà l’abbonamento e lo ripresenterà in un secondo momento. Anche se non sono disposti a condividere la salsa segreta di come identificano queste situazioni, stanno lavorando su metodi per evitare di penalizzare i mittenti in modo errato in questi casi.
@@ -80,6 +77,7 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 ## Elabora annullamenti iscrizione entro 2 giorni:
 
 Questa è stata una best practice consigliata per un po’ di tempo, poiché ogni e-mail distribuita a un utente che ha annullato l’abbonamento in genere genera un reclamo spam, quindi prima smetti di inviargli e-mail, meglio è. Anche in questo caso, i requisiti legali potrebbero essere molto più lunghi in alcuni casi, ma [!DNL Google] e [!DNL Yahoo] saprà che il loro utente ha annullato l’abbonamento tramite Annulla iscrizione e che stai ancora inviando loro e-mail il giorno 3, e hanno dichiarato che non consentiranno ai mittenti che lo fanno di continuare a inviare e-mail a QUALSIASI dei loro utenti.
+
 Questo requisito di 2 giorni è applicabile a qualsiasi annullamento dell’iscrizione tramite i vari metodi di annullamento dell’iscrizione a mailing list. In alcuni casi (come &quot;mailto&quot;) ciò significa che Adobe li elaborerà. Adobe elabora tutte le richieste di annullamento dell’abbonamento immediatamente dopo il ricevimento della richiesta, ben entro il limite di 2 giorni. In altri casi, è possibile che vengano elaborate. Se elabori queste richieste, potresti dover apportare delle modifiche alla fine per rispettare questa sequenza temporale di 2 giorni.
 
 ## Percentuali reclami:
@@ -90,7 +88,8 @@ Mantenere bassi i tassi di reclamo al di sotto dello 0,2% è da tempo una buona 
 * Evita una percentuale di spam dello 0,30% o superiore, soprattutto per un periodo di tempo prolungato.
 * Mantenere un basso tasso di posta indesiderata rende i mittenti più resilienti ai picchi occasionali di feedback degli utenti.
 * Allo stesso modo, il mantenimento di un elevato tasso di spam porterà a una classificazione più elevata dello spam. Può essere necessario del tempo affinché i miglioramenti della frequenza di posta indesiderata si riflettano positivamente sulla classificazione della posta indesiderata.
-  [!DNL Yahoo] ha dichiarato che anche la soglia di reclamo rientrerà nell&#39;intervallo dello 0,30%.
+
+[!DNL Yahoo] ha dichiarato che anche la soglia di reclamo rientrerà nell&#39;intervallo dello 0,30%.
 
 [!DNL Google] e [!DNL Yahoo]L&#39;obiettivo non è quello di punire i mittenti per un singolo giorno cattivo o per un errore che causa un picco temporaneo nelle lamentele. Invece, si concentrano sui mittenti che hanno tassi elevati di reclami per un periodo di tempo prolungato o un modello di cattivo comportamento di invio.
 
