@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 0ad2e59948aa94008ae5c3f6eec7914223bdb02a
+source-git-commit: e7c3164acb1eb2ee46938cea333f416e0376f5b6
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 1%
+source-wordcount: '1595'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,9 @@ Gli esperti di recapito messaggi e-mail all’Adobe hanno letto tutti questi pos
 
 ## Quindi, cosa sono esattamente [!DNL Google] e [!DNL Yahoo] cosa sta facendo?
 
-Nel mondo dell’e-mail esistono requisiti legali, requisiti pratici e best practice generali. I requisiti legali variano notevolmente da luogo a luogo e non fanno parte di questo argomento. Invece, [!DNL Google] e [!DNL Yahoo] stanno adottando le best practice e le stanno trasformando in requisiti pratici. Nessuno degli elementi [!DNL Google] e [!DNL Yahoo] cominceranno a richiedere in febbraio, sono nuove e spesso sono state le best practice raccomandazioni per anni, ma l&#39;adozione è stata lenta e irregolare nel settore. Questo è [!DNL Google] e [!DNL Yahoo]come contribuire al progresso del processo di adozione dicendo &quot;Se desideri distribuire le e-mail ai nostri utenti (ciò può rappresentare una parte significativa del tuo elenco e-mail, in alcuni casi fino al 70%, a seconda dell’area geografica e del settore) devi fare queste cose.&quot;
+Nel mondo dell’e-mail esistono requisiti legali, requisiti pratici e best practice generali. I requisiti legali variano notevolmente da luogo a luogo e non fanno parte di questo argomento. Invece, [!DNL Google] e [!DNL Yahoo] stanno adottando le best practice e le stanno trasformando in requisiti pratici.
+
+Nessuno degli elementi [!DNL Google] e [!DNL Yahoo] cominceranno a richiedere in febbraio, sono nuove e spesso sono state le best practice raccomandazioni per anni, ma l&#39;adozione è stata lenta e irregolare nel settore. Questo è [!DNL Google] e [!DNL Yahoo]come contribuire al progresso del processo di adozione dicendo &quot;Se desideri distribuire le e-mail ai nostri utenti (ciò può rappresentare una parte significativa del tuo elenco e-mail, in alcuni casi fino al 70%, a seconda dell’area geografica e del settore) devi fare queste cose.&quot;
 
 ## Quali sono i dettagli?
 
@@ -50,9 +52,10 @@ Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experience
 ## 1-clic (elenco) per annullare l’iscrizione:
 
 Non farti prendere dal panico. [!DNL Google] e [!DNL Yahoo] non sta parlando dei collegamenti per annullare l’abbonamento nel corpo o nel piè di pagina dell’e-mail che potrebbero essere cliccati da un bot di sicurezza che fa solo il suo lavoro o per errore. Ciò che intendono è la funzionalità di intestazione Annullamento iscrizione a mailing list per le versioni &quot;mailto&quot; o &quot;http/URL&quot;. Questa è la funzione all&#39;interno del [!DNL Yahoo] e le interfacce utente di Gmail in cui gli utenti possono fare clic per annullare l’abbonamento. Gmail chiede anche agli utenti che fanno clic su &quot;Segnala spam&quot; di vedere se hanno intenzione di annullare l’abbonamento, il che può ridurre il numero di reclami che ricevi (i reclami danneggiano la tua reputazione) trasformandoli in annullamenti di abbonamento (non danneggia la tua reputazione).
-È importante notare che [!DNL Google] e [!DNL Yahoo] fanno entrambi riferimento all’opzione &quot;http/URL&quot; con il nome &quot;1-clic&quot;, il che è intenzionale. Tecnicamente, l’opzione &quot;http/URL&quot; originale consentiva di reindirizzare i destinatari a un sito web. Questo non è il punto centrale di [!DNL Yahoo] e [!DNL Google], che fanno entrambi riferimento alla versione aggiornata di RFC8058 incentrata sull’elaborazione dell’annullamento dell’abbonamento tramite una richiesta HTTPS POST invece che tramite un sito web, rendendolo &quot;1-Click&quot;.
 
-Oggi, [!DNL Gmail] accetta l’opzione &quot;mailto&quot; per annullare l’iscrizione. [!DNL Gmail] ha dichiarato che &quot;mailto&quot; non soddisfa le loro aspettative in futuro, e a partire da febbraio i mittenti dovranno avere l&#39;opzione &quot;post&quot; list-unsubscribe abilitata.
+È importante notare che [!DNL Google] e [!DNL Yahoo] fanno entrambi riferimento all’opzione &quot;http/URL&quot; con il nome &quot;1-clic&quot;, il che è intenzionale. Tecnicamente, l’opzione &quot;http/URL&quot; originale consentiva di reindirizzare i destinatari a un sito web. Questo non è il punto centrale di [!DNL Yahoo] e [!DNL Google], che fanno entrambi riferimento al file aggiornato [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} che si concentra sull’elaborazione dell’annullamento dell’abbonamento tramite una richiesta POST HTTPS, anziché tramite un sito web, rendendolo &quot;1-Click&quot;.
+
+Oggi, Gmail accetta l’opzione &quot;mailto&quot; per annullare l’iscrizione all’elenco. Gmail ha detto che &quot;mailto&quot; non soddisfa le loro aspettative in futuro, e i mittenti dovranno avere l&#39;opzione &quot;post&quot; list-unsubscribe abilitata. I mittenti che dispongono già dell’annullamento dell’iscrizione di un certo tipo avranno tempo fino al 1° giugno 2024 per annullare l’iscrizione con un solo clic.
 
 [!DNL Yahoo] Ha detto che continueranno ad onorare l&#39;opzione &quot;mailto&quot;, per ora, ma che anche loro richiederanno il &quot;post&quot; in futuro.
 
@@ -68,8 +71,8 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 >[!INFO]
 > Per ulteriori informazioni su come implementare l’annullamento dell’iscrizione all’elenco per la soluzione, consulta:
 > * [!DNL Adobe Campaign Classic]: [Raccomandazioni tecniche](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
->* [!DNL Adobe Campaign Standard]: [Cos’è l’intestazione Annullamento iscrizione a mailing list? E come si può implementare in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=it){target="_blank"}
->* [!DNL Adobe Journey Optimizer]: [Gestione della rinuncia alle e-mail](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+>* [!DNL Adobe Campaign Standard]: [Cos’è l’intestazione Annullamento iscrizione a mailing list? E come si può implementare in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: [Gestione della rinuncia e-mail](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
 >
 > In alternativa, contatta il team di Assistenza clienti di Adobe in qualsiasi momento.
 
@@ -96,7 +99,9 @@ Se hai bisogno di assistenza per monitorare le percentuali dei reclami, o deside
 ## Che impatto ha su di me, in qualità di esperto di marketing?
 
 Il mancato rispetto di questi nuovi requisiti da parte di Gmail e [!DNL Yahoo] dovrebbe causare l’invio di e-mail nella cartella di posta indesiderata o il blocco (ovvero, il recupero di un messaggio non recapitato dal MBP che indica che l’e-mail non è stata consegnata).
+
 Di conseguenza, Adobe consiglia vivamente di esaminare le modifiche descritte in precedenza e assicurarsi di iniziare a conformarti con esse il prima possibile. Ora è anche il momento ideale per iniziare a valutare le tue prestazioni su [!DNL Yahoo] e [!DNL Google] per verificare se sono presenti modifiche materiali alle metriche, visita febbraio.
+
 Siamo qui per aiutarti, quindi se hai domande o hai bisogno di supporto, parlane con il tuo Adobe di consulente per il recapito messaggi o parlane con il team del tuo account per aggiungere un consulente per il recapito messaggi, se non ne hai già uno.
 
 ## Ci sono modi per aggirarlo?
@@ -107,3 +112,12 @@ Anche se questa è sempre una domanda che viene fuori, la realtà è che questi 
 
 Al momento questo non si applica alle e-mail inviate a [!DNL Yahoo].JP o [!DNL Gmail] Tuttavia, si applica anche alle e-mail provenienti da tali posizioni.
 
+## Risorse aggiuntive (non specifiche per queste modifiche):
+
+[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+
+[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
+
+[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+
+[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"}
