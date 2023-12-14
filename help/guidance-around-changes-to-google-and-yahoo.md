@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
+source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Mantenere bassi i tassi di reclamo al di sotto dello 0,2% è da tempo una buona 
 * Mantenere un basso tasso di posta indesiderata rende i mittenti più resilienti ai picchi occasionali di feedback degli utenti.
 * Allo stesso modo, il mantenimento di un elevato tasso di spam porterà a una classificazione più elevata dello spam. Può essere necessario del tempo affinché i miglioramenti della frequenza di posta indesiderata si riflettano positivamente sulla classificazione della posta indesiderata.
 
-[!DNL Yahoo] ha dichiarato che anche la soglia di reclamo rientrerà nell&#39;intervallo dello 0,30%.
+[!DNL Yahoo] ha dichiarato che anche la soglia di reclamo sarà dello 0,30%.
 
 [!DNL Google] e [!DNL Yahoo]L&#39;obiettivo non è quello di punire i mittenti per un singolo giorno cattivo o per un errore che causa un picco temporaneo nelle lamentele. Invece, si concentrano sui mittenti che hanno tassi elevati di reclami per un periodo di tempo prolungato o un modello di cattivo comportamento di invio.
 
