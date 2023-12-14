@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: e7c3164acb1eb2ee46938cea333f416e0376f5b6
+source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -114,10 +114,10 @@ Al momento questo non si applica alle e-mail inviate a [!DNL Yahoo].JP o [!DNL G
 
 ## Risorse aggiuntive (non specifiche per queste modifiche):
 
-[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+[Linee guida per mittenti Google](https://support.google.com/mail/answer/81126){target="_blank"}
 
-[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
+[Domande frequenti su Google](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
 
-[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+[Linee guida per i mittenti di Yahoo](https://senders.yahooinc.com/best-practices/){target="_blank"}
 
-[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"}
+[Domande frequenti su Yahoo](https://senders.yahooinc.com/faqs/){target="_blank"}
