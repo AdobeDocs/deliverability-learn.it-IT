@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Oggi, Gmail accetta l’opzione &quot;mailto&quot; per annullare l’iscrizione 
 
 [!DNL Yahoo] Ha detto che continueranno ad onorare l&#39;opzione &quot;mailto&quot;, per ora, ma che anche loro richiederanno il &quot;post&quot; in futuro.
 
-L’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;post/1-Click&quot; per annullare l’iscrizione tramite elenco. Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti, con ulteriori aggiornamenti a breve.
+L’Adobe consiglia di utilizzare le opzioni &quot;mailto&quot; e &quot;post/1-Click&quot; per annullare l’iscrizione tramite elenco. Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti, vedi i dettagli di seguito.
 
 La necessità di intestazioni per l’annullamento dell’iscrizione a mailing list non si applica alle e-mail transazionali. Tieni presente che i messaggi attivati, come il carrello abbandonato e comunicazioni simili non generate dall’abbonato, vengono considerati marketing da parte dei provider di caselle postali come [!DNL Google] e [!DNL Yahoo] e per quelli potrebbe essere necessario annullare l’iscrizione alla lista.
 
