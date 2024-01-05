@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
+source-git-commit: 69c95855786408f32de2f72e7f1deb122fb369ea
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -67,11 +67,11 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 
 >[!INFO]
 > Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti:
+> 
 > * [!DNL Adobe Campaign Classic V7/V8]: oggi supporta completamente POST 1-Click. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} entro metà gennaio
 >* [!DNL Adobe Campaign Standard]: in fase di aggiornamento per supportare POST 1-Click. Controlla di nuovo la disponibilità di aggiornamenti a breve. Verranno fornite le istruzioni per la configurazione [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: oggi supporta completamente POST 1-Click. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} entro metà gennaio
->
-> Marketo: in fase di aggiornamento per supportare POST 1-Click. Quando è pronto, viene applicato automaticamente, se necessario.
+> * [!DNL Marketo]: in fase di aggiornamento per supportare POST 1-Click. Quando è pronto, viene applicato automaticamente, se necessario.
 
 
 ## Elabora annullamenti iscrizione entro 2 giorni:
@@ -99,7 +99,7 @@ Se hai bisogno di assistenza per monitorare le percentuali dei reclami, o deside
 
 Sono stati aggiornati i tempi rispetto all&#39;annuncio originale di ottobre. Le timeline più recenti sono simili al seguente:
 
-[!DNL Gmail]
+## [!DNL Gmail]
 
 Febbraio 2024 - Inizieranno i mancati recapiti temporanei progettati per fornire un avviso di non conformità. Le e-mail continueranno a essere consegnate come di consueto dopo un breve ritardo se non sei ancora in regola con le normative. Se sei pienamente conforme, non ci saranno mancati recapiti temporanei e non noterai nulla.
 
@@ -107,7 +107,7 @@ Aprile 2024 - Inizieranno i blocchi per i mittenti che non sono conformi a tutto
 
 1 giugno 2024 - Qualsiasi mittente non pienamente conforme, incluso List-Unsubscribe 1-Click, si troverà in stato di blocco.
 
-[!DNL Yahoo]
+## [!DNL Yahoo]
 
 Non ha fornito date esatte, ma ha detto che &quot;l&#39;introduzione dell&#39;applicazione inizierà a febbraio 2024. L&#39;applicazione sarà introdotta gradualmente&quot;.
 
