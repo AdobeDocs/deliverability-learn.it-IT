@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
+source-git-commit: 1f3391430fa5a86973b8a1bd811b856dea23402e
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -212,7 +212,8 @@ Per configurare direttamente l’annullamento dell’iscrizione con un solo clic
 * Vai alla sezione SMTP delle proprietà di consegna.
 * In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
 
-List-Unsubscribe-Post: List-Unsubscribe=Un clic List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>> &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,, List-Unsubscribe-Post: List-Unsubscribe=Un clic List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>> &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+,,,
 
 L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenco con un solo clic per gli ISP che supportano questo servizio, garantendo al contempo che i destinatari che non supportano tale annullamento possano comunque richiedere l’annullamento dell’iscrizione tramite e-mail.
 
