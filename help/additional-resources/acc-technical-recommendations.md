@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 9ef6a2d18a7ab580822ca6a0ff8d485354ff71d4
+source-git-commit: caff9c7d77aed62c9d055fbca370aa756e4bf28b
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1722'
 ht-degree: 0%
 
 ---
@@ -175,12 +175,12 @@ La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestaz
 
 Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
-1; Annullamento iscrizione a mailing list: <mailto:unsubscribe@domain.com>
+1. Annullamento iscrizione a mailing list: <mailto:unsubscribe@domain.com>
 Facendo clic sul collegamento per annullare l’abbonamento si apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
 
-2; Annullamento iscrizione mailing list: <https://domain.com/unsubscribe.jsp>
+2. Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
 Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
-![immagine](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+   ![immagine](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
 
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
@@ -199,13 +199,18 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 
 A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per rispettare il requisito relativo all’annullamento dell’iscrizione all’elenco con un solo clic, i mittenti devono:
 
-1; Aggiungi in un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot; 2; Includi un URI unsubscribe Link 3; supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
+1. Aggiungi in un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+2. Includi un collegamento per l’annullamento dell’iscrizione URI
+3. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
 
 Per configurare direttamente l’annullamento dell’iscrizione con un solo clic:
 
-* Aggiungi nella seguente applicazione web &quot;Unsubscribe recipients no-click&quot; 1* Vai a Risorse -> Online -> Applicazioni web 2* Carica l’XML &quot;Unsubscribe recipients no-click&quot;
-* Configurare List-Unsubscribe e List-Unsubscribe-Post 1* Vai alla sezione SMTP delle Proprietà di consegna.
-2* In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
+* Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
+1. Vai a Risorse -> Online -> Applicazioni Web
+2. Carica l’XML &quot;Unsubscribe recipients no-click&quot; (Annulla sottoscrizione destinatari senza clic)
+* Configurare i post di annullamento iscrizione e annullamento iscrizione a mailing list
+1. Vai alla sezione SMTP delle proprietà di consegna.
+2. In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
 
 List-Unsubscribe-Post: List-Unsubscribe=Un clic List-Unsubscribe: &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>> &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
 
