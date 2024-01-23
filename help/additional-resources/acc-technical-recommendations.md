@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenco con un solo clic per gli ISP che supportano questo servizio, garantendo al contempo che i destinatari che non supportano tale annullamento possano comunque richiedere l’annullamento dell’iscrizione tramite e-mail.
 
-Fai clic qui per scoprire come configurare l’annullamento dell’iscrizione con un solo clic tramite Regola di tipologia.
+
+### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
+
+1 * Creare la nuova regola di tipologia Dalla struttura di navigazione, fai clic su nuovo per creare una nuova tipologia
+![immagine](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## Ottimizzazione delle e-mail {#email-optimization}
 
