@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: d8cc8e3ee8b1a0fc6beaec1a7bc357f3a9f52e0f
+source-git-commit: acb2f0c5c983445b538381833f3596251938480a
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 0%
@@ -241,7 +241,7 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 >
 
 In questo esempio viene descritto come:
-* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>, <http:…>
+* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>, <http://…>
 * Aggiungi nell’intestazione List-Unsubscribe-Post
 
 L’esempio di URL post utilizza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
