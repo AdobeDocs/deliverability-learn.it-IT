@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0f61e0c36f979372f05772ad5a37114dcb05e8e5
+source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -225,7 +225,7 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 Creare la nuova regola di tipologia
 
-Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
+Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
@@ -237,7 +237,7 @@ Procedi con la configurazione della regola di tipologia
 * Livello: scelta
 * Attivo
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
+![immagine](/help/assets/CreatingTypologyRules2.png)
 
 Crea un codice JavaScript per la regola di tipologia.
 
@@ -349,23 +349,23 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
+![immagine](/help/assets/CreatingTypologyRules3.png)
 
 Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok).
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
+![immagine](/help/assets/CreatingTypologyRules4.png)
 
 Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
+![immagine](/help/assets/CreatingTypologyRules5.png)
 
 Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![immagine](/help/assets/CreatingTypologyRules6.png)
 
 Verifica che sia presente l’opzione Annulla sottoscrizione elenco.
 
-![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
+![immagine](/help/assets/CreatingTypologyRules7.png)
 
 ## Ottimizzazione delle e-mail {#email-optimization}
 
