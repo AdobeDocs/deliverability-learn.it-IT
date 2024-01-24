@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
+source-git-commit: b192fc5a3287f4e20269f668ff71f328edf94482
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 1%
@@ -224,10 +224,12 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 ### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
 Creare la nuova regola di tipologia
+
 * Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
   ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
 Procedi con la configurazione della regola di tipologia
+
 * Tipo di regola: controllo
 * Canale: e-mail
 * Fase : All’inizio della personalizzazione
@@ -349,19 +351,20 @@ return true;
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok).
+
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
+
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.
+
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-Verifica che sia presente l’opzione Annulla sottoscrizione elenco
+Verifica che sia presente l’opzione Annulla sottoscrizione elenco.
+
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
-
-
-
 
 ## Ottimizzazione delle e-mail {#email-optimization}
 
