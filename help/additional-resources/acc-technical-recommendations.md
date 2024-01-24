@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,7 @@ Per configurare direttamente l’annullamento dell’iscrizione con un solo clic
 
 * Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
 * Vai a Risorse -> Online -> Applicazioni Web
-* Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * Configurare i post di annullamento iscrizione e annullamento iscrizione a mailing list
 * Vai alla sezione SMTP delle proprietà di consegna.
@@ -224,13 +224,13 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 ### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
-Creare la nuova regola di tipologia
+Crea la nuova regola di tipologia:
 
-Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
+* Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
-Procedi con la configurazione della regola di tipologia
+Procedi con la configurazione della regola di tipologia:
 
 * Tipo di regola: controllo
 * Canale: e-mail
@@ -240,7 +240,7 @@ Procedi con la configurazione della regola di tipologia
 
 ![immagine](/help/assets/CreatingTypologyRules2.png)
 
-Crea un codice JavaScript per la regola di tipologia.
+Crea un codice JavaScript per la regola di tipologia:
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia pr
 
 ![immagine](/help/assets/CreatingTypologyRules4.png)
 
-Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
+Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)
 
 ![immagine](/help/assets/CreatingTypologyRules5.png)
 
