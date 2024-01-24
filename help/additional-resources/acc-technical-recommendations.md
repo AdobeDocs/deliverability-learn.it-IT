@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 4389ac3135223c0d363e67fe7403656a17ee3f6a
+source-git-commit: 8cd825d24a77570ed54e3d4988100b25cd0a2eda
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 1%
@@ -223,11 +223,11 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 ### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
-# Creare la nuova regola di tipologia
+Creare la nuova regola di tipologia
 * Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
   ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
-# Procedi con la configurazione della regola di tipologia
+Procedi con la configurazione della regola di tipologia
 * Tipo di regola: controllo
 * Canale: e-mail
 * Fase : All’inizio della personalizzazione
@@ -236,7 +236,7 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
-# Crea un codice JavaScript per la regola di tipologia.
+Crea un codice JavaScript per la regola di tipologia.
 
 >[!NOTE]
 >
@@ -345,18 +345,19 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-# Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok).
+Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok).
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-# Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
+Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-# Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.
+Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-# Verifica che sia presente l’opzione Annulla sottoscrizione elenco
+Verifica che sia presente l’opzione Annulla sottoscrizione elenco
 ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
