@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5315c15149deb007460dc848426e1f727937041c
+source-git-commit: d8cc8e3ee8b1a0fc6beaec1a7bc357f3a9f52e0f
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1857'
 ht-degree: 0%
 
 ---
@@ -244,7 +244,9 @@ In questo esempio viene descritto come:
 * Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>, <http:…>
 * Aggiungi nell’intestazione List-Unsubscribe-Post
 
-Nell&#39;esempio di URL post viene utilizzato var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;. È possibile aggiungere altri parametri ( like &amp;service = ...)
+L’esempio di URL post utilizza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
+
+È possibile aggiungere altri parametri (come &amp;service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
