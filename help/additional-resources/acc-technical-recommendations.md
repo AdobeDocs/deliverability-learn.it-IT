@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: acb2f0c5c983445b538381833f3596251938480a
+source-git-commit: f7c2dcbf1bb86d7018c31b1ae2ef29903fb758aa
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -225,13 +225,14 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 * Creare la nuova regola di tipologia
 * Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
-
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 * Procedi con la configurazione della regola di tipologia
 * Tipo di regola: controllo
 * Canale: e-mail
 * Fase : All’inizio della personalizzazione
 * Livello: scelta
 * Attivo
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
 * Crea un codice JavaScript per la regola di tipologia.
 
@@ -342,14 +343,19 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 * Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok).
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 * Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote).
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 * Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 * Verifica che sia presente l’opzione Annulla sottoscrizione elenco
+  ![immagine](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
