@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,8 @@ Per configurare direttamente l’annullamento dell’iscrizione con un solo clic
 
 * Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
 * Vai a Risorse -> Online -> Applicazioni Web
-* Carica l’XML &quot;Unsubscribe recipients no-click&quot; (Annulla sottoscrizione destinatari senza clic)
+* Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * Configurare i post di annullamento iscrizione e annullamento iscrizione a mailing list
 * Vai alla sezione SMTP delle proprietà di consegna.
 * In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
