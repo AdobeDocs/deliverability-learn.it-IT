@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: e310c94334dae232f6f31cc5e188906862f563bd
+source-git-commit: 9175a3ded10ce4ea06712855ae3d2119f945c389
 workflow-type: tm+mt
 source-wordcount: '1870'
 ht-degree: 1%
@@ -225,8 +225,9 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 Creare la nuova regola di tipologia
 
-* Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
-  ![tipologie1](/help/assets/CreatingTypologyRules1.png)
+Dalla struttura di navigazione, fai clic su Nuovo per creare una nuova tipologia
+
+![tipologie1](/help/assets/CreatingTypologyRules1.png)
 
 Procedi con la configurazione della regola di tipologia
 
