@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
+source-git-commit: 097f41c29e189c2a8abf79e65ec322d39a2213db
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1860'
 ht-degree: 1%
 
 ---
@@ -180,7 +180,7 @@ Facendo clic sul collegamento per annullare l’abbonamento si apre il client e-
 
 * Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
 Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
-  ![immagine](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![immagine](/help/assets/ListUnsubscribe1.png)
 
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
@@ -228,7 +228,7 @@ Crea la nuova regola di tipologia:
 
 * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
-![immagine](/help/assets/CreatingTypologyRules1.png)
+![immagine](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
 
 Procedi con la configurazione della regola di tipologia:
 
@@ -248,7 +248,7 @@ Crea un codice JavaScript per la regola di tipologia:
 >In questo esempio viene descritto come:
 >* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>, <http://…>
 >* Aggiungi nell’intestazione List-Unsubscribe-Post
->L’esempio di URL post utilizza var headerUnsubUrl = &quot;http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;;
+>L’esempio di URL post utilizza var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
 >* È possibile aggiungere altri parametri (come &amp;service = ...)
 >
 
