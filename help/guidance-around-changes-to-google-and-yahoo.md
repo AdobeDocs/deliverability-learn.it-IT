@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
+source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Le regole per DMARC non cambiano, il che significa che, a meno che non sia confi
 
 DMARC è completamente supportato in Adobe, ma non è richiesto. Utilizza qualsiasi controllo DMARC gratuito per verificare se hai configurato il DMARC per i tuoi sottodomini; in caso contrario, rivolgiti al team di supporto per gli Adobi per capire come procedere al meglio per ottenere tale configurazione.
 
-Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} per Marketo Engage.
+Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} per Marketo Engage.
 
 ## 1-clic (elenco) per annullare l’iscrizione:
 
@@ -69,9 +69,9 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 > Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: oggi supporta completamente POST 1-Click. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} entro metà gennaio.
->* [!DNL Adobe Campaign Standard]: in fase di aggiornamento per supportare POST 1-Click. Controlla di nuovo la disponibilità di aggiornamenti a breve. Verranno fornite le istruzioni per la configurazione [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
->* [!DNL Adobe Journey Optimizer]: oggi supporta completamente POST 1-Click. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} entro metà gennaio.
+> * [!DNL Adobe Campaign Classic V7/V8]: supporta completamente POST 1-Click oggi, le istruzioni sono disponibili [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} entro metà gennaio.
+>* [!DNL Adobe Campaign Standard]: è in fase di aggiornamento per supportare POST 1-Click entro la fine di febbraio. Verranno fornite le istruzioni per la configurazione [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una volta pronto.
+>* [!DNL Adobe Journey Optimizer]: oggi supporta POST 1-Click, ma sono in corso alcuni miglioramenti chiave. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una volta pronto.
 > * [!DNL Marketo]: in fase di aggiornamento per supportare POST 1-Click. Quando è pronto, viene applicato automaticamente, se necessario.
 
 
@@ -110,7 +110,9 @@ Aprile 2024 - Inizieranno i blocchi per i mittenti che non sono conformi a tutto
 
 [!DNL Yahoo]
 
-Non ha fornito date esatte, ma ha detto che &quot;l&#39;introduzione dell&#39;applicazione inizierà a febbraio 2024. L&#39;applicazione sarà introdotta gradualmente&quot;.
+Febbraio 2024 - L’implementazione graduale dell’applicazione di tutti i requisiti diversi dall’annullamento dell’iscrizione alla funzione Elenco con 1 clic inizierà a febbraio 2024.
+
+Giugno 2024 - L’applicazione della funzionalità List-Unsubscribe con 1 clic inizierà a giugno 2024.
 
 ## Che impatto ha su di me, in qualità di esperto di marketing?
 
