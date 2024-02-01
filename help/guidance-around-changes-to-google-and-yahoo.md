@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
+source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 > Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: supporta completamente POST 1-Click oggi, le istruzioni sono disponibili [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} entro metà gennaio.
+> * [!DNL Adobe Campaign Classic V7/V8]: supporta completamente POST 1-Click oggi, le istruzioni sono disponibili [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]: è in fase di aggiornamento per supportare POST 1-Click entro la fine di febbraio. Verranno fornite le istruzioni per la configurazione [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una volta pronto.
 >* [!DNL Adobe Journey Optimizer]: oggi supporta POST 1-Click, ma sono in corso alcuni miglioramenti chiave. Gli aggiornamenti alla configurazione dettagliata verranno pubblicati [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una volta pronto.
 > * [!DNL Marketo]: in fase di aggiornamento per supportare POST 1-Click. Quando è pronto, viene applicato automaticamente, se necessario.
