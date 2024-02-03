@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
+source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -175,10 +175,10 @@ La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestaz
 
 Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
-1. Annullamento iscrizione a mailing list: <mailto:unsubscribe@domain.com>
+    1. Annullamento iscrizione mailing list: mailto:unsubscribe@domain.com
 Facendo clic sul collegamento per annullare l’abbonamento si apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
 
-2. Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
+    2. Annullamento iscrizione mailing list: https://domain.com/unsubscribe.jsp
 Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
 
 ![immagine](/help/assets/UTF-8-1.png)
@@ -246,7 +246,7 @@ Crea un codice JavaScript per la regola di tipologia:
 >
 >Il codice descritto di seguito deve essere utilizzato solo come esempio.
 >In questo esempio viene descritto come:
->* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>, <http://…>
+>* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>>, http://.
 >* Aggiungi nell’intestazione List-Unsubscribe-Post
 >L’esempio di URL post utilizza var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;:
 >* È possibile aggiungere altri parametri (come &amp;service = ...)
