@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
+source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -226,20 +226,20 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 **1. Crea la nuova regola di tipologia:**
 
-    * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
+* Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
 
 
-**2 **Procedi con la configurazione della regola di tipologia:**
+**2. Procedi con la configurazione della regola di tipologia:**
 
-    * Tipo di regola: controllo
-    * Canale: e-mail
-    * Fase: all’inizio della personalizzazione
-    * Livello: scelta
-    * Attivo
+* Tipo di regola: controllo
+* Canale: e-mail
+* Fase: all’inizio della personalizzazione
+* Livello: scelta
+* Attivo
 
 
 ![immagine](/help/assets/CreatingTypologyRules2.png)
