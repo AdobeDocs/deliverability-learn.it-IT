@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
+source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1867'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,9 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
     * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
+
 ![immagine](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2 **Procedi con la configurazione della regola di tipologia:**
@@ -239,10 +241,12 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
     * Livello: scelta
     * Attivo
 
+
 ![immagine](/help/assets/CreatingTypologyRules2.png)
 
 
 **Crea un codice JavaScript per la regola di tipologia:**
+
 
 >[!NOTE]
 >
@@ -350,25 +354,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![immagine](/help/assets/CreatingTypologyRules3.png)
 
 
-* **Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
+
+**3. Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
 
 ![immagine](/help/assets/CreatingTypologyRules4.png)
 
 
-* **Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
+
+**4. Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
 
 ![immagine](/help/assets/CreatingTypologyRules5.png)
 
 
-* **Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
+
+**5. Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
 
 ![immagine](/help/assets/CreatingTypologyRules6.png)
 
 
-* **Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
+
+**6. Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
 
 ![immagine](/help/assets/CreatingTypologyRules7.png)
 
