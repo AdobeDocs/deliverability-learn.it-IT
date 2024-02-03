@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 8fe2a9de16a7856c66a643ce7aaf22bae016246e
+source-git-commit: 5afc345e1cc8e47153db6b5f98e06d8ad0fb4d48
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -175,9 +175,9 @@ La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestaz
 
 Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
-1.List-Unsubscribe: mailto:unsubscribe@domain.com Facendo clic sul collegamento di annullamento dell’abbonamento si apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
+* Annullamento iscrizione a mailing list: mailto:unsubscribe@domain.com Facendo clic sul collegamento di annullamento dell’iscrizione, si apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
 
-2.List-Unsubscribe: https://domain.com/unsubscribe.jsp Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
+* Annullamento iscrizione a mailing list: https://domain.com/unsubscribe.jsp Facendo clic sul collegamento di annullamento dell’iscrizione, l’utente viene reindirizzato al modulo di annullamento dell’iscrizione.
 
 ![immagine](/help/assets/UTF-8-1.png)
 
