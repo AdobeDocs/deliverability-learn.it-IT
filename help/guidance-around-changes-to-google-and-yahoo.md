@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
+source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Ulteriori informazioni su DMARC e su come implementarlo [qui](https://experience
 
 ## 1-clic (elenco) per annullare l’iscrizione:
 
-Non farti prendere dal panico. [!DNL Google] e [!DNL Yahoo] non sta parlando dei collegamenti per annullare l’abbonamento nel corpo o nel piè di pagina dell’e-mail che potrebbero essere cliccati da un bot di sicurezza che fa solo il suo lavoro o per errore. Ciò che intendono è la funzionalità di intestazione Annullamento iscrizione a mailing list per le versioni &quot;mailto&quot; o &quot;http/URL&quot;. Questa è la funzione all&#39;interno del [!DNL Yahoo] e le interfacce utente di Gmail in cui gli utenti possono fare clic per annullare l’abbonamento. Gmail chiede anche agli utenti che fanno clic su &quot;Segnala spam&quot; di vedere se hanno intenzione di annullare l’abbonamento, il che può ridurre il numero di reclami che ricevi (i reclami danneggiano la tua reputazione) trasformandoli in annullamenti di abbonamento (non danneggia la tua reputazione).
+Non farti prendere dal panico. [!DNL Google] e [!DNL Yahoo] non sta parlando dei collegamenti per annullare l’abbonamento nel corpo o nel piè di pagina dell’e-mail che potrebbero essere cliccati da un bot di sicurezza che fa solo il suo lavoro o per errore. Ciò che intendono è la funzionalità di intestazione Annullamento iscrizione a mailing list per le versioni &quot;mailto&quot; o &quot;http/URI&quot;. Questa è la funzione all&#39;interno del [!DNL Yahoo] e le interfacce utente di Gmail in cui gli utenti possono fare clic per annullare l’abbonamento. Gmail chiede anche agli utenti che fanno clic su &quot;Segnala spam&quot; di vedere se hanno intenzione di annullare l’abbonamento, il che può ridurre il numero di reclami che ricevi (i reclami danneggiano la tua reputazione) trasformandoli in annullamenti di abbonamento (non danneggia la tua reputazione).
 
 È importante notare che [!DNL Google] e [!DNL Yahoo] fanno entrambi riferimento all’opzione &quot;http/URI&quot; con il nome &quot;1-clic&quot;, il che è intenzionale. Tecnicamente, l’opzione &quot;http/URI&quot; originale consentiva di reindirizzare i destinatari a un sito web. Questo non è il punto centrale di [!DNL Yahoo] e [!DNL Google], che fanno entrambi riferimento al file aggiornato [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} che si concentra sull’elaborazione dell’annullamento dell’abbonamento tramite una richiesta POST HTTPS, anziché tramite un sito web, rendendolo &quot;1-Click&quot;.
 
