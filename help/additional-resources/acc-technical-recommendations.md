@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5f00c22382aff61c9aa218f60ecfeabc743a2742
+source-git-commit: 5ce1c499d897ccbec7713ef2ad03ef0a810971b4
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -224,20 +224,20 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 ### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
-1. **Crea la nuova regola di tipologia:**
+* **Crea la nuova regola di tipologia:**
 
-* Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
+   * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
 
-2. **Procedi con la configurazione della regola di tipologia:**
+* **Procedi con la configurazione della regola di tipologia:**
 
-* Tipo di regola: controllo
-* Canale: e-mail
-* Fase: all’inizio della personalizzazione
-* Livello: scelta
-* Attivo
+   * Tipo di regola: controllo
+   * Canale: e-mail
+   * Fase: all’inizio della personalizzazione
+   * Livello: scelta
+   * Attivo
 
 ![immagine](/help/assets/CreatingTypologyRules2.png)
 
@@ -353,22 +353,22 @@ return true;
 ![immagine](/help/assets/CreatingTypologyRules3.png)
 
 
-3. **Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
+* **Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
 
 ![immagine](/help/assets/CreatingTypologyRules4.png)
 
 
-4. **Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
+* **Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
 
 ![immagine](/help/assets/CreatingTypologyRules5.png)
 
 
-5. **Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
+* **Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
 
 ![immagine](/help/assets/CreatingTypologyRules6.png)
 
 
-6. **Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
+* **Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
 
 ![immagine](/help/assets/CreatingTypologyRules7.png)
 
