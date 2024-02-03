@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
+source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 1%
@@ -149,7 +149,7 @@ L’utilizzo di questa funzionalità aiuta a proteggere la tua reputazione e il 
 Per utilizzare Annulla sottoscrizione elenco, immettere una riga di comando simile alla seguente:
 
 ```
-List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
+List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?bod
 Per creare una dinamica è possibile utilizzare la riga di comando seguente **Annullamento iscrizione mailing list**:
 
 ```
-List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com e Microsoft Outlook supportano questo metodo e un pulsante per annullare l’abbonamento è disponibile direttamente nell’interfaccia. Questa tecnica riduce la percentuale di reclami.
@@ -175,12 +175,13 @@ La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestaz
 
 Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
-* Annullamento iscrizione a mailing list: <mailto:unsubscribe@domain.com>
+1. Annullamento iscrizione a mailing list: <mailto:unsubscribe@domain.com>
 Facendo clic sul collegamento per annullare l’abbonamento si apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
 
-* Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
+2. Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
 Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
-  ![immagine](/help/assets/UTF-8-1.png)
+
+![immagine](/help/assets/UTF-8-1.png)
 
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
@@ -199,9 +200,9 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 
 A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per rispettare il requisito relativo all’annullamento dell’iscrizione all’elenco con un solo clic, i mittenti devono:
 
-* Aggiungi in un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-* Includi un collegamento per l’annullamento dell’iscrizione URI
-* Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
+1. Aggiungi in un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
+2. Includi un collegamento per l’annullamento dell’iscrizione URI
+3. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
 
 Per configurare direttamente l’annullamento dell’iscrizione con un solo clic:
 
