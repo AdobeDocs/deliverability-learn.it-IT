@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 66526ebad0914ef9afa995f7d826e644c0350182
+source-git-commit: 3dc1d2f352346fa2ef7b5c883da6a3e243cb32c0
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Questa intestazione può essere utilizzata in alternativa all’icona &quot;Segn
 
 L’utilizzo di questa funzionalità aiuta a proteggere la tua reputazione e il feedback verrà eseguito come un annullamento dell’abbonamento.
 
-Per utilizzare Annulla sottoscrizione elenco, è necessario immettere una riga di comando simile alla seguente:
+Per utilizzare Annulla sottoscrizione elenco, immettere una riga di comando simile alla seguente:
 
 ```
 List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -180,7 +180,7 @@ Facendo clic sul collegamento per annullare l’abbonamento si apre il client e-
 
 * Annullamento iscrizione a mailing list: <https://domain.com/unsubscribe.jsp>
 Facendo clic sul collegamento per annullare l’abbonamento, l’utente viene reindirizzato al modulo per annullare l’abbonamento.
-  ![immagine](/help/assets/ListUnsubscribe1.png)
+  ![immagine](/help/assets/UTF-8-1.png)
 
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
@@ -206,12 +206,11 @@ A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di confor
 Per configurare direttamente l’annullamento dell’iscrizione con un solo clic:
 
 * Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
-* Vai a Risorse -> Online -> Applicazioni Web
-* Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-
+   1. Vai a Risorse -> Online -> Applicazioni Web
+   2. Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configurare i post di annullamento iscrizione e annullamento iscrizione a mailing list
-* Vai alla sezione SMTP delle proprietà di consegna.
-* In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
+   1. Vai alla sezione SMTP delle proprietà di consegna.
+   2. In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
