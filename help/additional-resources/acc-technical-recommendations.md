@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -236,8 +236,8 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 **2. Procedi con la configurazione della regola di tipologia:**
 
 * Tipo di regola: controllo
+* Fase: all’inizio del targeting
 * Canale: e-mail
-* Fase: all’inizio della personalizzazione
 * Livello: scelta
 * Attivo
 
