@@ -1,23 +1,18 @@
 ---
-source-git-commit: 5de602d6b75e524dac8688e40db0e96bdbafceba
+source-git-commit: 945a7ba5e3c3ac9544199e1bb62273933a82f04a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 7%
 
 ---
-### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
+# Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
 **1. Crea la nuova regola di tipologia:**
-
 * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
-
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. Procedi con la configurazione della regola di tipologia:**
-
 * Tipo di regola: controllo
 * Fase: all’inizio del targeting
 * Canale: e-mail
@@ -140,19 +135,13 @@ return true;
 
 ![immagine](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3. Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
 
 ![immagine](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4. Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
 
 ![immagine](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5. Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
 
