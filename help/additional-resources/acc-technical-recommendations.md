@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
+source-git-commit: 2e3cebdad1613c852e950c379ddba689a3d8110e
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -159,7 +159,7 @@ List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body
 Per creare una dinamica è possibile utilizzare la riga di comando seguente **Annullamento iscrizione mailing list**:
 
 ```
-List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com e Microsoft Outlook supportano questo metodo e un pulsante per annullare l’abbonamento è disponibile direttamente nell’interfaccia. Questa tecnica riduce la percentuale di reclami.
@@ -215,7 +215,7 @@ Per configurare direttamente l’annullamento dell’iscrizione con un solo clic
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https//domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
 subject=unsubscribe%=message.mimeMessageId%>
 ```
 
