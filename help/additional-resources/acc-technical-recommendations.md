@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Il servizio di recapito messaggi di Adobe Campaign gestisce l’abbonamento ai s
 
 ### Informazioni sull’annullamento dell’iscrizione a un elenco {#about-list-unsubscribe}
 
-Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale del recapito messaggi.A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un clic. Per informazioni su come configurare l’annullamento dell’abbonamento a un clic con l’elenco, consulta di seguito.
+Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale della consegna dei messaggi. A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per informazioni su come configurare l’annullamento dell’iscrizione a un clic con l’elenco, consulta [questa sezione](#one-click-list-unsubscribe).
 
 
 Questa intestazione può essere utilizzata in alternativa all’icona &quot;Segnala come SPAM&quot;. Viene visualizzato come collegamento per annullare l’abbonamento nell’interfaccia e-mail.
@@ -181,7 +181,7 @@ Annullamento iscrizione mailing list: mailto:unsubscribe@domain.com
 Annullamento iscrizione mailing list: https://domain.com/unsubscribe.jsp
 * Facendo clic su **annulla iscrizione** link reindirizza l&#39;utente al modulo per l&#39;annullamento dell&#39;iscrizione.
 
-![immagine](/help/assets/UTF-8-1.png)
+![immagine](../assets/UTF-8-1.png)
 
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 >
 >Scopri come creare regole di tipologia in Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### Annullamento iscrizione a elenco con un solo clic
+### Annullamento iscrizione a elenco con un solo clic {#one-click-list-unsubscribe}
 
 A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per rispettare il requisito relativo all’annullamento dell’iscrizione all’elenco con un solo clic, i mittenti devono:
 
@@ -215,7 +215,7 @@ Per configurare direttamente l’annullamento dell’iscrizione con un solo clic
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenco con un solo clic per gli ISP che supportano questo servizio, garantendo al contempo che i destinatari che non supportano tale annullamento possano comunque richiedere l’annullamento dell’iscrizione tramite e-mail.
@@ -227,9 +227,7 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 
 * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
-
-![immagine](/help/assets/CreatingTypologyRules1.png)
-
+![immagine](../assets/CreatingTypologyRules1.png)
 
 
 **2. Procedi con la configurazione della regola di tipologia:**
@@ -241,7 +239,7 @@ L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenc
 * Attivo
 
 
-![immagine](/help/assets/CreatingTypologyRules2.png)
+![immagine](../assets/CreatingTypologyRules2.png)
 
 
 **Crea un codice JavaScript per la regola di tipologia:**
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![immagine](/help/assets/CreatingTypologyRules3.png)
+![immagine](../assets/CreatingTypologyRules3.png)
 
 
 
 **3. Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
 
-![immagine](/help/assets/CreatingTypologyRules4.png)
+![immagine](../assets/CreatingTypologyRules4.png)
 
 
 
 **4. Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
 
-![immagine](/help/assets/CreatingTypologyRules5.png)
+![immagine](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
 
-![immagine](/help/assets/CreatingTypologyRules6.png)
+![immagine](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
 
-![immagine](/help/assets/CreatingTypologyRules7.png)
+![immagine](../assets/CreatingTypologyRules7.png)
 
 
 ## Ottimizzazione delle e-mail {#email-optimization}
