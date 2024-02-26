@@ -1,5 +1,5 @@
 ---
-source-git-commit: d412aec66f9302107cb2466dd817b2c324912eca
+source-git-commit: 73776a83c10a1c871ffaae38371fa2c48b5bf308
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -17,6 +17,7 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 Le cose da fare
 
 DO: disponi di un collegamento per annullare l’abbonamento posizionato in modo evidente. Questo può aiutare a evitare che gli utenti facciano clic sul reclamo &quot;questo è spam&quot; (detto anche ciclo di feedback)
+
 + Alcune idee su come far risaltare il collegamento per l’annullamento dell’abbonamento: centralo, sottolinealo e grassetto, posizionalo nella parte superiore o inferiore dell’e-mail, impostalo con un colore di carattere diverso Utilizza l’unica parola - &quot;UNSUBSCRIBE&quot; - nella preferenza della lingua dell’utente. Non usare fiori o eccessiva verbosità.
 
 DO: richiedi all’unità di collegamento per l’annullamento dell’iscrizione di accedere a una pagina di destinazione in cui l’utente possa confermare che desidera essere rimosso dall’elenco
@@ -27,6 +28,7 @@ DO: richiedi all’unità di collegamento per l’annullamento dell’iscrizione
 DO: rendere il processo facile e trasparente. Esempio:
 
 + &quot;Fai clic qui per annullare l’abbonamento a tutte le e-mail di marketing&quot;. Questa dovrebbe essere la prima opzione data all’utente.
+
 + &quot;Fare clic qui per modificare le preferenze.&quot;
 
 DO: include l’indirizzo e-mail nella pagina di destinazione per l’annullamento dell’iscrizione.
