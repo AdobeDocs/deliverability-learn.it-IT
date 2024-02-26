@@ -1,17 +1,16 @@
 ---
-source-git-commit: 73776a83c10a1c871ffaae38371fa2c48b5bf308
+source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
 
 ---
-### Annullare l’abbonamento di un’attività e di un’attività
-###
-
+# Annullare l’abbonamento di un’attività e di un’attività
 
 Lo scopo di questo documento è rivedere le best practice consigliate sulla gestione dell’annullamento dell’abbonamento alle e-mail.
 
 Gli annullamenti dell’iscrizione fanno parte del ciclo di vita delle e-mail. Ma a volte è difficile per gli esperti di marketing dire addio. Lavori così duramente per creare le e-mail più coinvolgenti e presentare le migliori offerte sui prodotti e servizi offerti dal tuo marchio. Tuttavia, è del tutto normale, e dovrebbe essere normale, che alcuni abbonati decidano di andare avanti. Questo potrebbe essere dovuto a una serie di motivi, ma il punto è che non sono più interessati a sentire da te.
+
 Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestione degli annullamenti dell’iscrizione agli elenchi e-mail. Per ulteriori informazioni, leggi la sezione.
 
 Le cose da fare
@@ -29,7 +28,7 @@ DO: rendere il processo facile e trasparente. Esempio:
 
 + &quot;Fai clic qui per annullare l’abbonamento a tutte le e-mail di marketing&quot;. Questa dovrebbe essere la prima opzione data all’utente.
 
-+ &quot;Fare clic qui per modificare le preferenze.&quot;
++ &quot;Fare clic qui per modificare le preferenze&quot;.
 
 DO: include l’indirizzo e-mail nella pagina di destinazione per l’annullamento dell’iscrizione.
 
@@ -51,8 +50,7 @@ DO: utilizza l’intestazione Elenco annullamenti iscrizione nei modelli e-mail 
 
 + Fai clic qui (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
 
-# L’opzione Do Not
-#
+L’opzione Do Not
 
 
 NON: inserisci il link per annullare l’abbonamento nei tuoi contenuti nella speranza che gli abbonati &quot;rinuncino&quot; alla frustrazione.
@@ -86,4 +84,3 @@ DO NOT: forzali a specificare il motivo per cui hai annullato l’abbonamento pr
 + Un approccio migliore consisterebbe nell’informarli che l’abbonamento è stato annullato con successo e quindi lasciare loro uno spazio per offrire facoltativamente il motivo o i motivi.
 
 Ricorda che gli annullamenti di abbonamenti sono meglio dei reclami. Le persone che non partecipano positivamente al programma e-mail possono avere un effetto negativo sulla reputazione del recapito messaggi e sulle metriche. Ora è il momento di concentrarti su relazioni più profonde con gli attuali abbonati, trattandoli con messaggi pertinenti e coinvolti che non vedono l’ora di aprire, fare clic e fare un acquisto!
-
