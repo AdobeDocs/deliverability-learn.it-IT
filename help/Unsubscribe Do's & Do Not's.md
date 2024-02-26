@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DO: Consenti agli abbonati di dettare la relazione.
 
 DO: utilizza l’intestazione Elenco annullamenti iscrizione nei modelli e-mail in modo che i client e-mail (ad esempio: gmail.com) che visualizzano i collegamenti di annullamento all’iscrizione nella parte superiore dell’e-mail possano essere facilmente trovati dove l’utente è abituato a cercare annullamenti dell’iscrizione.
 
-+ Fai clic qui (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
++ Clic [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
 
 L’opzione Do Not
 
