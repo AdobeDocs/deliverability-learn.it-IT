@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
+source-git-commit: e2c2fbfee5e404e1eef25dd0068a6bdd560ed977
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 0%
+source-wordcount: '1770'
+ht-degree: 1%
 
 ---
 
@@ -67,13 +67,11 @@ La necessità di intestazioni per l’annullamento dell’iscrizione a mailing l
 
 >[!INFO]
 > Adobe sta lavorando all’abilitazione del supporto &quot;post&quot; su tutte le piattaforme di invio e-mail per supportare i nostri utenti nel soddisfare questi requisiti:
-> 
-> 
-> * [!DNL Adobe Campaign Classic V7/V8]: supporta completamente POST 1-Click oggi, le istruzioni sono disponibili [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
->* [!DNL Adobe Campaign Standard]: è in fase di aggiornamento per supportare POST 1-Click entro la fine di febbraio. Verranno fornite le istruzioni per la configurazione [qui](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} una volta pronto.
+>
+> * [!DNL Adobe Campaign v7/v8]: supporta completamente POST 1-Click oggi, le istruzioni sono disponibili [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
+>* [!DNL Adobe Campaign Standard]: a partire dal 19 febbraio, supporta completamente POST 1-Click. Ulteriori informazioni sono disponibili [qui](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel.html#email-channel-parameters){target="_blank"}.
 >* [!DNL Adobe Journey Optimizer]: supporta POST 1-Click oggi, ma sono in corso alcuni miglioramenti chiave che dovrebbero aver luogo a marzo 2024. Verranno pubblicati gli aggiornamenti della documentazione [qui](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} una volta pronto.
-> * [!DNL Marketo]: a partire dal 31 gennaio 2024 supporta completamente POST 1-Click-List-Unsubscribe. Non è richiesta alcuna azione da parte dell’utente.
-
+> * [!DNL Marketo]: a partire dal 31 gennaio 2024, supporta POST 1-Click List-Unsubscribe. Non è richiesta alcuna azione da parte dell’utente.
 
 ## Elabora annullamenti iscrizione entro 2 giorni:
 

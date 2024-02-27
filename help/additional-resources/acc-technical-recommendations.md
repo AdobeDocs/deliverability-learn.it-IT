@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
+source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1871'
 ht-degree: 1%
 
 ---
@@ -139,8 +139,11 @@ Il servizio di recapito messaggi di Adobe Campaign gestisce l’abbonamento ai s
 
 ### Informazioni sull’annullamento dell’iscrizione a un elenco {#about-list-unsubscribe}
 
-Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale della consegna dei messaggi. A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per informazioni su come configurare l’annullamento dell’iscrizione a un clic con l’elenco, consulta [questa sezione](#one-click-list-unsubscribe).
+Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale della consegna dei messaggi.
 
+>[!CAUTION]
+>
+>A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**. Per informazioni su come configurare l’annullamento dell’iscrizione a un clic con l’elenco, consulta [questa sezione](#one-click-list-unsubscribe).
 
 Questa intestazione può essere utilizzata in alternativa all’icona &quot;Segnala come SPAM&quot;. Viene visualizzato come collegamento per annullare l’abbonamento nell’interfaccia e-mail.
 
@@ -191,20 +194,18 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 >[!NOTE]
 >
 >È consigliabile creare una regola di tipologia: la funzionalità Annulla iscrizione a mailing list verrà aggiunta automaticamente in ogni e-mail.
-
->[!NOTE]
 >
->Scopri come creare regole di tipologia in Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### Annullamento iscrizione a elenco con un solo clic {#one-click-list-unsubscribe}
 
-A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per rispettare il requisito relativo all’annullamento dell’iscrizione all’elenco con un solo clic, i mittenti devono:
+A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per soddisfare tale requisito, i mittenti devono:
 
-1. Aggiungi in un &quot;List-Unsubscribe-Post: List-Unsubscribe=One-Click&quot;
-2. Includi un collegamento per l’annullamento dell’iscrizione URI
-3. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
+1. Aggiungi la seguente riga di comando:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. Includi un collegamento per annullare l’iscrizione URI.
+1. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
 
-Per configurare direttamente l’annullamento dell’iscrizione con un solo clic:
+Per configurare l’annullamento dell’abbonamento a un clic con il pulsante destro del mouse direttamente in Adobe Campaign v7/v8:
 
 * Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
    1. Vai a Risorse -> Online -> Applicazioni Web
