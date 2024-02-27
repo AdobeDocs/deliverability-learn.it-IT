@@ -1,5 +1,5 @@
 ---
-source-git-commit: fcf836681561221bdf8b96593813c26b2d8bc399
+source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -15,22 +15,22 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 ## Le cose da fare
 
-DO: disponi di un collegamento per annullare l’abbonamento posizionato in modo evidente. Questo può aiutare a evitare che gli utenti facciano clic sul reclamo &quot;questo è spam&quot; (detto anche ciclo di feedback)
+**ESEGUIRE LE OPERAZIONI SEGUENTI:** Avere un collegamento per annullare l’abbonamento posizionato in modo ben visibile. Questo può aiutare a evitare che gli utenti facciano clic sul reclamo &quot;questo è spam&quot; (detto anche ciclo di feedback)
 
 + Alcune idee su come far risaltare il collegamento per l’annullamento dell’abbonamento: centralo, sottolinealo e grassetto, posizionalo nella parte superiore o inferiore dell’e-mail, impostalo con un colore di carattere diverso Utilizza l’unica parola - &quot;UNSUBSCRIBE&quot; - nella preferenza della lingua dell’utente. Non usare fiori o eccessiva verbosità.
 
-DO: richiedi all’unità di collegamento per l’annullamento dell’iscrizione di accedere a una pagina di destinazione in cui l’utente possa confermare che desidera essere rimosso dall’elenco
+**ESEGUIRE LE OPERAZIONI SEGUENTI:** Richiedi all’unità di collegamento per l’annullamento dell’iscrizione di accedere a una pagina di destinazione in cui l’utente può confermare che desidera essere rimosso dall’elenco
 
 + Il verbiage sulla pagina di destinazione dovrebbe includere un collegamento per fare clic su che dice, &quot;Conferma l’annullamento dell’abbonamento&quot; e forse un altro collegamento che dice &quot;Fammi rifiutare e riduci la frequenza delle e-mail che ricevo da te&quot;. Questo non è un metodo di annullamento dell’abbonamento con un solo clic, ma aiuta a evitare clic su bot che determinano un annullamento dell’abbonamento errato.
 + Se con l’annullamento dell’abbonamento un utente accede a una pagina di destinazione, assicurati che, una volta che l’utente arriva alla pagina, sia possibile annullare l’abbonamento con un clic.
 
-DO: rendere il processo facile e trasparente. Esempio:
+**ESEGUIRE LE OPERAZIONI SEGUENTI:** Semplificare e rendere trasparente il processo. Esempio:
 
 + &quot;Fai clic qui per annullare l’abbonamento a tutte le e-mail di marketing&quot;. Questa dovrebbe essere la prima opzione data all’utente.
 
 + &quot;Fare clic qui per modificare le preferenze&quot;.
 
-DO: include l’indirizzo e-mail nella pagina di destinazione per l’annullamento dell’iscrizione.
+**ESEGUIRE LE OPERAZIONI SEGUENTI:** Includi l’indirizzo e-mail nella pagina di destinazione per l’annullamento dell’iscrizione.
 
 + Importante: a seconda della posizione/giurisdizione degli utenti, potrebbero esserci problemi di privacy sull’inclusione dell’indirizzo e-mail completo; potrebbe essere necessario precompilare una versione con hash dell’indirizzo e-mail. Questo perché l’e-mail potrebbe essere stata inoltrata dall’indirizzo a cui si era originariamente iscritti. Rivolgiti al tuo gruppo legale per comprendere le tue esigenze specifiche.
 
