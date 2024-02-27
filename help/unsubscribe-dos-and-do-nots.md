@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
+source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -30,7 +30,8 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Richiedi all’unità di collegamento per l’annullamento dell’iscrizione di accedere a una pagina di destinazione in cui l’utente può confermare che desidera essere rimosso dall’elenco
 
-+ Il verbiage sulla pagina di destinazione dovrebbe includere un collegamento per fare clic su che dice, &quot;Conferma l’annullamento dell’abbonamento&quot; e forse un altro collegamento che dice &quot;Fammi rifiutare e riduci la frequenza delle e-mail che ricevo da te&quot;. Questo non è un metodo di annullamento dell’abbonamento con un solo clic, ma aiuta a evitare clic su bot che determinano un annullamento dell’abbonamento errato.
+Il verbiage sulla pagina di destinazione dovrebbe includere un collegamento per fare clic su che dice, &quot;Conferma l’annullamento dell’abbonamento&quot; e forse un altro collegamento che dice &quot;Fammi rifiutare e riduci la frequenza delle e-mail che ricevo da te&quot;. Questo non è un metodo di annullamento dell’abbonamento con un solo clic, ma aiuta a evitare clic su bot che determinano un annullamento dell’abbonamento errato.
+
 + Se con l’annullamento dell’abbonamento un utente accede a una pagina di destinazione, assicurati che, una volta che l’utente arriva alla pagina, sia possibile annullare l’abbonamento con un clic.
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Semplificare e rendere trasparente il processo. Esempio:
@@ -57,7 +58,7 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Utilizza l’intestazione Elenco annullamenti iscrizione nei modelli e-mail in modo che i client e-mail (ad esempio: gmail.com) che visualizzano i collegamenti di annullamento dell’iscrizione nella parte superiore dell’e-mail possano essere facilmente trovati dove l’utente è abituato a cercare annullati.
 
-+ Clic [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
+Clic [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
 
 ## L’opzione Do Not
 
@@ -90,6 +91,7 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 **NON:** Imponi loro di fornirti il motivo per cui hanno annullato l’abbonamento prima che tu elabori la richiesta.
 
 + Consentire al cliente di aggiungere queste informazioni può essere utile per approfondimenti futuri, ma renderlo un campo facoltativo nella pagina di destinazione per l’annullamento dell’abbonamento.
+
 + Un approccio migliore consisterebbe nell’informarli che l’abbonamento è stato annullato con successo e quindi lasciare loro uno spazio per offrire facoltativamente il motivo o i motivi.
 
 Ricorda che gli annullamenti di abbonamenti sono meglio dei reclami. Le persone che non partecipano positivamente al programma e-mail possono avere un effetto negativo sulla reputazione del recapito messaggi e sulle metriche. Ora è il momento di concentrarti su relazioni più profonde con gli attuali abbonati, trattandoli con messaggi pertinenti e coinvolti che non vedono l’ora di aprire, fare clic e fare un acquisto!
