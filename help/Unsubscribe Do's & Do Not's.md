@@ -1,13 +1,11 @@
 ---
-source-git-commit: 34a7b7c8d6a2bda2f5b131bbbd9570c0b577c02c
+source-git-commit: 214036c89a3c0b3ebcdfc66bc8a4e4bd2ede5766
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 # Annullare l’abbonamento di un’attività e di un’attività
-
-Lo scopo di questo documento è rivedere le best practice consigliate sulla gestione dell’annullamento dell’abbonamento alle e-mail.
 
 Gli annullamenti dell’iscrizione fanno parte del ciclo di vita delle e-mail. Ma a volte è difficile per gli esperti di marketing dire addio. Lavori così duramente per creare le e-mail più coinvolgenti e presentare le migliori offerte sui prodotti e servizi offerti dal tuo marchio. Tuttavia, è del tutto normale, e dovrebbe essere normale, che alcuni abbonati decidano di andare avanti. Questo potrebbe essere dovuto a una serie di motivi, ma il punto è che non sono più interessati a sentire da te.
 
