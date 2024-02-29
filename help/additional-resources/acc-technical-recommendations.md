@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
+source-git-commit: 570f64fee87db7df8be8dfdd0ae1c6e6101058f7
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1925'
 ht-degree: 1%
 
 ---
@@ -137,13 +137,13 @@ Il servizio di recapito messaggi di Adobe Campaign gestisce l’abbonamento ai s
 
 ## Annullamento iscrizione mailing list {#list-unsubscribe}
 
-### Informazioni sull’annullamento dell’iscrizione a un elenco {#about-list-unsubscribe}
-
 Aggiunta di un’intestazione SMTP denominata **Annullamento iscrizione mailing list** è obbligatorio per garantire una gestione ottimale della consegna dei messaggi.
 
 >[!CAUTION]
 >
 >A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**. Per informazioni su come configurare l’annullamento dell’iscrizione a un clic con l’elenco, consulta [questa sezione](#one-click-list-unsubscribe).
+
+### Informazioni sull’annullamento dell’iscrizione a un elenco {#about-list-unsubscribe}
 
 Questa intestazione può essere utilizzata in alternativa all’icona &quot;Segnala come SPAM&quot;. Viene visualizzato come collegamento per annullare l’abbonamento nell’interfaccia e-mail.
 
@@ -165,7 +165,17 @@ Per creare una dinamica è possibile utilizzare la riga di comando seguente **An
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
+<!--This example uses the error address.-->
+
 Gmail, Outlook.com e Microsoft Outlook supportano questo metodo e un pulsante per annullare l’abbonamento è disponibile direttamente nell’interfaccia. Questa tecnica riduce la percentuale di reclami.
+
+>[!NOTE]
+>
+>Il pulsante Annulla iscrizione degli ISP non viene sempre visualizzato. In effetti, può dipendere dai criteri e dalle politiche specifici di ciascun ISP. Di conseguenza, assicurati che i messaggi siano inviati da un IP/Mittente:
+>
+>* Di buona reputazione
+>* Sotto la soglia di reclamo spam degli ISP
+>* Completamente autenticato
 
 Puoi implementare **Annullamento iscrizione mailing list** mediante:
 
@@ -174,18 +184,26 @@ Puoi implementare **Annullamento iscrizione mailing list** mediante:
 
 ### Aggiunta di una riga di comando in un modello di consegna {#adding-a-command-line-in-a-delivery-template}
 
-La riga di comando deve essere aggiunta nella sezione aggiuntiva dell’intestazione SMTP dell’e-mail.
+La riga di comando deve essere aggiunta nel **[!UICONTROL Additional SMTP headers]** nell’intestazione SMTP dell’e-mail.
 
 Questa aggiunta può essere eseguita in ogni e-mail o nei modelli di consegna esistenti. Puoi anche creare un nuovo modello di consegna che include questa funzionalità.
 
-Annullamento iscrizione mailing list: mailto:unsubscribe@domain.com
-* Facendo clic su **annulla iscrizione** link apre il client e-mail predefinito dell’utente. Questa regola di tipologia deve essere aggiunta in una tipologia utilizzata per la creazione di e-mail.
+Ad esempio, inserisci lo script seguente nel **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
-Annullamento iscrizione mailing list: https://domain.com/unsubscribe.jsp
-* Facendo clic su **annulla iscrizione** link reindirizza l&#39;utente al modulo per l&#39;annullamento dell&#39;iscrizione.
+![immagine](../assets/List-Unsubscribe-template-SMTP.png)
 
-![immagine](../assets/UTF-8-1.png)
+Facendo clic su **annulla iscrizione** link invia un’e-mail all’indirizzo unsubscribe@domain.com.
 
+<!--
+List-Unsubscribe: mailto:unsubscribe@domain.com 
+* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
+
+List-Unsubscribe: https://domain.com/unsubscribe.jsp 
+
+* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
+
+  ![image](../assets/UTF-8-1.png)
+-->
 
 ### Creazione di una regola di tipologia {#creating-a-typology-rule}
 
@@ -197,34 +215,44 @@ La regola deve contenere lo script che genera la riga di comando e deve essere i
 >
 >Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
+<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+
 ### Annullamento iscrizione a elenco con un solo clic {#one-click-list-unsubscribe}
 
 A partire dal 1° giugno 2024, Yahoo e Gmail richiederanno ai mittenti di conformarsi all’annullamento dell’iscrizione all’elenco con un solo clic. Per soddisfare tale requisito, i mittenti devono:
 
 1. Aggiungi la seguente riga di comando:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 1. Includi un collegamento per annullare l’iscrizione URI.
-1. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign.
+1. Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign. Puoi anche utilizzare un servizio esterno.
 
 Per configurare l’annullamento dell’abbonamento a un clic con il pulsante destro del mouse direttamente in Adobe Campaign v7/v8:
 
 * Aggiungi nella seguente applicazione web &quot;Annulla iscrizione destinatari senza clic&quot; 
    1. Vai a Risorse -> Online -> Applicazioni Web
    2. Carica l’opzione &quot;Annulla sottoscrizione destinatari con nessun clic&quot; [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-* Configurare i post di annullamento iscrizione e annullamento iscrizione a mailing list
-   1. Vai alla sezione SMTP delle proprietà di consegna.
-   2. In Intestazioni SMTP aggiuntive, immetti nelle righe di comando (ogni intestazione deve trovarsi su una riga separata):
 
-```
-List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-```
+Per configurare l’annullamento dell’iscrizione con un solo clic, puoi effettuare le seguenti operazioni:
 
-L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenco con un solo clic per gli ISP che supportano questo servizio, garantendo al contempo che i destinatari che non supportano tale annullamento possano comunque richiedere l’annullamento dell’iscrizione tramite e-mail.
+* [Aggiungere una riga di comando nel modello di consegna](#one-click-delivery-template)
+* [Creazione di una regola di tipologia](#one-click-typology-rule)
 
+### Configurazione dell’annullamento dell’iscrizione all’elenco con un solo clic nel modello di consegna {#one-click-delivery-template}
 
-### Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
+1. Vai alla sezione SMTP delle proprietà di consegna.
+2. In Intestazioni SMTP aggiuntive, immetti nelle righe di comando seguenti. Ogni intestazione deve essere su una riga separata.
+
+   ```
+   List-Unsubscribe-Post: List-Unsubscribe=One-Click
+   List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+   ```
+
+L’esempio precedente abiliterà l’annullamento dell’iscrizione all’elenco con un solo clic per gli ISP che supportano l’abbonamento con un solo clic, garantendo al contempo che i destinatari che non supportano l’annullamento dell’iscrizione all’elenco URL possano comunque richiedere l’annullamento dell’abbonamento tramite e-mail.
+
+### Creazione di una regola di tipologia per supportare l’annullamento dell’abbonamento a un clic {#one-click-typology-rule}
 
 **1. Crea la nuova regola di tipologia:**
+
+<!--Need to check screenshots?-->
 
 * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
