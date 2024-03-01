@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 56a8bb69be854ede21385ef35179b90f95cb1f6e
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 1%
@@ -166,7 +166,7 @@ e
 
 >[!CAUTION]
 >
->A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**. [Ulteriori informazioni su questa modifica](guidance-around-changes-to-google-and-yahoo.md)
+>A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**. [Ulteriori informazioni su questa modifica](../guidance-around-changes-to-google-and-yahoo.md)
 >
 >Scopri come configurare l’annullamento dell’iscrizione all’elenco con un solo clic in [questa sezione](#one-click-list-unsubscribe).
 
@@ -231,7 +231,7 @@ Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezion
 
 ### Annullamento iscrizione a elenco con un solo clic {#one-click-list-unsubscribe}
 
-A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi al One-Click List-Unsubscribe. [Ulteriori informazioni su questa modifica](guidance-around-changes-to-google-and-yahoo.md)
+A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi al One-Click List-Unsubscribe. [Ulteriori informazioni su questa modifica](../guidance-around-changes-to-google-and-yahoo.md)
 
 Per soddisfare tale requisito, i mittenti devono:
 
@@ -262,6 +262,7 @@ Ad esempio:
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+
 ![immagine](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
 L’esempio precedente abiliterà l’annullamento dell’abbonamento a un clic per gli ISP che supportano One-Click, garantendo al contempo che i destinatari che non supportano &quot;mailto&quot; List-Unsubscribe possano comunque richiedere l’annullamento dell’abbonamento tramite e-mail.
