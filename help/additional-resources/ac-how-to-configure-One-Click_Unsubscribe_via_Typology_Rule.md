@@ -1,5 +1,5 @@
 ---
-source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
+source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 7%
@@ -8,11 +8,13 @@ ht-degree: 7%
 # Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
 
 **1. Crea la nuova regola di tipologia:**
+
 * Dalla struttura di navigazione, fai clic su &quot;Nuovo&quot; per creare una nuova tipologia
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
 **2. Procedi con la configurazione della regola di tipologia:**
+
 * Tipo di regola: controllo
 * Fase: all’inizio del targeting
 * Canale: e-mail
