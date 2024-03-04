@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2045'
 ht-degree: 1%
 
 ---
@@ -165,9 +165,7 @@ Esistono due versioni della funzionalità di intestazione Annulla sottoscrizione
 
 >[!IMPORTANT]
 >
->A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**. [Ulteriori informazioni su questa modifica](../guidance-around-changes-to-google-and-yahoo.md)
->
->Scopri come configurare l’annullamento dell’iscrizione all’elenco con un solo clic in [questa sezione](#one-click-list-unsubscribe).
+>>Scopri come configurare l’annullamento dell’iscrizione all’elenco con un solo clic in [questa sezione](#one-click-list-unsubscribe).
 
 ### Annullamento iscrizione mailing-to {#mailto-list-unsubscribe}
 
@@ -223,8 +221,6 @@ Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezion
 ### Annulla iscrizione mailing list con un solo clic {#one-click-list-unsubscribe}
 
 Con questo metodo, fai clic su **Annulla iscrizione** link annulla direttamente l’abbonamento dell’utente e richiede una sola azione per annullare l’abbonamento.
-
-A partire dal 1° giugno 2024, Yahoo! e Gmail richiederà ai mittenti di conformarsi al One-Click List-Unsubscribe. [Ulteriori informazioni su questa modifica](../guidance-around-changes-to-google-and-yahoo.md)
 
 Per soddisfare tale requisito, i mittenti devono:
 
