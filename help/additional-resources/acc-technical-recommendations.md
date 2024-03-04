@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
+source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
 workflow-type: tm+mt
 source-wordcount: '2086'
 ht-degree: 1%
@@ -232,7 +232,7 @@ Per soddisfare tale requisito, i mittenti devono:
 * Includi un collegamento per annullare l’iscrizione URI.
 * Supporta la ricezione della risposta HTTP POST dal ricevitore, supportata da Adobe Campaign. Puoi anche utilizzare un servizio esterno.
 
-Per supportare la risposta PSOT di annullamento iscrizione a elenco con un solo clic direttamente in Adobe Campaign v7/v8, devi aggiungere nell’applicazione web &quot;Annulla iscrizione destinatari senza clic&quot;. Per eseguire questa operazione:
+Per supportare la risposta One-Click List-Unsubscribe POST direttamente in Adobe Campaign v7/v8, devi aggiungere nell’applicazione web &quot;Unsubscribe recipients no-click&quot; (Annulla l’abbonamento dei destinatari senza clic). Per eseguire questa operazione:
 
 1. Vai a **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
