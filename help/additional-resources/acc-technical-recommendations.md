@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
+source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
@@ -159,13 +159,11 @@ Esistono due versioni della funzionalità di intestazione Annulla sottoscrizione
 
 * **Annullamento iscrizione mailing-to** : con questo metodo, fai clic su **Annulla iscrizione** link invia un’e-mail precompilata all’indirizzo per annullare l’abbonamento specificato nell’intestazione dell’e-mail. [Ulteriori informazioni](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **Annullamento iscrizione a mailing list con un solo clic** : con questo metodo, fai clic su **Annulla iscrizione** link annulla direttamente l’abbonamento dell’utente. [Ulteriori informazioni](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->>Scopri come configurare l’annullamento dell’iscrizione all’elenco con un solo clic in [questa sezione](#one-click-list-unsubscribe).
+>A partire dal 1° giugno 2024, i principali ISP richiederanno ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**.
 
 ### Annullamento iscrizione mailing-to {#mailto-list-unsubscribe}
 
@@ -197,17 +195,6 @@ Ad esempio, inserisci lo script seguente nel **[!UICONTROL Additional SMTP heade
 
 ![immagine](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Creazione di una regola di tipologia {#creating-a-typology-rule}
 
 La regola deve contenere lo script che genera la riga di comando e deve essere inclusa nell’intestazione e-mail.
@@ -221,6 +208,8 @@ Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezion
 ### Annulla iscrizione mailing list con un solo clic {#one-click-list-unsubscribe}
 
 Con questo metodo, fai clic su **Annulla iscrizione** link annulla direttamente l’abbonamento dell’utente e richiede una sola azione per annullare l’abbonamento.
+
+A partire dal 1° giugno 2024, i principali ISP richiederanno ai mittenti di conformarsi a **Annulla iscrizione mailing list con un solo clic**.
 
 Per soddisfare tale requisito, i mittenti devono:
 
