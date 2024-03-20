@@ -1,11 +1,11 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
-# Annullare l’abbonamento di un’attività e di un’attività
+# Annullamento dell’abbonamento - Da fare e non fare
 
 Gli annullamenti dell’iscrizione fanno parte del ciclo di vita delle e-mail. Ma a volte è difficile per gli esperti di marketing dire addio. Lavori così duramente per creare le e-mail più coinvolgenti e presentare le migliori offerte sui prodotti e servizi offerti dal tuo marchio. Tuttavia, è del tutto normale, e dovrebbe essere normale, che alcuni abbonati decidano di andare avanti. Questo potrebbe essere dovuto a una serie di motivi, ma il punto è che non sono più interessati a sentire da te.
 
@@ -15,7 +15,7 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Avere un collegamento per annullare l’abbonamento posizionato in modo ben visibile. Questo può aiutare a evitare che gli utenti facciano clic sul reclamo &quot;questo è spam&quot; (detto anche ciclo di feedback)
 
-+ Alcune idee su come far risaltare il collegamento per l’annullamento dell’abbonamento: centralo, sottolinealo e grassetto, posizionalo nella parte superiore o inferiore dell’e-mail, impostalo con un colore di carattere diverso Utilizza l’unica parola - &quot;UNSUBSCRIBE&quot; - nella preferenza della lingua dell’utente. Non usare fiori o eccessiva verbosità.
++ Alcune idee su come far risaltare il collegamento per l’annullamento dell’abbonamento: Centralo, sottolinealo e grassetto, posizionalo nella parte superiore o inferiore dell’e-mail, impostalo con un colore di font diverso Utilizza l’unica parola - &quot;UNSUBSCRIBE&quot; - nella preferenza della lingua dell’utente. Non usare fiori o verbiage eccessivo.
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Richiedi all’unità di collegamento per l’annullamento dell’iscrizione di accedere a una pagina di destinazione in cui l’utente può confermare che desidera essere rimosso dall’elenco
 
@@ -46,12 +46,10 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 **ESEGUIRE LE OPERAZIONI SEGUENTI:** Utilizza l’intestazione Elenco annullamenti iscrizione nei modelli e-mail in modo che i client e-mail (ad esempio: gmail.com) che visualizzano i collegamenti di annullamento dell’iscrizione nella parte superiore dell’e-mail possano essere facilmente trovati dove l’utente è abituato a cercare annullati.
 
-+ Clic [qui](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it) per ulteriori informazioni sulle iniziative del settore relative all’annullamento dell’iscrizione con un clic.
-
-## L’opzione Do Not
+## Il Do Not
 
 
-**NON:** Inserisci il link per annullare l’abbonamento nei tuoi contenuti nella speranza che gli abbonati &quot;rinuncino&quot; alla frustrazione.
+**NON:** Inserisci il link per annullare l’abbonamento nei tuoi contenuti nella speranza che gli abbonati &quot;mollino&quot; per frustrazione.
 
 + Si tratta di una scarsa esperienza per l’utente finale e potrebbe portare a un aumento dei reclami, che può avere un impatto negativo sulla consegna dei messaggi e sulla reputazione.
 
@@ -72,7 +70,7 @@ Abbiamo creato un elenco di operazioni e operazioni da evitare durante la gestio
 
 + Se lo fai, hai già infranto la promessa di non inviare loro più posta.
 
-**NON:** Siate furbi nel vostro porcile. &quot;Non mi piace ricevere notizie di grande successo - ti prego, annulla l’iscrizione!&quot;
+**NON:** Siate furbi nel vostro porcile. &quot;Non mi piace sapere di grandi offerte, ti preghiamo di annullare l&#39;iscrizione a me!&quot;
 
 + Questo può sembrare maleducato. Evita un tono negativo.
 
