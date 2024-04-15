@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ Il DMARC è facoltativo e, sebbene non sia obbligatorio, è gratuito e consente 
 
 ## Best practice per l’implementazione di DMARC {#best-practice}
 
-Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, si consiglia di distribuire lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da c=nessuno a c=quarantena, fino a c=rifiuta man mano che acquisisci una comprensione di DMARC e del suo potenziale impatto.
+Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, si consiglia di implementare lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena, fino a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
 
 1. Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l’autenticazione dei messaggi legittimi non riesce, esamina e risolvi i problemi relativi a SPF/DKIM.
 1. Determina se SPF e DKIM sono allineati e trasmettono l’autenticazione per tutte le e-mail legittime, quindi sposta il criterio in (p=quarantena), che indica al server e-mail ricevente di mettere in quarantena le e-mail che non riescono a eseguire l’autenticazione (in genere significa inserire tali messaggi nella cartella di posta indesiderata).
@@ -67,6 +67,10 @@ L’utilizzo principale di questi rapporti consiste nel ricevere una panoramica 
 * [Agari](https://www.agari.com/)
 * [Dmarciano](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
+
+>[!CAUTION]
+>
+>Se gli indirizzi e-mail che si stanno aggiungendo per ricevere i rapporti si trovano all&#39;esterno del dominio per il quale viene creato il record DMARC, è necessario autorizzare il dominio esterno a specificare il DNS di cui si è proprietari. A questo scopo, segui i passaggi descritti in [Documentazione di dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Esempio di record DMARC {#example}
 
