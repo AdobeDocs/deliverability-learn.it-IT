@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 + [Attuazione](/help/putting-it-in-practice.md)
 + Appendice: risorse aggiuntive {#additional-resources}
    + [Panoramica](/help/additional-resources/general-resources.md)
-   + [Annullamento dell’abbonamento - Da fare e non fare](/help/unsubscribe-dos-and-do-nots.md)
+   + [Annullamento delle iscrizioni: cosa fare e cosa evitare](/help/unsubscribe-dos-and-do-nots.md)
    + Risorse generiche {#generic-resources}
       + [Tutto sulle trappole anti-spam](/help/additional-resources/all-about-spam-traps.md)
       + [Aumentare la reputazione e-mail con la preparazione degli indirizzi IP](/help/additional-resources/increase-reputation-with-ip-warming.md)
