@@ -11,8 +11,8 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ In quest’era digitale, le persone desiderano farsi meravigliare, rapidamente. 
 
 Ammettiamolo. Oggi, più che mai, bisogna distinguersi. Ciò significa offrire ai clienti esperienze uniche, personalizzate ed estremamente rilevanti. In caso contrario, il rischio è quello di perdere un cliente per sempre. È imperativo disporre di una strategia integrata, dinamica e multicanale che induca il pubblico a rimanere coinvolto.
 
-In questa guida puoi scoprire i termini, i concetti e gli approcci chiave riguardanti il recapito dei contenuti, per rimanere sempre un passo avanti. Puoi utilizzare la guida per mantenere il canale e-mail all’avanguardia nel marketing mix, dando maggiore priorità a distribuzione, inserimento nelle caselle in entrata e fatturato.
+In questa guida puoi scoprire i termini, i concetti e gli approcci chiave riguardanti il recapito dei contenuti, per rimanere sempre un passo avanti. Puoi utilizzarlo per mantenere il canale e-mail all’avanguardia nel marketing mix, dando priorità a recapito messaggi, posizionamento della casella in entrata e fatturato.
 
 La presente Guida alle procedure consigliate per la consegna dei messaggi tratta i seguenti argomenti:
 
@@ -35,7 +35,7 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 3. [Coinvolgimento](/help/engagement.md)
 4. [Processo di transizione: passaggio da una piattaforma e-mail a un’altra](/help/transition-process/switching-email-platforms.md)
 5. [Prime impressioni: raccolta di elenchi ed e-mail di benvenuto](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Procedure consigliate sui contenuti per una consegna dei messaggi ottimale](/help/content-best-practices-for-optimal-delivery.md)
+6. [Procedure consigliate sui contenuti per una recapitabilità ottimale](/help/content-best-practices-for-optimal-delivery.md)
 7. [Permanenza del mittente](/help/sender-permanence.md)
 8. [Specifiche del fornitore di servizi Internet](/help/internet-service-provider-specifics/overview.md)
 9. [Monitoraggio continuo](/help/ongoing-monitoring.md)

@@ -21,7 +21,7 @@ ht-degree: 16%
 
 Gli ISP hanno regole diverse e modi diversi di esaminare il loro traffico. Ad esempio, Gmail è uno degli ISP più sofisticati perché considera il coinvolgimento in modo molto rigoroso (messaggi aperti e clic) oltre a tutte le altre misure di reputazione. Questo richiede un piano personalizzato che esegua il targeting solo degli utenti più impegnati all’inizio. Anche altri ISP potrebbero richiedere lo stesso. Collabora con il tuo consulente del team Deliverability di Adobe per un piano specifico.
 
-Consulta la [Specifiche del fornitore di servizi Internet](/help/internet-service-provider-specifics/overview.md) sezione per ulteriori informazioni sulle differenze importanti tra i seguenti gruppi di provider selezionati:
+Vedere la sezione [Specifiche del provider di servizi Internet](/help/internet-service-provider-specifics/overview.md) per ulteriori informazioni sulle differenze importanti tra i seguenti gruppi di provider selezionati:
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live, ecc.)](/help/internet-service-provider-specifics/microsoft.md)
@@ -29,4 +29,4 @@ Consulta la [Specifiche del fornitore di servizi Internet](/help/internet-servic
 
 ## Risorse aggiuntive
 
-* Scopri come aumentare la reputazione e-mail con la preparazione degli indirizzi IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Ulteriori informazioni su come aumentare la reputazione e-mail con la preparazione degli indirizzi IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).

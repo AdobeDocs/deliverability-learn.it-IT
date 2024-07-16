@@ -8,11 +8,11 @@ exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
 source-wordcount: '1284'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Implementare [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
+# Implementa [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
 Lo scopo di questo documento è quello di fornire al lettore ulteriori informazioni sul metodo di autenticazione e-mail, DMARC. Spiegando come funziona DMARC e le sue varie opzioni strategiche, i lettori comprenderanno meglio l’impatto di DMARC sul recapito e-mail.
 
@@ -22,9 +22,9 @@ Domain-based Message Authentication, Reporting and Conformance, è un metodo di 
 
 DMARC dispone di tre opzioni:
 
-* **Monitor (p=none):** Indica al provider di cassette postali/ISP di eseguire le operazioni normalmente eseguite sul messaggio.
-* **Quarantena (p=quarantena):** Indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
-* **Rifiuta (p=rifiuta):** Indica al provider di cassette postali o all&#39;ISP di bloccare i messaggi che non passano DMARC causando un mancato recapito.
+* **Monitoraggio (p=none):** indica al provider della cassetta postale o all&#39;ISP di eseguire le operazioni normalmente eseguite sul messaggio.
+* **Quarantena (p=quarantena):** indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
+* **Rifiuta (p=rifiuta):** indica al provider della cassetta postale o all&#39;ISP di bloccare la posta che non passa il DMARC causando un mancato recapito.
 
 ## Come funziona DMARC? {#how}
 
@@ -44,7 +44,8 @@ Il DMARC è facoltativo e, sebbene non sia obbligatorio, è gratuito e consente 
 
 ## Best practice per l’implementazione di DMARC {#best-practice}
 
-Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, si consiglia di implementare lentamente l’implementazione di DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena, fino a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
+Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, è
+si consiglia di implementare lentamente l’implementazione DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena e a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
 
 1. Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l’autenticazione dei messaggi legittimi non riesce, esamina e risolvi i problemi relativi a SPF/DKIM.
 1. Determina se SPF e DKIM sono allineati e trasmettono l’autenticazione per tutte le e-mail legittime, quindi sposta il criterio in (p=quarantena), che indica al server e-mail ricevente di mettere in quarantena le e-mail che non riescono a eseguire l’autenticazione (in genere significa inserire tali messaggi nella cartella di posta indesiderata).
@@ -58,8 +59,8 @@ Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita
 
 DMARC offre la possibilità di ricevere rapporti relativi alle e-mail che non superano SPF/DKIM. Esistono due diversi rapporti generati dai server ISP come parte del processo di autenticazione che i mittenti possono ricevere tramite i tag RUA/RUF nei propri criteri DMARC:
 
-* **Rapporti aggregati (RUA):** Non contiene dati PII (personalmente identificabili) che potrebbero essere sensibili ai requisiti RGPD.
-* **Rapporti forensi (RUF):** Contiene indirizzi e-mail sensibili al RGPD. Prima di utilizzare, è consigliabile verificare internamente come gestire le informazioni che devono essere conformi ai requisiti RGPD.
+* **Aggregate Reports (RUA):** non contiene dati PII (personalmente identificabili) che potrebbero essere sensibili ai requisiti RGPD.
+* **Rapporti forensi (RUF):** contiene indirizzi e-mail sensibili al RGPD. Prima di utilizzare, è consigliabile verificare internamente come gestire le informazioni che devono essere conformi ai requisiti RGPD.
 
 L’utilizzo principale di questi rapporti consiste nel ricevere una panoramica delle e-mail che vengono tentate di spoofing. Si tratta di rapporti altamente tecnici che è meglio digerire tramite uno strumento di terze parti. Alcune aziende specializzate nel monitoraggio DMARC sono:
 
@@ -70,7 +71,7 @@ L’utilizzo principale di questi rapporti consiste nel ricevere una panoramica 
 
 >[!CAUTION]
 >
->Se gli indirizzi e-mail che si stanno aggiungendo per ricevere i rapporti si trovano all&#39;esterno del dominio per il quale viene creato il record DMARC, è necessario autorizzare il dominio esterno a specificare il DNS di cui si è proprietari. A questo scopo, segui i passaggi descritti in [Documentazione di dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+>Se gli indirizzi e-mail che stai aggiungendo per ricevere i rapporti si trovano all’esterno del dominio per il quale viene creato il record DMARC, dovrai autorizzare il dominio esterno a specificare al DNS che possiedi quel dominio. A questo scopo, segui i passaggi descritti nella [Documentazione di dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 ### Esempio di record DMARC {#example}
 
@@ -86,7 +87,7 @@ I record DMARC hanno più componenti denominati tag DMARC. Ogni tag ha un valore
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Obbligatorio | Questo tag DMARC specifica la versione. Al momento è disponibile una sola versione, quindi il valore fisso sarà v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | Obbligatorio | Mostra il criterio DMARC selezionato e indica al destinatario di segnalare, mettere in quarantena o rifiutare i messaggi che non superano i controlli di autenticazione. | p=none, quarantena o rifiuto | - |
-| fo | Facoltativo | Consente al proprietario del dominio di specificare le opzioni di reporting. | 0: genera il rapporto se tutto non riesce<br/>1: generare un rapporto in caso di errori<br/>d: Genera report in caso di errore DKIM<br/>s: Genera report se SPF non riesce | 1 (consigliato per i rapporti DMARC) |
+| fo | Facoltativo | Consente al proprietario del dominio di specificare le opzioni di reporting. | 0: Genera report in caso di errori<br/>1: Genera report in caso di errori<br/>d: Genera report in caso di errori DKIM<br/>s: Genera report in caso di errori SPF | 1 (consigliato per i rapporti DMARC) |
 | pct | Facoltativo | Indica la percentuale di messaggi soggetti a filtro. | pct=20 | 100 |
 | rua | Facoltativo (consigliato) | Identifica dove verranno consegnati i rapporti aggregati. | `rua=mailto:aggrep@example.com` | - |
 | ruf | Facoltativo (consigliato) | Identifica dove verranno consegnati i rapporti forensi. | `ruf=mailto:authfail@example.com` | - |

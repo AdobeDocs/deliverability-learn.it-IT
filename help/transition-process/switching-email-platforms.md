@@ -1,5 +1,5 @@
 ---
-title: Effettuare una transizione fluida quando si passa da una piattaforma e-mail a un’altra.
+title: Effettuare una transizione fluida quando si cambia piattaforma e-mail.
 description: Quando si spostano provider di servizi e-mail (ESP), non è possibile effettuare la transizione anche agli indirizzi IP esistenti e consolidati. È importante seguire le best practice per sviluppare una reputazione positiva al momento di ricominciare.
 topics: Deliverability
 jira: KT-5259
@@ -12,8 +12,8 @@ team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 11%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 

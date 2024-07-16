@@ -12,7 +12,7 @@ team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '895'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Anche se come mittente non riesci a tenere traccia di tutte le stesse metriche d
 
 ## Qualità oltre la quantità
 
-**Crescita organica degli elenchi** è la pietra angolare di una lista sana. Molti addetti al marketing focalizzano l’attenzione sulla crescita degli elenchi, ma dal punto di vista del recapito messaggi è importante creare un elenco di qualità per gli abbonati altamente coinvolti. L’invio continuo di e-mail a un pubblico in gran parte disinteressato può diminuire la reputazione di invio e aumentare notevolmente la probabilità che l’e-mail arrivi nella cartella di posta indesiderata o di posta indesiderata.
+**La crescita organica dell&#39;elenco** è il fondamento di un elenco integro. Molti addetti al marketing focalizzano l’attenzione sulla crescita degli elenchi, ma dal punto di vista del recapito messaggi è importante creare un elenco di qualità per gli abbonati altamente coinvolti. L’invio continuo di e-mail a un pubblico in gran parte disinteressato può diminuire la reputazione di invio e aumentare notevolmente la probabilità che l’e-mail arrivi nella cartella di posta indesiderata o di posta indesiderata.
 
-**Frequenza di invio** è importante da considerare durante la creazione e la gestione di un programma di e-mail marketing. Impostare le aspettative dei destinatari durante il messaggio di benvenuto è una strategia molto utile che le persone amano sapere cosa aspettarsi. Tuttavia, queste aspettative devono essere soddisfatte: l’invio di e-mail troppo spesso può causare affaticamento dei clienti e, in alcuni casi, può portare a un aumento dei reclami e all’annullamento degli abbonamenti.
+**La frequenza di invio** è importante da considerare durante la creazione e la gestione di un programma di e-mail marketing. Impostare le aspettative dei destinatari durante il messaggio di benvenuto è una strategia molto utile che le persone amano sapere cosa aspettarsi. Tuttavia, queste aspettative devono essere soddisfatte: l’invio di e-mail troppo spesso può causare affaticamento dei clienti e, in alcuni casi, può portare a un aumento dei reclami e all’annullamento degli abbonamenti.
 
 La frequenza corretta deve essere trovata da ogni addetto marketing per il proprio programma di marketing specifico. Consigliamo di testare diverse frequenze per trovare il giusto equilibrio per qualsiasi programma di marketing specifico. Mantenere i destinatari coinvolti e attivi è una delle cose più importanti che un addetto marketing può fare per garantire il successo di un programma di e-mail marketing.
 
 ## Cambiamento interessi
 
-Gli interessi degli abbonati sono in continua evoluzione e gli esperti di marketing devono comprendere che l’impegno nei confronti di un marchio può essere temporaneo. Alcuni abbonati rinunceranno, ma molti si limiteranno a eliminare o ignorare le e-mail indesiderate. Dal punto di vista di un consumatore, qualsiasi messaggio non richiesto o indesiderato viene percepito come spam. Pertanto, gli esperti di marketing devono fare affidamento su **marketing basato su autorizzazioni** e **monitoraggio del coinvolgimento** per la perdita di interessi. Per ottenere un posizionamento ottimale nella casella in entrata, consigliamo agli addetti al marketing di coinvolgere nuovamente in modo strategico gli abbonati utilizzando campagne di riattivazione e una strategia di recupero (win-back), strumenti che possono essere molto utili per un addetto al marketing via e-mail.
+Gli interessi degli abbonati sono in continua evoluzione e gli esperti di marketing devono comprendere che l’impegno nei confronti di un marchio può essere temporaneo. Alcuni abbonati rinunceranno, ma molti si limiteranno a eliminare o ignorare le e-mail indesiderate. Dal punto di vista di un consumatore, qualsiasi messaggio non richiesto o indesiderato viene percepito come spam. Pertanto, gli addetti al marketing devono affidarsi a **attività di marketing basate sulle autorizzazioni** e **attività di monitoraggio** per non perdere interesse. Per ottenere un posizionamento ottimale nella casella in entrata, consigliamo agli addetti al marketing di coinvolgere nuovamente in modo strategico gli abbonati utilizzando campagne di riattivazione e una strategia di recupero (win-back), strumenti che possono essere molto utili per un addetto al marketing via e-mail.
 
-A **strategia di riconquista** si verifica quando un incentivo speciale viene inviato regolarmente a una parte specifica di un database di marketing nel tentativo di coinvolgere nuovamente un elenco con un’attività di apertura e clic ridotta. Le risposte positive vengono mantenute e la parte dell’elenco che non risponde viene spostata in uno stato inattivo e non viene più inviata a.
+Una **strategia di riconquista** si verifica quando un incentivo speciale viene inviato regolarmente a una parte specifica di un database di marketing nel tentativo di coinvolgere nuovamente un elenco che ha avuto un&#39;attività di apertura e clic ridotta. Le risposte positive vengono mantenute e la parte dell’elenco che non risponde viene spostata in uno stato inattivo e non viene più inviata a.
 
-A **campagna di riattivazione** è simile ma viene utilizzato per riconfermare una lista una volta, il che è utile quando si tratta di vecchie liste obsolete — quelle a cui non è stato spedito per oltre 12 mesi, o anche anni. Questo tipo di campagna viene generalmente applicato anche dai inserisce nell&#39;elenco Bloccati di per risolvere un blocco. Gli abbonati che non vengono ricoinvolti correttamente tramite questo processo devono essere esclusi dalle promozioni e-mail future.
+Una **campagna di riattivazione** è simile, ma viene utilizzata per riconfermare un elenco una volta, il che è utile quando si tratta di elenchi obsoleti, ovvero elenchi a cui non è stata inviata alcuna e-mail da oltre 12 mesi o persino anni. Questo tipo di campagna viene generalmente applicato anche dai inserisce nell&#39;elenco Bloccati di per risolvere un blocco. Gli abbonati che non vengono ricoinvolti correttamente tramite questo processo devono essere esclusi dalle promozioni e-mail future.
 
 Il modo migliore per implementare una campagna di riconquista o riattivazione sarà quello di utilizzare esclusivamente il programma e-mail e dovrebbe essere completamente personalizzato in base alle esigenze e alla situazione della tua azienda.
 
@@ -49,7 +49,7 @@ Il modo migliore per implementare una campagna di riconquista o riattivazione sa
 
 È semplice impostare l&#39;indirizzo di posta elettronica di risposta come un indirizzo di &quot;non risposta&quot;, ma si tratta di un errore che non tiene conto del quadro generale.
 
-Quando i destinatari rispondono alle e-mail di marketing, è prevista una risposta. Attivando una **sistema di risposta**, ti aiuterà a migliorare la reputazione del mittente. Questo aumenterà la probabilità di un recapito messaggi positivo e le percentuali di posizionamento della casella in entrata.
+Quando i destinatari rispondono alle e-mail di marketing, è prevista una risposta. Attivando un sistema di **risposta e risposta**, potrai migliorare la reputazione del mittente. Questo aumenterà la probabilità di un recapito messaggi positivo e le percentuali di posizionamento della casella in entrata.
 
 Offre inoltre una migliore esperienza ai clienti e contribuirà ad aumentare la percezione positiva del marchio da parte dei consumatori. Dopo tutto, niente dice &quot;per favore fai affari con noi&quot; come &quot;vogliamo sentire da te&quot;.
 

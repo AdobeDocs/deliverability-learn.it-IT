@@ -8,14 +8,14 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 2%
+source-wordcount: '441'
+ht-degree: 1%
 
 ---
 
 # Tutto sulle trappole anti-spam
 
-A [trappola spam](/help/metrics/spam-traps.md) è un indirizzo valido, senza messaggio di errore quando le e-mail vengono inviate a. Una trappola spam ha una missione principale: identificare spammer o mittenti senza processo di igiene dei dati.
+Una [trappola spam](/help/metrics/spam-traps.md) è un indirizzo valido, senza messaggio di errore quando le e-mail vengono inviate a. Una trappola spam ha una missione principale: identificare spammer o mittenti senza processo di igiene dei dati.
 
 ## Chi gestisce questi indirizzi di trappole spam?
 
@@ -27,7 +27,7 @@ Il secondo tipo di trappola spam si basa sui vecchi indirizzi ISP attivi. Questi
 
 **Un indirizzo e-mail senza utente finale**: questi indirizzi non hanno e non avranno mai un utente finale che potrebbe registrarsi alle newsletter o a qualsiasi altro tipo di comunicazione.
 
-**Un indirizzo e-mail abbandonato da un utente**: dopo un periodo di inattività, gli indirizzi vengono disattivati dagli ISP. I messaggi non recapitati vengono inviati ai mittenti per informarli di questo nuovo stato. I mittenti devono mettere in quarantena questi indirizzi o rimuoverli da comunicazioni future. Gli ISP utilizzano questi indirizzi trasformati in &quot;trappola spam&quot; per monitorare i mittenti con pratiche scorrette.
+**Indirizzo e-mail abbandonato da un utente**: dopo un periodo di inattività, gli indirizzi vengono disattivati dagli ISP. I messaggi non recapitati vengono inviati ai mittenti per informarli di questo nuovo stato. I mittenti devono mettere in quarantena questi indirizzi o rimuoverli da comunicazioni future. Gli ISP utilizzano questi indirizzi trasformati in &quot;trappola spam&quot; per monitorare i mittenti con pratiche scorrette.
 
 ## Come riconoscere o identificare una trappola spam?
 

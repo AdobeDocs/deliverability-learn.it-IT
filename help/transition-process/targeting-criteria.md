@@ -12,8 +12,8 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 22%
+source-wordcount: '188'
+ht-degree: 16%
 
 ---
 
@@ -29,8 +29,8 @@ In genere, il tasso di coinvolgimento si basa su un periodo di tempo specifico. 
 
 **Analytics**
 
-* [Come aumentare i tassi di coinvolgimento e fidelizzazione (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifica i tipi di pubblico coinvolti attraverso il loro comportamento utilizzando coorti e scopri cosa porta gli utenti a usare di più le tue app mobili. Utilizza gli algoritmi della scienza dei dati in Segment IQ per conoscere le differenze e le analogie tra segmenti diversi.*
+* [Come aumentare i tassi di coinvolgimento e fidelizzazione (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identifica i tipi di pubblico coinvolti attraverso il loro comportamento utilizzando coorti e scopri cosa porta gli utenti a usare di più le tue app mobili. Utilizza gli algoritmi della scienza dei dati nel segmento IQ per conoscere le differenze e le analogie tra segmenti diversi.*
 
 **Campaign Standard**
 
-* [E-mail basate sull’intelligenza artificiale: punteggio di coinvolgimento predittivo](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [E-mail basate sull&#39;intelligenza artificiale: punteggio di coinvolgimento predittivo](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)

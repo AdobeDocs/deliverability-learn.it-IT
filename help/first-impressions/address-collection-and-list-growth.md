@@ -10,8 +10,8 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1594'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +21,15 @@ Le migliori fonti di nuovi indirizzi e-mail sono fonti dirette come le iscrizion
 
 Alcune note su questi metodi di registrazione:
 
-**Archivio fisico** la raccolta di elenchi può presentare problemi dovuti a input di indirizzi verbali o scritti che causano errori di ortografia negli indirizzi. Si consiglia di inviare un’e-mail di conferma il prima possibile dopo l’iscrizione in-store.
+**La raccolta di elenchi dell&#39;archivio fisico** può presentare problemi a causa di input di indirizzi verbali o scritti che causano errori di ortografia negli indirizzi. Si consiglia di inviare un’e-mail di conferma il prima possibile dopo l’iscrizione in-store.
 
-La forma più comune di **iscrizione al sito web** è &quot;single opt-in&quot;. Si tratta dello standard minimo assoluto da utilizzare per acquisire indirizzi e-mail. Il consenso singolo si verifica quando il titolare di un indirizzo e-mail specifico concede a un mittente l’autorizzazione a inviare e-mail di marketing, solitamente inviando l’indirizzo tramite un modulo web o iscrizioni in-store. Anche se è possibile eseguire una campagna e-mail di successo utilizzando questo metodo, può essere la causa di alcuni problemi.
+La forma più comune di **abbonamento a un sito Web** è &quot;Single Opt-in&quot;. Si tratta dello standard minimo assoluto da utilizzare per acquisire indirizzi e-mail. Il consenso singolo si verifica quando il titolare di un indirizzo e-mail specifico concede a un mittente l’autorizzazione a inviare e-mail di marketing, solitamente inviando l’indirizzo tramite un modulo web o iscrizioni in-store. Anche se è possibile eseguire una campagna e-mail di successo utilizzando questo metodo, può essere la causa di alcuni problemi.
 
 * Gli indirizzi e-mail non confermati possono contenere errori di battitura o essere in formato errato, errato o utilizzati in modo dannoso. Gli errori di battitura e gli indirizzi non corretti causano tassi elevati di mancato recapito, che possono e non provocano blocchi rilasciati dagli ISP o la perdita di reputazione IP.
 
-* L&#39;invio doloso di trappole spam conosciute (a volte chiamato &quot;avvelenamento da lista&quot;) può causare enormi problemi di consegna e reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a un elenco di marketing senza una conferma. Questo rende ugualmente impossibile impostare le aspettative del destinatario e può portare a un aumento dei reclami spam — e a volte a inserire nell&#39;elenco Bloccati se l&#39;e-mail raccolta si presenta come una trappola spam.
+* L&#39;invio doloso di trappole spam conosciute (a volte chiamato &quot;avvelenamento da lista&quot;) può causare enormi problemi di consegna e reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a un elenco di marketing senza una conferma. Questo rende ugualmente impossibile impostare le aspettative del destinatario e può portare a un aumento dei reclami di spam — e a volte a inserire nell&#39;elenco Bloccati se l&#39;e-mail raccolta si presenta come una trappola spam.
 
-Per informazioni su come ridurre al minimo i problemi presentati sia nell’archivio fisico che nel consenso singolo, consulta [Qualità dei dati e igiene](#data-quality-and-hygiene) in questa guida per i dettagli e i vantaggi del doppio consenso.
+Per informazioni su come ridurre al minimo i problemi presentati sia nell&#39;archivio fisico che nel consenso singolo, vedere la sezione [Qualità dei dati e igiene](#data-quality-and-hygiene) in questa guida per i dettagli e i vantaggi del doppio consenso.
 
 >[!NOTE]
 >
@@ -54,14 +54,14 @@ La raccolta dei dati è solo una parte della sfida. È inoltre necessario assicu
 Di seguito sono riportate alcune soluzioni ai problemi comuni che puoi incontrare con i dati del tuo indirizzo e-mail:
 
 **[!DNL Double opt-in (DOI)]**
-[!DNL Double opt-in (DOI)] è considerata la best practice per la consegna dei messaggi dalla maggior parte degli esperti e-mail. In caso di problemi con trappole spam o reclami sulle e-mail di benvenuto, DOI è un buon modo per assicurarsi che l’abbonato che riceve le e-mail si sia effettivamente iscritto al tuo programma e-mail e desideri riceverle.
+[!DNL Double opt-in (DOI)] è considerata la best practice per il recapito dei messaggi dalla maggior parte degli esperti di posta elettronica. In caso di problemi con trappole spam o reclami sulle e-mail di benvenuto, DOI è un buon modo per assicurarsi che l’abbonato che riceve le e-mail si sia effettivamente iscritto al tuo programma e-mail e desideri riceverle.
 
 DOI consiste nell’inviare un’e-mail di conferma all’indirizzo e-mail dell’abbonato che si è iscritto al tuo programma e-mail contenente un collegamento su cui è necessario fare clic per confermare il consenso. Con questo metodo di acquisizione, se l’abbonato non conferma, il mittente non invierà loro più e-mail. Fai sapere ai nuovi abbonati che lo stai facendo sul sito web, incoraggiandoli a completare l’iscrizione prima di continuare. Questo metodo prevede una riduzione del numero di iscrizioni, ma le persone che si iscrivono tendono ad essere altamente coinvolte e a rimanere nel lungo periodo. Di solito si traduce in un ROI molto più elevato per il mittente.
 
 **Campo nascosto**
 L’applicazione di un campo nascosto nel modulo di abbonamento rappresenta un ottimo modo per distinguere le iscrizioni bot automatizzate dai veri utenti con abbonamento umano. Poiché il campo dati non è visibile, nascosto nel codice HTML, un bot immetterà i dati dove un utente non li immetterebbe. Utilizzando questo metodo, puoi creare regole per eliminare eventuali iscrizioni che includono dati inseriti in quel campo nascosto.
 
-**[!DNL re-CAPTCHA] è un metodo di convalida che puoi utilizzare per ridurre le possibilità che l’abbonato sia un bot e non una persona reale. Esistono varie versioni, alcune delle quali contengono l&#39;identificazione di parole chiave o immagini. Alcune versioni sono più efficaci di altre e quello che si ottiene in sicurezza e la prevenzione dei problemi di consegna è molto più alto di qualsiasi impatto negativo alle conversioni.
+**[!DNL re-CAPTCHA] è un metodo di convalida che è possibile utilizzare per ridurre le probabilità che il sottoscrittore sia un bot e non una persona reale. Esistono varie versioni, alcune delle quali contengono l&#39;identificazione di parole chiave o immagini. Alcune versioni sono più efficaci di altre e quello che si ottiene in sicurezza e la prevenzione dei problemi di consegna è molto più alto di qualsiasi impatto negativo alle conversioni.
 
 ## Linee guida legali
 
@@ -78,15 +78,15 @@ Esistono molti altri modi per raccogliere gli indirizzi, ciascuno con le proprie
 **Acquista o noleggia un elenco**
 Ci sono molti tipi di indirizzi e-mail là fuori. E-mail primaria, e-mail aziendali, e-mail scolastiche, e-mail secondarie ed e-mail inattive per citarne alcune. I tipi di indirizzi raccolti e condivisi tramite elenchi acquistati o noleggiati sono raramente account e-mail primari, che sono dove si verifica quasi tutta l&#39;attività di coinvolgimento e acquisto.
 
-Se sei fortunato, ottieni account secondari, dove le persone cercano offerte quando sono pronte per fare acquisti per qualcosa. Questo di solito si traduce in bassi livelli di coinvolgimento, se ce ne sono. Se non sei fortunato, l’elenco è pieno di e-mail inattive, che ora potrebbero essere trappole spam. Spesso si ottengono una combinazione di e-mail secondarie e inattive. In generale, la qualità di questi tipi di elenchi fa più male che bene a un programma e-mail. Questa pratica è vietata dalla [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Se sei fortunato, ottieni account secondari, dove le persone cercano offerte quando sono pronte per fare acquisti per qualcosa. Questo di solito si traduce in bassi livelli di coinvolgimento, se ce ne sono. Se non sei fortunato, l’elenco è pieno di e-mail inattive, che ora potrebbero essere trappole spam. Spesso si ottengono una combinazione di e-mail secondarie e inattive. In generale, la qualità di questi tipi di elenchi fa più male che bene a un programma e-mail. Questa pratica non è consentita dai [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Elenchi accodati**
-Si tratta di clienti che hanno scelto di interagire con il tuo marchio, il che è fantastico. Ma hanno scelto di impegnarsi attraverso un metodo diverso dalle e-mail (in-store, social media, ecc.). Non hanno potuto ricevere un’e-mail non richiesta da te e potrebbero anche essere preoccupati di come hai ottenuto il loro indirizzo e-mail poiché non l’hanno fornito. Questo metodo rischia di trasformare un cliente, o potenziale cliente, che si è impegnato con il tuo marchio in un detrattore che non si fida più del tuo marchio e va invece alla tua concorrenza. Questa pratica è vietata dalla [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+**Elenchi aggiunti**
+Si tratta di clienti che hanno scelto di interagire con il tuo marchio, il che è fantastico. Ma hanno scelto di impegnarsi attraverso un metodo diverso dalle e-mail (in-store, social media, ecc.). Non hanno potuto ricevere un’e-mail non richiesta da te e potrebbero anche essere preoccupati di come hai ottenuto il loro indirizzo e-mail poiché non l’hanno fornito. Questo metodo rischia di trasformare un cliente, o potenziale cliente, che si è impegnato con il tuo marchio in un detrattore che non si fida più del tuo marchio e va invece alla tua concorrenza. Questa pratica non è consentita dai [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
-**Fiera o altra raccolta di eventi**
+**Fiera o altra raccolta eventi**
 Raccogliere gli indirizzi in uno stand o tramite un altro funzionario, metodo chiaramente contrassegnato può essere utile. Il rischio è che molti eventi come questo raccolgano tutti gli indirizzi e li distribuiscano tramite il promotore o l&#39;host dell&#39;evento. Ciò significa che i proprietari di questi indirizzi e-mail non hanno mai richiesto di ricevere e-mail dal tuo marchio. È probabile che questi abbonati si lamentino e contrassegnino la tua e-mail come spam, e potrebbero non aver fornito informazioni di contatto accurate.
 
-**Paletti**
+**Azioni**
 
 Le puntate forniscono rapidamente un numero elevato di indirizzi e-mail. Ma questi abbonati vogliono il premio, non le tue e-mail. Forse non hanno nemmeno prestato attenzione al nome di chi li avrebbe contattati. È probabile che si lamentino e contrassegnino le tue e-mail come spam e che non siano propensi a coinvolgere o fare un acquisto.
 

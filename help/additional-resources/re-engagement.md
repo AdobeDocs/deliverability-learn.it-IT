@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Durante l’implementazione del recapito messaggi, alcune delle best practice co
 
 ## In che modo gli ISP visualizzano le attività di mancato coinvolgimento? {#how-do-isps-view-non-engagement-activity-}
 
-Per anni, gli ISP hanno utilizzato le metriche di feedback del coinvolgimento dei loro utenti per decidere dove inserire i messaggi o se consegnarli. Utente [coinvolgimento](/help/engagement.md) consiste in feedback sia positivi che negativi e gli ISP monitorano entrambi su base costante. L&#39;assenza di coinvolgimento è forse uno dei principali fattori che contribuiscono all&#39;impegno negativo. Dal punto di vista del recapito messaggi, l’invio coerente di campagne agli utenti che non mostrano alcun coinvolgimento può anche ridurre la reputazione complessiva del tuo indirizzo IP e dei tuoi domini.
+Per anni, gli ISP hanno utilizzato le metriche di feedback del coinvolgimento dei loro utenti per decidere dove inserire i messaggi o se consegnarli. L&#39;utente [engagement](/help/engagement.md) è costituito da feedback sia positivi che negativi e gli ISP monitorano entrambi su base costante. L&#39;assenza di coinvolgimento è forse uno dei principali fattori che contribuiscono all&#39;impegno negativo. Dal punto di vista del recapito messaggi, l’invio coerente di campagne agli utenti che non mostrano alcun coinvolgimento può anche ridurre la reputazione complessiva del tuo indirizzo IP e dei tuoi domini.
 
 ISP come Gmail, Microsoft® e OATH visualizzano il mancato coinvolgimento come e-mail indesiderata e iniziano a reindirizzare i messaggi alla cartella di posta indesiderata. Inoltre, questi abbonati potrebbero non essere più proprietari dell’account e-mail e questo può essere utilizzato come trappola spam &quot;riciclata&quot;. Ciò significa che l’indirizzo non era valido per un certo periodo di tempo e che tutti i messaggi vengono rifiutati. Se il sistema di gestione degli abbonati non rimuove gli indirizzi &quot;hard bounce&quot;, è probabile che l’invio di trappole spam possa causare problemi di consegna significativi.
 
@@ -45,7 +45,7 @@ Secondo uno studio sul percorso di ritorno, le campagne di ricoinvolgimento hann
 ### Fase 1 {#phase-1}
 
 * Il primo passaggio consiste nell’identificare gli abbonati che hanno un’attività di apertura o clic minima o nulla e, di conseguenza, segmentare questo gruppo in base a un intervallo di tempo impostato. La regola empirica è quella di rivedere gli abbonati che non hanno aperto o fatto clic su un’e-mail negli ultimi 90 giorni. Tuttavia, questo varia a seconda della natura dell’attività (ad esempio, invio stagionale).
-* Un altro aspetto da tenere presente quando si definiscono gli intervalli di tempo è che gli ISP e le aziende di elenco Bloccati di considerano il coinvolgimento come un periodo compreso tra 1,5 e 1,8 anni. Inoltre, attività comportamentali come acquisti e attività sul sito web o altri punti di contatto, come le preferenze durante la fase di abbonamento o il primo punto di contatto.
+* Un altro aspetto da tenere presente quando si definiscono i tempi di esecuzione è che gli ISP e le aziende a cui è stato inserito nell&#39;elenco Bloccati il servizio ritengono che il coinvolgimento sia compreso tra 1,5 e 1,8 anni. Inoltre, attività comportamentali come acquisti e attività sul sito web o altri punti di contatto, come le preferenze durante la fase di abbonamento o il primo punto di contatto.
 
 ### Fase 2 {#phase-2}
 
@@ -78,6 +78,6 @@ Gli abbonati che si impegnano con la campagna seguendo l’attività di apertura
 * [Registri di tracciamento in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
 * [Registri di tracciamento in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe di gestione dei Percorsi di clienti**
+**Adobe gestione Percorso clienti**
 
-* [Tracciamento dei messaggi](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=it)
+* [Tracciamento messaggi](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=it)

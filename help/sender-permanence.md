@@ -11,7 +11,7 @@ exl-id: f57de522-1361-43a3-8f8b-f9a191986529
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ La permanenza dell’invio è il processo di definizione di un volume e di una s
 
 **Di seguito sono riportati alcuni esempi:**
 
-![Buona permanenza di invio](assets/Sender_Permanence_1.png)
+![Permanenza invio valida](assets/Sender_Permanence_1.png)
 
 ![Permanenza di invio non valida](assets/Sender_Permanence_2.png)
 

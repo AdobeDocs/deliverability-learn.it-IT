@@ -12,7 +12,7 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,8 @@ Parte del processo di onboarding per i nuovi mittenti sulle piattaforme Adobe in
 
 È importante creare una strategia di IP ben strutturata per contribuire a stabilire una reputazione positiva. Il numero di IP e la configurazione variano a seconda del modello di business e degli obiettivi di marketing. Collabora con un esperto per sviluppare una strategia chiara per iniziare subito. Considera questi aspetti importanti da notare:
 
-* **Troppi IP** può causare problemi di reputazione in quanto è una tattica comune di spammer per **snowshoe**, una tattica utilizzata dagli spammer in cui il traffico viene distribuito su molti IP per massimizzare la consegna di posta indesiderata. Anche se non sei uno spammer, potresti sembrarne uno se utilizzi troppi IP, soprattutto se quegli IP non hanno avuto traffico in precedenza.
-* **Numero insufficiente di IP** può causare problemi di velocità effettiva e potenzialmente innescare problemi di reputazione. Il throughput varia a seconda dell&#39;ISP. La quantità e la rapidità con cui un ISP è disposto ad accettare dipendono in genere dall’infrastruttura e dalle soglie di reputazione di invio.
+* **Troppi IP** possono causare problemi di reputazione in quanto si tratta di una tattica comune degli spammer per **snowshoe**, una tattica utilizzata dagli spammer in cui il traffico viene distribuito su molti IP per massimizzare la consegna di posta indesiderata. Anche se non sei uno spammer, potresti sembrarne uno se utilizzi troppi IP, soprattutto se quegli IP non hanno avuto traffico in precedenza.
+* **Un numero insufficiente di IP** può causare problemi di velocità effettiva e potenzialmente causare problemi di reputazione. Il throughput varia a seconda dell&#39;ISP. La quantità e la rapidità con cui un ISP è disposto ad accettare dipendono in genere dall’infrastruttura e dalle soglie di reputazione di invio.
 * La separazione del traffico per i tipi di messaggistica è fondamentale. È importante, come minimo, separare la posta di marketing e quella transazionale su pool IP separati.
 * A seconda della strategia di posta, se la tua reputazione è drasticamente diversa, potrebbe essere consigliabile separare prodotti o flussi di marketing diversi su pool IP diversi. Alcuni esperti di marketing segmentano anche per area geografica. Separare l’IP per il traffico con una reputazione inferiore non corregge il problema di reputazione, ma evita i problemi con le consegne e-mail di reputazione &quot;buona&quot;. Dopo tutto, non si vuole sacrificare il proprio buon pubblico per uno più rischioso.
 
@@ -47,15 +47,15 @@ Dietro le quinte, le piattaforme di Adobe elaborano i dati relativi a mancati re
 
 ## Autenticazione {#authentication}
 
-L’autenticazione è il processo utilizzato dagli ISP per convalidare l’identità di un mittente. I due protocolli di autenticazione più comuni sono [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM) Questi messaggi non sono visibili all’utente finale, ma aiutano gli ISP a filtrare i messaggi e-mail dai mittenti verificati. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) sta guadagnando popolarità, anche se le sue politiche non sono ancora incorporate da tutti gli ISP nei loro sistemi di reputazione.
+L’autenticazione è il processo utilizzato dagli ISP per convalidare l’identità di un mittente. I due protocolli di autenticazione più comuni sono [!DNL Sender Policy Framework] (SPF) e [!DNL DomainKeys Identified Mail] (DKIM). Questi messaggi non sono visibili all’utente finale, ma aiutano gli ISP a filtrare i messaggi e-mail dai mittenti verificati. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) sta guadagnando popolarità, anche se i suoi criteri non sono ancora incorporati da tutti gli ISP nei loro sistemi di reputazione.
 
 ### SPF
 
-[!DNL Sender Policy Framework] (SPF) è un metodo di autenticazione che consente al proprietario di un dominio di specificare quali server di posta utilizzare per inviare posta da tale dominio.
+[!DNL Sender Policy Framework] (SPF) è un metodo di autenticazione che consente al proprietario di un dominio di specificare i server di posta utilizzati per inviare posta da tale dominio.
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittenti contraffatti (comunemente denominato spoofing). Se DKIM è abilitato, consente al destinatario di confermare se il mittente è autorizzato a inviare messaggi da tale dominio.
+[!DNL Domain Keys Identified Mail] (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittente contraffatti (comunemente denominato spoofing). Se DKIM è abilitato, consente al destinatario di confermare se il mittente è autorizzato a inviare messaggi da tale dominio.
 
 ### DMARC
 
@@ -68,9 +68,9 @@ L’autenticazione è il processo utilizzato dagli ISP per convalidare l’ident
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
 * [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
 * [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
-* Ulteriori informazioni sull’implementazione di un ciclo di feedback per un’istanza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Risorse aggiuntive
 
-* Ulteriori informazioni sui metodi di autenticazione SPF, DKIM e DMARC in [questa sezione](/help/additional-resources/authentication.md).
-* Scopri come aumentare la reputazione e-mail con la preparazione degli indirizzi IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Ulteriori informazioni sui metodi di autenticazione SPF, DKIM e DMARC sono disponibili in [questa sezione](/help/additional-resources/authentication.md).
+* Ulteriori informazioni su come aumentare la reputazione e-mail con la preparazione degli indirizzi IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).

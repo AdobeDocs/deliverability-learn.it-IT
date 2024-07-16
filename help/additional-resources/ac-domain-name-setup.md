@@ -8,7 +8,7 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2043'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Questo documento descrive i requisiti tecnici e aziendali per la configurazione 
 
 Ad Adobe, il marketing digitale può davvero diventare il motore contestuale che alimenta il programma di marketing del coinvolgimento dei clienti del tuo marchio.  L’e-mail rimane la base dei programmi di marketing digitale. Tuttavia, è diventato più difficile che mai raggiungere la casella in entrata.
 
-La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio marketing e aziendale) in pool IP specifici e con domini specifici, velocizzando il [Processo di riscaldamento IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e migliorare complessivamente la consegna dei messaggi. Se condividi un dominio e questo viene bloccato o aggiunto all’elenco Bloccati, ciò potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le comunicazioni di e-mail marketing avranno un impatto solo su tale flusso di e-mail.  L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe inoltre interrompere l’autenticazione e-mail, causando il blocco o l’inserimento dei messaggi nella cartella di posta indesiderata.
+La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio marketing e aziendale) in pool IP specifici e con domini specifici, velocizzando il [processo di riscaldamento IP](../../help/additional-resources/increase-reputation-with-ip-warming.md) e migliorando il recapito messaggi in generale. Se condividi un dominio e questo viene bloccato o aggiunto all’elenco Bloccati, ciò potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le comunicazioni di e-mail marketing avranno un impatto solo su tale flusso di e-mail.  L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe inoltre interrompere l’autenticazione e-mail, causando il blocco o l’inserimento dei messaggi nella cartella di posta indesiderata.
 
 ### Delega
 
@@ -35,7 +35,8 @@ Ciò significa che i server DNS di Adobe Campaign avranno autorità completa sol
 
 Delegando un sottodominio da utilizzare con Adobe Campaign, i client possono contare su Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard di settore per i domini di invio del marketing e-mail, continuando al contempo a mantenere e controllare il DNS per i domini e-mail interni.  La delega dei sottodomini consente:
 
-I clienti devono mantenere la propria immagine del marchio utilizzando un alias DNS con i relativi nomi di dominio, ad Adobe per implementare in modo autonomo tutte le best practice tecniche al fine di ottimizzare il recapito messaggi durante l’invio di e-mail
+Mantenere l’immagine del proprio marchio utilizzando un alias DNS con i relativi nomi di dominio
+Adobe per implementare autonomamente tutte le best practice tecniche per ottimizzare completamente il recapito messaggi durante l’invio di e-mail
 
 ## Opzioni di configurazione DNS
 
@@ -48,11 +49,11 @@ Al fine di fornire un servizio gestito basato su cloud, Adobe incoraggia vivamen
 
 ## Record DNS richiesti
 
-| Tipo di record | Finalità | Esempi di record/contenuti |
+| Tipo di record | Scopo | Esempi di record/contenuti |
 |--- |--- |--- |
 | MX | Specificare i server di posta per i messaggi in arrivo | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Framework criteri mittente | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
-| DKIM (TXT) | Posta identificata DomainKeys | <i>client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
+| DKIM (TXT) | Posta identificata DomainKeys | <i> client._domainkey.email.example.com</i></br>&quot;v=DKIM1; k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
 | Ospita i record (A) | Pagine mirror, hosting di immagini e collegamenti di tracciamento, tutti i domini di invio | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
 | DNS inverso (PTR) | Mappa gli indirizzi IP del client su un nome host con marchio client | 18.101.100.192.in-addr.arpa puntatore al nome di dominio r18.email.example.com |
 | CNAME | Fornisce un alias a un altro nome di dominio | t1.email.example.com è un alias per t1.email.example.campaign.adobe.com |
@@ -105,13 +106,13 @@ Completa la tabella seguente; la prima riga è solo un esempio.
 
 | Subdomain | Indirizzo mittente | Nome mittente | Indirizzo di risposta |
 |--- |--- |--- |--- |
-| emails.customer.com | news@emails.customer.com | Customer | customercare@customer.com |
+| emails.customer.com | news@emails.customer.com | Cliente | customercare@customer.com |
 | </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
 >* Il campo &quot;Indirizzo di risposta&quot; ha lo scopo di indicare quando si desidera che il destinatario risponda a un indirizzo diverso da quello del campo &quot;Indirizzo mittente&quot;.  Anche se non è un campo obbligatorio, Adobe consiglia vivamente che &quot;Reply-To Address&quot; (Indirizzo di risposta) sia valido e collegato a una cassetta postale monitorata.  Questa cassetta postale deve essere ospitata dal cliente.  Potrebbe trattarsi di una casella di posta di supporto, ad esempio customercare@customer.com, in cui le e-mail vengono lette e a cui viene inviata una risposta.
->* Se il cliente non ha scelto alcun &quot;Indirizzo di risposta&quot;, l’indirizzo predefinito è sempre `<tenant>-<type>-<env>@<subdomain>`.
+>* Se il cliente non ha scelto alcun &quot;Indirizzo di risposta&quot;, l&#39;indirizzo predefinito è sempre `<tenant>-<type>-<env>@<subdomain>`.
 >* Quando l&#39;indirizzo di risposta è impostato in questo modo, le risposte verranno inviate a una cassetta postale non monitorata.
 >* Quando si inviano e-mail da Adobe Campaign, la cassetta postale &quot;Indirizzo mittente&quot; non viene monitorata e gli utenti marketing non possono accedere a questa cassetta postale. Inoltre, Adobe Campaign non offre la possibilità di rispondere automaticamente o inoltrare automaticamente le e-mail ricevute in questa casella di posta.
 >* L’indirizzo del mittente/mittente della campagna e l’indirizzo di errore non possono essere &quot;abusivi&quot; o &quot;postmaster&quot;.
@@ -128,11 +129,11 @@ I sottodomini scelti per essere utilizzati per la piattaforma Adobe Campaign dev
 
 Una volta che i sottodomini di invio delle e-mail sono stati delegati correttamente ad Adobe Campaign, il team TechOps di Adobe creerà due o più domini di livello inferiore per gestire il tracciamento e il mirroring delle pagine in modo indipendente.
 
-| Tipo | Domain |
+| Tipo | Dominio |
 |--- |--- |
 | Pagine mirror | m.`<subdomain>` |
 | Tracciamento | t.`<subdomain>` |
-| Risorse | ris.`<subdomain>` |
+| Risorse | res.`<subdomain>` |
 
 ## Distribuzione cloud (opzionale)
 

@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Implementare [!DNL Brand Indicators for Message Identification] (BIMI)
+# Implementa [!DNL Brand Indicators for Message Identification] (BIMI)
 
-[!DNL Brand Indicators for Message Identification] (BIMI) è uno standard di settore che consente la visualizzazione di un logo approvato accanto all’e-mail di un mittente nelle piattaforme partecipanti.
+[!DNL Brand Indicators for Message Identification] (BIMI) è uno standard di settore che consente la visualizzazione di un logo approvato accanto all&#39;e-mail di un mittente nelle piattaforme partecipanti.
 
 Con questo standard, un marchio può determinare un logo da visualizzare nelle caselle in entrata dei provider di caselle postali. Una volta pubblicato in un cosiddetto record DNS (Domain Name System) BIMI, un provider di caselle postali potrebbe raccogliere questo logo e visualizzarlo nella casella in entrata se vengono soddisfatti determinati criteri.
 
@@ -25,7 +25,7 @@ BIMI non migliora direttamente il recapito messaggi o la tua reputazione. Può a
 
 ## Che aspetto ha?
 
-Puoi trovare alcuni esempi di implementazioni di diversi provider e ulteriori dettagli sui provider in cui viene visualizzato il logo nella [Pagina del gruppo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
+Puoi trovare alcuni esempi di implementazioni di diversi provider e ulteriori dettagli su quali provider visualizzano il logo nella pagina del [gruppo BIMI](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## Chi è il gruppo BIMI?
 
@@ -35,7 +35,7 @@ Il gruppo BIMI è composto da diverse parti interessate provenienti da diversi s
 
 ## Chi supporta BIMI?
 
-L&#39;elenco dei provider di caselle di posta elettronica che supportano BIMI è in continua crescita. È possibile trovare un elenco aggiornato [qui](https://bimigroup.org/bimi-infographic/){target="_blank"} sia per i prestatori di servizi di supporto che per i prestatori che prendono in considerazione il BIMI.
+L&#39;elenco dei provider di caselle di posta elettronica che supportano BIMI è in continua crescita. Un elenco aggiornato è disponibile [qui](https://bimigroup.org/bimi-infographic/){target="_blank"} sia per i provider di supporto che per i provider che prendono in considerazione BIMI.
 
 A partire da aprile 2023, l’elenco include Gmail, Yahoo, La Poste, Fastmail, Onet.pl e Zone, Proofpoint come dispositivo anti-spam e Apple Mail (da iOS 16 in poi).
 
@@ -45,13 +45,13 @@ I nomi più importanti su quell&#39;elenco sono ovviamente Yahoo, Gmail e un rec
 
 L’implementazione di BIMI prevede diverse fasi:
 
-1. Implementazione di DMARC (Domain Based Message Authentication, Reporting and Conformance) a livello di applicazione sia per il dominio di invio che per il relativo dominio organizzativo - [Ulteriori informazioni](#dmarc)
+1. Implementazione di DMARC (Domain Based Message Authentication, Reporting and Conformance) a livello di imposizione sia per il dominio di invio che per il relativo dominio organizzativo - [Ulteriori informazioni](#dmarc)
 
-1. Creazione del logo del tuo marchio nel formato SVG TinyPS - [Ulteriori informazioni](#create-brand-logo)
+1. Creazione del logo del tuo marchio in formato SVG TinyPS - [Ulteriori informazioni](#create-brand-logo)
 
 1. Registrazione per un certificato contrassegno verificato (necessario solo per alcuni provider) - [Ulteriori informazioni](#vmc)
 
-1. Pubblicare un record DNS BIMI con il logo e il certificato - [Ulteriori informazioni](#publish-bimi-record)
+1. Publish un record DNS BIMI con il logo e il certificato - [Ulteriori informazioni](#publish-bimi-record)
 
 1. Buona reputazione - [Ulteriori informazioni](#good-reputation)
 
@@ -62,17 +62,17 @@ L’implementazione di BIMI prevede diverse fasi:
 
 ### DMARC {#dmarc}
 
-DMARC è uno standard che consente al brand di decidere cosa deve fare un provider di caselle postali con un’e-mail che ha esito negativo [autenticazione](../additional-resources/authentication.md). I cosiddetti criteri variano da &quot;nessuno&quot; su &quot;quarantena&quot; (posizionamento cartella spam) a &quot;rifiuto&quot; (blocco diretto della posta). Solo queste ultime due politiche sono denominate &quot;applicazione&quot; e sono ammissibili al BIMI. La posta inviata dall’Adobe passa l’autenticazione, in quanto SPF (Sender Policy Framework) e DKIM (Domain Keys Identified Mail) sono impostati per impostazione predefinita. L’Adobe sta configurando il DMARC sul dominio di invio su richiesta.
+DMARC è uno standard che consente al brand di decidere cosa deve fare un provider di cassette postali con un&#39;e-mail che non riesce a [autenticazione](../additional-resources/authentication.md). I cosiddetti criteri variano da &quot;nessuno&quot; su &quot;quarantena&quot; (posizionamento cartella spam) a &quot;rifiuto&quot; (blocco diretto della posta). Solo queste ultime due politiche sono denominate &quot;applicazione&quot; e sono ammissibili al BIMI. La posta inviata dall’Adobe passa l’autenticazione, in quanto SPF (Sender Policy Framework) e DKIM (Domain Keys Identified Mail) sono impostati per impostazione predefinita. L’Adobe sta configurando il DMARC sul dominio di invio su richiesta.
 
 Oltre a DMARC nel dominio di invio, DMARC deve essere utilizzato anche a livello di applicazione per il dominio organizzativo (se il dominio di invio è news.example.com, example.com è il dominio organizzativo).
 
 ### Creazione del logo del brand {#create-brand-logo}
 
-La creazione del logo deve rispettare i requisiti al 100%. Fai sempre riferimento al [Linee guida del gruppo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
+La creazione del logo deve rispettare i requisiti al 100%. Consulta sempre le [linee guida del gruppo BIMI](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 Il logo deve essere archiviato in un percorso sicuro (HTTPS), nel caso in cui venga utilizzata una rete CDN (Content Delivery Network), è necessario disabilitare qualsiasi protezione che impedisca ai provider di cassette postali di ottenere il logo (ad esempio, Protezione bot).
 
-Oltre ai requisiti tecnici, ci sono alcune raccomandazioni pratiche come avere un logo quadrato, avere un colore a tinta unita come sfondo e altri. Questi consigli sono utili per ottenere una visualizzazione ottimale. Alcuni fornitori hanno requisiti propri che si aggiungono a quelli del gruppo di lavoro BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} ad esempio, richiede che il logo sia di almeno 96 x 96 pixel.
+Oltre ai requisiti tecnici, ci sono alcune raccomandazioni pratiche come avere un logo quadrato, avere un colore a tinta unita come sfondo e altri. Questi consigli sono utili per ottenere una visualizzazione ottimale. Alcuni fornitori hanno requisiti propri che si aggiungono a quelli del gruppo di lavoro BIMI. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}, ad esempio, richiede che il logo sia di almeno 96 x 96 pixel.
 La mancata conformità può comportare la mancata visualizzazione del logo.
 
 ### Certificato contrassegno verificato (VMC) {#vmc}
@@ -107,10 +107,10 @@ Anche considerando gli sforzi e le spese per un VMC, questa parte non viene rimo
 
 ## Suggerimenti
 
-* Il gruppo BIMI offre un utile strumento di convalida per BIMI. Se si desidera verificare se tutto è configurato e pronto o solo verificare se il logo è conforme, visitare il sito [questo collegamento](https://bimigroup.org/bimi-generator/){target="_blank"}. Per quest’ultimo, fai clic su **[!UICONTROL Generate BIMI]** e inserisci un dominio segnaposto ma l’URL del logo corretto. L&#39;ispettore ti comunicherà se il logo è conforme.
+* Il gruppo BIMI offre un utile strumento di convalida per BIMI. Se desideri verificare che tutto sia pronto e configurato oppure solo che il logo sia conforme, passa a [questo collegamento](https://bimigroup.org/bimi-generator/){target="_blank"}. Per quest&#39;ultimo, fare clic su **[!UICONTROL Generate BIMI]** e immettere un dominio segnaposto, ma l&#39;URL del logo corretto. L&#39;ispettore ti comunicherà se il logo è conforme.
 
 * Puoi iniziare senza VMC, non vi è alcun danno sulla tua reputazione se il tuo record BIMI non include un URL VMC, ma il logo può già essere visualizzato in Yahoo.
 
 * L&#39;attuazione del DMARC a livello organizzativo è una grande impresa. Alcune aziende sono specializzate nell&#39;aiutare i brand a raggiungere una piena adozione del DMARC.
 
-* Viene pubblicato un ampio elenco di domande frequenti [qui](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
+* Un elenco completo delle domande frequenti è pubblicato [qui](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.

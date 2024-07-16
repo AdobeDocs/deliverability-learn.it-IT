@@ -2,7 +2,7 @@
 source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 # Creazione della regola di tipologia per supportare l’annullamento dell’iscrizione con un solo clic:
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 ![immagine](/help/assets/CreatingTypologyRules1.png)
 
-**2. Procedi con la configurazione della regola di tipologia:**
+**2. Procedi alla configurazione della regola di tipologia:**
 
 * Tipo di regola: controllo
 * Fase: all’inizio del targeting
@@ -25,14 +25,14 @@ ht-degree: 7%
 ![immagine](/help/assets/CreatingTypologyRules2.png)
 
 
-**Crea un codice JavaScript per la regola di tipologia:**
+**Codice JavaScript della regola di tipologia:**
 
 
 >[!NOTE]
 >
 >Il codice descritto di seguito deve essere utilizzato solo come esempio.
 >In questo esempio viene descritto come:
->* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto..>>, https://.
+>* Configura un URL con il comando Annulla sottoscrizione elenco e aggiungi le intestazioni o aggiungi i parametri mailto: esistenti e sostituiscili con: &lt;mailto.>, https://.
 >* Aggiungi nell’intestazione List-Unsubscribe-Post
 >L’esempio di URL post utilizza var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
 >* È possibile aggiungere altri parametri (come &amp;service = ...)
@@ -137,20 +137,20 @@ return true;
 
 ![immagine](/help/assets/CreatingTypologyRules3.png)
 
-**3. Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è ok):**
+**3. Aggiungi la nuova regola a una tipologia in un messaggio e-mail (la tipologia predefinita è OK):**
 
 ![immagine](/help/assets/CreatingTypologyRules4.png)
 
-**4. Prepara una nuova consegna (verifica che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
+**4. Prepara una nuova consegna (verificare che le intestazioni SMTP aggiuntive nella proprietà di consegna siano vuote)**
 
 ![immagine](/help/assets/CreatingTypologyRules5.png)
 
-**5. Verifica durante la preparazione della consegna che la nuova Regola di tipologia sia applicata.**
+**5. Controlla durante la preparazione della consegna che la nuova regola di tipologia sia applicata.**
 
 ![immagine](/help/assets/CreatingTypologyRules6.png)
 
 
 
-**6. Verifica che sia presente l’opzione Annulla sottoscrizione elenco.**
+**6. Convalidare la presenza dell&#39;annullamento sottoscrizione elenco.**
 
 ![immagine](/help/assets/CreatingTypologyRules7.png)

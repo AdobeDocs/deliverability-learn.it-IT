@@ -8,7 +8,7 @@ team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ SPF (Sender Policy Framework) è uno standard di autenticazione e-mail che conse
 
 >[!NOTE]
 >
->È possibile utilizzare [questo strumento esterno](https://www.kitterman.com/spf/validate.html) per verificare un record SPF.
+>Puoi usare [questo strumento esterno](https://www.kitterman.com/spf/validate.html) per verificare un record SPF.
 
 L’SPF è una tecnica che, in una certa misura, ti consente di verificare che il nome di dominio utilizzato in un’e-mail non sia contraffatto. Quando un messaggio viene ricevuto da un dominio, viene eseguita una query sul server DNS del dominio. La risposta è un breve record (il record SPF) che indica quali server sono autorizzati a inviare e-mail da questo dominio. Supponendo che solo il proprietario del dominio abbia i mezzi per modificare questo record, possiamo considerare che questa tecnica non consente di falsificare l’indirizzo del mittente, almeno non la parte dalla destra di &quot;@&quot;.
 
-Nella versione finale [Specifiche RFC 4408](https://www.rfc-editor.org/info/rfc4408), due elementi del messaggio vengono utilizzati per determinare il dominio considerato come mittente: il dominio specificato dal comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) e il dominio specificato dall’indirizzo dell’intestazione &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), che è anche l’indirizzo non recapitato. Considerazioni diverse consentono di prendere in considerazione solo uno di questi valori; si consiglia di assicurarsi che entrambe le origini specifichino lo stesso dominio.
+Nella specifica finale [RFC 4408](https://www.rfc-editor.org/info/rfc4408), vengono utilizzati due elementi del messaggio per determinare il dominio considerato come mittente: il dominio specificato dal comando SMTP &quot;HELO&quot; (o &quot;EHLO&quot;) e il dominio specificato dall&#39;indirizzo dell&#39;intestazione &quot;Return-Path&quot; (o &quot;MAIL FROM&quot;), che è anche l&#39;indirizzo non recapitato. Considerazioni diverse consentono di prendere in considerazione solo uno di questi valori; si consiglia di assicurarsi che entrambe le origini specifichino lo stesso dominio.
 
 La verifica dell&#39;SPF fornisce una valutazione della validità del dominio del mittente:
 
 * **Nessuno**: impossibile eseguire la valutazione.
-* **Neutro**: il dominio su cui viene eseguita la query non abilita la valutazione.
-* **Superato**: il dominio è considerato autentico.
+* **Neutro**: il dominio interrogato non abilita la valutazione.
+* **Passaggio**: il dominio è considerato autentico.
 * **Non riuscito**: il dominio è stato contraffatto e il messaggio deve essere rifiutato.
-* **SoftFail**: il dominio è probabilmente contraffatto, ma il messaggio non deve essere rifiutato unicamente in base a questo risultato.
+* **SoftFail**: il dominio è probabilmente contraffatto, ma il messaggio non deve essere rifiutato esclusivamente in base a questo risultato.
 * **TempError**: un errore temporaneo ha interrotto la valutazione. Il messaggio può essere rifiutato.
 * **PermError**: i record SPF del dominio non sono validi.
 
@@ -45,12 +45,12 @@ L&#39;autenticazione DKIM (DomainKeys Identified Mail) è un successore di SPF. 
 
 DKIM proviene da una combinazione di DomainKeys, Yahoo! e Cisco hanno identificato i principi di autenticazione di Internet Mail e vengono utilizzati per verificare l’autenticità del dominio del mittente e garantire l’integrità del messaggio.
 
-DKIM sostituito **DomainKeys** autenticazione.
+DKIM ha sostituito l&#39;autenticazione **DomainKeys**.
 
 L&#39;utilizzo di DKIM richiede alcuni prerequisiti:
 
-* **Sicurezza**: la crittografia è un elemento chiave di DKIM. Per garantire il livello di sicurezza del DKIM, 1024b è la dimensione di crittografia consigliata come best practice. Le chiavi DKIM inferiori non sono considerate valide dalla maggior parte dei provider di accesso.
-* **Reputazione**: la reputazione si basa sull’IP e/o sul dominio, ma anche il selettore DKIM meno trasparente è un elemento chiave da considerare. La scelta del selettore è importante: evita di mantenere quello &quot;predefinito&quot; che potrebbe essere utilizzato da chiunque e che quindi ha una reputazione debole. È necessario implementare un selettore diverso per **conservazione e comunicazioni di acquisizione** e per l’autenticazione.
+* **Sicurezza**: la crittografia è un elemento chiave del DKIM. Per garantire il livello di sicurezza del DKIM, 1024b è la dimensione di crittografia consigliata come best practice. Le chiavi DKIM inferiori non sono considerate valide dalla maggior parte dei provider di accesso.
+* **Reputazione**: la reputazione si basa sull&#39;IP e/o sul dominio, ma anche il selettore DKIM meno trasparente è un elemento chiave da considerare. La scelta del selettore è importante: evita di mantenere quello &quot;predefinito&quot; che potrebbe essere utilizzato da chiunque e che quindi ha una reputazione debole. È necessario implementare un selettore diverso per **conservazione rispetto alle comunicazioni di acquisizione** e per l&#39;autenticazione.
 
 Ulteriori informazioni sui prerequisiti DKIM quando si utilizza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
@@ -63,4 +63,4 @@ Il DMARC (Domain-based Message Authentication, Reporting and Conformance) è la 
 
 >[!NOTE]
 >
->DMARC può sfruttare i rapporti generati da [250 ok](https://250ok.com/).
+>DMARC può sfruttare i report generati da [250ok](https://250ok.com/).

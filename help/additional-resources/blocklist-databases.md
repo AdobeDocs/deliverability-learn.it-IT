@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
 source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -23,13 +23,13 @@ Questi database sono chiamati RBL (Real-time Blackhole Lists) e vengono consulta
 * Per dominio mittente: elenca i domini del mittente (dominio completo dell’indirizzo e-mail non recapitate) che inviano spam o che sono configurati in modo errato.
 * Per dominio web: elenca i domini (domini di alto livello registrati con i registrar) presenti negli URL dei collegamenti e delle immagini contenuti nel contenuto spam. In alcune soluzioni di Adobe, il dominio da considerare è generalmente l’indirizzo utilizzato per il tracciamento.
 
-Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più completo, consulta [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
+Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più completo, puoi fare riferimento a [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
-* **Spamhaus**
+* **Spahaus**
 
   Fai riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  Il database è più importante. Essere classificati in questo elenco è generalmente una situazione grave. In questo caso, devi agire IMMEDIATAMENTE e avvisare i servizi commerciali, la consegna e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  Il database è più importante. Essere classificati in questo elenco è generalmente una situazione grave. In questo caso, devi agire IMMEDIATAMENTE e avvisare i servizi commerciali, il recapito messaggi e [l&#39;Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
@@ -41,13 +41,13 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
   Fai riferimento a [https://www.uribl.com/](https://www.uribl.com/)
 
-  Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. È necessario informare i servizi di recapito messaggi e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
+  Questo elenco identifica i domini che compaiono regolarmente nei messaggi dichiarati come spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. Devi informare immediatamente i servizi di recapito messaggi e [l&#39;Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SURBL**
 
   Fai riferimento a [https://surbl.org/](https://surbl.org/)
 
-  SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. È necessario informare i servizi di recapito messaggi e [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) immediatamente.
+  SURBL identifica i siti web che compaiono regolarmente nello spam. Se il dominio viene visualizzato in questo elenco, può influire in modo significativo sul recapito messaggi. Devi informare immediatamente i servizi di recapito messaggi e [l&#39;Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **iX Manitu**
 

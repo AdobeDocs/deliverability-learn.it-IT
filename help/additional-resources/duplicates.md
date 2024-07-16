@@ -8,8 +8,8 @@ team: ACS
 exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 6%
+source-wordcount: '363'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ La deduplicazione degli indirizzi protegge la reputazione del mittente e garanti
 **Adobe Campaign Classic**
 
 * [Attività di deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
-* [Utilizzo della funzionalità di unione dell’attività Deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it)
+* [Utilizzo della funzionalità di unione dell&#39;attività Deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it)
 
 **Adobe Campaign Standard**
 
