@@ -48,10 +48,10 @@ In molte circostanze, la posta transazionale non segue il tradizionale approccio
 **Campaign**
 
 * Ulteriori informazioni sulla gestione del recapito messaggi all&#39;avvio di una nuova piattaforma con Adobe Campaign in [questa sezione](/help/additional-resources/ac-starting-new-platform.md).
-* Scopri come inviare in più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Scopri come inviare in più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#sending-using-multiple-waves).
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
 
 ## Risorse aggiuntive
 

@@ -37,9 +37,9 @@ La deduplicazione degli indirizzi protegge la reputazione del mittente e garanti
 
 **Adobe Campaign Classic**
 
-* [Attività di deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [Attività di deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html?lang=it)
 * [Utilizzo della funzionalità di unione dell&#39;attività Deduplicazione](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=it)
 
 **Adobe Campaign Standard**
 
-* [Deduplicazione di dati da un file importato](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html)
+* [Deduplicazione di dati da un file importato](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html?lang=it)

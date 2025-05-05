@@ -39,7 +39,7 @@ Più precisamente, vengono utilizzati per controllare la velocità con cui l’M
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla gestione MX in Adobe Campaign Classic, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Per ulteriori informazioni sulla gestione MX in Adobe Campaign Classic, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=it#mx-configuration).
 
 ### TLS {#tls}
 
@@ -88,13 +88,13 @@ Recommendations per definire un record SPF:
 
 >[!NOTE]
 >
->Per le installazioni in hosting o ibride, se hai eseguito l&#39;aggiornamento a [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), la firma di autenticazione e-mail DKIM viene eseguita dall&#39;MTA avanzato per tutti i messaggi di tutti i domini.
+>Per le installazioni in hosting o ibride, se hai eseguito l&#39;aggiornamento a [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=it#sending-messages), la firma di autenticazione e-mail DKIM viene eseguita dall&#39;MTA avanzato per tutti i messaggi di tutti i domini.
 
 L&#39;utilizzo di [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic richiede il seguente prerequisito:
 
 **Dichiarazione opzione Adobe Campaign**: in Adobe Campaign, la chiave privata DKIM si basa su un selettore DKIM e un dominio. Attualmente non è possibile creare più chiavi private per lo stesso dominio/sottodominio con selettori diversi. Non è possibile definire quale dominio/sottodominio selettore deve essere utilizzato per l’autenticazione né nella piattaforma né nell’e-mail. In alternativa, la piattaforma selezionerà una delle chiavi private, il che significa che l’autenticazione ha un’alta probabilità di non riuscire.
 
-* Se hai configurato DomainKeys per l&#39;istanza di Adobe Campaign, devi solo selezionare **dkim** nelle [Regole di gestione del dominio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
+* Se hai configurato DomainKeys per l&#39;istanza di Adobe Campaign, devi solo selezionare **dkim** nelle [Regole di gestione del dominio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
 * Non è necessario abilitare sia DomainKeys che DKIM per lo stesso dominio in quanto DKIM è una versione migliorata di DomainKeys.
 * I seguenti domini attualmente convalidano DKIM: AOL, Gmail.
 
@@ -199,7 +199,7 @@ Immettere ad esempio il seguente script nel campo **[!UICONTROL Additional SMTP 
 
 La regola deve contenere lo script che genera la riga di comando e deve essere inclusa nell’intestazione e-mail.
 
-Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#typology-rules).
 
 >[!NOTE]
 >

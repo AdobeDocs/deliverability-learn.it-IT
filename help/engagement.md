@@ -59,13 +59,13 @@ Un&#39;ultima parte fondamentale della strategia di risposta è che se hai un in
 
 **Adobe Campaign Classic**
 
-* [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
-* [Regole di pressione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+* [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=it#communication-channels)
+* [Regole di pressione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=it)
 
 **Adobe Campaign Standard**
 
-* [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Regole di affaticamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Definire il pubblico adatto](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=it)
+* [Regole di affaticamento](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=it)
 
 ## Risorse aggiuntive
 
