@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 + [Introduzione](/help/introduction.md)
 + [Strategia e definizione di recapitabilità](/help/deliverability-strategy-and-definition.md)
-+ Metriche per la recapitabilità {#metrics-for-deliverability}
++ Metriche per la consegna dei messaggi {#metrics-for-deliverability}
    + [Panoramica delle metriche](/help/metrics/metrics-overview.md)
    + [E-mail non consegnate](/help/metrics/bounces.md)
    + [Reclami](/help/metrics/complaints.md)
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Processo di richiesta del certificato SSL](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Avvio di una nuova piattaforma](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic: consigli tecnici](/help/additional-resources/acc-technical-recommendations.md)
-   + Note tecniche {#technotes}
+   + Note tecniche{#technotes}
       + [Implementazione DMARC](/help/technotes/implement-dmarc.md)
       + [Implementazione BIMI](/help/technotes/implement-bimi.md)
       + [Aggiorna i mancati recapiti errati dopo la sospensione di Italiaonline](/help/technotes/update-bounces-after-it-outage.md)
