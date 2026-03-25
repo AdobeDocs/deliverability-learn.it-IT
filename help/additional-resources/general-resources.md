@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 31%
+source-wordcount: '124'
+ht-degree: 32%
 
 ---
 
@@ -33,13 +33,14 @@ In questa sezione sono elencate alcune risorse aggiuntive sul recapito messaggi,
 * [Elenchi Blackhole in tempo reale](../../help/additional-resources/blocklist-databases.md)
 * [Risoluzione dei problemi](../../help/additional-resources/troubleshooting.md)
 
-  <!--
-    [IP Certification](../../help/additional-resources/ip-certification.md)
-    [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
+<!--
+[IP Certification](../../help/additional-resources/ip-certification.md)
+[Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+-->
 
 ## Risorse specifiche per i prodotti
 
-Inoltre, questa sezione elenca una serie di risorse specifiche per il prodotto utili per implementare il recapito messaggi e raggiungere il successo con le soluzioni di Adobe.
+Inoltre, questa sezione elenca una serie di risorse specifiche per il prodotto che consentono di implementare il recapito messaggi e di raggiungere il successo con le soluzioni Adobe.
 
 **[!DNL Adobe Campaign]**
 

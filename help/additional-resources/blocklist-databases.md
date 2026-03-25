@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '423'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Questi database sono chiamati RBL (Real-time Blackhole Lists) e vengono consulta
 
 * Per indirizzo IP: elenca gli indirizzi IP che inviano spam o che probabilmente inoltrano spam.
 * Per dominio mittente: elenca i domini del mittente (dominio completo dell’indirizzo e-mail non recapitate) che inviano spam o che sono configurati in modo errato.
-* Per dominio web: elenca i domini (domini di alto livello registrati con i registrar) presenti negli URL dei collegamenti e delle immagini contenuti nel contenuto spam. In alcune soluzioni di Adobe, il dominio da considerare è generalmente l’indirizzo utilizzato per il tracciamento.
+* Per dominio web: elenca i domini (domini di alto livello registrati con i registrar) presenti negli URL dei collegamenti e delle immagini contenuti nel contenuto spam. Nelle soluzioni Adobe, il dominio da considerare è generalmente l’indirizzo utilizzato per il tracciamento.
 
 Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più completo, puoi fare riferimento a [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
@@ -29,7 +29,7 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
   Fai riferimento a [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  Il database è più importante. Essere classificati in questo elenco è generalmente una situazione grave. In questo caso, devi agire IMMEDIATAMENTE e avvisare i servizi commerciali, il recapito messaggi e [l&#39;Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  Il database è più importante. Essere classificati in questo elenco è generalmente una situazione grave. In questo caso, devi agire IMMEDIATAMENTE e avvisare i servizi commerciali, il recapito messaggi e l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
@@ -53,6 +53,8 @@ Di seguito è riportato un elenco degli URL più utilizzati. Per un elenco più 
 
   Questo è un elenco di IP ed è ampiamente utilizzato in Germania. Fai riferimento a [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
-<!--* SORBS
+<!--
+* SORBS
 
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
+-->

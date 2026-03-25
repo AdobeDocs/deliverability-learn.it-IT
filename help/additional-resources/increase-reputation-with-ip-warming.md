@@ -6,28 +6,31 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
-source-git-commit: eba8162150b5662ca18687b873114858f8eb00cc
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1596'
 ht-degree: 2%
 
 ---
 
 # Aumentare la reputazione e-mail con la preparazione degli indirizzi IP
 
-<!--Increase your email reputation with IP warming
+<!--
+Increase your email reputation with IP warming
 
 ## IP Warming overview
 
-In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you’ve never been a part of such a project, you may have a lot of questions about it. Let’s get down to the details!-->
+In the Adobe Deliverability Consulting and Deliverability Operations teams, we have a vested interest in helping new Campaign customers be as successful as possible as they embark on the route of an IP warming process. If you've never been a part of such a project, you may have a lot of questions about it. Let's get down to the details!
+-->
 
 ## Introduzione
 
-Adobe richiede ai clienti di condividere la propria configurazione per aiutare il team di recapito messaggi di Adobe a comprendere il tuo programma univoco. Le domande che poniamo sono progettate per aiutare il team di recapito messaggi di Adobe a comprendere la tua reputazione e il volume delle tue e-mail. Senza una comprensione concreta del modello di business, degli obiettivi di e-mail marketing e delle metriche di reputazione, non saremo in grado di personalizzare la strategia e vi è il rischio di problemi di consegna.
+Adobe richiede ai clienti di condividere la propria configurazione per aiutare il team di Adobe Deliverability a comprendere il tuo programma univoco. Le domande che poniamo sono progettate per aiutare il team di Adobe Deliverability a farsi un’idea della tua reputazione di mittente e del volume delle e-mail. Senza una comprensione concreta del modello di business, degli obiettivi di e-mail marketing e delle metriche di reputazione, non saremo in grado di personalizzare la strategia e vi è il rischio di problemi di consegna.
 
-All’inizio, ti saranno assegnati i tuoi indirizzi IP (Internet Protocol) dedicati. Nel contesto dell’invio di e-mail, un indirizzo IP è il percorso utilizzato per inviare i messaggi e-mail ai clienti. Gli indirizzi IP e i domini vengono utilizzati per identificare i mittenti su una rete agli ISP riceventi. Adobe assegna il numero appropriato di indirizzi IP dedicati per l’invio di e-mail, in base al volume di invio, ai programmi e-mail, alle pratiche di segmentazione dei dati e al contratto.
+Inizialmente, ti verranno assegnati indirizzi IP (Internet Protocol) dedicati. Nel contesto dell’invio di e-mail, un indirizzo IP è il percorso utilizzato per inviare i messaggi e-mail ai clienti. Gli indirizzi IP e i domini vengono utilizzati per identificare i mittenti su una rete agli ISP riceventi. Adobe assegna il numero appropriato di indirizzi IP dedicati per l’invio di e-mail, in base al volume di invio, ai programmi e-mail, alle pratiche di segmentazione dei dati e al contratto.
 
 **Argomenti correlati:**
+
 * [Effettuare una transizione fluida quando si passa da una piattaforma e-mail a un’altra](../../help/transition-process/switching-email-platforms.md)
 * [Strategia IP](../../help/transition-process/infrastructure.md#ip-strategy)
 * [Considerazioni specifiche dell’ISP durante il riscaldamento dell’IP](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
@@ -40,21 +43,21 @@ Gli ISP esaminano attentamente il volume di invio, la frequenza di invio, i recl
 
 Naturalmente, questo processo di esame di questi punti di dati richiede tempo, e non può essere raggiunto in uno o due giorni. La reputazione si costruisce nel tempo. Questo processo è come lasciare uno straniero in casa tua. Avresti delle riserve sull&#39;ingresso a casa di qualcuno che non hai mai incontrato?
 
-Molto probabilmente la risposta è sì. Vorreste analizzare questa persona e le sue motivazioni. Intendete fare del male? Sono una minaccia? Gli ISP fanno lo stesso per proteggere la propria rete da traffico dannoso o indesiderato. Le metriche di reputazione positive consentono di compiere grandi progressi in un processo di riscaldamento dell’IP di successo. Per questo sottolineiamo l’importanza di iniziare con l’invio di piccoli volumi di e-mail e di iniziare a inviare prima ai tuoi clienti altamente coinvolti. Per ulteriori informazioni, consulta [Criteri di targeting per l&#39;invio di nuovo traffico](/help/transition-process/targeting-criteria.md).
+Molto probabilmente la risposta è sì. Vorreste analizzare questa persona e le sue motivazioni. Intendete fare del male? Sono una minaccia? Gli ISP fanno lo stesso per proteggere la propria rete da traffico dannoso o indesiderato. Le metriche di reputazione positive consentono di compiere grandi progressi in un processo di riscaldamento dell’IP di successo. Ecco perché sottolineiamo l’importanza di iniziare con l’invio di piccoli volumi di e-mail e iniziare a inviare prima ai tuoi clienti altamente coinvolti. Per ulteriori informazioni, consulta [Criteri di targeting per l&#39;invio di nuovo traffico](/help/transition-process/targeting-criteria.md).
 
-L’invio di grandi quantità di e-mail da un nuovo IP o IP direttamente dal gate è una pratica scorretta e probabilmente causerà alcune difficoltà di recapito dei messaggi. È importante notare che, anche se inizi a inviare volumi di piccole dimensioni e gradualmente li aumenti come consigliato, è ancora necessario seguire le best practice per le e-mail.
+L’invio di grandi quantità di e-mail da un nuovo IP o IP direttamente dal gate è una pratica scorretta e probabilmente causerà alcune difficoltà di recapito dei messaggi. È importante notare che anche se inizi a inviare volumi di piccole dimensioni e gradualmente aumentarli come consigliato, è ancora necessario seguire le best practice relative alle e-mail.
 
 ![](../../help/assets/ip-warming-volume-trend.png)
 
 ## Autorizzazione alla posta (consenso esplicito)
 
-Si tratta del componente più importante per gestire e far crescere un elenco e-mail di abbonati. Man mano che le leggi anti-spam aumentano e diventano più complete a livello internazionale, l’obiettivo principale dell’addetto al marketing dovrebbe essere quello di assicurarsi di aver ricevuto il consenso esplicito (o esplicito) da ogni abbonato del proprio elenco. In altre parole, ogni abbonato ha attivamente accettato di ricevere e-mail dal tuo marchio. Questo è diverso dal consenso implicito, in cui una persona viene aggiunta a un elenco e-mail dopo aver intrapreso un’azione che non era esplicitamente l’iscrizione a un programma e-mail.
+Si tratta del componente più importante per gestire e far crescere un elenco e-mail di abbonati. Man mano che le leggi anti-spam crescono e diventano più complete a livello internazionale, dovrebbe essere un obiettivo primario dell’addetto al marketing assicurarsi di aver ricevuto il consenso esplicito (o esplicito) da ogni abbonato sulla propria lista. In altre parole, ogni abbonato ha attivamente accettato di ricevere e-mail dal tuo marchio. Questo è diverso dal consenso implicito, in cui una persona viene aggiunta a un elenco e-mail dopo aver intrapreso un’azione che non era esplicitamente l’iscrizione a un programma e-mail.
 
-Ulteriori informazioni sui [Criteri di utilizzo accettabili dell&#39;Adobe](https://www.adobe.com/legal/terms/aup.html).
+Ulteriori informazioni sui [Criteri di utilizzo accettabili di Adobe](https://www.adobe.com/legal/terms/aup.html).
 
 ## Metriche di reputazione: cosa cercano gli ISP?
 
-Gli ISP utilizzano una tecnologia sofisticata per prendere decisioni informate sull’opportunità o meno di inviare e-mail che ricevono da reti esterne. A volte hanno algoritmi complicati e proprietari nel loro set di strumenti per aiutarli in questo processo.
+Gli ISP utilizzano una tecnologia sofisticata per prendere decisioni informate sull&#39;invio o meno di e-mail da reti esterne. A volte hanno algoritmi complicati e proprietari nel loro set di strumenti per aiutarli in questo processo.
 
 Alcuni dei dati esaminati sono:
 
@@ -65,9 +68,9 @@ Alcuni dei dati esaminati sono:
 
 Gli ISP richiedono configurazioni tecniche specifiche in linea con le loro politiche e best practice. Adobe configura gli IP e i sottodomini delegati per identificarti come mittente responsabile e affidabile. Si chiama [autenticazione e-mail](/help/transition-process/infrastructure.md#authentication). L’autenticazione consente ai destinatari di verificare se un mittente dispone dei diritti di invio da tale IP o dominio.
 
-L’autenticazione consente agli ISP di verificare che l’azienda che invia da un dominio o da un IP abbia il diritto di farlo. Viene fatto essenzialmente per dimostrare la tua identità e per assicurarti di non fingere di essere qualcun altro e che qualcun altro non finge di essere te.
+L’autenticazione consente agli ISP di verificare che l’azienda che invia da un dominio o da un IP abbia il diritto di farlo. Viene fatto essenzialmente per dimostrare la tua identità e per assicurarti di non fingere di essere qualcun altro, e che qualcun altro non finge di essere te.
 
-Ad Adobe, per impostazione predefinita verranno configurati SPF e DKIM e, su richiesta, DMARC. Gli ISP fanno riferimento a SPF e DKIM come forme primarie di autenticazione. Molti ISP stanno anche incorporando il DMARC (Domain-based Message Authentication, Reporting &amp; Conformance) nelle loro decisioni di filtraggio. Le e-mail non autenticate non sono necessariamente bloccate, ma vengono sottoposte a un filtro aggiuntivo.
+In Adobe, configureremo SPF e DKIM per impostazione predefinita e DMARC su richiesta. Gli ISP fanno riferimento a SPF e DKIM come forme primarie di autenticazione. Molti ISP stanno anche incorporando DMARC (Domain-based Message Authentication, Reporting &amp; Conformance) nelle loro decisioni di filtraggio. Le e-mail non autenticate non sono necessariamente bloccate, ma vengono sottoposte a un filtro aggiuntivo.
 
 ## Riscaldamento IP: cosa aspettarsi
 
@@ -87,13 +90,13 @@ Ricorda che la coerenza qui è fondamentale. Modelli di volume di invio irregola
 
 [Segnalazioni](/help/metrics/complaints.md) si verificano quando un abbonato etichetta un&#39;e-mail come spam tramite il proprio programma e-mail. In questo modo viene inviato all&#39;ISP un avviso relativo all&#39;attività di reclamo. Se ci sono abbastanza di questi reclami che entrano nell&#39;ISP, quell&#39;ISP agirà per proteggere i suoi clienti - possibilmente bloccare molte e-mail dal raggiungere gli abbonati o indirizzare una parte delle e-mail alla cartella di massa al contrario delle caselle in entrata degli abbonati. Se il problema di consegna è causato da reclami, è importante determinare perché i destinatari si lamentano.
 
-Gli abbonati si lamentano per vari motivi. A volte un abbonato non desidera ricevere altre e-mail dall’utente, probabilmente perché ritiene di ricevere troppi messaggi sullo stesso argomento, se non si aspetta il messaggio o se non ricorda di essersi iscritto per ricevere le e-mail.
+Gli abbonati si lamentano per vari motivi. A volte un abbonato non vuole ricevere altre e-mail da te, forse perché pensa di ricevere troppi messaggi sullo stesso argomento, non si aspettava il messaggio, o non ricorda di registrarsi per ricevere le e-mail.
 
 ### Validità dei dati
 
 I mancati recapiti permanenti si verificano quando si invia a un indirizzo non consegnabile di un ISP. Un indirizzo può non essere recapitato per diversi motivi, ad esempio un errore di digitazione o l&#39;invio a un indirizzo precedentemente attivo ma chiuso o terminato dopo un periodo di inattività.
 
-Se riscontri un numero sostanziale di mancati recapiti permanenti, è importante capirne il motivo. Controlla come sono stati raccolti gli indirizzi e conferma che sia stata concessa l’autorizzazione. A volte le persone chiudono il loro account e-mail e non avvisano coloro che hanno tale indirizzo nel loro elenco di marketing.
+Se incontri un numero sostanziale di mancati recapiti permanenti, è importante capirne il motivo. Controlla come sono stati raccolti gli indirizzi e conferma che sia stata concessa l’autorizzazione. A volte le persone chiudono il loro account e-mail e non avvisano coloro che hanno quell’indirizzo nel loro elenco di marketing.
 
 ### Coinvolgimento
 
@@ -107,7 +110,7 @@ Ulteriori informazioni su [coinvolgimento](/help/engagement.md).
 
 Potresti essere tentato di eseguire rapidamente il processo di riscaldamento dell’IP inviando più volume di quanto consigliato, trascurando di trascorrere del tempo identificando gli abbonati più coinvolti e non inviandoli per primi nel tentativo di creare una reputazione positiva. Per favore resistete a questa voglia! Non ti aiuterà a lungo termine.
 
-È molto importante iniziare a inviare il tuo altamente coinvolti (con e-mail!) solo per le fasi iniziali del riscaldamento dell’IP. Questi clienti sono i tuoi più preziosi e la loro propensione ad aprire le e-mail ti aiuterà a mostrare agli ISP che sei un addetto al marketing che invia messaggi interessanti e ricercati. Mostra anche gli ISP che si stanno utilizzando le regole e le best practice seguenti.
+È molto importante iniziare a inviare il tuo altamente coinvolti (con e-mail!) solo per le fasi iniziali del riscaldamento dell’IP. Questi clienti sono i tuoi più preziosi e la loro propensione ad aprire le tue e-mail aiuterà a iniziare a mostrare agli ISP che sei un esperto di marketing che invia e-mail interessanti e ricercate. Mostra anche gli ISP che si stanno utilizzando le regole e le best practice seguenti.
 
 ## Conclusione
 
