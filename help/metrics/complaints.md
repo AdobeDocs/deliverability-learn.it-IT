@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: 0343820d-f5af-4b8a-bcab-dbb47ae7aecb
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '276'
+workflow-type: ht
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
@@ -39,4 +39,4 @@ Ci sono diversi gruppi anti-spam che consentono la segnalazione di posta indesid
 
 **Adobe Campaign Standard**
 
-* [Rapporto reclami](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html?lang=it#reporting)
+* [Rapporto sui reclami](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html?lang=it#reporting)

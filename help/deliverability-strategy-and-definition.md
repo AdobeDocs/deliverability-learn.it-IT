@@ -11,8 +11,8 @@ level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
-workflow-type: tm+mt
-source-wordcount: '854'
+workflow-type: ht
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Ecco alcuni fattori importanti relativi al tasso di apertura:
 
 * Consegna e recapito dell’e-mail nella casella in entrata
 * Riconoscimento del brand
-* Oggetto e pre-intestazioni coinvolgenti
+* Oggetto e preintestazioni coinvolgenti
 * Personalizzazione
 * Frequenza
 * Rilevanza o valore del contenuto
@@ -95,11 +95,11 @@ Ecco alcuni fattori importanti relativi alla conversione:
 * Tutti i punti elencati sopra
 * Transizione dall’e-mail tramite un URL funzionante a una pagina di destinazione o a una pagina di vendita
 * Esperienza della pagina di destinazione
-* Riconoscimento del brand, percezione e lealtà
+* Riconoscimento del brand, percezione e fedeltà
 
 ### Potenziale impatto sul fatturato
 
-La conversione è fondamentale, ma qual è l’alternativa? La tua strategia di consegna dei messaggi può rafforzare o indebolire il programma di e-mail marketing. Il seguente grafico illustra la potenziale perdita di fatturato che un criterio di consegna dei messaggi inefficace può avere sul programma di marketing. Come dimostrato, per un’azienda con un tasso di conversione del 2% e un prezzo medio di acquisto di $ 100, una riduzione del 10% del posizionamento della casella in entrata equivale a una perdita di fatturato di quasi $ 20.000. Ricorda che questi numeri sono specifici per ogni mittente.
+La conversione è fondamentale, ma qual è l’alternativa? La tua strategia di consegna dei messaggi può rafforzare o indebolire il programma di e-mail marketing. Il seguente grafico illustra la potenziale perdita di fatturato che un criterio di consegna dei messaggi inefficace può avere sul programma di marketing. Come dimostrato, per un’azienda con un tasso di conversione del 2% e un prezzo medio di acquisto di $ 100, una riduzione del 10% nel recapito alla casella in entrata equivale a una perdita di fatturato di quasi $ 20.000. Ricorda che questi numeri sono specifici per ogni mittente.
 
 | Inviate | Percentuale | Consegnate | Percentuale | Casella in entrata | Numero non nella casella in entrata | Tasso di conversione | Numero di perse | Medio | Perse |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|

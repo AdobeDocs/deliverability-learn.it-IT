@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '416'
+workflow-type: ht
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Le trappole spam servono per aiutare a identificare le e-mail da parte di mitten
 
 Si tratta di indirizzi che un tempo erano validi ma che ora non sono più utilizzati. Un modo fondamentale per mantenere gli elenchi il più puliti possibile è quello di inviare regolarmente e-mail all’intero elenco ed eliminare in modo appropriato le e-mail non consegnate. In questo modo, gli indirizzi e-mail abbandonati possono essere messi in quarantena e non vengono utilizzati ulteriormente.
 
-In alcuni casi, un indirizzo può essere riciclato entro 30 giorni. Inviare e-mail regolarmente è un aspetto fondamentale per una corretta igiene degli elenchi, insieme a un’eliminazione regolare degli utenti inattivi. Le **campagne di ricoinvolgimento** fanno generalmente parte di programmi di e-mail marketing sofisticati. Questo stile di campagna consente al mittente di tentare di recuperare utenti a cui altrimenti non verrebbero più inviate e-mail.
+In alcuni casi, un indirizzo può essere riciclato entro 30 giorni. L’invio periodico è un aspetto fondamentale per la corretta igiene degli elenchi, insieme a un’eliminazione regolare degli utenti inattivi. **Le campagne di nuovo coinvolgimento** fanno generalmente parte di programmi di e-mail marketing sofisticati.Questo stile di campagna consente al mittente di tentare di recuperare utenti a cui altrimenti non verrebbero più inviate e-mail.
 
 ## Indirizzo e-mail con errori di battitura
 
@@ -48,4 +48,4 @@ Si tratta di un indirizzo che non ha e non ha mai avuto un utente finale. È un 
 **Adobe Campaign Standard**
 
 * [Anteprima e-mail e analisi anti-spam](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=it#designing-content)
-* [Processo per doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)
+* [Processo per il doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)

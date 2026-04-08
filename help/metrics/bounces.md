@@ -9,8 +9,8 @@ activity: understand
 team: ACS
 exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: tm+mt
-source-wordcount: '429'
+workflow-type: ht
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -52,11 +52,11 @@ I mancati recapiti non permanenti sono errori temporanei generati dagli ISP in c
 **Adobe Campaign Classic**
 
 * [Tipi e motivi di errori di consegna](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#delivery-failure-types-and-reasons)
-* [Gestione delle mail non recapitate](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#bounce-mail-management)
-* [Rapporti sui messaggi non recapitati](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=it#non-deliverables-and-bounces)
+* [Gestione delle e-mail non recapitate](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#bounce-mail-management)
+* [Rapporto su mancati recapiti e non consegnabili](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/global-reports.html?lang=it#non-deliverables-and-bounces)
 
 **Adobe Campaign Standard**
 
 * [Tipi e motivi di errori di consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=it#delivery-failure-types-and-reasons)
-* [Qualificazione di mail non recapitate](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=it#bounce-mail-qualification)
-* [Rapporto di riepilogo sulle mail non recapitate](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=it#reporting)
+* [Qualificazione di e-mail non recapitate](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=it#bounce-mail-qualification)
+* [Rapporto del riepilogo sui messaggi con mancato recapito](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=it#reporting)

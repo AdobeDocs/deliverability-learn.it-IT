@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 # Guida alle procedure consigliate per la recapitabilità in Adobe Campaign {#deliverability-best-practice-guide}
 
 + [Introduzione](/help/introduction.md)
-+ [Strategia e definizione di recapitabilità](/help/deliverability-strategy-and-definition.md)
++ [Strategia e definizione di consegna](/help/deliverability-strategy-and-definition.md)
 + Metriche per la consegna dei messaggi {#metrics-for-deliverability}
    + [Panoramica delle metriche](/help/metrics/metrics-overview.md)
    + [E-mail non consegnate](/help/metrics/bounces.md)

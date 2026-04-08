@@ -10,9 +10,9 @@ level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 7e1bd4d4d691e2598770416b002b8eff344cef74
-workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '461'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ In quest’era digitale, le persone desiderano farsi meravigliare, rapidamente. 
 
 Ammettiamolo. Oggi, più che mai, bisogna distinguersi. Ciò significa offrire ai clienti esperienze uniche, personalizzate ed estremamente rilevanti. In caso contrario, il rischio è quello di perdere un cliente per sempre. È imperativo disporre di una strategia integrata, dinamica e multicanale che induca il pubblico a rimanere coinvolto.
 
-In questa guida puoi scoprire i termini, i concetti e gli approcci chiave riguardanti il recapito dei contenuti, per rimanere sempre un passo avanti. Puoi utilizzarlo per mantenere il canale e-mail all’avanguardia nel marketing mix, dando priorità a recapito messaggi, posizionamento della casella in entrata e fatturato.
+In questa guida puoi scoprire i termini, i concetti e gli approcci chiave riguardanti il recapito dei contenuti, per rimanere sempre un passo avanti. Utilizzala per mantenere il canale e-mail al centro del tuo marketing mix, dando la massima priorità alla recapitabilità, al posizionamento nella casella in entrata e ai ricavi.
 
 La presente Guida alle procedure consigliate per la consegna dei messaggi tratta i seguenti argomenti:
 
@@ -47,7 +47,7 @@ La presente Guida alle procedure consigliate per la consegna dei messaggi tratta
 
 ## Origini
 
-[!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?” (“Quante persone utilizzano le e-mail in tutto il mondo?”)](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 giugno 2019.
+[!DNL Heinz Tschabitscher], [“Quante persone utilizzano le e-mail in tutto il mondo?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, 24 giugno 2019.
 
 [!DNL Lori Lewis], [&quot;2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute) (“2019: ecco cosa accade in un minuto su Internet”), Merge, 5 marzo 2019.
 
