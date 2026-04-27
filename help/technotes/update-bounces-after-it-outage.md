@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 role: Admin
 level: Beginner
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+source-git-commit: e1a2c58e92da00186d91c7acfd8fd7300133a51c
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 3%
+source-wordcount: '459'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Ulteriori informazioni sono disponibili nella comunicazione ufficiale [qui](http
 
 ## Impatto{#outage-impact}
 
-Come nella maggior parte dei casi in cui si verifica un’interruzione del servizio di un provider di servizi Internet (ISP), alcune e-mail inviate tramite Campaign o Journey Optimizer sono state erroneamente contrassegnate come mancate consegne. Questo non ha avuto un impatto solo sugli Adobi, ma su tutti coloro che hanno cercato di ricevere e-mail inviate a Italia Online durante il periodo di interruzione.
+Come nella maggior parte dei casi in cui si verifica un’interruzione del servizio di un provider di servizi Internet (ISP), alcune e-mail inviate tramite Campaign o Journey Optimizer sono state erroneamente contrassegnate come mancate consegne. Questo non ha avuto un impatto solo su Adobe, ma su tutti coloro che hanno cercato di ricevere e-mail inviate a Italia Online durante il periodo di interruzione.
 
 I sintomi erano:
 
@@ -45,8 +45,8 @@ In base alla logica standard di gestione dei mancati recapiti, Adobe Campaign ha
 
 Per trovare i destinatari interessati da questo problema o nel caso in cui questo si verifichi nuovamente con un altro ISP, consulta le istruzioni di seguito:
 
-* Per Campaign Classic v7 e Campaign v8, fai riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=it#unquarantine-bulk){_blank}.
-* Per Campaign Standard, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=it#unquarantine-bulk){_blank}.
+* Per Campaign Classic v7 e Campaign v8, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* Per Campaign Standard, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ In base alla logica standard di gestione dei mancati recapiti, Adobe Journey Opt
 
 Una volta identificati, questi indirizzi possono essere rimossi manualmente dall&#39;elenco di soppressione utilizzando il pulsante **[!UICONTROL Delete]**. Questi indirizzi possono quindi essere inclusi nelle campagne e-mail future.
 
-Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it#remove-from-suppression-list){_blank}.
+Ulteriori informazioni in [questa sezione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
