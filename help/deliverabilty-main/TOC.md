@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: ht
+source-git-commit: 1c1e1b673fbc640fec84948878060b8bc0354ba2
+workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -63,5 +63,4 @@ ht-degree: 100%
    + Note tecniche{#technotes}
       + [Implementazione DMARC](/help/technotes/implement-dmarc.md)
       + [Implementazione BIMI](/help/technotes/implement-bimi.md)
-      + [Aggiorna i mancati recapiti errati dopo la sospensione di Italiaonline](/help/technotes/update-bounces-after-it-outage.md)
-
+      + {hide-from-toc}[Aggiorna i mancati recapiti dopo l&#39;interruzione di Italia Online](/help/technotes/update-bounces-after-it-outage.md)
