@@ -41,8 +41,8 @@ Il contenuto è fondamentale. Hai già letto la nostra prospettiva sulla rilevan
 
 **Campaign Classic**
 
-* [Controllo del contenuto del messaggio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Controllo del contenuto del messaggio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=it)
 
 **Campaign Standard**
 
-* [Controllo dei contenuti dell’e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)
+* [Controllo dei contenuti dell’e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=it#testing-and-sending)

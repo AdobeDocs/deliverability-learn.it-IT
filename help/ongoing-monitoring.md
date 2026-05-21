@@ -54,7 +54,7 @@ Di seguito sono riportati alcuni modi per identificare un possibile problema per
 **Adobe Campaign Standard**
 
 * [Monitoraggio di una consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=it)
-* [Riepilogo della consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [Riepilogo della consegna](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html?lang=it)
 * [Monitoraggio della recapitabiltà](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=it#testing-and-sending)
 
 ## Risorse aggiuntive

@@ -71,7 +71,7 @@ Più precisamente, vengono utilizzati per controllare la velocità con cui l’M
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla gestione MX in Adobe Campaign Classic, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>Per ulteriori informazioni sulla gestione MX in Adobe Campaign Classic, consulta [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=it#mx-configuration).
 
 ### TLS {#tls}
 
@@ -231,7 +231,7 @@ Immettere ad esempio il seguente script nel campo **[!UICONTROL Additional SMTP 
 
 La regola deve contenere lo script che genera la riga di comando e deve essere inclusa nell’intestazione e-mail.
 
-Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+Scopri come creare regole di tipologia in Adobe Campaign v7/v8 in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=it#typology-rules).
 
 >[!NOTE]
 >

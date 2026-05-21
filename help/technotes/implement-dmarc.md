@@ -116,7 +116,7 @@ I record DMARC dispongono di più componenti denominati tag DMARC. Ogni tag ha u
 
 >[!NOTE]
 >
->Se l’istanza Campaign è ospitata su AWS, puoi implementare DMARC per i sottodomini con il Pannello di controllo Campaign. [Scopri come implementare i record DMARC utilizzando il Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+>Se l’istanza Campaign è ospitata su AWS, puoi implementare DMARC per i sottodomini con il Pannello di controllo Campaign. [Scopri come implementare i record DMARC utilizzando il Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=it).
 
 Un motivo comune per gli errori di DMARC è il disallineamento tra l’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; o &quot;Ritorno al percorso&quot;. Per evitare questo problema, durante la configurazione di DMARC si consiglia di controllare due volte le impostazioni dell’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; nei modelli di consegna.
 
