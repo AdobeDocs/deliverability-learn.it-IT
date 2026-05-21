@@ -8,9 +8,26 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: ht
-source-wordcount: '495'
+TQID: https://experienceleague.adobe.com/qandgsfuAA4E9uHfZ0jrgpkjs-kt9Izs8k-HvtgDF7A
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -23,7 +40,7 @@ Le trappole spam servono per aiutare a identificare le e-mail da parte di mitten
 
 Si tratta di indirizzi che un tempo erano validi ma che ora non sono più utilizzati. Un modo fondamentale per mantenere gli elenchi il più puliti possibile è quello di inviare regolarmente e-mail all’intero elenco ed eliminare in modo appropriato le e-mail non consegnate. In questo modo, gli indirizzi e-mail abbandonati possono essere messi in quarantena e non vengono utilizzati ulteriormente.
 
-In alcuni casi, un indirizzo può essere riciclato entro 30 giorni. L’invio periodico è un aspetto fondamentale per la corretta igiene degli elenchi, insieme a un’eliminazione regolare degli utenti inattivi. **Le campagne di nuovo coinvolgimento** fanno generalmente parte di programmi di e-mail marketing sofisticati.Questo stile di campagna consente al mittente di tentare di recuperare utenti a cui altrimenti non verrebbero più inviate e-mail.
+In alcuni casi, un indirizzo può essere riciclato entro 30 giorni. Inviare e-mail regolarmente è un aspetto fondamentale per una corretta igiene degli elenchi, insieme a un’eliminazione regolare degli utenti inattivi. Le **campagne di ricoinvolgimento** fanno generalmente parte di programmi di e-mail marketing sofisticati. Questo stile di campagna consente al mittente di tentare di recuperare utenti a cui altrimenti non verrebbero più inviate e-mail.
 
 ## Indirizzo e-mail con errori di battitura
 

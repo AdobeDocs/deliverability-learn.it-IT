@@ -8,10 +8,27 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1594'
-ht-degree: 3%
+source-wordcount: 1670
+ht-degree: 5%
 
 ---
 
@@ -27,7 +44,7 @@ La forma più comune di **abbonamento a un sito Web** è &quot;Single Opt-in&quo
 
 * Gli indirizzi e-mail non confermati possono contenere errori di battitura o essere in formato errato, errato o utilizzati in modo dannoso. Gli errori di battitura e gli indirizzi non corretti causano tassi elevati di mancato recapito, che possono e non provocano blocchi rilasciati dagli ISP o la perdita di reputazione IP.
 
-* L&#39;invio doloso di trappole spam conosciute (a volte chiamato &quot;avvelenamento da lista&quot;) può causare enormi problemi di consegna e reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a un elenco di marketing senza una conferma. Questo rende ugualmente impossibile impostare le aspettative del destinatario e può portare a un aumento dei reclami di spam — e a volte a inserire nell&#39;elenco Bloccati se l&#39;e-mail raccolta si presenta come una trappola spam.
+* L&#39;invio doloso di trappole spam conosciute (a volte chiamato &quot;avvelenamento da lista&quot;) può causare enormi problemi di consegna e reputazione se il proprietario di quella trappola agisce. È impossibile sapere se il destinatario desidera veramente essere aggiunto a un elenco di marketing senza una conferma. Questo rende ugualmente impossibile impostare le aspettative del destinatario e può portare a un aumento dei reclami spam — e a volte a inserire nell&#39;elenco Bloccati se l&#39;e-mail raccolta si presenta come una trappola spam.
 
 Per informazioni su come ridurre al minimo i problemi presentati sia nell&#39;archivio fisico che nel consenso singolo, vedere la sezione [Qualità dei dati e igiene](#data-quality-and-hygiene) in questa guida per i dettagli e i vantaggi del doppio consenso.
 
@@ -49,7 +66,7 @@ Oltre ad aggiungere i campi per i dati, che desideri raccogliere sui tuoi nuovi 
 
 ## Qualità dei dati e igiene
 
-La raccolta dei dati è solo una parte della sfida. È inoltre necessario assicurarsi che i dati siano accurati e utilizzabili. Dovresti disporre di filtri di formato di base. Un indirizzo e-mail non è valido se non include &quot;@&quot; o &quot;.&quot; ad esempio. Assicurati di non consentire gli indirizzi alias comuni, che sono anche denominati account ruolo (come &quot;informazioni&quot;, &quot;amministratore&quot;, &quot;vendite&quot;, &quot;supporto&quot; ). Gli account ruolo possono presentare rischi perché, per loro natura, il destinatario contiene un gruppo di persone anziché un singolo abbonato. Le aspettative e la tolleranza possono variare all’interno di un gruppo, il che rischia di generare reclami, coinvolgimento variabile, annullamenti di abbonamenti e confusione generale.
+La raccolta dei dati è solo una parte della sfida. È inoltre necessario assicurarsi che i dati siano accurati e utilizzabili. Dovresti disporre di filtri di formato di base. Un indirizzo e-mail non è valido se non include, ad esempio, &quot;@&quot; o &quot;.&quot; Assicurati di non consentire gli indirizzi alias comuni, che sono anche denominati account ruolo (come &quot;informazioni&quot;, &quot;amministratore&quot;, &quot;vendite&quot;, &quot;supporto&quot; ). Gli account ruolo possono presentare rischi perché, per loro natura, il destinatario contiene un gruppo di persone anziché un singolo abbonato. Le aspettative e la tolleranza possono variare all’interno di un gruppo, il che rischia di generare reclami, coinvolgimento variabile, annullamenti di abbonamenti e confusione generale.
 
 Di seguito sono riportate alcune soluzioni ai problemi comuni che puoi incontrare con i dati del tuo indirizzo e-mail:
 
@@ -73,7 +90,7 @@ Consulta i tuoi avvocati per interpretare le leggi locali e nazionali relative a
 
 ## Altri metodi di raccolta di elenchi non consigliati
 
-Esistono molti altri modi per raccogliere gli indirizzi, ciascuno con le proprie opportunità, sfide e svantaggi. Adobe non consiglia questi in generale, poiché l’uso è spesso limitato tramite criteri di utilizzo accettabili dal provider. Esamineremo alcuni esempi comuni, per consentirti di conoscere i pericoli per aiutarti a limitare o evitare i rischi:
+Esistono molti altri modi per raccogliere gli indirizzi, ciascuno con le proprie opportunità, sfide e svantaggi. Adobe non le consiglia in generale, poiché l’uso è spesso limitato tramite criteri di utilizzo accettabili dal provider. Esamineremo alcuni esempi comuni, per consentirti di conoscere i pericoli per aiutarti a limitare o evitare i rischi:
 
 **Acquista o noleggia un elenco**
 Ci sono molti tipi di indirizzi e-mail là fuori. E-mail primaria, e-mail aziendali, e-mail scolastiche, e-mail secondarie ed e-mail inattive per citarne alcune. I tipi di indirizzi raccolti e condivisi tramite elenchi acquistati o noleggiati sono raramente account e-mail primari, che sono dove si verifica quasi tutta l&#39;attività di coinvolgimento e acquisto.
@@ -98,4 +115,4 @@ Le puntate forniscono rapidamente un numero elevato di indirizzi e-mail. Ma ques
 
 **Adobe Campaign Standard**
 
-* [Processo per doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)
+* [Processo per il doppio consenso](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=it#communication-channels)

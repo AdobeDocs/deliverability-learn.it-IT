@@ -6,9 +6,41 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b163628adde1e4d7225a1c2c54d29b24e2b2a352
+TQID: https://experienceleague.adobe.com/Y58eIzSpKUV-B-MiQ-6KNkk31tg1M6Bg27ZqGv-DESc
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: d1d0a9cd-295d-4976-8c39-ddae266f240e
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+  - id: f82558ea-6af5-44eb-a424-5b3389abb0a3
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: 2168
 ht-degree: 1%
 
 ---
@@ -69,7 +101,7 @@ v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 
 definisce i due indirizzi IP, 12.34.56.78 e 12.34.56.79, come autorizzati a inviare e-mail per il dominio. **~all** significa che qualsiasi altro indirizzo deve essere interpretato come SoftFail.
 
-Recommendations per definire un record SPF:
+Raccomandazioni per la definizione di un record SPF:
 
 * Aggiungere **~all** (SoftFail) o **-all** (Fail) alla fine per rifiutare tutti i server diversi da quelli definiti. In caso contrario, i server saranno in grado di forgiare questo dominio (con una valutazione neutra).
 * Non aggiungere **ptr** (openspf.org consiglia di non aggiungerlo perché è costoso e inaffidabile).
@@ -88,13 +120,13 @@ Recommendations per definire un record SPF:
 
 >[!NOTE]
 >
->Per le installazioni in hosting o ibride, se hai eseguito l&#39;aggiornamento a [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=it#sending-messages), la firma di autenticazione e-mail DKIM viene eseguita dall&#39;MTA avanzato per tutti i messaggi di tutti i domini.
+>Per le installazioni in hosting o ibride, se hai effettuato l&#39;aggiornamento a [MTA avanzato](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), la firma di autenticazione e-mail di DKIM viene eseguita dall&#39;MTA avanzato per tutti i messaggi di tutti i domini.
 
 L&#39;utilizzo di [DKIM](/help/additional-resources/authentication.md#dkim) con Adobe Campaign Classic richiede il seguente prerequisito:
 
 **Dichiarazione opzione Adobe Campaign**: in Adobe Campaign, la chiave privata DKIM si basa su un selettore DKIM e un dominio. Attualmente non è possibile creare più chiavi private per lo stesso dominio/sottodominio con selettori diversi. Non è possibile definire quale dominio/sottodominio selettore deve essere utilizzato per l’autenticazione né nella piattaforma né nell’e-mail. In alternativa, la piattaforma selezionerà una delle chiavi private, il che significa che l’autenticazione ha un’alta probabilità di non riuscire.
 
-* Se hai configurato DomainKeys per l&#39;istanza di Adobe Campaign, devi solo selezionare **dkim** nelle [Regole di gestione del dominio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=it#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
+* Se hai configurato DomainKeys per l&#39;istanza di Adobe Campaign, devi solo selezionare **dkim** nelle [Regole di gestione del dominio](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). In caso contrario, segui gli stessi passaggi di configurazione (chiave privata/pubblica) di DomainKeys (che ha sostituito DKIM).
 * Non è necessario abilitare sia DomainKeys che DKIM per lo stesso dominio in quanto DKIM è una versione migliorata di DomainKeys.
 * I seguenti domini attualmente convalidano DKIM: AOL, Gmail.
 
@@ -274,7 +306,7 @@ Per configurare l’annullamento dell’iscrizione a un elenco con un solo clic 
    >Il codice descritto di seguito deve essere utilizzato solo come esempio.
 
    In questo esempio viene descritto come:
-   * Configurare un elenco &quot;mailto&quot; per annullare l’iscrizione. Aggiunge le intestazioni o aggiunge i parametri &quot;mailto:&quot; esistenti e li sostituisce con: &lt;mailto.https://...
+   * Configurare un elenco &quot;mailto&quot; per annullare l’iscrizione. Aggiunge le intestazioni o aggiunge i parametri &quot;mailto:&quot; esistenti e li sostituisce con: &lt;mailto...>, https://...
    * Aggiungi nell’intestazione One-Click List-Unsubscribe. Utilizza `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
 
    >[!NOTE]
