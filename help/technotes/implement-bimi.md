@@ -6,9 +6,15 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: b96539608acd51ce76ef5bdaf5afd07b5a4208b7
+TQID: https://experienceleague.adobe.com/dPuoipUKH36RSGUfhzOV1Xhu9qQTLYV4zu6Vw0Be-xY
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: 1162
 ht-degree: 0%
 
 ---
@@ -51,7 +57,7 @@ L’implementazione di BIMI prevede diverse fasi:
 
 1. Registrazione per un certificato contrassegno verificato (necessario solo per alcuni provider) - [Ulteriori informazioni](#vmc)
 
-1. Publish un record DNS BIMI con il logo e il certificato - [Ulteriori informazioni](#publish-bimi-record)
+1. Pubblica un record DNS BIMI con il logo e il certificato - [Ulteriori informazioni](#publish-bimi-record)
 
 1. Buona reputazione - [Ulteriori informazioni](#good-reputation)
 
@@ -62,9 +68,9 @@ L’implementazione di BIMI prevede diverse fasi:
 
 ### DMARC {#dmarc}
 
-DMARC è uno standard che consente al brand di decidere cosa deve fare un provider di cassette postali con un&#39;e-mail che non riesce a [autenticazione](../additional-resources/authentication.md). I cosiddetti criteri variano da &quot;nessuno&quot; su &quot;quarantena&quot; (posizionamento cartella spam) a &quot;rifiuto&quot; (blocco diretto della posta). Solo queste ultime due politiche sono denominate &quot;applicazione&quot; e sono ammissibili al BIMI. La posta inviata dall’Adobe passa l’autenticazione, in quanto SPF (Sender Policy Framework) e DKIM (Domain Keys Identified Mail) sono impostati per impostazione predefinita. L’Adobe sta configurando il DMARC sul dominio di invio su richiesta.
+DMARC è uno standard che consente al brand di decidere cosa deve fare un provider di cassette postali con un&#39;e-mail che non riesce a [autenticazione](../additional-resources/authentication.md). I cosiddetti criteri variano da &quot;nessuno&quot; su &quot;quarantena&quot; (posizionamento cartella spam) a &quot;rifiuto&quot; (blocco diretto della posta). Solo queste ultime due politiche sono denominate &quot;applicazione&quot; e sono ammissibili al BIMI. I messaggi inviati da Adobe passano l’autenticazione, poiché SPF (Sender Policy Framework) e DKIM (Domain Keys Identified Mail) sono impostati per impostazione predefinita. Adobe sta configurando DMARC sul dominio di invio su richiesta.
 
-Oltre a DMARC nel dominio di invio, DMARC deve essere utilizzato anche a livello di applicazione per il dominio organizzativo (se il dominio di invio è news.example.com, example.com è il dominio organizzativo).
+Oltre a DMARC sul dominio di invio, DMARC deve essere utilizzato anche a livello di applicazione per il dominio organizzativo (se il dominio di invio è news.example.com, example.com è il dominio organizzativo).
 
 ### Creazione del logo del brand {#create-brand-logo}
 
@@ -97,7 +103,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 &quot;URL PEM&quot; è la posizione del file del certificato contrassegno verificato.
 
-Per il dominio di invio, questa operazione deve essere eseguita per Adobe.
+Per il dominio di invio, questa operazione deve essere eseguita da Adobe.
 
 ### Buona reputazione {#good-reputation}
 
@@ -111,6 +117,6 @@ Anche considerando gli sforzi e le spese per un VMC, questa parte non viene rimo
 
 * Puoi iniziare senza VMC, non vi è alcun danno sulla tua reputazione se il tuo record BIMI non include un URL VMC, ma il logo può già essere visualizzato in Yahoo.
 
-* L&#39;attuazione del DMARC a livello organizzativo è una grande impresa. Alcune aziende sono specializzate nell&#39;aiutare i brand a raggiungere una piena adozione del DMARC.
+* L&#39;implementazione di DMARC a livello organizzativo è una grande impresa. Alcune aziende sono specializzate nell&#39;aiutare i marchi a raggiungere una piena adozione di DMARC.
 
 * Un elenco completo delle domande frequenti è pubblicato [qui](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.

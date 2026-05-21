@@ -6,9 +6,15 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/zuhBmNWmF8CoCSNofsg3FKCcQFLOFfZmRutB2P1L4-U
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: 769
 ht-degree: 0%
 
 ---
@@ -41,22 +47,22 @@ La verifica dell&#39;SPF fornisce una valutazione della validità del dominio de
 
 ## DKIM {#dkim}
 
-L&#39;autenticazione DKIM (DomainKeys Identified Mail) è un successore di SPF. Utilizza la crittografia a chiave pubblica che consente al server e-mail ricevente di verificare che un messaggio sia stato effettivamente inviato dalla persona o dall’entità da cui afferma di essere stato inviato e se il contenuto del messaggio sia stato modificato tra il momento in cui è stato inviato originariamente (e DKIM &quot;firmato&quot;) e il momento in cui è stato ricevuto. Questo standard utilizza in genere il dominio nell’intestazione &quot;Da&quot; o &quot;Mittente&quot;.
+L&#39;autenticazione DKIM (DomainKeys Identified Mail) è un successore di SPF. Utilizza la crittografia a chiave pubblica che consente al server e-mail ricevente di verificare che un messaggio sia stato effettivamente inviato dalla persona o dall’entità che afferma di aver inviato e se il contenuto del messaggio sia stato modificato tra il momento dell’invio originale (e DKIM &quot;firmato&quot;) e il momento della ricezione. Questo standard utilizza in genere il dominio nell’intestazione &quot;Da&quot; o &quot;Mittente&quot;.
 
 DKIM proviene da una combinazione di DomainKeys, Yahoo! e Cisco hanno identificato i principi di autenticazione di Internet Mail e vengono utilizzati per verificare l’autenticità del dominio del mittente e garantire l’integrità del messaggio.
 
 DKIM ha sostituito l&#39;autenticazione **DomainKeys**.
 
-L&#39;utilizzo di DKIM richiede alcuni prerequisiti:
+L’utilizzo di DKIM richiede alcuni prerequisiti:
 
-* **Sicurezza**: la crittografia è un elemento chiave del DKIM. Per garantire il livello di sicurezza del DKIM, 1024b è la dimensione di crittografia consigliata come best practice. Le chiavi DKIM inferiori non sono considerate valide dalla maggior parte dei provider di accesso.
+* **Sicurezza**: la crittografia è un elemento chiave di DKIM. Per garantire il livello di sicurezza del DKIM, 1024b è la dimensione di crittografia consigliata come best practice. Le chiavi DKIM inferiori non sono considerate valide dalla maggior parte dei provider di accesso.
 * **Reputazione**: la reputazione si basa sull&#39;IP e/o sul dominio, ma anche il selettore DKIM meno trasparente è un elemento chiave da considerare. La scelta del selettore è importante: evita di mantenere quello &quot;predefinito&quot; che potrebbe essere utilizzato da chiunque e che quindi ha una reputazione debole. È necessario implementare un selettore diverso per **conservazione rispetto alle comunicazioni di acquisizione** e per l&#39;autenticazione.
 
-Ulteriori informazioni sui prerequisiti DKIM quando si utilizza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+Ulteriori informazioni sui prerequisiti di DKIM quando si utilizza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
-Il DMARC (Domain-based Message Authentication, Reporting and Conformance) è la forma più recente di autenticazione e-mail e si basa sull&#39;autenticazione SPF e DKIM per determinare se un messaggio e-mail viene inviato o meno. DMARC è unico e potente in due modi:
+DMARC (Domain-based Message Authentication, Reporting and Conformance) è la forma più recente di autenticazione e-mail e si basa sia sull’autenticazione SPF che su quella DKIM per determinare se un’e-mail viene accettata o meno. DMARC è unico e potente in due modi importanti:
 
 * Conformità: consente al mittente di indicare agli ISP come comportarsi con eventuali messaggi che non vengono autenticati (ad esempio: non accettarli).
 * Generazione rapporti: fornisce al mittente un rapporto dettagliato che mostra tutti i messaggi che non hanno superato l’autenticazione DMARC, insieme al dominio &quot;Da&quot; e all’indirizzo IP utilizzati per ciascuno di essi. Questo consente a un’azienda di identificare le e-mail legittime che non riescono a eseguire l’autenticazione e richiedono un qualche tipo di &quot;correzione&quot; (ad esempio, l’aggiunta di indirizzi IP al record SPF), nonché le origini e la prevalenza dei tentativi di phishing sui propri domini e-mail.

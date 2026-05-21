@@ -10,9 +10,15 @@ role: Admin, Leader
 level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27id: c5f60233-d5ea-4453-a799-0ad258b4d399id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 923
 ht-degree: 2%
 
 ---
@@ -43,7 +49,7 @@ Parte del processo di onboarding per i nuovi mittenti sulle piattaforme Adobe in
 
 ## Cicli di feedback {#feedback-loops}
 
-Dietro le quinte, le piattaforme di Adobe elaborano i dati relativi a mancati recapiti, reclami, annullamenti di abbonamenti e altro ancora. La configurazione di questi cicli di feedback è un aspetto importante per il recapito dei messaggi. I reclami possono danneggiare la reputazione, pertanto devi inviare un’e-mail agli indirizzi che registrano i reclami del pubblico di destinazione. È importante notare che Gmail non restituisce questi dati. Le intestazioni per l’annullamento dell’iscrizione agli elenchi e i filtri di coinvolgimento sono particolarmente importanti per gli abbonati Gmail, che ora costituiscono la maggior parte dei database di abbonati.
+Dietro le quinte, le piattaforme Adobe elaborano i dati relativi a mancati recapiti, reclami, annullamenti di abbonamenti e altro ancora. La configurazione di questi cicli di feedback è un aspetto importante per il recapito dei messaggi. I reclami possono danneggiare la reputazione, pertanto devi inviare un’e-mail agli indirizzi che registrano i reclami del pubblico di destinazione. È importante notare che Gmail non restituisce questi dati. Le intestazioni per l’annullamento dell’iscrizione agli elenchi e i filtri di coinvolgimento sono particolarmente importanti per gli abbonati Gmail, che ora costituiscono la maggior parte dei database di abbonati.
 
 ## Autenticazione {#authentication}
 
@@ -55,22 +61,22 @@ L’autenticazione è il processo utilizzato dagli ISP per convalidare l’ident
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittente contraffatti (comunemente denominato spoofing). Se DKIM è abilitato, consente al destinatario di confermare se il mittente è autorizzato a inviare messaggi da tale dominio.
+[!DNL Domain Keys Identified Mail] (DKIM) è un metodo di autenticazione utilizzato per rilevare indirizzi di mittente contraffatti (comunemente denominato spoofing). Se DKIM è abilitato, il destinatario potrà confermare se il mittente è autorizzato a inviare messaggi da tale dominio.
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) è un metodo di autenticazione che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. DMARC utilizza SPF o DKIM o entrambi per consentire al proprietario del dominio di controllare ciò che accade ai messaggi che non riescono a eseguire l&#39;autenticazione: recapitati, messi in quarantena o rifiutati.
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) è un metodo di autenticazione che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. DMARC utilizza SPF o DKIM o entrambi per consentire al proprietario di un dominio di controllare ciò che accade ai messaggi che non riescono a eseguire l’autenticazione: recapitati, messi in quarantena o rifiutati.
 
 ## Risorse specifiche per i prodotti
 
 **Campaign**
 
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
-* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+* Ulteriori informazioni sull&#39;implementazione di un ciclo di feedback per un&#39;istanza di Campaign Classic in [questa sezione](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Risorse aggiuntive
 
-* Ulteriori informazioni sui metodi di autenticazione SPF, DKIM e DMARC sono disponibili in [questa sezione](/help/additional-resources/authentication.md).
+* Ulteriori informazioni sui metodi di autenticazione di SPF, DKIM e DMARC sono disponibili in [questa sezione](/help/additional-resources/authentication.md).
 * Ulteriori informazioni su come aumentare la reputazione e-mail con la preparazione degli indirizzi IP in [questa sezione](/help/additional-resources/increase-reputation-with-ip-warming.md).

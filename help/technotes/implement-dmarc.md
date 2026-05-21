@@ -5,47 +5,53 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
+TQID: https://experienceleague.adobe.com/gvO7rHqY-Dm6nUq9ssccY7Kt1xobV-pqLc26iITgmRA
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdbid: f82558ea-6af5-44eb-a424-5b3389abb0a3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: 1326
 ht-degree: 9%
 
 ---
 
 # Implementa [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
-Lo scopo di questo documento è quello di fornire al lettore ulteriori informazioni sul metodo di autenticazione e-mail, DMARC. Spiegando come funziona DMARC e le sue varie opzioni strategiche, i lettori comprenderanno meglio l’impatto di DMARC sul recapito e-mail.
+Lo scopo di questo documento è quello di fornire al lettore ulteriori informazioni sul metodo di autenticazione e-mail, DMARC. Spiegando come funziona DMARC e le sue varie opzioni, i lettori comprenderanno meglio l’impatto di DMARC sul recapito e-mail.
 
-## Che cos&#39;è DMARC? {#about}
+## Cos’è DMARC? {#about}
 
-Domain-based Message Authentication, Reporting and Conformance, è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. DMARC fornisce inoltre un feedback sullo stato di autenticazione delle e-mail e consente ai mittenti di controllare cosa accade alle e-mail che non superano l’autenticazione. Ciò include opzioni per monitorare, mettere in quarantena o rifiutare la posta a seconda del criterio DMARC implementato.
+Domain-based Message Authentication, Reporting and Conformance è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. DMARC fornisce inoltre un feedback sullo stato di autenticazione delle e-mail e consente ai mittenti di controllare cosa accade alle e-mail che non superano l’autenticazione. Ciò include opzioni per monitorare, mettere in quarantena o rifiutare la posta a seconda dei criteri di DMARC implementati.
 
-DMARC dispone di tre opzioni:
+DMARC dispone di tre opzioni di criteri:
 
 * **Monitoraggio (p=none):** indica al provider della cassetta postale o all&#39;ISP di eseguire le operazioni normalmente eseguite sul messaggio.
-* **Quarantena (p=quarantena):** indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
-* **Rifiuta (p=rifiuta):** indica al provider della cassetta postale o all&#39;ISP di bloccare la posta che non passa il DMARC causando un mancato recapito.
+* **Quarantena (p=quarantena):** indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata del destinatario.
+* **Rifiuta (p=rifiuta):** indica al provider della cassetta postale/ISP di bloccare la posta che non passa DMARC causando un mancato recapito.
 
 ## Come funziona DMARC? {#how}
 
-SPF e DKIM vengono entrambi utilizzati per associare un’e-mail a un dominio e collaborare per l’autenticazione dell’e-mail. DMARC compie un ulteriore passo avanti e aiuta a prevenire lo spoofing corrispondendo al dominio controllato da DKIM e SPF. Per passare il DMARC, un messaggio deve passare SPF o DKIM. Se entrambe queste operazioni non riescono, l’autenticazione DMARC avrà esito negativo e l’e-mail verrà recapitata in base ai criteri DMARC selezionati.
+SPF e DKIM vengono entrambi utilizzati per associare un’e-mail a un dominio e collaborare per l’autenticazione delle e-mail. DMARC fa un ulteriore passo in avanti e aiuta a prevenire lo spoofing facendo corrispondere il dominio controllato da DKIM e SPF. Per passare a DMARC, un messaggio deve passare SPF o DKIM. Se entrambe queste operazioni non riescono, DMARC avrà esito negativo e l’e-mail verrà consegnata in base ai criteri di DMARC selezionati.
 
 >[!NOTE]
 >
->Il DMARC richiede l&#39;allineamento tra l&#39;indirizzo ‘From’ e ‘Return-Path’.
+>DMARC richiede l&#39;allineamento tra l&#39;indirizzo ‘From’ e ‘Return-Path’.
 
 ## Perché implementare DMARC? {#why}
 
-Il DMARC è facoltativo e, sebbene non sia obbligatorio, è gratuito e consente ai destinatari delle e-mail di identificare facilmente l’autenticazione delle e-mail, il che potrebbe potenzialmente migliorare la consegna. Uno dei vantaggi principali di DMARC è la possibilità di creare rapporti sui messaggi che non vanno a buon fine in SPF e/o DKIM. Inoltre, offre ai mittenti un livello di controllo su ciò che accade con la posta che non passa nessuno di questi metodi di autenticazione. Tramite il reporting DMARC, i mittenti possono ottenere visibilità sui messaggi che non superano il DMARC, consentendo di adottare le misure necessarie per mitigare ulteriori errori.
+DMARC è facoltativo e, pur non essendo obbligatorio, è gratuito e consente ai destinatari delle e-mail di identificare facilmente l’autenticazione delle e-mail, il che potrebbe potenzialmente migliorare la consegna. Uno dei vantaggi principali di DMARC è la possibilità di creare rapporti sui messaggi che non vanno a buon fine in SPF e/o DKIM. Inoltre, offre ai mittenti un livello di controllo su ciò che accade con la posta che non passa nessuno di questi metodi di autenticazione. Tramite la generazione rapporti di DMARC, i mittenti ottengono visibilità sui messaggi che non funzionano in DMARC, consentendo di adottare misure per mitigare ulteriori errori.
 
 >[!NOTE]
 >
->Se desideri implementare BIMI, è necessario specificare p=quarantena o p=rifiuto del criterio DMARC.
+>Se desideri implementare il criterio BIMI, è necessario specificare p=quarantena o p=rifiuta criterio DMARC.
 
 ## Best practice per l’implementazione di DMARC {#best-practice}
 
-Poiché DMARC è facoltativo, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. È inoltre necessario un indirizzo e-mail a scelta per indicare la destinazione dei rapporti DMARC all&#39;interno dell&#39;organizzazione. Come best practice, è
-si consiglia di implementare lentamente l’implementazione DMARC aumentando il livello dei criteri DMARC da p=none a p=quarantena e a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
+Poiché DMARC è opzionale, non sarà configurato per impostazione predefinita su alcuna piattaforma ESP. È necessario creare un record DMARC nel DNS per il dominio affinché funzioni. Inoltre, è necessario un indirizzo e-mail a tua scelta per indicare dove dovrebbero essere collocati i rapporti di DMARC all’interno della tua organizzazione. Come best practice, è
+si consiglia di implementare lentamente l’implementazione di DMARC aumentando il livello dei criteri di DMARC da p=none a p=quarantena, a p=rifiuta man mano che acquisisci una comprensione DMARC del potenziale impatto di DMARC.
 
 1. Analizza il feedback ricevuto e utilizza (p=none), che indica al destinatario di non eseguire azioni contro i messaggi che non superano l’autenticazione, ma inviano comunque i rapporti e-mail al mittente. Inoltre, se l’autenticazione dei messaggi legittimi non riesce, esamina e risolvi i problemi relativi a SPF/DKIM.
 1. Determina se SPF e DKIM sono allineati e trasmettono l’autenticazione per tutte le e-mail legittime, quindi sposta il criterio in (p=quarantena), che indica al server e-mail ricevente di mettere in quarantena le e-mail che non riescono a eseguire l’autenticazione (in genere significa inserire tali messaggi nella cartella di posta indesiderata).
@@ -55,7 +61,7 @@ si consiglia di implementare lentamente l’implementazione DMARC aumentando il 
    >
    >Utilizza questo criterio con cautela e stabilisci se è appropriato per la tua organizzazione.
 
-## Reporting DMARC {#reporting}
+## Generazione rapporti DMARC {#reporting}
 
 DMARC offre la possibilità di ricevere rapporti relativi alle e-mail che non superano SPF/DKIM. Esistono due diversi rapporti generati dai server ISP come parte del processo di autenticazione che i mittenti possono ricevere tramite i tag RUA/RUF nei propri criteri DMARC:
 
@@ -81,17 +87,17 @@ v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=m
 
 ## Tag DMARC e operazioni {#tags}
 
-I record DMARC hanno più componenti denominati tag DMARC. Ogni tag ha un valore che specifica un determinato aspetto di DMARC.
+I record DMARC dispongono di più componenti denominati tag DMARC. Ogni tag ha un valore che specifica un determinato aspetto di DMARC.
 
 | Nome tag | Obbligatorio/facoltativo | Funzione | Esempio | Valore predefinito |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | Obbligatorio | Questo tag DMARC specifica la versione. Al momento è disponibile una sola versione, quindi il valore fisso sarà v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
-| p | Obbligatorio | Mostra il criterio DMARC selezionato e indica al destinatario di segnalare, mettere in quarantena o rifiutare i messaggi che non superano i controlli di autenticazione. | p=none, quarantena o rifiuto | - |
-| fo | Facoltativo | Consente al proprietario del dominio di specificare le opzioni di reporting. | 0: Genera report in caso di errori<br/>1: Genera report in caso di errori<br/>d: Genera report in caso di errori DKIM<br/>s: Genera report in caso di errori SPF | 1 (consigliato per i rapporti DMARC) |
+| p | Obbligatorio | Mostra il criterio di DMARC selezionato e indirizza il destinatario a segnalare, mettere in quarantena o rifiutare i messaggi che non superano i controlli di autenticazione. | p=none, quarantena o rifiuto | - |
+| fo | Facoltativo | Consente al proprietario del dominio di specificare le opzioni di reporting. | 0: Genera report se tutto non va a buon fine<br/>1: Genera report se qualcosa non va a buon fine<br/>d: Genera report se DKIM non va a buon fine<br/>s: Genera report se SPF non va a buon fine | 1 (consigliato per i rapporti di DMARC) |
 | pct | Facoltativo | Indica la percentuale di messaggi soggetti a filtro. | pct=20 | 100 |
 | rua | Facoltativo (consigliato) | Identifica dove verranno consegnati i rapporti aggregati. | `rua=mailto:aggrep@example.com` | - |
 | ruf | Facoltativo (consigliato) | Identifica dove verranno consegnati i rapporti forensi. | `ruf=mailto:authfail@example.com` | - |
-| sp | Facoltativo | Specifica il criterio DMARC per i sottodomini del dominio padre. | sp=rifiuta | - |
+| sp | Facoltativo | Specifica i criteri di DMARC per i sottodomini del dominio padre. | sp=rifiuta | - |
 | adkim | Facoltativo | Può essere Strict (s) o Relaxed (r). L’allineamento rilassato indica che il dominio utilizzato nella firma DKIM può essere un sottodominio dell’indirizzo &quot;Da&quot;. L&#39;allineamento rigido indica che il dominio utilizzato nella firma DKIM deve corrispondere esattamente al dominio utilizzato nell&#39;indirizzo del mittente. | adkim=r | r |
 | aspf | Facoltativo | Può essere Strict (s) o Relaxed (r). L&#39;allineamento semplificato indica che il dominio ReturnPath può essere un sottodominio dell&#39;indirizzo From. L&#39;allineamento rigido indica che il dominio del percorso di ritorno deve corrispondere esattamente all&#39;indirizzo Da. | aspf=r | r |
 
@@ -99,9 +105,9 @@ I record DMARC hanno più componenti denominati tag DMARC. Ogni tag ha un valore
 
 >[!NOTE]
 >
->Se l’istanza Campaign è ospitata su AWS, puoi implementare DMARC per i sottodomini con il Pannello di controllo Campaign. [Scopri come implementare i record DMARC utilizzando Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=it).
+>Se l’istanza Campaign è ospitata su AWS, puoi implementare DMARC per i sottodomini con il Pannello di controllo Campaign. [Scopri come implementare i record DMARC utilizzando il Pannello di controllo Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
-Un motivo comune per gli errori DMARC è il disallineamento tra l&#39;indirizzo &quot;Da&quot; e &quot;Errori-A&quot; o &quot;Percorso di ritorno&quot;. Per evitare questo problema, durante la configurazione di DMARC, si consiglia di controllare due volte le impostazioni dell’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; nei modelli di consegna.
+Un motivo comune per gli errori di DMARC è il disallineamento tra l’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; o &quot;Ritorno al percorso&quot;. Per evitare questo problema, durante la configurazione di DMARC si consiglia di controllare due volte le impostazioni dell’indirizzo &quot;Da&quot; ed &quot;Errori-A&quot; nei modelli di consegna.
 
 1. All’interno del Modello di consegna, controlla quale indirizzo è attualmente impostato come indirizzo &quot;Da&quot;.
 
@@ -115,7 +121,7 @@ Un motivo comune per gli errori DMARC è il disallineamento tra l&#39;indirizzo 
 
    ![](../assets/dmarc3.png)
 
-Una volta salvate queste modifiche, potrai procedere con l’implementazione DMARC con il corretto allineamento del dominio.
+Una volta salvate queste modifiche, potrai procedere con l’implementazione di DMARC con il corretto allineamento del dominio.
 
 ## Collegamenti utili {#links}
 

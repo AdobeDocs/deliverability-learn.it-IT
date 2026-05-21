@@ -10,9 +10,14 @@ role: Admin,User
 level: Beginner
 team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/piIfp9yQkAa1F1bkO9zM7PcOConZhTrwARo4Y8wtMsQ
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: e64968b2-4ee5-47f9-8cae-0588f184b9ebid: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: 600
 ht-degree: 1%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 1%
 
 Il volume di posta che stai inviando è fondamentale per stabilire una reputazione positiva. Mettetevi nei panni di un ISP — se cominciate a vedere una tonnellata di traffico proveniente da qualcuno che non conoscete, sarebbe allarmante. L’invio immediato di grandi volumi di posta è rischioso ed è sicuro di causare problemi di reputazione che sono spesso difficili da risolvere. Può essere frustrante, dispendioso in termini di tempo e costi tirarsi fuori da una cattiva reputazione e risolvere i problemi di massa e blocco derivanti dall’invio troppo presto.
 
-Le soglie del volume variano a seconda dell’ISP e possono anche variare a seconda delle metriche medie di coinvolgimento. Alcuni mittenti richiedono una rampa di volume molto bassa e lenta, mentre altri possono consentire una rampa di volume più ripida. È consigliabile collaborare con un esperto, come un Adobe di consulente per il recapito di messaggi, per sviluppare un piano personalizzato per i volumi.
+Le soglie del volume variano a seconda dell’ISP e possono anche variare a seconda delle metriche medie di coinvolgimento. Alcuni mittenti richiedono una rampa di volume molto bassa e lenta, mentre altri possono consentire una rampa di volume più ripida. È consigliabile collaborare con un esperto, come un consulente del team Deliverability di Adobe, per sviluppare un piano personalizzato per il volume.
 
 Di seguito è riportato un elenco di suggerimenti per una transizione fluida:
 
@@ -48,10 +53,10 @@ In molte circostanze, la posta transazionale non segue il tradizionale approccio
 **Campaign**
 
 * Ulteriori informazioni sulla gestione del recapito messaggi all&#39;avvio di una nuova piattaforma con Adobe Campaign in [questa sezione](/help/additional-resources/ac-starting-new-platform.md).
-* Scopri come inviare in più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=it#sending-using-multiple-waves).
+* Scopri come inviare in più ondate con Adobe Campaign Classic in [questa sezione](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
 * Scopri come delegare completamente un sottodominio a Adobe Campaign Classic o Standard in [questa sezione](/help/additional-resources/ac-domain-name-setup.md).
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
-* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=it) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio a Adobe Campaign Classic.*
+* [Pannello di controllo Campaign: delega completa dei sottodomini (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Scopri come delegare completamente un sottodominio ad Adobe Campaign Standard.*
 
 ## Risorse aggiuntive
 

@@ -6,10 +6,16 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+TQID: https://experienceleague.adobe.com/XbAU6Y0r4Ed8W7t71MMNV02jdp2-og04-v-n2lT5m-4
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5f60233-d5ea-4453-a799-0ad258b4d399id: e2290edd-b061-4880-9d79-dee306cf5aa9id: ea90ebee-5c84-42d9-8b21-006bdabc95a3id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: 973
+ht-degree: 2%
 
 ---
 
@@ -22,7 +28,7 @@ Durante l’implementazione del recapito messaggi, alcune delle best practice co
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle strategie per campagne di ricoinvolgimento e sui servizi di recapito messaggi dell’Adobe, contatta il tuo consulente di recapito messaggi o contatta il tuo agente di vendita Adobe.
+>Per ulteriori informazioni sulle strategie per campagne di ricoinvolgimento e sui servizi di recapito messaggi di Adobe, contatta il tuo consulente di recapito messaggi o contatta il tuo agente di vendita Adobe.
 
 ## In che modo gli ISP visualizzano le attività di mancato coinvolgimento? {#how-do-isps-view-non-engagement-activity-}
 
@@ -32,7 +38,7 @@ ISP come Gmail, Microsoft® e OATH visualizzano il mancato coinvolgimento come e
 
 ## Come affrontare l’inattività? {#how-should-you-approach-inactivity-}
 
-I clienti che utilizzano la piattaforma Adobe possono visualizzare l’inattività all’interno dell’istanza rivedendo i dati aperti e facendo clic su di essi in base al segmento. Poiché il mancato coinvolgimento può ostacolare la consegna, la prima cosa da considerare è rimuovere gli abbonati dal database. Tuttavia, a volte questa potrebbe rivelarsi un&#39;opzione sbagliata. Pertanto, una strategia di ricoinvolgimento (nota anche come strategia di riconquista) è il miglior consiglio per mantenere gli abbonati che sono interessati a ricevere la posta, e gradualmente eliminare coloro che non mostrano più attività.
+I clienti che utilizzano la piattaforma Adobe possono visualizzare l’inattività nella propria istanza rivedendo i dati aperti e facendo clic su di essi in base al segmento. Poiché il mancato coinvolgimento può ostacolare la consegna, la prima cosa da considerare è rimuovere gli abbonati dal database. Tuttavia, a volte questa potrebbe rivelarsi un&#39;opzione sbagliata. Pertanto, una strategia di ricoinvolgimento (nota anche come strategia di riconquista) è il miglior consiglio per mantenere gli abbonati che sono interessati a ricevere la posta, e gradualmente eliminare coloro che non mostrano più attività.
 
 ## Le campagne di ricoinvolgimento funzionano davvero? {#do-re-engagement-campaigns-really-work-}
 
@@ -75,9 +81,9 @@ Gli abbonati che si impegnano con la campagna seguendo l’attività di apertura
 
 **Adobe Campaign**
 
-* [Registri di tracciamento in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=it#tracking-logs)
-* [Registri di tracciamento in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=it#tracking-logs)
+* [Registri di tracciamento in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Registri di tracciamento in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
 
-**Adobe gestione Percorso clienti**
+**Gestione Percorso clienti Adobe**
 
-* [Tracciamento messaggi](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=it)
+* [Tracciamento dei messaggi](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=it)
