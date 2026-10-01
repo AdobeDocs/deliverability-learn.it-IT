@@ -11,30 +11,39 @@ exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Security
+source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: '1670'
 ht-degree: 5%
-
 ---
-
 # Raccolta di indirizzi e sviluppo degli elenchi
 
-Le migliori fonti di nuovi indirizzi e-mail sono fonti dirette come le iscrizioni sul tuo sito web o nei negozi fisici. In tali situazioni, puoi controllare l’esperienza per assicurarti che sia positiva e che l’abbonato sia interessato a ricevere e-mail dal tuo marchio.
+Le migliori fonti di nuovi indirizzi e-mail sono fonti dirette come le iscrizioni sul tuo sito web o nei negozi fisici. In queste situazioni, puoi controllare l’esperienza per assicurarti che sia positiva e che l’abbonato sia interessato a ricevere e-mail dal tuo marchio.
 
 Alcune note su questi metodi di registrazione:
 
@@ -50,15 +59,15 @@ Per informazioni su come ridurre al minimo i problemi presentati sia nell&#39;ar
 
 >[!NOTE]
 >
->Gli abbonati utilizzano spesso indirizzi usa-e-getta, indirizzi scaduti o indirizzi che non sono loro per ottenere ciò che vogliono da un sito web, ma anche evitare di essere aggiunti agli elenchi di marketing. In questo caso, gli elenchi degli esperti di marketing si traducono in un numero elevato di mancati recapiti permanenti, un’elevata percentuale di reclami spam e in abbonati che non fanno clic, aprono o interagiscono in modo positivo con le e-mail. Può essere visto come un segnale d&#39;allarme per i provider di caselle postali e gli ISP.
+>Gli abbonati utilizzano spesso indirizzi usa-e-getta, indirizzi scaduti o indirizzi che non sono loro per ottenere ciò che vogliono da un sito web, ma anche evitare di essere aggiunti agli elenchi di marketing. In questo caso, gli elenchi degli addetti al marketing si traducono in un numero elevato di mancati recapiti permanenti, tassi elevati di reclami spam e abbonati che non fanno clic, aprono o interagiscono in modo positivo con le e-mail. Può essere visto come un segnale d&#39;allarme per i provider di caselle postali e gli ISP.
 
 ## Moduli di iscrizione
 
 Oltre ad aggiungere i campi per i dati, che desideri raccogliere sui tuoi nuovi abbonati, ci sono alcune altre cose da fare con il tuo modulo di iscrizione sul sito web.
 
-* Imposta chiare aspettative con l’abbonato sul fatto che accetta di ricevere e-mail, su cosa riceverà e con quale frequenza.
-* Aggiungi opzioni che consentono all’abbonato di selezionare la frequenza o il tipo di comunicazioni che riceve. Queste opzioni consentono di conoscere le preferenze dell’abbonato fin dall’inizio in modo da poter fornire la migliore esperienza possibile per il nuovo cliente.
-* Equilibrare il rischio di perdita di interesse dell’abbonato durante il processo di abbonamento chiedendo quante più informazioni possibile. Cose come il compleanno, la posizione o gli interessi ti aiutano a inviare contenuti più personalizzati. Gli abbonati a ogni marchio hanno aspettative e soglie di tolleranza diverse, pertanto il test è fondamentale per trovare il giusto equilibrio per la tua situazione.
+* Stabilisci con l’abbonato aspettative chiare in merito al fatto che accetta di ricevere e-mail, a cosa riceverà e con quale frequenza.
+* Aggiungi opzioni che consentono all’abbonato di selezionare la frequenza o il tipo di comunicazioni che riceve. Queste opzioni ti consentono di conoscere le preferenze dell’abbonato fin dall’inizio in modo da poter fornire la migliore esperienza possibile per il tuo nuovo cliente.
+* Equilibrare il rischio di perdere l&#39;interesse dell&#39;abbonato durante il processo di abbonamento chiedendo quante più informazioni possibile. Cose come il compleanno, la posizione o gli interessi ti aiutano a inviare contenuti più personalizzati. Gli abbonati a ogni marchio hanno aspettative e soglie di tolleranza diverse, pertanto è fondamentale eseguire test per trovare il giusto equilibrio per la tua situazione.
 
 >[!NOTE]
 >
@@ -66,17 +75,17 @@ Oltre ad aggiungere i campi per i dati, che desideri raccogliere sui tuoi nuovi 
 
 ## Qualità dei dati e igiene
 
-La raccolta dei dati è solo una parte della sfida. È inoltre necessario assicurarsi che i dati siano accurati e utilizzabili. Dovresti disporre di filtri di formato di base. Un indirizzo e-mail non è valido se non include, ad esempio, &quot;@&quot; o &quot;.&quot; Assicurati di non consentire gli indirizzi alias comuni, che sono anche denominati account ruolo (come &quot;informazioni&quot;, &quot;amministratore&quot;, &quot;vendite&quot;, &quot;supporto&quot; ). Gli account ruolo possono presentare rischi perché, per loro natura, il destinatario contiene un gruppo di persone anziché un singolo abbonato. Le aspettative e la tolleranza possono variare all’interno di un gruppo, il che rischia di generare reclami, coinvolgimento variabile, annullamenti di abbonamenti e confusione generale.
+La raccolta dei dati è solo una parte della sfida. È inoltre necessario assicurarsi che i dati siano accurati e utilizzabili. Dovresti disporre di filtri di formato di base. Un indirizzo e-mail non è valido se non include &quot;@&quot; o &quot;.&quot; ad esempio. Assicurati di non consentire gli indirizzi alias comuni, che sono anche denominati account ruolo (come &quot;informazioni&quot;, &quot;amministratore&quot;, &quot;vendite&quot;, &quot;supporto&quot; ). Gli account ruolo possono presentare rischi perché, per loro natura, il destinatario contiene un gruppo di persone anziché un singolo abbonato. Le aspettative e la tolleranza possono variare all’interno di un gruppo, il che rischia di generare reclami, coinvolgimento variabile, annullamenti di abbonamenti e confusione generale.
 
 Di seguito sono riportate alcune soluzioni ai problemi comuni che puoi incontrare con i dati del tuo indirizzo e-mail:
 
 **[!DNL Double opt-in (DOI)]**
 [!DNL Double opt-in (DOI)] è considerata la best practice per il recapito dei messaggi dalla maggior parte degli esperti di posta elettronica. In caso di problemi con trappole spam o reclami sulle e-mail di benvenuto, DOI è un buon modo per assicurarsi che l’abbonato che riceve le e-mail si sia effettivamente iscritto al tuo programma e-mail e desideri riceverle.
 
-DOI consiste nell’inviare un’e-mail di conferma all’indirizzo e-mail dell’abbonato che si è iscritto al tuo programma e-mail contenente un collegamento su cui è necessario fare clic per confermare il consenso. Con questo metodo di acquisizione, se l’abbonato non conferma, il mittente non invierà loro più e-mail. Fai sapere ai nuovi abbonati che lo stai facendo sul sito web, incoraggiandoli a completare l’iscrizione prima di continuare. Questo metodo prevede una riduzione del numero di iscrizioni, ma le persone che si iscrivono tendono ad essere altamente coinvolte e a rimanere nel lungo periodo. Di solito si traduce in un ROI molto più elevato per il mittente.
+DOI consiste nell’inviare un’e-mail di conferma all’indirizzo e-mail dell’abbonato che si è iscritto al tuo programma e-mail contenente un collegamento su cui è necessario fare clic per confermare il consenso. Con questo metodo di acquisizione, se l’abbonato non conferma, il mittente non invierà loro altre e-mail. Informa i nuovi abbonati che stai facendo questo sul sito web, incoraggiandoli a completare l’iscrizione prima di continuare. Questo metodo prevede una riduzione del numero di iscrizioni, ma le persone che si iscrivono tendono ad essere altamente coinvolte e a rimanere nel lungo periodo. Di solito si traduce in un ROI molto più elevato per il mittente.
 
 **Campo nascosto**
-L’applicazione di un campo nascosto nel modulo di abbonamento rappresenta un ottimo modo per distinguere le iscrizioni bot automatizzate dai veri utenti con abbonamento umano. Poiché il campo dati non è visibile, nascosto nel codice HTML, un bot immetterà i dati dove un utente non li immetterebbe. Utilizzando questo metodo, puoi creare regole per eliminare eventuali iscrizioni che includono dati inseriti in quel campo nascosto.
+L’applicazione di un campo nascosto nel modulo di abbonamento rappresenta un ottimo modo per distinguere le iscrizioni bot automatizzate dai veri utenti con abbonamento umano. Poiché il campo dati non è visibile, nascosto nel codice HTML, un bot immetterà dati che un utente non vorrebbe. Utilizzando questo metodo, puoi creare regole per eliminare eventuali iscrizioni che includono dati inseriti in quel campo nascosto.
 
 **[!DNL re-CAPTCHA] è un metodo di convalida che è possibile utilizzare per ridurre le probabilità che il sottoscrittore sia un bot e non una persona reale. Esistono varie versioni, alcune delle quali contengono l&#39;identificazione di parole chiave o immagini. Alcune versioni sono più efficaci di altre e quello che si ottiene in sicurezza e la prevenzione dei problemi di consegna è molto più alto di qualsiasi impatto negativo alle conversioni.
 
@@ -86,7 +95,7 @@ Consulta i tuoi avvocati per interpretare le leggi locali e nazionali relative a
 
 * Assicurati di raccogliere le informazioni sulla posizione di un abbonato in modo da rispettare le leggi del paese dell’abbonato. Senza questi dettagli, puoi avere limitazioni su come vendere all’abbonato.
 * Tutte le leggi pertinenti sono determinate dalla posizione del destinatario, non dal mittente. Quindi devi conoscere e seguire le leggi di qualsiasi paese in cui potresti avere un abbonato.
-* Spesso è difficile conoscere con certezza il paese di residenza dell’abbonato. I dati forniti dal cliente possono non essere aggiornati e i dati di posizione dei pixel possono non essere accurati a causa della VPN o del data warehouse delle immagini, come nel caso di Gmail e Yahoo. In caso di dubbi, è più sicuro applicare le leggi e le linee guida più rigorose possibili.
+* Spesso è difficile conoscere con certezza il paese di residenza dell&#39;abbonato. I dati forniti dal cliente possono non essere aggiornati e i dati di posizione dei pixel possono non essere accurati a causa della VPN o del data warehouse delle immagini, come nel caso di Gmail e Yahoo. In caso di dubbi, è più sicuro applicare le leggi e le linee guida più severe possibili.
 
 ## Altri metodi di raccolta di elenchi non consigliati
 
@@ -98,7 +107,7 @@ Ci sono molti tipi di indirizzi e-mail là fuori. E-mail primaria, e-mail aziend
 Se sei fortunato, ottieni account secondari, dove le persone cercano offerte quando sono pronte per fare acquisti per qualcosa. Questo di solito si traduce in bassi livelli di coinvolgimento, se ce ne sono. Se non sei fortunato, l’elenco è pieno di e-mail inattive, che ora potrebbero essere trappole spam. Spesso si ottengono una combinazione di e-mail secondarie e inattive. In generale, la qualità di questi tipi di elenchi fa più male che bene a un programma e-mail. Questa pratica non è consentita dai [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Elenchi aggiunti**
-Si tratta di clienti che hanno scelto di interagire con il tuo marchio, il che è fantastico. Ma hanno scelto di impegnarsi attraverso un metodo diverso dalle e-mail (in-store, social media, ecc.). Non hanno potuto ricevere un’e-mail non richiesta da te e potrebbero anche essere preoccupati di come hai ottenuto il loro indirizzo e-mail poiché non l’hanno fornito. Questo metodo rischia di trasformare un cliente, o potenziale cliente, che si è impegnato con il tuo marchio in un detrattore che non si fida più del tuo marchio e va invece alla tua concorrenza. Questa pratica non è consentita dai [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+Si tratta di clienti che hanno scelto di interagire con il tuo marchio, il che è fantastico. Ma hanno scelto di impegnarsi attraverso un metodo diverso dalle e-mail (in-store, social media, ecc.). Non sono stati in grado di ricevere un’e-mail non richiesta da te e potrebbero anche essere preoccupati di come hai ottenuto il loro indirizzo e-mail poiché non l’hanno fornito. Questo metodo rischia di trasformare un cliente, o potenziale cliente, che si è impegnato con il tuo marchio in un detrattore che non si fida più del tuo marchio e va invece alla tua concorrenza. Questa pratica non è consentita dai [Criteri di utilizzo accettabili di Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 **Fiera o altra raccolta eventi**
 Raccogliere gli indirizzi in uno stand o tramite un altro funzionario, metodo chiaramente contrassegnato può essere utile. Il rischio è che molti eventi come questo raccolgano tutti gli indirizzi e li distribuiscano tramite il promotore o l&#39;host dell&#39;evento. Ciò significa che i proprietari di questi indirizzi e-mail non hanno mai richiesto di ricevere e-mail dal tuo marchio. È probabile che questi abbonati si lamentino e contrassegnino la tua e-mail come spam, e potrebbero non aver fornito informazioni di contatto accurate.
