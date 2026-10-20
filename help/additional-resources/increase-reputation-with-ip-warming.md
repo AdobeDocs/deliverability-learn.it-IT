@@ -73,7 +73,7 @@ L’invio di grandi quantità di e-mail da un nuovo IP o IP direttamente dal gat
 
 Si tratta del componente più importante per gestire e far crescere un elenco e-mail di abbonati. Man mano che le leggi anti-spam crescono e diventano più complete a livello internazionale, dovrebbe essere un obiettivo primario dell’addetto al marketing assicurarsi di aver ricevuto il consenso esplicito (o esplicito) da ogni abbonato sulla propria lista. In altre parole, ogni abbonato ha attivamente accettato di ricevere e-mail dal tuo marchio. Questo è diverso dal consenso implicito, in cui una persona viene aggiunta a un elenco e-mail dopo aver intrapreso un’azione che non era esplicitamente l’iscrizione a un programma e-mail.
 
-Ulteriori informazioni sui [Criteri di utilizzo accettabili di Adobe](https://www.adobe.com/legal/terms/aup.html).
+Ulteriori informazioni sui [Criteri di utilizzo accettabili di Adobe](https://www.adobe.com/it/legal/terms/aup.html).
 
 ## Metriche di reputazione: cosa cercano gli ISP?
 
